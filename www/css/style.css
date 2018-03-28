@@ -1,29 +1,36 @@
-/* Empty. Add your own CSS if you like */
+@font-face {
+  font-family: 'Open Sans Hebrew', serif;
+  src: url('./OpenSansHebrewCondensed-Light.ttf') format('truetype');
+}
 
-.home {
-  display: flex;
-  flex-direction: column;
+* {
+  font-family: 'Open Sans Hebrew', sans-serif !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* the home page !! */
+
+.home--background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 .home--title {
   text-align: center;
-  margin-bottom: 1em;
+  margin-top: 13vh;
 }
 
-.home--about {
-  border-radius: 30px;
-  padding: 10%;
-  background-color: cornflowerblue;
-}
-
-
-/* .next-page {
+.home--buttons {
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  width: 100%;
-  /* position: absolute; */
-
-
-/* } */
+  right: 0;
+  position: absolute;
+}
 
 .back-button {
   position: fixed;
@@ -33,6 +40,98 @@
   opacity: 0.8;
 }
 
+.home--buttons-book {
+  height: 20vh;
+  margin-top: 6%;
+}
+
+.home--buttons-about {
+  height: 11vh;
+  margin-top: 6%;
+}
+
 .book {
-  font-size: 2em;
+  font-size: 1em;
+  direction: rtl;
+}
+
+.scroll {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.mark {
+  background-color: yellow;
+  display: inline;
+  /* color: black; */
+}
+
+.marktext-button {
+  position: absolute;
+  z-index: 1;
+}
+
+/* book page style  */
+
+.book--menu {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 10%;
+  background: #fff6ee;
+  justify-content: space-around;
+}
+
+.book--menu-menubutton {
+  height: 7%;
+  position: absolute;
+  top: 1.7%;
+  right: 1%;
+}
+
+.book--menu-logo {
+  height: 7%;
+  left: 2%;
+  top: 1%;
+  position: absolute;
+}
+
+.book--menu-title {
+  font-size: 1.7em;
+  text-align: right;
+  /* position: absolute; */
+  margin-top: 0;
+}
+
+.book--title {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.book--chapters-titlecontainer {
+  width: 100%;
+  height: 17%;
+  background: #f3e8d7;
+  justify-content: space-around;
+}
+
+.book--chapters-title {
+  text-align: right;
+}
+
+.book--chapter-list {
+  width: 100%;
+  background: #fff6ee;
+  justify-content: space-around;
+  text-align: right;
+}
+
+.book--chapter-list_item {
+  font-size: 1.7em;
+  padding: 4.3vh;
+  height: 13vh;
+  border-bottom: solid #edd9ae 1.5px;
 }

@@ -1,9 +1,9 @@
-// Ionic Starter App
+// Ionic officerspreparation App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
+// 'officerspreparation' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+angular.module('officerspreparation', ['ionic'])
 
   .run(function ($ionicPlatform) {
     $ionicPlatform.ready(function () {
@@ -37,12 +37,27 @@ angular.module('starter', ['ionic'])
         templateUrl: 'templates/about.html'
       })
 
+      //memory game page
+      .state('gameMemory', {
+        url: '/gameMemory',
+        templateUrl: 'templates/gameMemory.html',
+        controller: 'MemoryGameController'
+      })
+
       //book page
       .state('book', {
         url: '/book',
         templateUrl: 'templates/book.html',
-        controller: 'bookcontroller'
+        controller: 'BookController'
       })
+
+      .state('topic', {
+        url: '/topic',
+        templateUrl: 'templates/topic.html',
+        controller: 'TopicController'
+      })
+
+
       // home page
       .state('home', {
         url: '/home',

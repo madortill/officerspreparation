@@ -652,7 +652,7 @@ window.ionic.version = '1.3.4';
     // its native behavior. this doesnt prevent the scrolling,
     // but cancels the contextmenu, tap highlighting etc
     // set to false to disable this
-    stop_browser_behavior: 'disable-user-behavior'
+    stop_browser_behavior: false
   };
 
   // detect touchevents
@@ -5302,7 +5302,7 @@ ionic.views.Scroll = ionic.views.View.inherit({
       self.__enableScrollY = true;
       self.__hasStarted = true;
       self.doTouchStart(getEventTouches(e), e.timeStamp);
-      e.preventDefault();
+      // e.preventDefault();
     };
 
     self.touchMove = function(e) {
@@ -64940,7 +64940,7 @@ IonicModule
  * @usage
  *
  * ```html
- * <body ng-app="starter">
+ * <body ng-app="officerspreparation">
  *   <!-- The nav bar that will be updated as we navigate -->
  *   <ion-nav-bar class="bar-positive">
  *   </ion-nav-bar>

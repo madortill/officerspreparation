@@ -1,35 +1,61 @@
-angular.module('starter').controller('bookcontroller', bookcontroller);
+angular.module('officerspreparation').controller('BookController', BookController);
 
-bookcontroller.$inject = ['$scope', '$state', 'DataService'];
+BookController.$inject = ['$scope', '$state', 'DataService'];
 
 
-function bookcontroller($scope, $state, DataService) {
-  var i = 0;
-  $scope.book = DataService.data.book[i].value;
-  //   console.log($scope.book);
+function BookController($scope, $state, DataService) {
+  $scope.topics = DataService.book.topics;
+  console.log($scope.topics);
 
-  $scope.touchnext = function () {
-    i++;
-    if (i == 9) {
-      i = 0;
-    }
-    if (i < 9) {
-      //  for(var i=0;i<9;i++){
-      $scope.book = DataService.data.book[i].value;
-      console.log($scope.book);
-      // }
-    }
-
+  $scope.goToTopic = function (topic) {
+    DataService.currentBook.topic = topic;
+    $state.go('topic')
   }
-  $scope.touchback = function () {
-    i--;
-    if (i == -1) {
-      i = 8;
-    }
-    if (i > -1) {
-      $scope.book = DataService.data.book[i].value;
-      console.log($scope.book);
-    }
 
-  }
+
+  // $scope.color = false;
+  // var i = 0;
+  // $scope.book = DataService.data.book[i].value;
+  // //   console.log($scope.book);
+  // $scope.touchnext = function () {
+  //   i++;
+  //   if (i == 9) {
+  //     i = 0;
+  //   }
+  //   if (i < 9) {
+  //     $scope.book = DataService.data.book[i].value;
+  //     console.log($scope.book);
+  //   }
+  // }
+  // $scope.touchback = function () {
+  //   i--;
+  //   if (i == -1) {
+  //     i = 8;
+  //   }
+  //   if (i > -1) {
+  //     $scope.book = DataService.data.book[i].value;
+  //     console.log($scope.book);
+  //   }
+  // }
+  // // this function take the selected text andmark it
+  // function markTextSelected(range) {
+  //   var newNode = document.createElement("div");
+  //   newNode.setAttribute(
+  //     "style",
+  //     "background-color: yellow; display: inline;"
+  //   );
+  //   // console.log(newNode);
+  //   range.surroundContents(newNode);
+  //   // console.log("");
+  // }
+
+
+
+  // $scope.markText = function () {
+  //   var userSelection = window.getSelection().getRangeAt(0);
+  //   markTextSelected(userSelection);
+  //   localStorage.setItem('testObject', JSON.stringify(userSelection));
+  //   // console.log(localStorage.getItem("testObject"));
+
+  // }
 }
