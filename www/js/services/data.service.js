@@ -228,8 +228,9 @@
     }
 
     var currentBook = {}
-
+    var currentTopic = {};
     return {
+      currentTopic: currentTopic,
       currentBook: currentBook,
       book: book
     };

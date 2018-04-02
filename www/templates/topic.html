@@ -1,5 +1,5 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true">
+  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
     <div class="book--menu">
       <img src="img/menu-button.svg" class="book--menu-menubutton">
       <h1 class="book--menu-title">נושאים</h1>
@@ -12,8 +12,8 @@
 
     <ul class="book--chapter-list">
 
-      <li class="book--chapter-list_item" ng-repeat="subject in topic.subjects">
-        {{ subject.name }}
+      <li class="book--chapter-list_item" ng-repeat="subject in topic.subjects" ng-click="goToTopicContent(subject)">
+        {{subject.name}}
       </li>
 
     </ul>

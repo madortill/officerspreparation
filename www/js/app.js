@@ -51,11 +51,20 @@ angular.module('officerspreparation', ['ionic'])
         controller: 'BookController'
       })
 
+      //topic list pg
       .state('topic', {
         url: '/topic',
         templateUrl: 'templates/topic.html',
-        controller: 'TopicController'
+        controller: 'TopicController',
       })
+
+      // Topic Content page
+      .state('topiccontent', {
+        url: '/topiccontent',
+        templateUrl: 'templates/topiccontent.html',
+        controller: 'TopicContentController'
+      })
+
 
 
       // home page

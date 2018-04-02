@@ -131,7 +131,11 @@
 
 .book--chapter-list_item {
   font-size: 1.7em;
-  padding: 4.3vh;
+  padding: 3.5vh;
   height: 13vh;
   border-bottom: solid #edd9ae 1.5px;
+}
+
+.background {
+  background: #fff6ee;
 }
