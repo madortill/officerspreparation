@@ -113,13 +113,14 @@
 
 .book--chapters-titlecontainer {
   width: 100%;
-  height: 17%;
+  height: 20%;
   background: #f3e8d7;
   justify-content: space-around;
 }
 
 .book--chapters-title {
   text-align: right;
+  padding: 2vh;
 }
 
 .book--chapter-list {
@@ -130,10 +131,16 @@
 }
 
 .book--chapter-list_item {
-  font-size: 1.7em;
-  padding: 3.5vh;
+  font-size: 1.5em;
+  padding: 4vh;
   height: 13vh;
   border-bottom: solid #edd9ae 1.5px;
+}
+
+.book--topiccontent-title {
+  font-size: 1.8em;
+  text-align: right;
+  padding: 1vh;
 }
 
 .background {

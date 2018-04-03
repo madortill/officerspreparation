@@ -1,15 +1,12 @@
 angular.module('officerspreparation').controller('TopicContentController', TopicContentController);
 
-TopicContentController.$inject = ['$scope', 'DataService', '$state'];
+TopicContentController.$inject = ['$scope', '$state', 'DataService'];
 
 
 function TopicContentController($scope, $state, DataService) {
 
   $scope.subject = DataService.currentTopic.subject;
-  console.log($scope.subject);
-
-
-
+  console.log($scope.subject.content);
 
 
 }

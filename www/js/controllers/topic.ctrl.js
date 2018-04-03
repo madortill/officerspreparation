@@ -1,9 +1,9 @@
 angular.module('officerspreparation').controller('TopicController', TopicController);
 
-TopicController.$inject = ['$scope', 'DataService', '$state'];
+TopicController.$inject = ['$scope', '$state', 'DataService'];
 
 
-function TopicController($scope, DataService, $state) {
+function TopicController($scope, $state, DataService) {
   $scope.topic = DataService.currentBook.topic;
   console.log($scope.topic);
 
