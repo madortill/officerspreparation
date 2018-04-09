@@ -12,7 +12,7 @@ function SubjectController($scope, $state, DataService) {
   //   }
 
   $scope.goToTopicContent = function () {
-    $scope.TopicINeed = "sugar";
+
     $state.go('topiccontent')
 
   }

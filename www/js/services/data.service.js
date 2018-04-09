@@ -8,20 +8,19 @@
           name: "ישראל : תעודת זהות",
           subjects: [{
               name: "פתיחה: מדינת ישראל כמדינה יהודית ודמוקרטית",
-              number: 1.1,
-              content: 'services/markdownfiles/subject1.1.md'
+              number: "1.1"
             },
             {
               name: "יסודות המשטר הדמוקרטי",
-              number: 1.2
+              number: "1.2"
             },
             {
               name: "סמלים לאומיים",
-              number: 1.3
+              number: "1.3"
             },
             {
               name: "סיכום",
-              number: 1.4
+              number: "1.4"
             }
           ]
         },
