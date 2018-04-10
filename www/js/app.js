@@ -44,12 +44,51 @@ angular.module('officerspreparation', ['ionic'])
         controller: 'MemoryGameController'
       })
 
+      //choose exercise page
+      .state('exercise', {
+        url: '/exercise',
+        templateUrl: 'templates/exercises/exercise.html',
+      })
+
+      //tsets page
+      .state('tests', {
+        url: '/tests',
+        templateUrl: 'templates/tests.html',
+      })
+
+      //sport page
+      .state('chooseGender', {
+        url: '/chooseGender',
+        templateUrl: 'templates/fitnessTraining/chooseGender.html',
+      })
+
       //book page
       .state('book', {
         url: '/book',
         templateUrl: 'templates/book.html',
         controller: 'BookController'
       })
+      // the book pages
+
+      .state('1_1opening', {
+        url: '/1_1opening',
+        templateUrl: 'templates/book/firstChapter/1_1opening.html',
+        controller: 'TopicContentController'
+      })
+      .state('1_2basicsDemocracy', {
+        url: '/1_2basicsDemocracy',
+        templateUrl: 'templates/book/firstChapter/1_2basicsDemocracy.html',
+        controller: 'TopicContentController'
+
+      })
+      // .state('book', {
+      //   url: '/book',
+      //   templateUrl: 'templates/book/israel-id/1.1opening.html',
+      // })
+      // .state('book', {
+      //   url: '/book',
+      //   templateUrl: 'templates/book/israel-id/1.1opening.html',
+      // })
 
       //topic list pg
       .state('topic', {

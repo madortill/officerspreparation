@@ -24,6 +24,13 @@
   margin-top: 13vh;
 }
 
+.home--logos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vh;
+}
+
 .home--buttons {
   display: flex;
   flex-direction: column;
@@ -141,6 +148,14 @@
   font-size: 1.8em;
   text-align: right;
   padding: 1vh;
+}
+
+.book--text {
+  direction: rtl;
+}
+
+.book--topiccontent-starttitle {
+  font-size: 1.8em;
 }
 
 .background {

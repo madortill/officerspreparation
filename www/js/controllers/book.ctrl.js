@@ -9,7 +9,8 @@ function BookController($scope, $state, DataService) {
 
   $scope.goToTopic = function (topic) {
     DataService.currentBook.topic = topic;
-    $state.go('topic')
+    console.log(DataService.currentBook.topic);
+    $state.go('topic');
   }
 
 

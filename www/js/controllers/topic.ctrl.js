@@ -9,9 +9,15 @@ function TopicController($scope, $state, DataService) {
 
 
   $scope.goToTopicContent = function (subject) {
-    console.log(subject);
+
     DataService.currentTopic.subject = subject;
-    $state.go('topiccontent')
+    // let numOfTheTOpic = subject.number;
+    // console.log(subject);
+    let test = subject.topicName;
+    console.log(test);
+
+
+    $state.go(test);
 
   }
 }

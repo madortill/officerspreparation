@@ -8,19 +8,19 @@
           name: "ישראל : תעודת זהות",
           subjects: [{
               name: "פתיחה: מדינת ישראל כמדינה יהודית ודמוקרטית",
-              number: "1.1"
+              topicName: '1_1opening'
             },
             {
               name: "יסודות המשטר הדמוקרטי",
-              number: "1.2"
+              topicName: '1_2basicsDemocracy'
             },
             {
               name: "סמלים לאומיים",
-              number: "1.3"
+              topicName: "1_3"
             },
             {
               name: "סיכום",
-              number: "1.4"
+              topicName: "1.4"
             }
           ]
         },
