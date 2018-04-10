@@ -49,12 +49,12 @@
 
 .home--buttons-book {
   height: 20vh;
-  margin-top: 6%;
+  margin-top: 1.5vh;
 }
 
 .home--buttons-about {
   height: 11vh;
-  margin-top: 6%;
+  margin-top: 1.5vh;
 }
 
 .book {
@@ -156,13 +156,20 @@
 
 .book--topiccontent-starttitle {
   font-size: 1.8em;
+  margin-right: 0.7em;
 }
-.book--topiccontent-title{
-  font-size:1.6em;
+
+.book--topiccontent-title {
+  font-size: 1.6em;
+  margin-right: 0.6em;
 }
+
 .book--text-style {
-  font-size:1.1em;
+  font-size: 1.1em;
+  margin-top: 1em;
+  margin-right: 1em;
 }
+
 .background {
   background: #fff6ee;
 }

@@ -28,10 +28,12 @@
           index: 1,
           name: "הפסיפס הישראלי",
           subjects: [{
-              name: "פתיחה: תרבות ואמונה בישראל"
+              name: "פתיחה: תרבות ואמונה בישראל",
+              topicName: '2_1CultureAndFaithInIsrael'
             },
             {
-              name: "עולם האמונה היהודי: מושגים בסיסיים"
+              name: "עולם האמונה היהודי: מושגים בסיסיים",
+              topicName: '2_2TheWorldOfJewishFaith'
             },
             {
               name: "מיעוטים במדינת ישראל"

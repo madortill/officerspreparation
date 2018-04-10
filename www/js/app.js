@@ -69,6 +69,7 @@ angular.module('officerspreparation', ['ionic'])
         controller: 'BookController'
       })
       // the book pages
+      /************************************** */
 
       .state('1_1opening', {
         url: '/1_1opening',
@@ -81,15 +82,20 @@ angular.module('officerspreparation', ['ionic'])
         controller: 'TopicContentController'
 
       })
-      // .state('book', {
-      //   url: '/book',
-      //   templateUrl: 'templates/book/israel-id/1.1opening.html',
-      // })
-      // .state('book', {
-      //   url: '/book',
-      //   templateUrl: 'templates/book/israel-id/1.1opening.html',
-      // })
 
+       //Second chapter
+      .state('2_1CultureAndFaithInIsrael', {
+        url: '/2_1CultureAndFaithInIsrael',
+        templateUrl: 'templates/book/secondChapter/2_1CultureAndFaithInIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_2TheWorldOfJewishFaith', {
+        url: '/2_2TheWorldOfJewishFaith',
+        templateUrl: 'templates/book/secondChapter/2_2TheWorldOfJewishFaith.html',
+        controller: 'TopicContentController'
+      })
+    
+    /*********************************************** */
       //topic list pg
       .state('topic', {
         url: '/topic',
