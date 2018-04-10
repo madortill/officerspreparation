@@ -157,7 +157,12 @@
 .book--topiccontent-starttitle {
   font-size: 1.8em;
 }
-
+.book--topiccontent-title{
+  font-size:1.6em;
+}
+.book--text-style {
+  font-size:1.1em;
+}
 .background {
   background: #fff6ee;
 }
