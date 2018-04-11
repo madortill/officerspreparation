@@ -16,11 +16,11 @@
             },
             {
               name: "סמלים לאומיים",
-              topicName: "1_3"
+              topicName: "1_3nationalSymbols"
             },
             {
               name: "סיכום",
-              topicName: "1.4"
+              topicName: "1_4summary"
             }
           ]
         },

@@ -82,8 +82,18 @@ angular.module('officerspreparation', ['ionic'])
         controller: 'TopicContentController'
 
       })
+      .state('1_3nationalSymbols', {
+        url: '/1_3nationalSymbols',
+        templateUrl: 'templates/book/firstChapter/1_3nationalSymbols.html',
+        controller: 'TopicContentController'
 
-       //Second chapter
+      })
+      .state('1_4summary', {
+        url: '/1_4summary',
+        templateUrl: 'templates/book/firstChapter/1_4summary.html',
+        controller: 'TopicContentController'
+      })
+      //Second chapter
       .state('2_1CultureAndFaithInIsrael', {
         url: '/2_1CultureAndFaithInIsrael',
         templateUrl: 'templates/book/secondChapter/2_1CultureAndFaithInIsrael.html',
@@ -94,8 +104,8 @@ angular.module('officerspreparation', ['ionic'])
         templateUrl: 'templates/book/secondChapter/2_2TheWorldOfJewishFaith.html',
         controller: 'TopicContentController'
       })
-    
-    /*********************************************** */
+
+      /*********************************************** */
       //topic list pg
       .state('topic', {
         url: '/topic',
