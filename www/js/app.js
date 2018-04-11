@@ -70,7 +70,7 @@ angular.module('officerspreparation', ['ionic'])
       })
       // the book pages
       /************************************** */
-
+      //first chapter
       .state('1_1opening', {
         url: '/1_1opening',
         templateUrl: 'templates/book/firstChapter/1_1opening.html',
@@ -102,6 +102,114 @@ angular.module('officerspreparation', ['ionic'])
       .state('2_2TheWorldOfJewishFaith', {
         url: '/2_2TheWorldOfJewishFaith',
         templateUrl: 'templates/book/secondChapter/2_2TheWorldOfJewishFaith.html',
+        controller: 'TopicContentController'
+      })
+
+      //third chapter
+
+      .state('3_1opening', {
+        url: '/3_1opening',
+        templateUrl: 'templates/book/thirdChapter/3_1opening.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_2bibleEra', {
+        url: '/3_2bibleEra',
+        templateUrl: 'templates/book/thirdChapter/3_2bibleEra.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_3firstTempleDays', {
+        url: '/3_3firstTempleDays',
+        templateUrl: 'templates/book/thirdChapter/3_3firstTempleDays.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_4babylonianCaptivity', {
+        url: '/3_4babylonianCaptivity',
+        templateUrl: 'templates/book/thirdChapter/3_4babylonianCaptivity.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_5secondTempleDays', {
+        url: '/3_5secondTempleDays',
+        templateUrl: 'templates/book/thirdChapter/3_5secondTempleDays.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_6templeDestruction', {
+        url: '/3_6templeDestruction',
+        templateUrl: 'templates/book/thirdChapter/3_6templeDestruction.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_7judeaLifeAfterDestruction', {
+        url: '/3_7judeaLifeAfterDestruction',
+        templateUrl: 'templates/book/thirdChapter/3_7judeaLifeAfterDestruction.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_8jewishInBabylon', {
+        url: '/3_8jewishInBabylon',
+        templateUrl: 'templates/book/thirdChapter/3_8jewishInBabylon.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_9rishonimEra', {
+        url: '/3_9rishonimEra',
+        templateUrl: 'templates/book/thirdChapter/3_9rishonimEra.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_10alhambraDecree', {
+        url: '/3_10alhambraDecree',
+        templateUrl: 'templates/book/thirdChapter/3_10alhambraDecree.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_11jewsInPoland', {
+        url: '/3_11jewsInPoland',
+        templateUrl: 'templates/book/thirdChapter/3_11jewsInPoland.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_12emancipationChallenge', {
+        url: '/3_12emancipationChallenge',
+        templateUrl: 'templates/book/thirdChapter/3_12emancipationChallenge.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_13jewishInModernDays', {
+        url: '/3_13jewishInModernDays',
+        templateUrl: 'templates/book/thirdChapter/3_13jewishInModernDays.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_14nationalIdea', {
+        url: '/3_14nationalIdea',
+        templateUrl: 'templates/book/thirdChapter/3_14nationalIdea.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_15autoEmancipation', {
+        url: '/3_15autoEmancipation',
+        templateUrl: 'templates/book/thirdChapter/3_15autoEmancipation.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_16startOfZionism', {
+        url: '/3_16startOfZionism',
+        templateUrl: 'templates/book/thirdChapter/3_16startOfZionism.html',
+        controller: 'TopicContentController'
+      })
+      .state('3_17ideasZionism', {
+        url: '/3_17ideasZionism',
+        templateUrl: 'templates/book/thirdChapter/3_17ideasZionism.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_18summary', {
+        url: '/3_18summary',
+        templateUrl: 'templates/book/thirdChapter/3_18summary.html',
+        controller: 'TopicContentController'
+
+      })
+      .state('3_19jewishPupulationByCountry', {
+        url: '/3_19jewishPupulationByCountry',
+        templateUrl: 'templates/book/thirdChapter/3_19jewishPupulationByCountry.html',
         controller: 'TopicContentController'
       })
 

@@ -65,58 +65,79 @@
           index: 2,
           name: "תולדות עם ישראל",
           subjects: [{
-              name: "''...פתיחה: ''עם שאינו יודע את עברו"
+              name: "''...פתיחה: ''עם שאינו יודע את עברו",
+              topicName: '3_1opening'
             },
             {
-              name: "תקופת התנ''ך - ראשיתו של העם היהודי"
+              name: "תקופת התנ''ך - ראשיתו של העם היהודי",
+              topicName: '3_2bibleEra'
             },
             {
-              name: "ימי הבית הראשון"
+              name: "ימי הבית הראשון",
+              topicName: '3_3firstTempleDays'
             },
             {
-              name: "גלות בבל ושיבת ציון"
+              name: "גלות בבל ושיבת ציון",
+              topicName: '3_4babylonianCaptivity'
             },
             {
-              name: "ימי הבית השני"
+              name: "ימי הבית השני",
+              topicName: '3_5secondTempleDays'
             },
             {
-              name: "המרד הגדול וחורבן הבית"
+              name: "המרד הגדול וחורבן הבית",
+              topicName: '3_6templeDestruction'
             },
             {
-              name: "המשך החיים ביבודה לאחר החורבן"
+              name: "המשך החיים ביבודה לאחר החורבן",
+              topicName: '3_7judeaLifeAfterDestruction'
             },
             {
-              name: "המרכז היהודי בבל: אמוראים,סבוראים וגאונים"
+              name: "המרכז היהודי בבל: אמוראים,סבוראים וגאונים",
+              topicName: '3_8jewishInBabylon'
             },
             {
-              name: "תקופת הראשונים"
+              name: "תקופת הראשונים",
+              topicName: '3_9rishonimEra'
             },
             {
-              name: "תור הזהב וגירוש ספרד"
+              name: "תור הזהב וגירוש ספרד",
+              topicName: '3_10alhambraDecree'
             },
             {
-              name: "המרכז היהודי בפולין והתפתחות החסידות"
+              name: "המרכז היהודי בפולין והתפתחות החסידות",
+              topicName: '3_11jewsInPoland'
             },
             {
-              name: "אתגר האמנציפציה"
+              name: "אתגר האמנציפציה",
+              topicName: '3_12emancipationChallenge'
             },
             {
-              name: "היהודי אל מול אתגרי העת החדשה"
+              name: "היהודי אל מול אתגרי העת החדשה",
+              topicName: '3_13jewishInModernDays'
             },
             {
-              name: "ראשיתו של הרעיון הלאומי- הדרך אל הציונות"
+              name: "ראשיתו של הרעיון הלאומי- הדרך אל הציונות",
+              topicName: '3_14nationalIdea'
             },
             {
-              name: "''פרסום האוטואמנציפיציה ותנועת ''חיבת ציון"
+              name: "''פרסום האוטואמנציפיציה ותנועת ''חיבת ציון",
+              topicName: '3_15autoEmancipation'
             },
             {
-              name: "בנימין זאב הרצל והקמת התנועה הציונית"
+              name: "בנימין זאב הרצל והקמת התנועה הציונית",
+              topicName: '3_16startOfZionism'
+            }, {
+              name: "זרמים ורעיונות בתנועה הציונית",
+              topicName: '3_17ideasZionism'
             },
             {
-              name: "סיכום"
+              name: "סיכום",
+              topicName: '3_18summary'
             },
             {
-              name: "נספח: תפוצות ישראל"
+              name: "נספח: תפוצות ישראל",
+              topicName: '3_19jewishPupulationByCountry'
             }
           ]
         },
