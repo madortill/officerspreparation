@@ -153,28 +153,36 @@
           index: 3,
           name: "בימי השואה",
           subjects: [{
-              name: "פתיחה: העם היהודי בגלות בין שגשוג לשקיעה"
+              name: "פתיחה: העם היהודי בגלות בין שגשוג לשקיעה",
+              topicName: '4_1opening'
             },
             {
-              name: "עלייתו של המשטר הנאצי ורדיפת היהודים בגרמניה"
+              name: "עלייתו של המשטר הנאצי ורדיפת היהודים בגרמניה",
+              topicName: '4_2RiseOfTheNaziRegime'
             },
             {
-              name: "היהודים בשלביה הראשונים של מלחמת העולם השניה"
+              name: "היהודים בשלביה הראשונים של מלחמת העולם השניה",
+              topicName: '4_3TheJewsInWorldWarII'
             },
             {
-              name: "''הפתרון הסופי''"
+              name: "''הפתרון הסופי''",
+              topicName: '4_4FinalSolution'
             },
             {
-              name: "הצלה והתנגדות"
+              name: "הצלה והתנגדות",
+              topicName: '4_5RescueAndResistance'
             },
             {
-              name: "עם תום המלחמה"
+              name: "עם תום המלחמה",
+              topicName: '4_6AtTheEndOfTheWar'
             },
             {
-              name: "השואה ומדינת ישראל"
+              name: "השואה ומדינת ישראל",
+              topicName: '4_7TheHolocaustAndTheStateOfIsrael'
             },
             {
-              name: "סיכום"
+              name: "סיכום",
+              topicName: '4_8Summary'
             }
           ]
         },

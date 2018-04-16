@@ -177,3 +177,8 @@
 .background {
   background: #fff6ee;
 }
+
+.book--poetry-line {
+  font-size: 1.2em;
+  margin-right: 2.5em;
+}

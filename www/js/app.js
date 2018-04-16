@@ -147,6 +147,7 @@ angular.module('officerspreparation', ['ionic'])
       })
 
 
+
       //third chapter 
       .state('3_1opening', {
         url: '/3_1opening',
@@ -253,6 +254,51 @@ angular.module('officerspreparation', ['ionic'])
         templateUrl: 'templates/book/thirdChapter/3_19jewishPupulationByCountry.html',
         controller: 'TopicContentController'
       })
+
+
+      //fourth chapter
+      .state('4_1opening', {
+        url: '/4_1opening',
+        templateUrl: 'templates/book/fourthChapter/4_1opening.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_2RiseOfTheNaziRegime', {
+        url: '/4_2RiseOfTheNaziRegime',
+        templateUrl: 'templates/book/fourthChapter/4_2RiseOfTheNaziRegime.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_3TheJewsInWorldWarII', {
+        url: '/4_3TheJewsInWorldWarII',
+        templateUrl: 'templates/book/fourthChapter/4_3TheJewsInWorldWarII.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_4FinalSolution', {
+        url: '/4_4FinalSolution',
+        templateUrl: 'templates/book/fourthChapter/4_4FinalSolution.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_5RescueAndResistance', {
+        url: '/4_5RescueAndResistance',
+        templateUrl: 'templates/book/fourthChapter/4_5RescueAndResistance.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_6AtTheEndOfTheWar', {
+        url: '/4_6AtTheEndOfTheWar',
+        templateUrl: 'templates/book/fourthChapter/4_6AtTheEndOfTheWar.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_7TheHolocaustAndTheStateOfIsrael', {
+        url: '/4_7TheHolocaustAndTheStateOfIsrael',
+        templateUrl: 'templates/book/fourthChapter/4_7TheHolocaustAndTheStateOfIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('4_8Summary', {
+        url: '/4_8Summary',
+        templateUrl: 'templates/book/fourthChapter/4_8Summary.html',
+        controller: 'TopicContentController'
+      })
+
+
 
       /*********************************************** */
       //topic list pg
