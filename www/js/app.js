@@ -93,6 +93,7 @@ angular.module('officerspreparation', ['ionic'])
         templateUrl: 'templates/book/firstChapter/1_4summary.html',
         controller: 'TopicContentController'
       })
+
       //Second chapter
       .state('2_1CultureAndFaithInIsrael', {
         url: '/2_1CultureAndFaithInIsrael',
@@ -104,9 +105,49 @@ angular.module('officerspreparation', ['ionic'])
         templateUrl: 'templates/book/secondChapter/2_2TheWorldOfJewishFaith.html',
         controller: 'TopicContentController'
       })
+      .state('2_3MinoritiesInTheStateOfIsrael', {
+        url: '/2_3MinoritiesInTheStateOfIsrael',
+        templateUrl: 'templates/book/secondChapter/2_3MinoritiesInTheStateOfIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4TheJewish-IsraeliCalendarHolidaysAndFestivals', {
+        url: '/2_4TheJewish-IsraeliCalendarHolidaysAndFestivals',
+        templateUrl: 'templates/book/secondChapter/2_4TheJewish-IsraeliCalendarHolidaysAndFestivals.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4_3JewishHolidays', {
+        url: '/2_4_3JewishHolidays',
+        templateUrl: 'templates/book/secondChapter/2_4_3JewishHolidays.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4_4DruzeHolidays', {
+        url: '/2_4_4DruzeHolidays',
+        templateUrl: 'templates/book/secondChapter/2_4_4DruzeHolidays.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4_5MuslimHolidays', {
+        url: '/2_4_5MuslimHolidays',
+        templateUrl: 'templates/book/secondChapter/2_4_5MuslimHolidays.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4_6ChristianHolidays', {
+        url: '/2_4_6ChristianHolidays',
+        templateUrl: 'templates/book/secondChapter/2_4_6ChristianHolidays.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_4_7CivilianHolidays', {
+        url: '/2_4_7CivilianHolidays',
+        templateUrl: 'templates/book/secondChapter/2_4_7CivilianHolidays.html',
+        controller: 'TopicContentController'
+      })
+      .state('2_5Summary', {
+        url: '/2_5Summary',
+        templateUrl: 'templates/book/secondChapter/2_5Summary.html',
+        controller: 'TopicContentController'
+      })
 
-      //third chapter
 
+      //third chapter 
       .state('3_1opening', {
         url: '/3_1opening',
         templateUrl: 'templates/book/thirdChapter/3_1opening.html',

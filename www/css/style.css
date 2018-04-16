@@ -150,6 +150,11 @@
   padding: 1vh;
 }
 
+.book--topiccontent-secondtitle {
+  margin-right: 0.6em;
+  font-size: 1.4em;
+}
+
 .book--text {
   direction: rtl;
 }
@@ -165,7 +170,7 @@
 }
 
 .book--text-style {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin: 1em;
 }
 

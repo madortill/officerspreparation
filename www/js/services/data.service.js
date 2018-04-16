@@ -36,28 +36,36 @@
               topicName: '2_2TheWorldOfJewishFaith'
             },
             {
-              name: "מיעוטים במדינת ישראל"
+              name: "מיעוטים במדינת ישראל",
+              topicName: '2_3MinoritiesInTheStateOfIsrael'
             },
             {
-              name: "לוח השנה הישראלי-יהודי: חגים ומועדים"
+              name: "לוח השנה הישראלי-יהודי: חגים ומועדים",
+              topicName: '2_4TheJewish-IsraeliCalendarHolidaysAndFestivals'
             },
             {
-              name: "מועדים יהודיים"
+              name: "מועדים יהודיים",
+              topicName: '2_4_3JewishHolidays'
             },
             {
-              name: "מועדים דרוזים"
+              name: "מועדים דרוזים",
+              topicName: '2_4_4DruzeHolidays'
             },
             {
-              name: "מועדים מוסלמיים"
+              name: "מועדים מוסלמיים",
+              topicName: '2_4_5MuslimHolidays'
             },
             {
-              name: "מועדים נוצריים"
+              name: "מועדים נוצריים",
+              topicName: '2_4_6ChristianHolidays'
             },
             {
-              name: "מועדים אזרחיים"
+              name: "מועדים אזרחיים",
+              topicName: '2_4_7CivilianHolidays'
             },
             {
-              name: "סיכום"
+              name: "סיכום",
+              topicName: '2_5Summary'
             }
           ]
         },
