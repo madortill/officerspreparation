@@ -299,6 +299,119 @@ angular.module('officerspreparation', ['ionic'])
       })
 
 
+      //chapter five
+      .state('5_1opening', {
+        url: '/5_1opening',
+        templateUrl: 'templates/book/fifthChapter/5_1opening.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_2TheBeginningOfTheNewSettlement', {
+        url: '/5_2TheBeginningOfTheNewSettlement',
+        templateUrl: 'templates/book/fifthChapter/5_2TheBeginningOfTheNewSettlement.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_3TheSecondAliyah', {
+        url: '/5_3TheSecondAliyah',
+        templateUrl: 'templates/book/fifthChapter/5_3TheSecondAliyah.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_4TheRevivalOfTheHebrewlanguage', {
+        url: '/5_4TheRevivalOfTheHebrewlanguage',
+        templateUrl: 'templates/book/fifthChapter/5_4TheRevivalOfTheHebrewlanguage.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_5WorldWarI', {
+        url: '/5_5WorldWarI',
+        templateUrl: 'templates/book/fifthChapter/5_5WorldWarI.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_6DuringTheBritishMandatePeriod', {
+        url: '/5_6DuringTheBritishMandatePeriod',
+        templateUrl: 'templates/book/fifthChapter/5_6DuringTheBritishMandatePeriod.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_7TriangleoftheLandOfIsrael', {
+        url: '/5_7TriangleoftheLandOfIsrael',
+        templateUrl: 'templates/book/fifthChapter/5_7TriangleoftheLandOfIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII', {
+        url: '/5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII',
+        templateUrl: 'templates/book/fifthChapter/5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_9TowardsAState', {
+        url: '/5_9TowardsAState',
+        templateUrl: 'templates/book/fifthChapter/5_9TowardsAState.html',
+        controller: 'TopicContentController'
+      })
+      .state('5_10Summary', {
+        url: '/5_10Summary',
+        templateUrl: 'templates/book/fifthChapter/5_10Summary.html',
+        controller: 'TopicContentController'
+      })
+
+
+
+      //sixth chapter
+      .state('6_1settelmentToCountry', {
+        url: '/6_1settelmentToCountry',
+        templateUrl: 'templates/book/sixthChapter/6_1settelmentToCountry.html',
+        controller: 'TopicContentController'
+      })
+      .state('6_2aliyahAndIntegration', {
+        url: '/6_2aliyahAndIntegration',
+        templateUrl: 'templates/book/sixthChapter/6_2aliyahAndIntegration.html',
+        controller: 'TopicContentController'
+      })
+      .state('6_3mainEvents', {
+        url: '/6_3mainEvents',
+        templateUrl: 'templates/book/sixthChapter/6_3mainEvents.html',
+        controller: 'TopicContentController'
+      })
+      .state('6_4presidentsOfIsrael', {
+        url: '/6_4presidentsOfIsrael',
+        templateUrl: 'templates/book/sixthChapter/6_4presidentsOfIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('6_5primeMinisterOfIsrael', {
+        url: '/6_5primeMinisterOfIsrael',
+        templateUrl: 'templates/book/sixthChapter/6_5primeMinisterOfIsrael.html',
+        controller: 'TopicContentController'
+      })
+      .state('6_6chiefOfGeneralStaff', {
+        url: '/6_6chiefOfGeneralStaff',
+        templateUrl: 'templates/book/sixthChapter/6_6chiefOfGeneralStaff.html',
+        controller: 'TopicContentController'
+      })
+
+
+      //seventh chapter
+      .state('7_1opening', {
+        url: '/7_1opening',
+        templateUrl: 'templates/book/seventhChapter/7_1opening.html',
+        controller: 'TopicContentController'
+      })
+      .state('7_2JewishDefenseForceDevelopment', {
+        url: '/7_2JewishDefenseForceDevelopment',
+        templateUrl: 'templates/book/seventhChapter/7_2JewishDefenseForceDevelopment.html',
+        controller: 'TopicContentController'
+      })
+      .state('7_3TheEstablishmentOfTheIDF', {
+        url: '/7_3TheEstablishmentOfTheIDF',
+        templateUrl: 'templates/book/seventhChapter/7_3TheEstablishmentOfTheIDF.html',
+        controller: 'TopicContentController'
+      })
+      .state('7_4WarsAndIDFoperations', {
+        url: '/7_4WarsAndIDFoperations',
+        templateUrl: 'templates/book/seventhChapter/7_4WarsAndIDFoperations.html',
+        controller: 'TopicContentController'
+      })
+      .state('7_5Summary', {
+        url: '/7_5Summary',
+        templateUrl: 'templates/book/seventhChapter/7_5Summary.html',
+        controller: 'TopicContentController'
+      })
 
       /*********************************************** */
       //topic list pg

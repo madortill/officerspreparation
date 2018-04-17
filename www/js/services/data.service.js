@@ -190,34 +190,44 @@
           index: 4,
           name: "בדרך למדינה",
           subjects: [{
-              name: "פתיחה: יישוב חדש ויישוב ישן"
+              name: "פתיחה: יישוב חדש ויישוב ישן",
+              topicName: '5_1opening'
             },
             {
-              name: "ראשיתו של היישוב החדש: העלייה הראשונה"
+              name: "ראשיתו של היישוב החדש: העלייה הראשונה",
+              topicName: '5_2TheBeginningOfTheNewSettlement'
             },
             {
-              name: "העלייה השנייה"
+              name: "העלייה השנייה",
+              topicName: '5_3TheSecondAliyah'
             },
             {
-              name: "תחיית השפה העברית"
+              name: "תחיית השפה העברית",
+              topicName: '5_4TheRevivalOfTheHebrewlanguage'
             },
             {
-              name: "מלחמת העולם הראשונה:המעבר משלטון עות'מאני לשלטון בריטי"
+              name: "מלחמת העולם הראשונה:המעבר משלטון עות'מאני לשלטון בריטי",
+              topicName: '5_5WorldWarI'
             },
             {
-              name: "העליות לארץ בתקופת המנדט הבריטי"
+              name: "העליות לארץ בתקופת המנדט הבריטי",
+              topicName: '5_6DuringTheBritishMandatePeriod'
             },
             {
-              name: "המשולש הארץ-ישראלי: יהודים ערבים ובריטים"
+              name: "המשולש הארץ-ישראלי: יהודים ערבים ובריטים",
+              topicName: '5_7TriangleoftheLandOfIsrael'
             },
             {
-              name: "ארץ-ישראל והיישוב היהודי במלחמת העולם השנייה"
+              name: "ארץ-ישראל והיישוב היהודי במלחמת העולם השנייה",
+              topicName: '5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII'
             },
             {
-              name: "לקראת מדינה: הדרך אל הכרזת העצמאות"
+              name: "לקראת מדינה: הדרך אל הכרזת העצמאות",
+              topicName: '5_9TowardsAState'
             },
             {
-              name: "סיכום"
+              name: "סיכום",
+              topicName: '5_10Summary'
             }
           ]
         },
@@ -225,25 +235,29 @@
           index: 5,
           name: "סיפורה של מדינה",
           subjects: [{
-              name: "פתיחה: מיישוב למדינה"
+              name: "פתיחה: מיישוב למדינה",
+              topicName: '6_1settelmentToCountry'
+
             },
             {
-              name: "עלייה וקליטה"
+              name: "עלייה וקליטה",
+              topicName: '6_2aliyahAndIntegration'
             },
             {
-              name: "נושאי דיון ואירועים מרכזיים בחברה הישראלית"
+              name: "נושאי דיון ואירועים מרכזיים בחברה הישראלית",
+              topicName: '6_3mainEvents'
             },
             {
-              name: "נשיאי המדינה"
+              name: "נשיאי המדינה",
+              topicName: '6_4presidentsOfIsrael'
             },
             {
-              name: "ראשי ממשלה"
+              name: "ראשי ממשלה",
+              topicName: '6_5primeMinisterOfIsrael'
             },
             {
-              name: "ראשי המטה הכללי"
-            },
-            {
-              name: "סיכום"
+              name: "ראשי המטה הכללי",
+              topicName: '6_6chiefOfGeneralStaff'
             }
           ]
         },
@@ -251,19 +265,24 @@
           index: 6,
           name: "ביטחון ישראל",
           subjects: [{
-              name: "פתיחה"
+              name: "פתיחה",
+              topicName: '7_1opening'
             },
             {
-              name: "התפתחות כוח המגן העברי"
+              name: "התפתחות כוח המגן העברי",
+              topicName: '7_2JewishDefenseForceDevelopment'
             },
             {
-              name: "הקמת צה''ל"
+              name: "הקמת צה''ל",
+              topicName: '7_3TheEstablishmentOfTheIDF'
             },
             {
-              name: "מלחמות ומבצעי צה''ל"
+              name: "מלחמות ומבצעי צה''ל",
+              topicName: '7_4WarsAndIDFoperations'
             },
             {
-              name: "סיכום"
+              name: "סיכום",
+              topicName: '7_5Summary'
             }
           ]
         }
