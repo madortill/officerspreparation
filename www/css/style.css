@@ -92,16 +92,16 @@
 }
 
 .book--menu-menubutton {
-  height: 7%;
+  height: 6%;
   position: absolute;
   top: 1.7%;
-  right: 1%;
+  right: 2%;
 }
 
 .book--menu-logo {
   height: 7%;
-  left: 2%;
-  top: 1%;
+  left: 2.3%;
+  top: 1.5%;
   position: absolute;
 }
 
@@ -162,6 +162,7 @@
 .book--topiccontent-starttitle {
   font-size: 1.8em;
   margin-right: 0.7em;
+  direction: rtl;
 }
 
 .book--topiccontent-title {
@@ -184,7 +185,30 @@
 }
 
 .tablestyle {
-  border: solid;
+  border: solid 1px;
   margin: 1em;
   padding: 0.5em;
+}
+
+.sidemenu--buttons {
+  height: 10%;
+  color: white;
+  text-align: center;
+}
+
+.sidemenu {
+  background: black;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  width: 30%;
+  /* visibility: hidden; */
+  right: 0;
+}
+
+.sidemenu--buttons-lines {
+  height: 1em;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  margin-left: 42%;
 }
