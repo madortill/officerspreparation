@@ -27,6 +27,9 @@ function TopicController($scope, $state, DataService) {
     console.log(test);
 
 
+    $scope.goBack = function () {
+      window.history.back();
+    }
 
     $state.go(test);
 
