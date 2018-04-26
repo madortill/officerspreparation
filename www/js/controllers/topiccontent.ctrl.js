@@ -7,6 +7,9 @@ function TopicContentController($scope, $state, DataService) {
 
   $scope.subject = DataService.currentTopic.subject;
 
+  $scope.goBack = function () {
+    window.history.back();
+  }
   console.log($scope.topic)
 
 

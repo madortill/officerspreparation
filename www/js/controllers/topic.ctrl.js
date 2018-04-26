@@ -6,7 +6,17 @@ TopicController.$inject = ['$scope', '$state', 'DataService'];
 function TopicController($scope, $state, DataService) {
   $scope.topic = DataService.currentBook.topic;
   console.log($scope.topic);
+  $scope.menu = true;
 
+  $scope.openmenu = function () {
+    $scope.menu = false;
+    console.log($scope.menu);
+  }
+
+  $scope.closemenu = function () {
+    $scope.menu = true;
+    console.log($scope.menu);
+  }
 
   $scope.goToTopicContent = function (subject) {
 
@@ -15,6 +25,7 @@ function TopicController($scope, $state, DataService) {
     // console.log(subject);
     let test = subject.topicName;
     console.log(test);
+
 
 
     $state.go(test);

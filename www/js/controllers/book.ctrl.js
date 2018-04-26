@@ -5,12 +5,22 @@ BookController.$inject = ['$scope', '$state', 'DataService'];
 
 function BookController($scope, $state, DataService) {
   $scope.topics = DataService.book.topics;
-  console.log($scope.topics);
+  // console.log($scope.topics);
+  $scope.menu = true;
 
   $scope.goToTopic = function (topic) {
     DataService.currentBook.topic = topic;
     console.log(DataService.currentBook.topic);
     $state.go('topic');
+  }
+  $scope.openmenu = function () {
+    $scope.menu = false;
+    console.log($scope.menu);
+  }
+
+  $scope.closemenu = function () {
+    $scope.menu = true;
+    console.log($scope.menu);
   }
 
 
