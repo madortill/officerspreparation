@@ -10,7 +10,24 @@ function TopicContentController($scope, $state, DataService) {
   $scope.goBack = function () {
     window.history.back();
   }
-  console.log($scope.topic)
 
+  // // this function take the selected text andmark it
+  function markTextSelected(range) {
+    var newNode = document.createElement("div");
+    newNode.setAttribute(
+      "style",
+      "background-color: yellow; display: inline;"
+    );
+    range.surroundContents(newNode);
+  }
+  $scope.markText = function () {
+    var userSelection = window.getSelection().getRangeAt(0);
+    console.log(userSelection);
+
+    markTextSelected(userSelection);
+    localStorage.setItem('testObject', window.getSelection().getRangeAt(0));
+    console.log(localStorage.getItem('testObject'))
+
+  }
 
 }

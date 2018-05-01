@@ -22,7 +22,9 @@ function BookController($scope, $state, DataService) {
     $scope.menu = true;
     console.log($scope.menu);
   }
-
+  var cat = [];
+  cat[0] = localStorage.removeItem("myCat");
+  console.log(localStorage.getItem("myCat"))
 
   // $scope.color = false;
   // var i = 0;

@@ -26,8 +26,8 @@
 
 .home--logos {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 4px;
+  left: 7px;
   width: 20vh;
 }
 
@@ -92,9 +92,9 @@
 }
 
 .book--menu-menubutton {
-  height: 6%;
+  height: 3.5%;
   position: absolute;
-  top: 1.7%;
+  top: 2.4%;
   right: 2%;
 }
 
@@ -126,7 +126,8 @@
 
 .book--chapters-title {
   text-align: right;
-  padding: 2vh;
+  padding: 3.5vh;
+  font-size: 2.5em;
 }
 
 .book--chapter-list {
@@ -144,9 +145,10 @@
 }
 
 .book--topiccontent-title {
-  font-size: 1.8em;
   text-align: right;
-  padding: 1vh;
+  font-size: 1.8em;
+  margin-right: 0.35em;
+  padding-top: 0.5em;
 }
 
 .book--topiccontent-secondtitle {
@@ -162,11 +164,6 @@
   font-size: 1.8em;
   margin-right: 0.7em;
   direction: rtl;
-}
-
-.book--topiccontent-title {
-  font-size: 1.6em;
-  margin-right: 0.6em;
 }
 
 .book--text-style {
@@ -189,31 +186,6 @@
   padding: 0.5em;
 }
 
-/* .sidemenu--buttons {
-  height: 10%;
-  color: white;
-  text-align: right;
-  padding-right: 15%;
-  font-size: 1.4em;
-}
-
-.sidemenu {
-  background: #2d1710;
-  position: absolute;
-  z-index: 5;
-  height: 100%;
-  width: 30%;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.sidemenu--buttons-lines {
-  height: 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-} */
-
 .sidemenu {
   /* visibility: hidden; */
   background: #2d1710;
@@ -227,11 +199,11 @@
   box-shadow: 4px 4px 14px 5px;
 }
 
-.sidemenu--buttons-lines {
-  height: 4.3%;
+.sidemenu--buttons-close {
+  height: 2.7%;
   position: absolute;
-  top: 2%;
-  right: 10%;
+  top: 2.2%;
+  right: 8%;
 }
 
 .sidemenu--buttons {
