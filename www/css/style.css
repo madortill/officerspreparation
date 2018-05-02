@@ -3,12 +3,12 @@
   src: url('./OpenSansHebrewCondensed-Light.ttf') format('truetype');
 }
 
-* {
+/* * {
   font-family: 'Open Sans Hebrew', sans-serif !important;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 /* the home page !! */
 
@@ -92,10 +92,10 @@
 }
 
 .book--menu-menubutton {
-  height: 3.5%;
+  height: 2.5%;
   position: absolute;
-  top: 2.4%;
-  right: 2%;
+  top: 3.4%;
+  right: 5%;
 }
 
 .book--menu-logo {
@@ -106,12 +106,14 @@
 }
 
 .book--menu-title {
+  font-family: 'Open Sans Hebrew', serif;
   font-size: 1.7em;
   text-align: right;
   margin-top: 2vh;
 }
 
 .book--title {
+  font-family: 'Open Sans Hebrew', serif;
   font-size: 4em;
   text-align: center;
   margin-top: 3%;
@@ -125,6 +127,7 @@
 }
 
 .book--chapters-title {
+  font-family: 'Open Sans Hebrew', serif;
   text-align: right;
   padding: 3.5vh;
   font-size: 2.5em;
@@ -145,6 +148,7 @@
 }
 
 .book--topiccontent-title {
+  font-family: 'Open Sans Hebrew', serif;
   text-align: right;
   font-size: 1.8em;
   margin-right: 0.35em;
@@ -152,6 +156,7 @@
 }
 
 .book--topiccontent-secondtitle {
+  font-family: 'Open Sans Hebrew', serif;
   margin-right: 0.6em;
   font-size: 1.4em;
 }
@@ -161,6 +166,7 @@
 }
 
 .book--topiccontent-starttitle {
+  font-family: 'Open Sans Hebrew', serif;
   font-size: 1.8em;
   margin-right: 0.7em;
   direction: rtl;
@@ -202,10 +208,10 @@
 }
 
 .sidemenu--buttons-close {
-  height: 2.7%;
+  height: 2%;
   position: absolute;
-  top: 2.2%;
-  right: 8%;
+  top: 2.7%;
+  right: 15%;
 }
 
 .sidemenu--buttons {
