@@ -12,11 +12,33 @@
 
 /* the home page !! */
 
-.home--background {
+.home--background-firstlayer {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
+}
+
+.home--background-secondlayer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+
+.home--background-thirdlayer {
+  height: 100%;
+  width: 20em;
+  position: absolute;
+  z-index: -3;
+}
+
+.home--background-solider {
+  bottom: 0;
+  left: 0;
+  height: 95%;
+  position: absolute;
+  z-index: -2;
 }
 
 .home--title {
@@ -122,7 +144,7 @@
 .book--chapters-titlecontainer {
   width: 100%;
   height: 20%;
-  background: #f3e8d7;
+  background: #e7ebe7;
   justify-content: space-around;
 }
 
@@ -144,7 +166,7 @@
   font-size: 1.5em;
   padding: 4vh;
   height: 13vh;
-  border-bottom: solid #edd9ae 1.5px;
+  border-bottom: solid #e7ebe7 3.5px;
 }
 
 .book--topiccontent-title {
@@ -245,3 +267,59 @@
   height: 12vh;
   align-self: center;
 }
+
+/* the exercises style */
+
+.exercise--choose-unit {
+  font-size: 1.5em;
+  padding: 12vh;
+  padding-top: 13vh;
+  height: 35vh;
+  text-align: center;
+  border-bottom: solid #e7ebe7 2vh;
+}
+
+.billionaire--firstline {
+  width: 100%;
+  height: 2vh;
+  background: #e7ebe7;
+}
+
+.billionaire--secondline {
+  width: 100%;
+  height: 2vh;
+  background: #fff6ee;
+}
+
+.billionaire--trapeze {
+  border-top: 5vh solid #fff6ee;
+  border-left: 3vh solid transparent;
+  border-right: 3vh solid transparent;
+  width: 40%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billionaire--game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.billionaire {
+  width: 100%;
+  height: 20vh;
+  background: #e7ebe7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .billionaire--money-offer {
+  position: absolute;
+  font-size: 1.5em;
+  margin-top: -6vh;
+} */

@@ -48,8 +48,14 @@ angular.module('officerspreparation', ['ionic'])
       .state('exercise', {
         url: '/exercise',
         templateUrl: 'templates/exercises/exercise.html',
+        controller: 'BookController'
       })
-
+      //choose exercise page
+      .state('billionaire', {
+        url: '/billionaire',
+        templateUrl: 'templates/exercises/billionaireGame.html',
+        controller: 'billionairecontroller'
+      })
       //tsets page
       .state('tests', {
         url: '/tests',
