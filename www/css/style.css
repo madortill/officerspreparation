@@ -281,7 +281,7 @@
 
 .billionaire--firstline {
   width: 100%;
-  height: 2vh;
+  height: 3vh;
   background: #e7ebe7;
 }
 
@@ -316,10 +316,63 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 1vh;
 }
 
-/* .billionaire--money-offer {
+.billionaire--money-offer {
   position: absolute;
-  font-size: 1.5em;
-  margin-top: -6vh;
-} */
+  top: 12vh;
+  font-size: 5vh;
+}
+
+.billionaire--answer {
+  width: 100%;
+  margin-top: 3vh;
+  height: 11vh;
+  background: #e7ebe7;
+}
+
+.billionaire--answer-number {
+  direction: rtl;
+  margin-right: 0.5em;
+  font-size: 1.7em;
+}
+
+.billionaire--life {
+  height: 6vh;
+  margin-right: 0.5em;
+}
+
+.billionaire--lifes {
+  position: fixed;
+  bottom: 2px;
+  display: flex;
+  left: 6px;
+}
+
+.billionaire--help-square {
+  margin-right: 10%;
+  margin-left: 2em;
+  width: 7em;
+  height: 6vh;
+  background: #a34824;
+  text-align: center;
+  padding-top: 0.5vh;
+}
+
+.billionaire--help {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 31vh;
+}
+
+.billionaireQuestion {
+  position: absolute;
+  text-align: right;
+  top: 19vh;
+}
+
+.hideElement {
+  visibility: hidden;
+}

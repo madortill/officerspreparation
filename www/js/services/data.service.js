@@ -288,13 +288,172 @@
         }
       ]
     }
+    var billionaireGameLife = {
+      life: [true, true, true]
+    }
+    var billionaireGame = [{
+        points: 100,
+        "level": [{
+          question: "first question",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "secondquestion",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "שלישית",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "רביעית",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }]
+
+
+
+      },
+      {
+        points: 200,
+        "level": [{
+          question: "first question",
+          answers: [{
+            answer: "fgfgfgfg",
+
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "secondquestion",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "secondquestion",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }, {
+          question: "secondquestion",
+          answers: [{
+            answer: "fgfgfgfg",
+            type: true
+          }, {
+            answer: "fgghghghhjjjjjjjfgfgfg",
+            type: false
+          }, {
+            answer: "fghggjdsystryrtfg",
+            type: false
+          }, {
+            answer: "gdhjghjgdhjdhjdhgj",
+            type: false
+          }]
+        }]
+
+
+
+      }
+    ]
+
+    // function shuffle(array) {
+    //   var m = array.length,
+    //     t, i;
+    //   while (m) {
+    //     i = Math.floor(Math.random() * m--);
+    //     t = array[m];
+    //     array[m] = array[i];
+    //     array[i] = t;
+    //   }
+    //   return array;
+    // }
+
+    // function gameInit(subject) {
+    //   // billionaireGame[0].level1[0] = shuffle(subject.cards.terms);
+    //   // data.cards.definitions = shuffle(subject.cards.definitions);
+    //   // console.log(billionaireGame.length);
+    // }
 
     var currentBook = {}
     var currentTopic = {};
     return {
       currentTopic: currentTopic,
+      billionaireGameLife: billionaireGameLife,
       currentBook: currentBook,
-      book: book
+      book: book,
+      billionaireGame: billionaireGame
     };
   });
 })();

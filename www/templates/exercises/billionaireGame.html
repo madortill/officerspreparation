@@ -10,10 +10,39 @@
       <div class="billionaire--secondline"></div>
       <div class="billionaire">
         <div class="billionaire--trapeze">
-          <!-- 100 -->100
-          <!-- <h1 class="billionaire--money-offer">100</h1> -->
+          <h3 class="billionaireQuestion">{{questions.question}}</h3>
+          <h1 class="billionaire--money-offer">{{levelPoints}}</h1>
         </div>
       </div>
+      <div class="billionaire--help">
+        <div class="billionaire--help-square">
+          50/50
+        </div>
+        <div class="billionaire--help-square">
+          50/50
+        </div>
+      </div>
+      <!-- $index -->
+      <div class="billionaire--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)">
+        <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
+      </div>
+      <!-- <div class="billionaire--answer">
+        <h1 class="billionaire--answer-number">ב.</h1>
+      </div>
+      <div class="billionaire--answer">
+        <h1 class="billionaire--answer-number">ג.</h1>
+      </div>
+      <div class="billionaire--answer">
+        <h1 class="billionaire--answer-number">ד.</h1>
+      </div> -->
+      <div class="billionaire--lifes">
+        <div ng-repeat="life in life track by $index" ng-class={hideElement:life[$index]}>
+          <img src="img/billionaire--life.svg" class="billionaire--life">
+
+        </div>
+      </div>
+
+    </div>
     </div>
 
   </ion-content>
