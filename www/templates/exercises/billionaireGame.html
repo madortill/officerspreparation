@@ -3,7 +3,7 @@
     <div class="book--menu">
       <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
       <h1 class="book--menu-title">תרגול</h1>
-      <img src="img/till-logo.svg" class="book--menu-logo">
+      <img src="img/till-logo.svg" class="book--menu-logo" ng-click="try()">
     </div>
     <div class="billionaire--game">
       <div class="billionaire--firstline"></div>
@@ -15,30 +15,21 @@
         </div>
       </div>
       <div class="billionaire--help">
-        <div class="billionaire--help-square">
+        <button class="billionaire--help-square" ng-click="firstHelp()" ng-class={hideElement:!firstHelpShow} ng-disabled="!secondHelpShow">
           50/50
-        </div>
-        <div class="billionaire--help-square">
+        </button>
+        <button class="billionaire--help-square" ng-click="secondHelp()" ng-class={hideElement:!secondHelpShow} ng-disabled="!firstHelpShow">
           50/50
-        </div>
+        </button>
       </div>
       <!-- $index -->
-      <div class="billionaire--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)">
+      <div class="billionaire--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
         <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
       </div>
-      <!-- <div class="billionaire--answer">
-        <h1 class="billionaire--answer-number">ב.</h1>
-      </div>
-      <div class="billionaire--answer">
-        <h1 class="billionaire--answer-number">ג.</h1>
-      </div>
-      <div class="billionaire--answer">
-        <h1 class="billionaire--answer-number">ד.</h1>
-      </div> -->
-      <div class="billionaire--lifes">
-        <div ng-repeat="life in life track by $index" ng-class={hideElement:life[$index]}>
-          <img src="img/billionaire--life.svg" class="billionaire--life">
 
+      <div class="billionaire--lifes">
+        <div ng-repeat="lifes in life track by $index" ng-show="life[$index]">
+          <img src="img/billionaire--life.svg" class="billionaire--life">
         </div>
       </div>
 

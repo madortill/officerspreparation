@@ -357,7 +357,11 @@
   height: 6vh;
   background: #a34824;
   text-align: center;
-  padding-top: 0.5vh;
+  padding-top: 1vh;
+  vertical-align: middle;
+  line-height: 4vh;
+  border: 0;
+  color: white;
 }
 
 .billionaire--help {
@@ -375,4 +379,12 @@
 
 .hideElement {
   visibility: hidden;
+}
+
+.correctAnswer {
+  background: #6eb753;
+}
+
+.inCorrectAnswer {
+  background: #d67049;
 }
