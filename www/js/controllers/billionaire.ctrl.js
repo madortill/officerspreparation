@@ -86,15 +86,9 @@ function billionairecontroller($scope, $state, DataService) {
   // console.log($scope.questions.answers);
 
   $scope.userAnswer = (index) => {
-    function unPaintAnswers() {
-      for (var i = 0; i < 4; i++) {
-        $scope.correctAnswer[i] = false;
-        $scope.inCorrectAnswer[i] = false;
-        console.log("work in the seocnd time");
 
 
-      }
-    }
+
 
     function paintAnswers() {
 
@@ -112,29 +106,31 @@ function billionairecontroller($scope, $state, DataService) {
       setTimeout(unPaintAnswers, 1500);
     }
 
+    function unPaintAnswers() {
+      // for (var i = 0; i < 4; i++) {
+      $scope.correctAnswer = [false, false, false, false];
+      $scope.inCorrectAnswer = [false, false, false, false];
+      console.log($scope.correctAnswer);
+      console.log($scope.inCorrectAnswer);
+      console.log("work in the seocnd time");
 
+
+
+      // }
+    }
     paintAnswers();
 
-    // console.log("the game level is" + gameLevel);
 
-    // if ($scope.questions.answers[index].type == true) {
-    //   // alert("u success");
-    // }
-    // if()
     console.log($scope.questions.answers[index].type);
     if ($scope.questions.answers[index].type == false) {
       lifeCount--;
     }
     $scope.life[lifeCount] = false;
-    // console.log($scope.life[gameLevel]);
     gameLevel++;
-    if (gameLevel == 3) {
-      // alert("finishhhhhhhhhhhh");
-    }
+
     $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
 
-    console.log(DataService.billionaireGame[0].level[0]);
 
 
     function resetQuestionTemplate() {
