@@ -13,8 +13,14 @@ function billionairecontroller($scope, $state, DataService) {
   // console.log($scope.life);
   $scope.firstHelpShow = true;
   $scope.secondHelpShow = true;
+  $scope.firstHelpTouch = true;
+  $scope.finishGame = false;
+  $scope.winFullGame = false; // show the screen if win full game
+  $scope.secondHelpTouch = true;
   $scope.inCorrectAnswer = [false, false, false, false];
   $scope.correctAnswer = [false, false, false, false];
+
+  $scope.nextQuestion1 = true;
   // get the random number to random a question in the level
   function randomNumber() {
     var x;
@@ -52,6 +58,7 @@ function billionairecontroller($scope, $state, DataService) {
       console.log(firstHelpHide[i]);
     }
     $scope.firstHelpShow = false;
+    $scope.firstHelpTouch = false;
   }
   $scope.secondHelp = function () {
     alert("second help clicked");
@@ -68,6 +75,8 @@ function billionairecontroller($scope, $state, DataService) {
       console.log(firstHelpHide[i]);
     }
     $scope.secondHelpShow = false;
+    $scope.secondHelpTouch = false;
+
   }
 
   // function shuffle(array) {
@@ -86,38 +95,34 @@ function billionairecontroller($scope, $state, DataService) {
   // console.log($scope.questions.answers);
 
   $scope.userAnswer = (index) => {
-
+    $scope.nextQuestion1 = false;
+    /*
+    after all tha game when the user win & finish the game he will see the win screen
+    */
+    if (gameLevel == 14) {
+      $scope.winFullGame = true; // show the screen if win full game
+    }
 
 
 
     function paintAnswers() {
 
       for (var i = 0; i < 4; i++) {
-        console.log($scope.questions.answers[i].type);
+        // console.log($scope.questions.answers[i].type);
         if ($scope.questions.answers[i].type == true) {
           $scope.correctAnswer[i] = true;
-          var correctAnswerIndex = i;
-          console.log("the index" + correctAnswerIndex);
+
         }
       }
       // if (correctAnswerIndex != index) {
-      $scope.inCorrectAnswer[index] = true;
+      if ($scope.questions.answers[index].type != true) {
+        $scope.inCorrectAnswer[index] = true;
+      }
       // }
-      setTimeout(unPaintAnswers, 1500);
+      // unPaintAnswers();
     }
 
-    function unPaintAnswers() {
-      // for (var i = 0; i < 4; i++) {
-      $scope.correctAnswer = [false, false, false, false];
-      $scope.inCorrectAnswer = [false, false, false, false];
-      console.log($scope.correctAnswer);
-      console.log($scope.inCorrectAnswer);
-      console.log("work in the seocnd time");
 
-
-
-      // }
-    }
     paintAnswers();
 
 
@@ -126,10 +131,8 @@ function billionairecontroller($scope, $state, DataService) {
       lifeCount--;
     }
     $scope.life[lifeCount] = false;
-    gameLevel++;
 
-    $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
-    $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
+
 
 
 
@@ -138,7 +141,13 @@ function billionairecontroller($scope, $state, DataService) {
       // $scope.firstHelpShow = true;
       // $scope.secondHelpShow = true;
     }
-    resetQuestionTemplate();
+    // resetQuestionTemplate();
+
+    if (lifeCount == 0) {
+      $scope.finishGame = true; // show the screen if win full game
+    }
+    $scope.winMoney = DataService.billionaireGame[gameLevel].points
+    // console.log();
   }
 
 
@@ -152,6 +161,54 @@ function billionairecontroller($scope, $state, DataService) {
   //   }
   //   i++;
   // }
+  function unPaintAnswers() {
+    // for (var i = 0; i < 4; i++) {
+    $scope.correctAnswer = [false, false, false, false];
+    $scope.inCorrectAnswer = [false, false, false, false];
+    console.log($scope.correctAnswer);
+    console.log($scope.inCorrectAnswer);
+    console.log("work in the seocnd time");
+
+
+
+    // }
+  }
+  $scope.nextQuestion = function () {
+    $scope.nextQuestion1 = true;
+
+    unPaintAnswers();
+    gameLevel++;
+    $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
+    $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
+    if ($scope.firstHelpShow == true) {
+      $scope.secondHelpTouch;
+    }
+    if ($scope.secondHelpShow == true) {
+      $scope.firstHelpTouch = true;
+    }
+
+    $scope.theAnswers = [true, true, true, true];
+
+  }
+  $scope.resetGame = function () {
+    // alert("dfdf");
+    $scope.theAnswers = [true, true, true, true];
+    gameLevel = 0;
+    $scope.levelPoints = DataService.billionaireGame[gameLevel].points; //the points in the current level
+    $scope.life = [true, true, true];
+    lifeCount = 3; // count the life in the game
+    // console.log($scope.life);
+    $scope.firstHelpShow = true;
+    $scope.secondHelpShow = true;
+    $scope.firstHelpTouch = true;
+    $scope.winFullGame = false; // show the screen if win full game
+    $scope.finishGame = false;
+
+    $scope.secondHelpTouch = true;
+    $scope.inCorrectAnswer = [false, false, false, false];
+    $scope.correctAnswer = [false, false, false, false];
+
+  }
 
 
 }

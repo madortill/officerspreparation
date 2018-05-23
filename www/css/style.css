@@ -281,7 +281,7 @@
 
 .billionaire--firstline {
   width: 100%;
-  height: 3vh;
+  height: 7vh;
   background: #e7ebe7;
 }
 
@@ -321,14 +321,14 @@
 
 .billionaire--money-offer {
   position: absolute;
-  top: 12vh;
+  top: 16vh;
   font-size: 5vh;
 }
 
 .billionaire--answer {
   width: 100%;
   margin-top: 3vh;
-  height: 11vh;
+  height: 10vh;
   background: #e7ebe7;
 }
 
@@ -368,13 +368,13 @@
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 31vh;
+  top: 35.5vh;
 }
 
 .billionaireQuestion {
   position: absolute;
   text-align: right;
-  top: 19vh;
+  top: 24.5vh;
 }
 
 .hideElement {
@@ -387,4 +387,40 @@
 
 .inCorrectAnswer {
   background: #d67049;
+}
+
+.billionaire--next-question {
+  position: absolute;
+  top: 11vh;
+  font-size: 3.5vh;
+}
+
+.billionaire--win-fullgame {
+  position: absolute;
+  z-index: 2;
+  background: #B8CC79;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.billionaire--win-fullgame-text {
+  text-align: center;
+  /* color: white; */
+}
+
+.billionaire--win-pic {
+  height: 30vh;
+  margin-bottom: 12vh;
+  margin-top: 6vh;
+}
+
+.billionaire--play-again {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  background: white;
+  margin-bottom: 3vh;
 }
