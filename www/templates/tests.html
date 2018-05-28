@@ -1,36 +1,41 @@
-<ion-side-menus enable-menu-with-back-views="false">
-  <ion-side-menu-content>
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
+<ion-view view-title="home page">
+  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
 
-      <ion-nav-buttons side="right">
-        <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
-        </button>
-      </ion-nav-buttons>
-    </ion-nav-bar>
-    <ion-nav-view name="menuContent"></ion-nav-view>
-  </ion-side-menu-content>
+    <div class="book--menu">
+      <img src="img/backbutton.svg" class="book--menu-menubutton">
+      <h1 class="book--menu-title">מבחנים</h1>
+      <img src="img/till-logo.svg" class="book--menu-logo">
+    </div>
+    <div class="game--next-question">לשאלה הבאה</div>
+    <div class="game">
+      <div class="game--firstline"></div>
+      <div class="game--secondline"></div>
+      <div class="billionaire">
 
-  <ion-side-menu side="right">
-    <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
-    </ion-header-bar>
-    <ion-content>
-      <ion-list>
-        <ion-item menu-close ng-click="login()">
-          Login
-        </ion-item>
-        <ion-item menu-close href="#/app/search">
-          Search
-        </ion-item>
-        <ion-item menu-close href="#/app/browse">
-          Browse
-        </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
-        </ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-side-menu>
-</ion-side-menus>
+      </div>
+
+      <!-- $index -->
+      <div class="game--answer">
+        <!-- <h1 class="billionaire--answer-number"></h1> -->
+      </div>
+      <div class="game--answer">
+        <h1 class="billionaire--answer-number"></h1>
+      </div>
+      <div class="game--answer">
+        <h1 class="billionaire--answer-number"></h1>
+      </div>
+      <div class="game--answer">
+        <h1 class="billionaire--answer-number"></h1>
+      </div>
+
+      <!-- <div class="billionaire--lifes">
+        <div>
+          <img src="img/billionaire--life.svg" class="billionaire--life">
+        </div>
+      </div> -->
+
+    </div>
+    </div>
+
+  </ion-content>
+</ion-view>

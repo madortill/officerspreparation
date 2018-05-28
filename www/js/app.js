@@ -60,6 +60,7 @@ angular.module('officerspreparation', ['ionic'])
       .state('tests', {
         url: '/tests',
         templateUrl: 'templates/tests.html',
+        controller: 'testcontroller'
       })
 
       //sport page

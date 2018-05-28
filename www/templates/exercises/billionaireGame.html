@@ -21,10 +21,10 @@
       <h1 class="book--menu-title">תרגול</h1>
       <img src="img/till-logo.svg" class="book--menu-logo" ng-click="try()">
     </div>
-    <div class="billionaire--next-question" ng-click="nextQuestion()" ng-hide="nextQuestion1">לשאלה הבאה</div>
-    <div class="billionaire--game">
-      <div class="billionaire--firstline"></div>
-      <div class="billionaire--secondline"></div>
+    <div class="game--next-question" ng-click="nextQuestion()" ng-hide="nextQuestion1">לשאלה הבאה</div>
+    <div class="game">
+      <div class="game--firstline"></div>
+      <div class="game--secondline"></div>
       <div class="billionaire">
         <div class="billionaire--trapeze">
           <h3 class="billionaireQuestion">{{questions.question}}</h3>
@@ -40,7 +40,7 @@
         </button>
       </div>
       <!-- $index -->
-      <div class="billionaire--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
+      <div class="game--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
         <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
       </div>
 
