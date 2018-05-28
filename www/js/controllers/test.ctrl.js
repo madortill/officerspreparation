@@ -36,8 +36,8 @@ function testcontroller($scope, $state, $timeout, DataService) {
     }
     //if(m<0){alert('timer completed')}
 
-    // document.getElementById('timer').innerHTML =
-    m + ":" + s;
+    document.getElementById('timer').innerHTML =
+      m + ":" + s;
     setTimeout(startTimer, 100);
   }
 
