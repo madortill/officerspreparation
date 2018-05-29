@@ -3,10 +3,10 @@
 
     <div class="book--menu">
       <img src="img/backbutton.svg" class="book--menu-menubutton">
-      <h1 class="book--menu-title">מבחנים</h1>
+      <h1 class="book--menu-title"></h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
-    <div class="game--next-question">לשאלה הבאה</div>
+    <div class="game--next-question" ng-click="countDowner()">לשאלה הבאה</div>
     <div class="game">
       <div class="game--firstline"></div>
       <div class="game--secondline"></div>
@@ -19,7 +19,11 @@
         <!-- <h1 class="billionaire--answer-number"></h1> -->
       </div>
       <div class="game--answer">
-        <h1 class="billionaire--answer-number"></h1>
+        <h1 class="billionaire--answer-number">
+          <!-- <div ng-show="countDown_text > 0">Your password is expired in 180 Seconds.</div> -->
+          <div>{{minute_text}}:{{countDown_text}}</div>
+          <!-- <div ng-show="countDown_text == 0">Your password is expired!.</div> -->
+        </h1>
       </div>
       <div class="game--answer">
         <h1 class="billionaire--answer-number"></h1>
