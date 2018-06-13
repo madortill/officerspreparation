@@ -424,3 +424,22 @@
   background: white;
   margin-bottom: 3vh;
 }
+
+/* test */
+
+.test--bottom {
+  position: absolute;
+  bottom: 2vh;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.test--bottom-countDown {
+  margin-right: 3%;
+}
+
+.test--bottom-questionNum {
+  position: absolute;
+  left: 2%;
+}

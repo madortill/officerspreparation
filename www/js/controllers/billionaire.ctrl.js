@@ -1,9 +1,9 @@
 angular.module('officerspreparation').controller('billionairecontroller', billionairecontroller);
 
-billionairecontroller.$inject = ['$scope', '$state', 'DataService'];
+billionairecontroller.$inject = ['$scope', '$state', '$timeout', 'DataService'];
 
 
-function billionairecontroller($scope, $state, DataService) {
+function billionairecontroller($scope, $state, $timeout, DataService) {
   var i = 0;
   $scope.theAnswers = [true, true, true, true];
   var gameLevel = 0;
@@ -95,6 +95,7 @@ function billionairecontroller($scope, $state, DataService) {
   // console.log($scope.questions.answers);
 
   $scope.userAnswer = (index) => {
+
     $scope.nextQuestion1 = false;
     /*
     after all tha game when the user win & finish the game he will see the win screen
@@ -106,20 +107,22 @@ function billionairecontroller($scope, $state, DataService) {
 
 
     function paintAnswers() {
+      $timeout(function () {
 
-      for (var i = 0; i < 4; i++) {
-        // console.log($scope.questions.answers[i].type);
-        if ($scope.questions.answers[i].type == true) {
-          $scope.correctAnswer[i] = true;
+        for (var i = 0; i < 4; i++) {
+          // console.log($scope.questions.answers[i].type);
+          if ($scope.questions.answers[i].type == true) {
+            $scope.correctAnswer[i] = true;
 
+          }
         }
-      }
-      // if (correctAnswerIndex != index) {
-      if ($scope.questions.answers[index].type != true) {
-        $scope.inCorrectAnswer[index] = true;
-      }
-      // }
-      // unPaintAnswers();
+        // if (correctAnswerIndex != index) {
+        if ($scope.questions.answers[index].type != true) {
+          $scope.inCorrectAnswer[index] = true;
+        }
+        // }
+        // unPaintAnswers();
+      }, 1000);
     }
 
 

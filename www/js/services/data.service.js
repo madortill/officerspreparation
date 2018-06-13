@@ -1,7 +1,6 @@
 (function () {
   angular.module('officerspreparation').factory('DataService', function () {
     // Might use a resource here that returns a JSON array
-
     var book = {
       topics: [{
           index: 0,
@@ -1309,6 +1308,72 @@
       }
     ]
 
+    var test = [{
+      question: "first question",
+      answers: [{
+        answer: "first answer",
+        type: true
+      }, {
+        answer: "second answer",
+        type: false
+      }, {
+        answer: "third answer",
+        type: false
+      }, {
+        answer: "fourth answer",
+        type: false
+      }]
+    }, {
+      question: "second question",
+      answers: [{
+        answer: "first answer",
+        type: true
+      }, {
+        answer: "second answer",
+        type: false
+      }, {
+        answer: "third answer",
+        type: false
+      }, {
+        answer: "fourth answer",
+        type: false
+      }]
+    }, {
+      question: "third question",
+      answers: [{
+        answer: "first answer",
+        type: true
+      }, {
+        answer: "second answer",
+        type: false
+      }, {
+        answer: "third answer",
+        type: false
+      }, {
+        answer: "fourth answer",
+        type: false
+      }]
+    }, {
+      question: "fourth question",
+      answers: [{
+        answer: "first answer",
+        type: true
+      }, {
+        answer: "second answer",
+        type: false
+      }, {
+        answer: "third answer",
+        type: false
+      }, {
+        answer: "fourth answer",
+        type: false
+      }]
+    }]
+
+
+
+
+
     // function shuffle(array) {
     //   var m = array.length,
     //     t, i;
@@ -1334,6 +1399,7 @@
       billionaireGameLife: billionaireGameLife,
       currentBook: currentBook,
       book: book,
+      test: test,
       billionaireGame: billionaireGame
     };
   });

@@ -2,27 +2,25 @@
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
 
     <div class="book--menu">
-      <img src="img/backbutton.svg" class="book--menu-menubutton">
-      <h1 class="book--menu-title"></h1>
+      <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
+      <h1 class="book--menu-title" ng-click="countDowner()"> start game</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
-    <div class="game--next-question" ng-click="countDowner()">לשאלה הבאה</div>
+    <div class="game--next-question" ng-click="nextQuestion()">לשאלה הבאה</div>
     <div class="game">
       <div class="game--firstline"></div>
       <div class="game--secondline"></div>
       <div class="billionaire">
+        <h3 class="billionaireQuestion">{{question.question}}</h3>
 
       </div>
 
       <!-- $index -->
-      <div class="game--answer">
-        <!-- <h1 class="billionaire--answer-number"></h1> -->
+      <div class="game--answer" ng-repeat="answer in question.answers" ng-click="userAnswer($index)">
+        <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
       </div>
-      <div class="game--answer">
+      <!-- <div class="game--answer">
         <h1 class="billionaire--answer-number">
-          <!-- <div ng-show="countDown_text > 0">Your password is expired in 180 Seconds.</div> -->
-          <div>{{minute_text}}:{{countDown_text}}</div>
-          <!-- <div ng-show="countDown_text == 0">Your password is expired!.</div> -->
         </h1>
       </div>
       <div class="game--answer">
@@ -30,8 +28,12 @@
       </div>
       <div class="game--answer">
         <h1 class="billionaire--answer-number"></h1>
-      </div>
+      </div> -->
+      <div class="test--bottom">
+        <h7 class="test--bottom-countDown">{{minute_text}}:{{countDown_text}}</h7>
+        <h7 class="test--bottom-questionNum">{{questionNumber}}/25</h7>
 
+      </div>
       <!-- <div class="billionaire--lifes">
         <div>
           <img src="img/billionaire--life.svg" class="billionaire--life">
