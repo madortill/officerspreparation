@@ -62,6 +62,11 @@ angular.module('officerspreparation', ['ionic'])
         templateUrl: 'templates/tests.html',
         controller: 'testcontroller'
       })
+      .state("adjustDate", {
+        url: "/adjustDate",
+        templateUrl: "templates/exercises/adjustDate.html",
+        controller: "adjustDatecontroller"
+      })
 
       //sport page
       .state('chooseGender', {
