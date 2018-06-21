@@ -326,6 +326,7 @@
 }
 
 .game--answer {
+  border: none;
   width: 100%;
   margin-top: 3vh;
   height: 10vh;
@@ -442,6 +443,14 @@
 .test--bottom-questionNum {
   position: absolute;
   left: 2%;
+}
+
+.test--startScreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background: white;
 }
 
 /* adjust date game */

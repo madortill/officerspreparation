@@ -38,11 +38,12 @@
         <button class="billionaire--help-square" ng-click="secondHelp()" ng-class={hideElement:!secondHelpShow} ng-disabled="!firstHelpTouch||!nextQuestion1">
           50/50
         </button>
-      </div>
+        
       <!-- $index -->
-      <div class="game--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
+      <fieldset class="game--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-disabled="unClickAnswer[$index]"
+        ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
         <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
-      </div>
+      </fieldset>
 
       <div class="billionaire--lifes">
         <div ng-repeat="lifes in life track by $index" ng-show="life[$index]">

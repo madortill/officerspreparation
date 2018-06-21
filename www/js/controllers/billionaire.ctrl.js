@@ -10,7 +10,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   $scope.levelPoints = DataService.billionaireGame[gameLevel].points; //the points in the current level
   $scope.life = [true, true, true];
   var lifeCount = 3; // count the life in the game
-  // console.log($scope.life);
   $scope.firstHelpShow = true;
   $scope.secondHelpShow = true;
   $scope.firstHelpTouch = true;
@@ -19,6 +18,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   $scope.secondHelpTouch = true;
   $scope.inCorrectAnswer = [false, false, false, false];
   $scope.correctAnswer = [false, false, false, false];
+  $scope.unClickAnswer = [false, false, false, false];
 
   $scope.nextQuestion1 = true;
   // get the random number to random a question in the level
@@ -30,7 +30,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   }
 
   $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()]; //the question
-  // console.log(DataService.billionaireGame[3].level[randomNumber()]) //the question
 
   // function checktime() {
   //   alert("oran the king");
@@ -60,8 +59,10 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.firstHelpShow = false;
     $scope.firstHelpTouch = false;
   }
+
+
   $scope.secondHelp = function () {
-    alert("second help clicked");
+    // alert("second help clicked");
     var firstHelpHide = firstHelpHide = [(Math.floor((Math.random() * 4) + 0)), (Math.floor((Math.random() * 4) + 0))];;
     while (firstHelpHide[0] == firstHelpHide[1] || $scope.questions.answers[firstHelpHide[0]].type == true || $scope.questions.answers[firstHelpHide[1]].type == true) {
       firstHelpHide = [(Math.floor((Math.random() * 4) + 0)), (Math.floor((Math.random() * 4) + 0))];
@@ -79,22 +80,23 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
 
   }
 
-  // function shuffle(array) {
-  //   var m = array.length,
-  //     t, i;
-  //   while (m) {
-  //     i = Math.floor(Math.random() * m--);
-  //     t = array[m];
-  //     array[m] = array[i];
-  //     array[i] = t;
-  //   }
-  //   return array;
-  // }
+  function shuffle(array) {
+    var m = array.length,
+      t, i;
+    while (m) {
+      i = Math.floor(Math.random() * m--);
+      t = array[m];
+      array[m] = array[i];
+      array[i] = t;
+    }
+    return array;
+  }
 
-  // shuffle($scope.questions.answers);
+  shuffle($scope.questions.answers);
   // console.log($scope.questions.answers);
 
   $scope.userAnswer = (index) => {
+    $scope.unClickAnswer = [true, true, true, true];
 
     $scope.nextQuestion1 = false;
     /*
@@ -110,7 +112,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
       $timeout(function () {
 
         for (var i = 0; i < 4; i++) {
-          // console.log($scope.questions.answers[i].type);
           if ($scope.questions.answers[i].type == true) {
             $scope.correctAnswer[i] = true;
 
@@ -122,18 +123,23 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         }
         // }
         // unPaintAnswers();
+
+        if ($scope.questions.answers[index].type == false) {
+          lifeCount--;
+        }
+        $scope.life[lifeCount] = false;
+        if (lifeCount == 0) {
+          $scope.finishGame = true; // show the screen if win full game
+        }
       }, 1000);
     }
 
 
+
     paintAnswers();
 
-
     console.log($scope.questions.answers[index].type);
-    if ($scope.questions.answers[index].type == false) {
-      lifeCount--;
-    }
-    $scope.life[lifeCount] = false;
+
 
 
 
@@ -141,43 +147,22 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
 
     function resetQuestionTemplate() {
       $scope.theAnswers = [true, true, true, true];
-      // $scope.firstHelpShow = true;
-      // $scope.secondHelpShow = true;
     }
-    // resetQuestionTemplate();
 
-    if (lifeCount == 0) {
-      $scope.finishGame = true; // show the screen if win full game
-    }
+
     $scope.winMoney = DataService.billionaireGame[gameLevel].points
-    // console.log();
   }
 
 
-  // $scope.try = () => {
-  //   if (i % 2 == 0) {
-  //     $scope.correctAnswer[0] = true;
-  //     $scope.inCorrectAnswer[1] = true;
-  //   } else {
-  //     $scope.correctAnswer[0] = false;
-  //     $scope.inCorrectAnswer[1] = false;
-  //   }
-  //   i++;
-  // }
   function unPaintAnswers() {
-    // for (var i = 0; i < 4; i++) {
     $scope.correctAnswer = [false, false, false, false];
     $scope.inCorrectAnswer = [false, false, false, false];
     console.log($scope.correctAnswer);
     console.log($scope.inCorrectAnswer);
-    console.log("work in the seocnd time");
-
-
-
-    // }
   }
   $scope.nextQuestion = function () {
     $scope.nextQuestion1 = true;
+    $scope.unClickAnswer = [false, false, false, false];
 
     unPaintAnswers();
     gameLevel++;
@@ -191,6 +176,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     }
 
     $scope.theAnswers = [true, true, true, true];
+    shuffle($scope.questions.answers);
 
   }
   $scope.resetGame = function () {
@@ -200,18 +186,15 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points; //the points in the current level
     $scope.life = [true, true, true];
     lifeCount = 3; // count the life in the game
-    // console.log($scope.life);
     $scope.firstHelpShow = true;
     $scope.secondHelpShow = true;
     $scope.firstHelpTouch = true;
     $scope.winFullGame = false; // show the screen if win full game
     $scope.finishGame = false;
+    $scope.unClickAnswer = [false, false, false, false];
 
     $scope.secondHelpTouch = true;
     $scope.inCorrectAnswer = [false, false, false, false];
     $scope.correctAnswer = [false, false, false, false];
-
   }
-
-
 }

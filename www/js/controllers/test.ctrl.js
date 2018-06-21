@@ -13,19 +13,41 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   var wrongAnswer = 0;
   $scope.inCorrectAnswer = [false, false, false, false];
   $scope.correctAnswer = [false, false, false, false];
-
+  $scope.unClickAnswer = [false, false, false, false];
+  $scope.startScreen = true;
+  $scope.wrongAnswer = 0;
+  $scope.rightAnswer = 0;
+  $scope.questionCounter = 0;
+  $scope.finishGame = false;
 
 
   $scope.goBack = function () {
     window.history.back();
   }
 
+
+
+  $scope.startTest = function () {
+    $scope.startScreen = false;
+    $scope.countDowner();
+
+  }
+
   $scope.nextQuestion = function () {
     $scope.questionNumber++;
+    $scope.unClickAnswer = [false, false, false, false];
+    console.log($scope.unClickAnswer);
+
+
     testcontent();
+    unPaintaAnswer();
 
 
+  }
 
+  function unPaintaAnswer() {
+    $scope.inCorrectAnswer = [false, false, false, false];
+    $scope.correctAnswer = [false, false, false, false];
   }
 
   function randomNumbers() {
@@ -70,7 +92,9 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       countDown = 60;
     }
     if (minute < 0) {
-      alert("timeout");
+      // alert("timeout");
+      $scope.finishGame = true;
+
       countDown = 60;
       minute = 2;
     }
@@ -88,19 +112,27 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
 
   $scope.userAnswer = (index) => {
+
     // console.log($scope.answers[index].type);
     if ($scope.answers[index].type == false) {
+      console.log($scope.unClickAnswer);
+
       // $timeout(function () {
       console.log("false answer");
-      wrongAnswer++;
+      $scope.inCorrectAnswer[index] = true;
+      $scope.wrongAnswer++;
       // }, 1000);
     }
-
     if ($scope.answers[index].type == true) {
       console.log("true answer");
-      rightAnswer++;
+      $scope.correctAnswer[index] = true;
+      $scope.rightAnswer++;
     }
+    $scope.unClickAnswer = [true, true, true, true];
+    if ($scope.questionCounter == 5) {
+      $scope.finishGame = true;
+    }
+    console.log($scope.unClickAnswer);
+
   }
-
-
 }

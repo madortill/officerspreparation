@@ -5,7 +5,7 @@ angular
 adjustDatecontroller.$inject = ["$scope", "$state", "DataService", "$timeout"];
 
 function adjustDatecontroller($scope, $state, DataService, $timeout) {
-  $scope.goBackExercise = function() {
+  $scope.goBackExercise = function () {
     $scope.restartadjustDate();
     $state.go("exercise");
   };
@@ -40,7 +40,7 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
   $scope.date = eventsArry[randomEvent].dates[iDate].date;
   var datefitEvent = eventsArry[randomEvent].dates[iDate].type;
 
-  $scope.nextDate = function() {
+  $scope.nextDate = function () {
     //console.log("NEXT");
     if (iDate === 3) {
       iDate = 0;
@@ -49,7 +49,7 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
     datefitEvent = eventsArry[randomEvent].dates[iDate].type;
   };
 
-  $scope.previousDate = function() {
+  $scope.previousDate = function () {
     if (iDate === 0) {
       iDate = 3;
     } else iDate--;
@@ -105,14 +105,14 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
       .classList.add("showElement");
   }
 
-  $scope.displayData = function(randomEvent, iDate) {
+  $scope.displayData = function (randomEvent, iDate) {
     $scope.events = eventsArry[randomEvent].event;
     $scope.date = eventsArry[randomEvent].dates[iDate].date;
     datefitEvent = eventsArry[randomEvent].dates[iDate].type;
     iDate = randomNumber(3);
   };
 
-  $scope.restartadjustDate = function() {
+  $scope.restartadjustDate = function () {
     theUsedEvents = [];
     iDate = randomNumber(3);
     randomEvent = randomNumber(eventsArry.length - 1);
@@ -126,13 +126,13 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
       .classList.remove("showElement");
   };
 
-  $scope.checkAnswer = function() {
+  $scope.checkAnswer = function () {
     iDate = randomNumber(3);
     if (theUsedEvents.length == eventsArry.length) {
       if (datefitEvent) {
         addCorrectAnswer();
         setTimeout(
-          ($scope.nextQ1 = function() {
+          ($scope.nextQ1 = function () {
             removeCorrectAnswer();
             $scope.restartadjustDate();
             displaySuccessDiv();
@@ -143,7 +143,7 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
       } else {
         addInCorrectAnswer();
         setTimeout(
-          ($scope.nextQ = function() {
+          ($scope.nextQ = function () {
             removeInCorrectAnswer();
             $scope.restartadjustDate();
             displaySuccessDiv();
@@ -162,7 +162,7 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
         theUsedEvents.push(randomEvent);
         addCorrectAnswer();
         setTimeout(
-          ($scope.nextQ1 = function() {
+          ($scope.nextQ1 = function () {
             removeCorrectAnswer();
           }),
           1000
@@ -180,7 +180,7 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
         }
         addInCorrectAnswer();
         setTimeout(
-          ($scope.nextQ = function() {
+          ($scope.nextQ = function () {
             removeInCorrectAnswer();
           }),
           1000
@@ -192,12 +192,12 @@ function adjustDatecontroller($scope, $state, DataService, $timeout) {
     }
   };
 
-  $scope.backtoExercisePg = function() {
+  $scope.backtoExercisePg = function () {
     $scope.restartadjustDate();
     $state.go("exercise");
   };
 
-  $scope.restartGame = function() {
+  $scope.restartGame = function () {
     $scope.restartadjustDate();
     $scope.events = eventsArry[randomEvent].event;
     $scope.date = eventsArry[randomEvent].dates[iDate].date;
