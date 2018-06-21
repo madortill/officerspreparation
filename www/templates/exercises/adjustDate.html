@@ -1,65 +1,66 @@
 <ion-view view-title="home page">
-  <!-- <ion-content overflow-scroll="true" scrollbar-y="true" class="background"> -->
-  <div class="book--menu">
-    <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBackExercise()">
-    <h1 class="book--menu-title">תרגול</h1>
-    <img src="img/till-logo.svg" class="book--menu-logo" ng-click="try()">
-  </div>
-
-  <div class="adjustDate--FailDiv adjustDateFinish--finishFailPg hideElement" id="adjustDate--FailID">
-    <div class="adjustDateFinish--upperPart">
-      <h1 class="adjustDateFinishFail--title">
-        ...הפסדת
-      </h1>
-      <img src="img/adjustDate--facepalm.svg" class="successIcon" />
+  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+    <div class="book--menu">
+      <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBackExercise()">
+      <h1 class="book--menu-title">תרגול</h1>
+      <img src="img/till-logo.svg" class="book--menu-logo" ng-click="try()">
     </div>
-    <div class="adjustDateFinish--buttonPart">
-      <button class="adjustDateFinishPg--btns" ng-click="restartGame()">שחק שוב</button>
-      <button class="adjustDateFinishPg--btns" ng-click="backtoExercisePg()">חזרה</button>
-    </div>
-  </div>
 
-  <div class="adjustDate--SuccessDiv hideElement" id="adjustDate--SuccessID">
-    <div class="adjustDateFinish--finishSuccessPg">
+    <div class="adjustDate--FailDiv adjustDateFinish--finishFailPg" ng-show="loose">
       <div class="adjustDateFinish--upperPart">
-        <h1 class="adjustDateFinishPg--wellDone-title">
-          !כל הכבוד
+        <h1 class="adjustDateFinishFail--title">
+          ...הפסדת
         </h1>
-        <img src="img/successIcon.svg" class="successIcon" />
+        <img src="img/adjustDate--facepalm.svg" class="successIcon" />
       </div>
-      <div class="adjustDateFinish--buttonPart ">
+      <div class="adjustDateFinish--buttonPart">
         <button class="adjustDateFinishPg--btns" ng-click="restartGame()">שחק שוב</button>
         <button class="adjustDateFinishPg--btns" ng-click="backtoExercisePg()">חזרה</button>
       </div>
     </div>
-  </div>
 
-  <div class="adjustDate--game">
-    <div class="adjustDate--eventContainer" id="event">
-      <ion-scroll direction="y" class="theroot">
-
-        <h2 class="adjustDate--eventHeadline">אירוע</h2>
-        <p class="adjustDate--event">{{events}}</p>
-      </ion-scroll>
-    </div>
-    <div id="date" class="adjustDate--dateContainer">
-      <button class="adjustDate--btn Lbtn" ng-click="previousDate()">
-        <img src="img/lArrow.svg" /> </button>
-      <p class="adjustDate--date">{{date}}</p>
-      <button class="adjustDate--btn Rbtn" ng-click="nextDate()">
-        <img src="img/rArrow.svg" /> </button>
-    </div>
-    <div class="adjustDate--checkAnswerContainer">
-      <button class="adjustDate--checkAnswerBtn" ng-click="checkAnswer()">
-        בדוק
-      </button>
-    </div>
-    <div class="adjustDate--lifes">
-      <div ng-repeat="life in dateLife track by $index" ng-show="dateLife[$index]">
-        <img src="img/billionaire--life.svg" class="adjustDate--life" id="adjustDate--lifeID">
+    <div class="adjustDate--SuccessDiv" ng-show="win">
+      <div class="adjustDateFinish--finishSuccessPg">
+        <div class="adjustDateFinish--upperPart">
+          <h1 class="adjustDateFinishPg--wellDone-title">
+            !כל הכבוד
+          </h1>
+          <img src="img/successIcon.svg" class="successIcon" />
+        </div>
+        <div class="adjustDateFinish--buttonPart ">
+          <button class="adjustDateFinishPg--btns" ng-click="restartGame()">שחק שוב</button>
+          <button class="adjustDateFinishPg--btns" ng-click="backtoExercisePg()">חזרה</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- </ion-content> -->
+    <div class="adjustDate--game">
+      <div class="adjustDate--eventContainer" ng-class="{adjustDateinCorrectAnswer:ifDateNotFit, adjustDatecorrectAnswer:ifDateFit}">
+
+        <ion-scroll direction="y" class="theroot">
+
+          <h2 class="adjustDate--eventHeadline">אירוע</h2>
+          <p class="adjustDate--event">{{events}}</p>
+        </ion-scroll>
+      </div>
+      <div class="adjustDate--dateContainer" ng-class="{adjustDateinCorrectAnswer:ifDateNotFit, adjustDatecorrectAnswer:ifDateFit, correctAnswer:ifDateFit, inCorrectAnswer:ifDateNotFit}">
+        <button class=" adjustDate--btn Lbtn " ng-click="previousDate() ">
+          <img src="img/lArrow.svg " /> </button>
+        <p class="adjustDate--date ">{{date}}</p>
+        <button class="adjustDate--btn Rbtn " ng-click="nextDate() ">
+          <img src="img/rArrow.svg " /> </button>
+      </div>
+      <div class="adjustDate--checkAnswerContainer ">
+        <button class="adjustDate--checkAnswerBtn " ng-click="checkAnswer() ">
+          בדוק
+        </button>
+      </div>
+      <div class="adjustDate--lifes ">
+        <div ng-repeat="life in dateLife track by $index " ng-show="dateLife[$index] ">
+          <img src="img/billionaire--life.svg " class="adjustDate--life " id="adjustDate--lifeID ">
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
 </ion-view>
