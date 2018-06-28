@@ -38,7 +38,7 @@
         <button class="billionaire--help-square" ng-click="secondHelp()" ng-class={hideElement:!secondHelpShow} ng-disabled="!firstHelpTouch||!nextQuestion1">
           50/50
         </button>
-        
+      </div>
       <!-- $index -->
       <fieldset class="game--answer" ng-repeat="answer in questions.answers" ng-click="userAnswer($index)" ng-disabled="unClickAnswer[$index]"
         ng-class={hideElement:!theAnswers[$index],correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}>
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-    </div>
+
     </div>
 
   </ion-content>

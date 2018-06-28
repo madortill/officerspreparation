@@ -111,6 +111,7 @@
   height: 10%;
   background: #fff6ee;
   justify-content: space-around;
+  z-index: 3;
 }
 
 .book--menu-menubutton {
@@ -450,7 +451,35 @@
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: white;
+  background: #e7ebe7;
+}
+
+.test--start {
+  text-align: center;
+  margin-top: 29vh;
+  width: 100%;
+  height: 10vh;
+  background: #fff6ee;
+}
+
+.test--start-text {
+  text-align: center;
+}
+
+.test--finish-text {
+  text-align: center;
+}
+
+#test--firstLine-finishText {
+  margin-top: 20vh;
+}
+
+.test--finishScreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background: #e7ebe7;
 }
 
 /* adjust date game */

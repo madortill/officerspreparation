@@ -1,21 +1,30 @@
 <ion-view view-title="home page">
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
     <div class="test--startScreen" ng-show="startScreen">
-      <h1 ng-click="startTest()"> התחל</h1>
+      <div class="book--menu">
+        <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
+        <h1 class="book--menu-title"> מבחנים</h1>
+        <img src="img/till-logo.svg" class="book--menu-logo">
 
+      </div>
+      <h1 class="test--start-text">ברוך הבא למבחן</h1>
+      <h2 class="test--start-text">ברגע שתלחץ התחל אתה תתחיל את המשחק</h2>
+      <h2 class="test--start-text">בהצלחה</h2>
+
+
+      <h1 class="test--start" ng-click="startTest()">התחל</h1>
 
     </div>
-    <div class="test--startScreen" ng-show="finishGame">
-      <h1> צדקת ב {{rightAnswer}}</h1>
-      <h1> טעית ב {{wrongAnswer}}</h1>
-
+    <div class="test--finishScreen" ng-show="finishGame">
+      <h1 class="test--finish-text" id="test--firstLine-finishText"> צדקת ב {{rightAnswer}}</h1>
+      <h1 class="test--finish-text"> טעית ב {{wrongAnswer}}</h1>
     </div>
     <div class="book--menu">
       <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
       <h1 class="book--menu-title" ng-click="countDowner()"> start game</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
-    <div class="game--next-question" ng-click="nextQuestion()">לשאלה הבאה</div>
+    <div class="game--next-question" ng-click="nextQuestion()" ng-show="hideNextQuestion">לשאלה הבאה</div>
     <div class="game">
       <div class="game--firstline"></div>
       <div class="game--secondline"></div>
@@ -29,16 +38,7 @@
         ng-class="{correctAnswer:correctAnswer[$index],inCorrectAnswer:inCorrectAnswer[$index]}">
         <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
       </fieldset>
-      <!-- <div class="game--answer">
-        <h1 class="billionaire--answer-number">
-        </h1>
-      </div>
-      <div class="game--answer">
-        <h1 class="billionaire--answer-number"></h1>
-      </div>
-      <div class="game--answer">
-        <h1 class="billionaire--answer-number"></h1>
-      </div> -->
+
       <div class="test--bottom">
         <h7 class="test--bottom-countDown">{{minute_text}}:{{countDown_text}}</h7>
         <h7 class="test--bottom-questionNum">{{questionNumber}}/25</h7>

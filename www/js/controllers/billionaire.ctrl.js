@@ -42,7 +42,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   // the first help
   // clear 50 percentage of the answer
   $scope.firstHelp = function () {
-    alert("first help clicked");
     var firstHelpHide = firstHelpHide = [(Math.floor((Math.random() * 4) + 0)), (Math.floor((Math.random() * 4) + 0))];;
     while (firstHelpHide[0] == firstHelpHide[1] || $scope.questions.answers[firstHelpHide[0]].type == true || $scope.questions.answers[firstHelpHide[1]].type == true) {
       firstHelpHide = [(Math.floor((Math.random() * 4) + 0)), (Math.floor((Math.random() * 4) + 0))];
@@ -98,7 +97,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   $scope.userAnswer = (index) => {
     $scope.unClickAnswer = [true, true, true, true];
 
-    $scope.nextQuestion1 = false;
     /*
     after all tha game when the user win & finish the game he will see the win screen
     */
@@ -131,6 +129,8 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         if (lifeCount == 0) {
           $scope.finishGame = true; // show the screen if win full game
         }
+        $scope.nextQuestion1 = false;
+
       }, 1000);
     }
 
@@ -169,7 +169,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
     if ($scope.firstHelpShow == true) {
-      $scope.secondHelpTouch;
+      $scope.secondHelpTouch = true;
     }
     if ($scope.secondHelpShow == true) {
       $scope.firstHelpTouch = true;

@@ -4,7 +4,12 @@ testcontroller.$inject = ['$scope', '$state', '$timeout', 'TestService', '$inter
 
 
 function testcontroller($scope, $state, $timeout, TestService, $interval) {
-
+  /************************************************
+   * *****************************************************
+   * dont forget put shuffle function before finish&upload app
+   * ************************************************
+   * ************************************************
+   */
 
   $scope.questionNumber = 1; //count the question num
   var questionIndex = []; //the array to to index
@@ -14,6 +19,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   $scope.inCorrectAnswer = [false, false, false, false];
   $scope.correctAnswer = [false, false, false, false];
   $scope.unClickAnswer = [false, false, false, false];
+  $scope.hideNextQuestion = false;
   $scope.startScreen = true;
   $scope.wrongAnswer = 0;
   $scope.rightAnswer = 0;
@@ -35,10 +41,15 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
   $scope.nextQuestion = function () {
     $scope.questionNumber++;
+    $scope.hideNextQuestion = false;
+
     $scope.unClickAnswer = [false, false, false, false];
     console.log($scope.unClickAnswer);
 
+    if ($scope.questionNumber == 5) {
+      $scope.finishGame = true;
 
+    }
     testcontent();
     unPaintaAnswer();
 
@@ -117,18 +128,22 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     if ($scope.answers[index].type == false) {
       console.log($scope.unClickAnswer);
 
-      // $timeout(function () {
-      console.log("false answer");
-      $scope.inCorrectAnswer[index] = true;
-      $scope.wrongAnswer++;
-      // }, 1000);
+      $timeout(function () {
+        console.log("false answer");
+        $scope.inCorrectAnswer[index] = true;
+        $scope.wrongAnswer++;
+      }, 100);
     }
     if ($scope.answers[index].type == true) {
       console.log("true answer");
       $scope.correctAnswer[index] = true;
       $scope.rightAnswer++;
     }
+    $scope.hideNextQuestion = true;
+
     $scope.unClickAnswer = [true, true, true, true];
+    $scope.hideNextQuestion = true;
+
     if ($scope.questionCounter == 5) {
       $scope.finishGame = true;
     }
