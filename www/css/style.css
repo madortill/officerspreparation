@@ -10,6 +10,22 @@
   margin: 0;
 } */
 
+.top-content {
+  margin-top: 25vh;
+}
+
+.overflow-scroll>.scroll {
+  background: #fff6ee;
+}
+
+.overflow-scroll {
+  background: #fff6ee;
+}
+
+.text-top {
+  margin-top: 25vh;
+}
+
 /* the home page !! */
 
 .home--background-firstlayer {
@@ -108,7 +124,7 @@
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  height: 10%;
+  height: 10vh;
   background: #fff6ee;
   justify-content: space-around;
   z-index: 3;
@@ -144,7 +160,7 @@
 
 .book--chapters-titlecontainer {
   width: 100%;
-  height: 20%;
+  height: 20vh;
   background: #e7ebe7;
   justify-content: space-around;
 }
@@ -186,6 +202,7 @@
 
 .book--text {
   direction: rtl;
+  background: #fff6ee;
 }
 
 .book--topiccontent-starttitle {

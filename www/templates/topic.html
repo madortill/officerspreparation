@@ -1,5 +1,5 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+  <div class="background">
 
     <div class="book--menu">
       <img src="img/backbutton.svg" ng-click="goBack()" class="book--menu-menubutton">
@@ -10,16 +10,16 @@
     <div class="book--chapters-titlecontainer">
       <h1 class="book--chapters-title">{{ topic.name }}</h1>
     </div>
+    <ion-content overflow-scroll="true" scrollbar-y="true" class="top-content">
+      <ul class="book--chapter-list">
 
-    <ul class="book--chapter-list">
+        <li class="book--chapter-list_item" ng-repeat="subject in topic.subjects" ng-click="goToTopicContent(subject)">
+          {{subject.name}}
+        </li>
 
-      <li class="book--chapter-list_item" ng-repeat="subject in topic.subjects" ng-click="goToTopicContent(subject)">
-        {{subject.name}}
-      </li>
-
-    </ul>
-  </ion-content>
-
+      </ul>
+    </ion-content>
+  </div>
   <!-- <ion-item>Item</ion-item> -->
   <!-- <ion-item-option side="left"> -->
 

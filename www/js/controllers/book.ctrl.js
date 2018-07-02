@@ -2,6 +2,7 @@ angular.module('officerspreparation').controller('BookController', BookControlle
 
 BookController.$inject = ['$scope', '$state', 'DataService'];
 
+// $scope.menu = true;
 
 function BookController($scope, $state, DataService) {
   $scope.menu = true;

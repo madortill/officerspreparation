@@ -1,5 +1,5 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+  <div class="background">
     <div class="book--menu">
       <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
       <h1 class="book--menu-title">ספרים</h1>
@@ -9,17 +9,19 @@
     <div class="book--chapters-titlecontainer">
       <h1 class="book--topiccontent-title">{{subject.name}}</h1>
     </div>
-    <div class="book--text">
-      <h1 class="book--topiccontent-starttitle">2.4.7.1 נובי גוד (ערב השנה החדשה)</h1>
-      <p class="book--text-style">
-        בערב שבין ה-31 בדצמבר ל-1 בינואר חל ערב השנה האזרחית חדשה המצוין בכל העולם. ברוסיה ובשאר מדינות חבר העמים, מכונה ערב זה "
-        <b>נובי גוד</b>".השלטון הקומוניסטי ששלט ברוסיה הסובייטית במשך שנים רבות פגע בחופש הדת ואסר על קיומם של חגים דתיים במרחב
-        הציבורי.
-        <br>באותה התקופה התעצב הנובי גוד כחג אזרחי חשוב בו נפגשו בני המשפחה וסעדו סעודה משפחתית. חלק גדול מעולי ברית המועצות
-        החיים בישראל שחגגו את החג האזרחי ברוסיה ממשיכים לציינו גם כיום.
-        <br>
-      </p>
+    <ion-content overflow-scroll="true" scrollbar-y="true" class="text-top">
+      <div class="book--text">
+        <h1 class="book--topiccontent-starttitle">2.4.7.1 נובי גוד (ערב השנה החדשה)</h1>
+        <p class="book--text-style">
+          בערב שבין ה-31 בדצמבר ל-1 בינואר חל ערב השנה האזרחית חדשה המצוין בכל העולם. ברוסיה ובשאר מדינות חבר העמים, מכונה ערב זה "
+          <b>נובי גוד</b>".השלטון הקומוניסטי ששלט ברוסיה הסובייטית במשך שנים רבות פגע בחופש הדת ואסר על קיומם של חגים דתיים
+          במרחב הציבורי.
+          <br>באותה התקופה התעצב הנובי גוד כחג אזרחי חשוב בו נפגשו בני המשפחה וסעדו סעודה משפחתית. חלק גדול מעולי ברית המועצות
+          החיים בישראל שחגגו את החג האזרחי ברוסיה ממשיכים לציינו גם כיום.
+          <br>
+        </p>
 
-    </div>
+      </div>
 
-  </ion-content>
+    </ion-content>
+  </div>
