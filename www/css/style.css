@@ -681,6 +681,60 @@
   z-index: 1;
 }
 
+/* about page
+ */
+
+.about--title-fontsize {
+  font-size: 8vh;
+}
+
+.about--scrollContainer {
+  height: 100%;
+  width: 100%;
+  direction: rtl;
+}
+
+.about--paragraphTitle {
+  font-size: 3.5vh;
+  padding-right: 3vh;
+  margin: 0;
+}
+
+.about--aboutParagraph {
+  font-size: 2.5vh;
+  padding-right: 11vh;
+  margin-bottom: 1.5vh;
+  padding-top: 1vh;
+}
+
+.about--paragraphContainer {
+  background: #f9f5ef;
+  /* border-bottom: #e7ebe7 solid 1vh; */
+  height: 33vh;
+  padding-top: 2.5vh;
+}
+
+.about--ramadName {
+  padding-right: 3vh !important;
+}
+
+.about--paragraphContainerRamad {
+  height: 17vh;
+}
+
+.about--iconsFirstP {
+  display: flex;
+  background-color: #e7ebe7;
+  height: 1.5vh;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.about--icons {
+  height: 7vh;
+  margin-left: 1.2vh;
+}
+
 .showElement {
   visibility: visible !important;
 }
