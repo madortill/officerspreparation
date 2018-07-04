@@ -2508,228 +2508,3303 @@
         type: false
       }]
     }, {
-      question: "",
+      question: "''באיזו שנה התרחשה ''גלות החרש והמסגר",
       answers: [{
-        answer: "",
+        answer: "ב597 לפני הספירה",
         type: true
       }, {
-        answer: "",
+        answer: "ב70 לספירה",
         type: false
       }, {
-        answer: "",
+        answer: "ב586 לפני הספירה",
         type: false
       }, {
-        answer: "",
+        answer: "ב557 לספירה",
         type: false
       }]
     }, {
-      question: "",
+      question: "?באיזו שנה חלה המהפכה הצרפתית",
       answers: [{
-        answer: "",
+        answer: "1789",
         type: true
       }, {
-        answer: "",
+        answer: "1798",
         type: false
       }, {
-        answer: "",
+        answer: "1879",
         type: false
       }, {
-        answer: "",
+        answer: "1799",
         type: false
       }]
     }, {
-      question: "",
+      question: "?באיזו שנה כבש פומפיוס את ירושלים ",
       answers: [{
-        answer: "",
+        answer: "ב63 לפנה''ס",
         type: true
       }, {
-        answer: "",
+        answer: "ב93 לפנה''ס",
         type: false
       }, {
-        answer: "",
+        answer: "ב53 לספירה",
         type: false
       }, {
-        answer: "",
+        answer: "ב33 לספירה",
         type: false
       }]
     }, {
-      question: "",
+      question: "?באיזו שנה עלה אלכסנדר הגדול לכס המלוכה",
       answers: [{
-        answer: "",
+        answer: "ב336 לפנה''ס",
         type: true
       }, {
-        answer: "",
+        answer: "ב554 לפנה''ס",
         type: false
       }, {
-        answer: "",
+        answer: "ב397 לפנה''ס",
         type: false
       }, {
-        answer: "",
+        answer: "ב583 לפנה''ס",
         type: false
       }]
     }, {
-      question: "",
+      question: "?במה ביקש להילחם עזרא הסופר עם הגעתו לארץ ",
       answers: [{
-        answer: "",
+        answer: "בנישואי תערובת",
         type: true
       }, {
-        answer: "",
+        answer: "בשלטון הבריטי בארץ",
         type: false
       }, {
-        answer: "",
+        answer: "בהקמת המושבות הראשונות",
         type: false
       }, {
-        answer: "",
+        answer: "בהתנצרות היהודים",
         type: false
       }]
     }, {
-      question: "",
+      question: "?''במה עסקו ה''סבוראים",
       answers: [{
-        answer: "",
+        answer: "בהסברה של התלמוד והנחלתו לציבור הלומדים",
         type: true
       }, {
-        answer: "",
+        answer: "יצירת התלמוד והדיונים המובאים בו",
         type: false
       }, {
-        answer: "",
+        answer: "חידוש התכנים הנמצאים בתלמוד",
         type: false
       }, {
-        answer: "",
+        answer: "חילוק ספרי תלמוד בערים הדתיות והמסורתיות",
         type: false
       }]
     }, {
-      question: "",
+      question: ":האנוסים היו יהודים שהמירו את דתם לדת ה",
       answers: [{
-        answer: "",
+        answer: "נוצרית",
         type: true
       }, {
-        answer: "",
+        answer: "מוסלמית",
         type: false
       }, {
-        answer: "",
+        answer: "דרוזית",
         type: false
       }, {
-        answer: "",
+        answer: "שיעית",
         type: false
       }]
     }, {
-      question: "",
+      question: "?היכן ביקש רבי יוחנן בן זכאי לייסד מרכז רוחני חלופי ",
       answers: [{
-        answer: "",
+        answer: "יבנה",
         type: true
       }, {
-        answer: "",
+        answer: "צפת",
         type: false
       }, {
-        answer: "",
+        answer: "טבריה",
         type: false
       }, {
-        answer: "",
+        answer: "חיפה",
         type: false
       }]
     }, {
-      question: "",
+      question: "?היכן גדל האר''י הקדוש ",
       answers: [{
-        answer: "",
+        answer: "מצרים",
         type: true
       }, {
-        answer: "",
+        answer: "לבנון",
         type: false
       }, {
-        answer: "",
+        answer: "ישראל",
         type: false
       }, {
-        answer: "",
+        answer: "סוריה",
         type: false
       }]
     }, {
-      question: "",
+      question: "?היכן מתקיימת הקהילה היהודית השנייה בגודלה כיום",
       answers: [{
-        answer: "",
+        answer: "ארה''ב",
         type: true
       }, {
-        answer: "",
+        answer: "רוסיה",
         type: false
       }, {
-        answer: "",
+        answer: "ישראל",
         type: false
       }, {
-        answer: "",
+        answer: "צרפת",
         type: false
       }]
     }, {
-      question: "",
+      question: "?....יעקב ועשיו הם בניו של",
       answers: [{
-        answer: "",
+        answer: "יצחק ורבקה.",
         type: true
       }, {
-        answer: "",
+        answer: "אברהם ולאה",
         type: false
       }, {
-        answer: "",
+        answer: "אברהם ורבקה ",
         type: false
       }, {
-        answer: "",
+        answer: "יצחק ולאה",
         type: false
       }]
     }, {
-      question: "",
+      question: "...יצחק הוא בנה של",
       answers: [{
-        answer: "",
+        answer: "שרה",
         type: true
       }, {
-        answer: "",
+        answer: "רחל",
         type: false
       }, {
-        answer: "",
+        answer: "הגר",
         type: false
       }, {
-        answer: "",
+        answer: "רבקה",
         type: false
       }]
     }, {
-      question: "",
+      question: "?כיצד היהודים קרואים בהיסטוריה של אתיופיה",
       answers: [{
-        answer: "",
+        answer: "פלאשים",
         type: true
       }, {
-        answer: "",
+        answer: "כנענים",
         type: false
       }, {
-        answer: "",
+        answer: "עבריים",
         type: false
       }, {
-        answer: "",
+        answer: "כושים",
         type: false
       }]
     }, {
-      question: "",
+      question: "?כיצד השפיעו ''ועד ארבע הארצות'' על יהודי פולין",
       answers: [{
-        answer: "",
+        answer: "נתן ליישוב היהודי בפולין אוטונומיה ויכולת קיומית עצמאית",
         type: true
       }, {
-        answer: "",
+        answer: "דאג וסייע ליהודי פולין לעלות לארץ ישראל",
         type: false
       }, {
-        answer: "",
+        answer: " בנה בתי כנסת בשטחי הקהילה היהודית",
         type: false
       }, {
-        answer: "",
+        answer: "תרם להברחת יהודים לארה''ב",
         type: false
       }]
     }, {
-      question: "",
+      question: "?כיצד חלוקת פולין השפיעה על יהדות פולין",
       answers: [{
-        answer: "",
+        answer: "האוטונומיה ליהודים נפגעה וכך גם פרנסתם",
         type: true
       }, {
-        answer: "",
+        answer: "יהודים החלו להגר לישראל בגלל יחסיהם של המדינות הכובשות",
         type: false
       }, {
-        answer: "",
+        answer: " הפילוג היהודי עודד תחרות ועלייה במשק ובכלכלה היהודית",
         type: false
       }, {
-        answer: "",
+        answer: "הקהילה היהודית החלה למרוד בעקבות יחס המדינות הכובשות",
+        type: false
+      }]
+    }, {
+      question: "?כיצד כונה רבי יהודה הנשיא בספרות חז''ל",
+      answers: [{
+        answer: "רבי",
+        type: true
+      }, {
+        answer: "גיבור ישראל",
+        type: false
+      }, {
+        answer: "גדול בתורה",
+        type: false
+      }, {
+        answer: "צדיק",
+        type: false
+      }]
+    }, {
+      question: "?כיצד כונתה הממלכה של דוד ושלמה",
+      answers: [{
+        answer: "ממלכת ישראל המאוחדת",
+        type: true
+      }, {
+        answer: "ממלכת יהודה המאוחדת ",
+        type: false
+      }, {
+        answer: "ממלכת קדם",
+        type: false
+      }, {
+        answer: "הממלכה היהודית",
+        type: false
+      }]
+    }, {
+      question: "?כיצד מכונים חכמי התלמוד ",
+      answers: [{
+        answer: "אמוראים",
+        type: true
+      }, {
+        answer: "סבוראים",
+        type: false
+      }, {
+        answer: "משוראים",
+        type: false
+      }, {
+        answer: "מפוארים",
+        type: false
+      }]
+    }, {
+      question: "?כיצד נקראו המתנגדים לתנועת החסידות ",
+      answers: [{
+        answer: "ליטאים",
+        type: true
+      }, {
+        answer: "אנוסים",
+        type: false
+      }, {
+        answer: "מתנצרים",
+        type: false
+      }, {
+        answer: "בוגדים",
+        type: false
+      }]
+    }, {
+      question: "?כמה זמן נערך מסע הנדודים של בני ישראל במדבר",
+      answers: [{
+        answer: "כ40 שנה",
+        type: true
+      }, {
+        answer: "כ400 שנה",
+        type: false
+      }, {
+        answer: "כ290 שנה",
+        type: false
+      }, {
+        answer: "כ17 שנים",
+        type: false
+      }]
+    }, {
+      question: "?למען מה פעלה תנועת החסידות",
+      answers: [{
+        answer: "קירוב כלל היהודים, חסרי ההשכלה וקשי היום במזרח אירופה לדת",
+        type: true
+      }, {
+        answer: "הטמעת המצוות שבין האדם למקום בחברה היהודית",
+        type: false
+      }, {
+        answer: "חזרה בתשובה של גויים במזרח אירופה",
+        type: false
+      }, {
+        answer: "סיוע ליהודים קשיי יום כלכלית, חלוקת מזון ומציאת מקומות עבודה",
+        type: false
+      }]
+    }, {
+      question: "?..לפי העלילת הדם האנטישמית המוכרת, היהודים משתמשים בדם ילדים נוצרים על מנת",
+      answers: [{
+        answer: "אפיית מצות בפסח",
+        type: true
+      }, {
+        answer: "מריחה על עקיצות",
+        type: false
+      }, {
+        answer: "רחצה ושתיה",
+        type: false
+      }, {
+        answer: "בישול מאכלי שבת",
+        type: false
+      }]
+    }, {
+      question: "?לפי צוואתו של הורדוס, למי חולקה הארץ בקצו של שלטונו",
+      answers: [{
+        answer: "לבני משפחתו",
+        type: true
+      }, {
+        answer: "ליהודה וישראל",
+        type: false
+      }, {
+        answer: "לשליטי הארץ הקודמים",
+        type: false
+      }, {
+        answer: "לנושא כליו של הורדוס",
+        type: false
+      }]
+    }, {
+      question: "?מדוע היה ליהודים קל להשתלב ולהשתרש בחברה האמריקאית",
+      answers: [{
+        answer: "לאמריקה מאפיינים ייחודיים, בדגש על הפרדת דת ממדינה",
+        type: true
+      }, {
+        answer: "הציבור האמריקאי התחבר לדת ולתרבות היהודיים",
+        type: false
+      }, {
+        answer: "היהודים פיתחו את כלכלת המדינה וכן קיבלו אותם ביד רחבה",
+        type: false
+      }, {
+        answer: "האמריקאים האמינו בעידוד עלייה בדגש על היהודים",
+        type: false
+      }]
+    }, {
+      question: "?מה אמרה הצהרת כורש",
+      answers: [{
+        answer: "מתן רשות ליהודים לשוב אל ירושלים ולכונן את בית המקדש",
+        type: true
+      }, {
+        answer: "מתן רשות לשוב לארץ ישראל ממצרים ולהקים את בית המקדש",
+        type: false
+      }, {
+        answer: "מתן רשות לערבים לשוב אל ארץ ישראל כחלק מהסכם החזרת האדמות",
+        type: false
+      }, {
+        answer: "מתן רשות לתחבורה ציבורית בשבת באיזורים חילוניים",
+        type: false
+      }]
+    }, {
+      question: "?מה היה מפעלו המרכזי של רבי יהודה הנשיא ",
+      answers: [{
+        answer: "חתימת קובץ המשנה",
+        type: true
+      }, {
+        answer: "מניעת קיבוץ הגלויות בישראל",
+        type: false
+      }, {
+        answer: "הנחלת התורה בארץ",
+        type: false
+      }, {
+        answer: "עצירת נישואי התערובת",
+        type: false
+      }]
+    }, {
+      question: "?מה היה סופו של שבתאי צבי",
+      answers: [{
+        answer: "התאסלם",
+        type: true
+      }, {
+        answer: "נתלה ע''י האימפריה העות'מאנית",
+        type: false
+      }, {
+        answer: "גאל את ישראל",
+        type: false
+      }, {
+        answer: "עלה לישראל והקים מושבה משיחית",
+        type: false
+      }]
+    }, {
+      question: "''מה משמעות המושג ''ריש גלותא",
+      answers: [{
+        answer: "ראש הגלות",
+        type: true
+      }, {
+        answer: "ראש ישיבה",
+        type: false
+      }, {
+        answer: "עניים בגלות",
+        type: false
+      }, {
+        answer: "שר בממלכת רומי",
+        type: false
+      }]
+    }, {
+      question: "?מה נאלצו יהודי תימן לעשות בעקבות רדיפה דתית בשנים 1678-1679",
+      answers: [{
+        answer: "להתאסלם,או לעזוב את ביתיהם",
+        type: true
+      }, {
+        answer: "למצוא עבודה חדשה",
+        type: false
+      }, {
+        answer: "למכור את עצמם כעבדים",
+        type: false
+      }, {
+        answer: "לשלם מיסים כפול משאר התושבים",
+        type: false
+      }]
+    }, {
+      question: "?מהו גירוש ספרד",
+      answers: [{
+        answer: "הצבת אולטימטום ליהודים, ע''י המלך פרדיננד, במטרה לגרשם",
+        type: true
+      }, {
+        answer: "עליית היהודים לארץ ישראל לאחר עלילות הדם של זקני ציון בספרד",
+        type: false
+      }, {
+        answer: "בחירתו של כריסטופר קולומבוס להתגרש מספרד ולהגיע לאמריקה",
+        type: false
+      }, {
+        answer: "הרחקת בע''ח מהארץ",
+        type: false
+      }]
+    }, {
+      question: "מהו מתיוון",
+      answers: [{
+        answer: "יהודי אשר המיר את דתו לדת היוונית",
+        type: true
+      }, {
+        answer: "לוחם בצבא היווני בתקופת בית החשמונאים",
+        type: false
+      }, {
+        answer: "חייל חשמונאי שנהג להתחפש לחייל היווני",
+        type: false
+      }, {
+        answer: "כינוי לאיש רוח ודת יווני",
+        type: false
+      }]
+    }, {
+      question: "?מהו ספרו המרכזי של הרמב''ם",
+      answers: [{
+        answer: "משנה תורה",
+        type: true
+      }, {
+        answer: "תושב''ע",
+        type: false
+      }, {
+        answer: "תלמוד",
+        type: false
+      }, {
+        answer: "פירוש התלמוד",
+        type: false
+      }]
+    }, {
+      question: "?מהו שמו המלא של הרמב''ם",
+      answers: [{
+        answer: "רבי משה בן מיימון",
+        type: true
+      }, {
+        answer: "רבי מנחם בר מיימון",
+        type: false
+      }, {
+        answer: "רבי מיימון בן משה",
+        type: false
+      }, {
+        answer: "רבי מנחם בן משה",
+        type: false
+      }]
+    }, {
+      question: "?מהו שמו המלא של רש''י",
+      answers: [{
+        answer: "רבי שלמה יצחקי",
+        type: true
+      }, {
+        answer: "רבי שמעון יוחאי",
+        type: false
+      }, {
+        answer: "רבי שמעון יצחקי",
+        type: false
+      }, {
+        answer: "רבי שלמה יוחאי",
+        type: false
+      }]
+    }, {
+      question: "?מהו שמו השני של יעקב",
+      answers: [{
+        answer: "ישראל",
+        type: true
+      }, {
+        answer: "יהודה",
+        type: false
+      }, {
+        answer: "נפתלי",
+        type: false
+      }, {
+        answer: "דן",
+        type: false
+      }]
+    }, {
+      question: "?מהו תחום המושב",
+      answers: [{
+        answer: "שטחי המגורים של יהודי רוסיה הוגבלו לתחומי מחיה מסורתיים",
+        type: true
+      }, {
+        answer: "כינוי למושב היהודי הראשון בשטחי ארץ ישראל",
+        type: false
+      }, {
+        answer: "הכינוי לשטחים בהם הותר לערבי ישראל לשהות בארץ",
+        type: false
+      }, {
+        answer: "הקהילה היהודית בפולין טרם הכיבוש",
+        type: false
+      }]
+    }, {
+      question: "?מהי ממלכת הגדעונים",
+      answers: [{
+        answer: "כינוי לקהילה היהודית העצמאית באתיופיה",
+        type: true
+      }, {
+        answer: "כינוי לקהילה היהודית בארצות האיסלאם",
+        type: false
+      }, {
+        answer: "הקהילה היהודית בארה''ב",
+        type: false
+      }, {
+        answer: "כינוי לקהילה היהודית בפולין",
+        type: false
+      }]
+    }, {
+      question: "?מהי עלילת דם",
+      answers: [{
+        answer: "כינוי המתייחס אל סיפור שקרי בעל מאפיינים אנטישמים",
+        type: true
+      }, {
+        answer: "פוגרום בקישינב, בו נרצחו יהודי ודמם נשפך לנהל כסמל לרדיפת יהודים",
+        type: false
+      }, {
+        answer: "שבועון אנטישמי, בעל אופי קומי, שהופץ לגרמנים במטרה לשעשעם",
+        type: false
+      }, {
+        answer: "הוצאת דיבה נגד יהודי אתיופיה אשר היגרו לארץ",
+        type: false
+      }]
+    }, {
+      question: "?מהי עלילת דמשק",
+      answers: [{
+        answer: "יהודים שהואשמו ברצח של נזיר נוצרי ומשרתו המוסלמי",
+        type: true
+      }, {
+        answer: "יהודים שהכינו מצות מדמם של מוסלמים",
+        type: false
+      }, {
+        answer: "יהודים שהואשמו בהשחתת מסגד בדמשק",
+        type: false
+      }, {
+        answer: "יהודי שהואשם בגניבת כספים",
+        type: false
+      }]
+    }, {
+      question: "''מהי תקופת ''הימים הרעים",
+      answers: [{
+        answer: "תקופת הקרב בין צבא אתיופיה לצבאות מצרים, סודן ואיטליה",
+        type: true
+      }, {
+        answer: "תקופת הרעב בקהילה היהודית באתיופיה",
+        type: false
+      }, {
+        answer: "הימים בהם יהדות צפון אפריקה נספתה בשואה",
+        type: false
+      }, {
+        answer: "הימים בהם נרדפו יהודים בגין כפיית הדת לעדה האתיופית",
+        type: false
+      }]
+    }, {
+      question: "''מהי/מהו ה''אורית",
+      answers: [{
+        answer: "ספר התורה של יהודי אתיופיה",
+        type: true
+      }, {
+        answer: "השפה המדוברת בין יהודי אתיופיה",
+        type: false
+      }, {
+        answer: "כינוי לתרבות היהודית",
+        type: false
+      }, {
+        answer: "כינוי ליהודיה באתיופיה",
+        type: false
+      }]
+    }, {
+      question: "?''מהם ''משפטי פראג",
+      answers: [{
+        answer: "משפט בו הואשמו 14 פעילים בניהם יהודים בריגול לטובת ישראל וארה''ב",
+        type: true
+      }, {
+        answer: "משפט בו הואשמו 14 יהודים בהתקוממות כנגד שלטונות רוסיה",
+        type: false
+      }, {
+        answer: "משפטים כנגד יהודים שסירבו להתגייס לצבא הרוסי",
+        type: false
+      }, {
+        answer: "משפטים כנגד יהודים אשר קיימו אורח חיים דתי במהלך שירותם הצבאי",
+        type: false
+      }]
+    }, {
+      question: "?''מהם ''סופות בנגב",
+      answers: [{
+        answer: "גל הפרעות בדרום רוסיה",
+        type: true
+      }, {
+        answer: "עלילות בהם נופצו שמשות בתי כנסת ויהודים רבים נהרגו",
+        type: false
+      }, {
+        answer: "הסופות הקשות אשר התמודדו איתם המתיישבים בנגב",
+        type: false
+      }, {
+        answer: "מבצע במלחמת העצמאות בו נכבשה עזה",
+        type: false
+      }]
+    }, {
+      question: "?מי בנה את בית המקדש",
+      answers: [{
+        answer: "שלמה בנו של דוד",
+        type: true
+      }, {
+        answer: "שאול אביו של דוד",
+        type: false
+      }, {
+        answer: "דוד בנו של שאול",
+        type: false
+      }, {
+        answer: "שלמה בנו של שאול",
+        type: false
+      }]
+    }, {
+      question: "?מי בנה את הנמל, אמת המים של קיסריה ומתחם הארמונות במצדה",
+      answers: [{
+        answer: "הורדוס",
+        type: true
+      }, {
+        answer: "דוד המלך",
+        type: false
+      }, {
+        answer: "כורש",
+        type: false
+      }, {
+        answer: "מתיתיהו",
+        type: false
+      }]
+    }, {
+      question: "?מי הוביל את אנשיו לבחור ב''חירות על פני החיים'' ",
+      answers: [{
+        answer: "יהודה המכבי",
+        type: true
+      }, {
+        answer: "יוסף בן מתיתיהו",
+        type: false
+      }, {
+        answer: "יאיר שטרן",
+        type: false
+      }, {
+        answer: "אלעזר בן יאיר",
+        type: false
+      }]
+    }, {
+      question: "?מי היה הרב עובדיה יוסף",
+      answers: [{
+        answer: "אחד ממנהיגיה של היהדות החרדית הספרדית",
+        type: true
+      }, {
+        answer: "ממקימי הרבנות הצבאית",
+        type: false
+      }, {
+        answer: "מחנך ואיש ציבור, מנהיג הקהילה היהודית בספרד",
+        type: false
+      }, {
+        answer: "מנהיג ציבור יהודי באירופה, שימש כפרופסור וכרב",
+        type: false
+      }]
+    }, {
+      question: "?מי היה הרב שלמה גורן",
+      answers: [{
+        answer: "הרב הראשי האשכנזי לישראל",
+        type: true
+      }, {
+        answer: "אחד ממנהיגיה של יהדות אירופה",
+        type: false
+      }, {
+        answer: "מחנך ואיש ציבור, מההיג הקהילה היהודית בספרד",
+        type: false
+      }, {
+        answer: "מנהיג ציבור יהודי ברוסיה, שימש כפרופסור וכרב",
+        type: false
+      }]
+    }, {
+      question: "?מי היה חיים נחמן ביאליק",
+      answers: [{
+        answer: "המשורר הלאומי",
+        type: true
+      }, {
+        answer: "מלחין התקווה",
+        type: false
+      }, {
+        answer: "חתן פרס ישראל",
+        type: false
+      }, {
+        answer: "חתן פרס סוקולוב",
+        type: false
+      }]
+    }, {
+      question: "?מי היה טיטוס",
+      answers: [{
+        answer: "קיסר רומאי שהחריב את בית המקדש השני",
+        type: true
+      }, {
+        answer: "אחד ממנהיגי המרד בכיבוש מצדה",
+        type: false
+      }, {
+        answer: "לוחם רומאי ידוע שהנהיג את קרבות הר הבית",
+        type: false
+      }, {
+        answer: "''הלוחם שעודד את המתבצרים במצדה לבחור ''בחירות על פני חיים''",
+        type: false
+      }]
+    }, {
+      question: "?מי היה כורש",
+      answers: [{
+        answer: "מלכה הראשון של הממלכה הפרסית",
+        type: true
+      }, {
+        answer: "המלך השלישי של הממלכה הבבלית",
+        type: false
+      }, {
+        answer: "מלך צידון שהצהיר את נאמנותו למלך רחבעם",
+        type: false
+      }, {
+        answer: "המלך השני של ממלכת אדום",
+        type: false
+      }]
+    }, {
+      question: "?מי היה מלכה הראשון של ישראל",
+      answers: [{
+        answer: "שאול",
+        type: true
+      }, {
+        answer: "דוד",
+        type: false
+      }, {
+        answer: "שלמה",
+        type: false
+      }, {
+        answer: "שמואל",
+        type: false
+      }]
+    }, {
+      question: "?מי היה תמרת עמנואל",
+      answers: [{
+        answer: "?מנהיג ציבור יהודי באתיופיה, שימש כפרופסור וכרב",
+        type: true
+      }, {
+        answer: "אחד ממנהיגיה של יהדות אירופה",
+        type: false
+      }, {
+        answer: "ממקימי הרבנות הצבאית",
+        type: false
+      }, {
+        answer: "מחנך ואיש ציבור, ממנהיגי הקהילה היהודית",
+        type: false
+      }]
+    }, {
+      question: "?מי היו אסירי ציון",
+      answers: [{
+        answer: "פעילים ציוניים שנאסרו בברית המועצות",
+        type: true
+      }, {
+        answer: "יהודים שלא הורשו להיכנס לארץ",
+        type: false
+      }, {
+        answer: "יהודים שנאלצו לחיות בתוך הקהילה הסגורה בברית המועצות",
+        type: false
+      }, {
+        answer: "כינוי ליהודים שעלו לארץ ישראל ונכשלו",
+        type: false
+      }]
+    }, {
+      question: "?מי היו בניו של אבי העם היהודי",
+      answers: [{
+        answer: "פעילים ציוניים שנאסרו בברית המועצות",
+        type: true
+      }, {
+        answer: "יהודים שלא הורשו להיכנס לארץ",
+        type: false
+      }, {
+        answer: "יהודים שנאלצו לחיות בתוך הקהילה הסגורה בברית המועצות",
+        type: false
+      }, {
+        answer: "כינוי ליהודים שעלו לארץ ישראל ונכשלו",
+        type: false
+      }]
+    }, {
+      question: "?מי היו בניו של אבי העם היהודי",
+      answers: [{
+        answer: "ישמעאל ויצחק",
+        type: true
+      }, {
+        answer: "יצחק ויעקב",
+        type: false
+      }, {
+        answer: "יעקב ועשו",
+        type: false
+      }, {
+        answer: "קין והבל",
+        type: false
+      }]
+    }, {
+      question: "?מי היו השופטים",
+      answers: [{
+        answer: "מנהיגים אזוריים של 12 השבטים, לאחר מות יהושע",
+        type: true
+      }, {
+        answer: "נביאים שפירשו חלומות ל12 ראשי השבטים",
+        type: false
+      }, {
+        answer: "השופטים הראשונים ביהדות עליהם מתבססים חוקי המדינה",
+        type: false
+      }, {
+        answer: "זקני העם שעסקו באיחוד 12 השבטים",
+        type: false
+      }]
+    }, {
+      question: "?מי הם המוסתערבים",
+      answers: [{
+        answer: "יהודים אשר השתלבו בתרבות ובחברה הסובבת ודברו ערבית, לפני המהאה ה15",
+        type: true
+      }, {
+        answer: "יחידה סמויה בצה''ל שהוקמה ב1967",
+        type: false
+      }, {
+        answer: "מוסלמים שחזרו בתשובה",
+        type: false
+      }, {
+        answer: "יהודים שהתחבאו מהשלטון המוסלמי",
+        type: false
+      }]
+    }, {
+      question: "''מי מונה למלוך על יהודה לאחר ''גלות החרש והמסגר",
+      answers: [{
+        answer: "צדקיהו",
+        type: true
+      }, {
+        answer: "יהויכין",
+        type: false
+      }, {
+        answer: "שלמה",
+        type: false
+      }, {
+        answer: "יהואחז",
+        type: false
+      }]
+    }, {
+      question: "?מי ניסה להקים יחד עם קבוצת העולים מזבח ולחדש את בית המקדש",
+      answers: [{
+        answer: "עזרא הסופר",
+        type: true
+      }, {
+        answer: "ששבצר",
+        type: false
+      }, {
+        answer: "זרובבל",
+        type: false
+      }, {
+        answer: "שלמה",
+        type: false
+      }]
+    }, {
+      question: "?מי עמד בראש מרד בר כוכבא",
+      answers: [{
+        answer: "שמעון בן כוסבא",
+        type: true
+      }, {
+        answer: "משה בר כוכבא",
+        type: false
+      }, {
+        answer: "משה בר יוחאי",
+        type: false
+      }, {
+        answer: "שמעון בר יונה",
+        type: false
+      }]
+    }, {
+      question: "?מיהם המלכים שהחליפו את שלמה המלך",
+      answers: [{
+        answer: "רחבעם וירבעם",
+        type: true
+      }, {
+        answer: "מפיבושת ויהויכין",
+        type: false
+      }, {
+        answer: "יהויכין וירבעם",
+        type: false
+      }, {
+        answer: "רחל ופרעה",
+        type: false
+      }]
+    }, {
+      question: "?נאמר על רש''י: ''פיזר את אוצרות רוחו... כנהר הנותן מימיו לכל, בלי לדעת שאין עולם בלעדיהם''. מדוע",
+      answers: [{
+        answer: "חיבר פירוש מקיף על התורה והתלמול והוא בשימוש עד היום",
+        type: true
+      }, {
+        answer: "פעל למען הדת היהודית אך לבסוף גורלו היה מר",
+        type: false
+      }, {
+        answer: "פירש חלומות תנכיים שפירושם תקף גם כיום על ימינו",
+        type: false
+      }, {
+        answer: "חיבר מגילות כתובות המתארות את התקופה הקדומה",
+        type: false
+      }]
+    }, {
+      question: "?על צאצאיו של מי מבוססים שבטי ישראל",
+      answers: [{
+        answer: "יעקב",
+        type: true
+      }, {
+        answer: "עשיו",
+        type: false
+      }, {
+        answer: "אברהם",
+        type: false
+      }, {
+        answer: "שרה",
+        type: false
+      }]
+    }, {
+      question: "?רבי יהודה הנשיא, מנהיג בקהילה היהודית, עסק בתחומים רבים. מה היה עיסוקו המרכזי",
+      answers: [{
+        answer: "חיבור משנה",
+        type: true
+      }, {
+        answer: "מנהיג רוחני",
+        type: false
+      }, {
+        answer: "מנהיג פוליטי",
+        type: false
+      }, {
+        answer: "קיום קשר עם הקיסרות הרומית",
+        type: false
+      }]
+    }, {
+      question: "?איזה הסכם הופר עם תחילת מבצע ברברוסה",
+      answers: [{
+        answer: "ריבנטרופ-מולוטוב",
+        type: true
+      }, {
+        answer: "האמנה האנטלטית",
+        type: false
+      }, {
+        answer: "האנשלוס",
+        type: false
+      }, {
+        answer: "הסכמי וועדת אוויאן",
+        type: false
+      }]
+    }, {
+      question: "?איזו וועדה התכנסה בברלין ב-20 בינואר 1942",
+      answers: [{
+        answer: "ואנזה",
+        type: true
+      }, {
+        answer: "ריבנטרופ-מולוטוב",
+        type: false
+      }, {
+        answer: "ריינהארד היידריך",
+        type: false
+      }, {
+        answer: "אוויאן",
+        type: false
+      }]
+    }, {
+      question: "?אילו מדינות הכריזו מלחמה על גרמניה בתגובה לכיבוש פולין ",
+      answers: [{
+        answer: "בריטניה, צרפת",
+        type: true
+      }, {
+        answer: "צרפת, ברית המועצות",
+        type: false
+      }, {
+        answer: "בריטניה וארצות הברית",
+        type: false
+      }, {
+        answer: "ארצות הברית וברית המועצות",
+        type: false
+      }]
+    }, {
+      question: "?אילו מחנות השמדה הופעלו לראשונה במסגרת מבצע ריינהארד",
+      answers: [{
+        answer: "בלזץ', סוביבור, טרבלניקה",
+        type: true
+      }, {
+        answer: "דכאו, טרזינשטאט, ברגן בלזן",
+        type: false
+      }, {
+        answer: "אושוויץ, מאטהאוזן, דארסי",
+        type: false
+      }, {
+        answer: "חלמנו, סיימשטה, יאנסובאץ'",
+        type: false
+      }]
+    }, {
+      question: "?באיזו אמירה נחתם משפטו  של ישראל קסטנר",
+      answers: [{
+        answer: "מכר את נשמתו לשטן",
+        type: true
+      }, {
+        answer: "נשמת ילד קטן שעוד לא ברא השטן",
+        type: false
+      }, {
+        answer: "אין אני עומד יחידי עמדי ניצבים כאן בשעה זו 6 מליון קטגורים",
+        type: false
+      }, {
+        answer: "כל המציל נפש אחת כאילו הציל עולם במלואו",
+        type: false
+      }]
+    }, {
+      question: "?באיזו דרך הציל קסטנר את היהודים",
+      answers: [{
+        answer: "משא ומתן עם קציני אס אס בכירים",
+        type: true
+      }, {
+        answer: "הנפקת ויזות ודרכונים מזוייפים",
+        type: false
+      }, {
+        answer: "הברחתם באמצעות ''רכבות רפאים'' לשוויץ",
+        type: false
+      }, {
+        answer: "העסקתם במפעלים גרמנים",
+        type: false
+      }]
+    }, {
+      question: "?באיזו שיטה התבצעה השמדת היהודים במחנה ההשמדה הראשון ",
+      answers: [{
+        answer: "משאיות גז",
+        type: true
+      }, {
+        answer: "תאי גזים",
+        type: false
+      }, {
+        answer: "בורות ירי",
+        type: false
+      }, {
+        answer: "תלייה",
+        type: false
+      }]
+    }, {
+      question: "?''באיזו שנה אישרה הכנסת את חוק ''יד ושם",
+      answers: [{
+        answer: "1953",
+        type: true
+      }, {
+        answer: "1952",
+        type: false
+      }, {
+        answer: "1954",
+        type: false
+      }, {
+        answer: "1955",
+        type: false
+      }]
+    }, {
+      question: "?במה הואשם קסטנר במשפטו",
+      answers: [{
+        answer: "הכשרת הקרקע לרצח יהודי הונגריה",
+        type: true
+      }, {
+        answer: "הלשנה על רבבות יהודים בתמורה לביטחונו האישי",
+        type: false
+      }, {
+        answer: "העברת מידע מודיעיני גרמני לצבא בעלות הברית",
+        type: false
+      }, {
+        answer: "ביצוע תיאום ה''משלוחים'' למזרח",
+        type: false
+      }]
+    }, {
+      question: "?''במה הואשמו היהודים במגפת ''המוות השחור",
+      answers: [{
+        answer: "הרעלת הבארות",
+        type: true
+      }, {
+        answer: "הפצת הדיזנטריה",
+        type: false
+      }, {
+        answer: "רצח ילד בלונדון",
+        type: false
+      }, {
+        answer: "יצירת המשבר הכלכלי הגדול",
+        type: false
+      }]
+    }, {
+      question: "?במה לא הואשם אדולף אייכמן",
+      answers: [{
+        answer: "פשעי מלחמה לא קונבנציונאלית",
+        type: true
+      }, {
+        answer: "פשעי מלחמה קונבנציונאלית",
+        type: false
+      }, {
+        answer: "פשעים נגד האנושות",
+        type: false
+      }, {
+        answer: "פשעים נגד העם היהודי",
+        type: false
+      }]
+    }, {
+      question: "?במה עסקה ודנה ועידת וואנזה",
+      answers: [{
+        answer: "ייעול תוכנית הנאצים- הפתרון הסופי",
+        type: true
+      }, {
+        answer: "החלטה על התחלת השמדת יהודי אירופה",
+        type: false
+      }, {
+        answer: "ריכוז היהודים בגטאות",
+        type: false
+      }, {
+        answer: "שינוי מטרת מבצע ברברוסה",
+        type: false
+      }]
+    }, {
+      question: "?בשנת 1938, אילו שמות אולצו היהודים להוסיף לתעודת הזהות שלהם",
+      answers: [{
+        answer: "בנים- ישראל, בנות-שרה",
+        type: true
+      }, {
+        answer: "בנים-אברהם, בנות-לאה",
+        type: false
+      }, {
+        answer: "בנים-ישראל, בנות- מריים",
+        type: false
+      }, {
+        answer: "בנים- אברהם, בנות-רבקה",
+        type: false
+      }]
+    }, {
+      question: "?היכן הסתתר אדולף אייכמן לאחר מלחמת העולם השנייה",
+      answers: [{
+        answer: "ארגנטינה",
+        type: true
+      }, {
+        answer: "ברזיל",
+        type: false
+      }, {
+        answer: "מקסיקו",
+        type: false
+      }, {
+        answer: "קולומביה",
+        type: false
+      }]
+    }, {
+      question: "?היכן התרחש המרד הגדול ביותר בגטאות",
+      answers: [{
+        answer: "וורשה",
+        type: true
+      }, {
+        answer: "ביאליסטוק",
+        type: false
+      }, {
+        answer: "'לודג",
+        type: false
+      }, {
+        answer: "וילנה",
+        type: false
+      }]
+    }, {
+      question: "...המושג ''שארית הפליטה'' פירושו",
+      answers: [{
+        answer: "רבבות היהודים שניצלו מהתופת והפכו לעקורים",
+        type: true
+      }, {
+        answer: "שם קוד גרמני לניצולי משאיות הגז בחלמנו",
+        type: false
+      }, {
+        answer: "גרמנים שנלקחו בשבי הסובייטי בסוף המלחמה",
+        type: false
+      }, {
+        answer: "כינוי לניצולים יהודים מתאי הגזים",
+        type: false
+      }]
+    }, {
+      question: "וועדת אוויאן דנה בנושא",
+      answers: [{
+        answer: "מתן פיתרון לבעיית הפליטים היהודים",
+        type: true
+      }, {
+        answer: "הענקת סיוע ליהודים בפולין",
+        type: false
+      }, {
+        answer: "תיאום מהלך הפתרון הסופי",
+        type: false
+      }, {
+        answer: "הצלת יהודי הונגריה",
+        type: false
+      }]
+    }, {
+      question: "?כיצד החלה מלחמת העולם השניה",
+      answers: [{
+        answer: "בפלישה לפולין",
+        type: true
+      }, {
+        answer: "בסיפוח אוסטריה לגרמניה",
+        type: false
+      }, {
+        answer: "בפלישה לברית המועצות",
+        type: false
+      }, {
+        answer: "בפלישה לצרפת",
+        type: false
+      }]
+    }, {
+      question: "?כיצד הסתיימה פרשת קסטנר",
+      answers: [{
+        answer: "זוכה ונרצח ע''י יהודי ",
+        type: true
+      }, {
+        answer: "יצא אשם וקיבל מאסר עולם",
+        type: false
+      }, {
+        answer: "יצא אשם והוצא להורג",
+        type: false
+      }, {
+        answer: "זוכה והיגר לארה''ב",
+        type: false
+      }]
+    }, {
+      question: "?כיצד טופלו הפליטים היהודים מיד לאחר מלחמת העולם השנייה  ע''י בעלות הברית",
+      answers: [{
+        answer: "רוכזו למחנות העקורים",
+        type: true
+      }, {
+        answer: "הועלו לארץ ישראל",
+        type: false
+      }, {
+        answer: "הועברו לבתים נטושים בפולין",
+        type: false
+      }, {
+        answer: "הוכנסו לבתים של קצינים גרמנים",
+        type: false
+      }]
+    }, {
+      question: "?כיצד מכונה התקופה שלאחר מלחמת העולם הראשונה בהיסטוריה הגרמנית",
+      answers: [{
+        answer: "רפובליקת ויימאר",
+        type: true
+      }, {
+        answer: "אנשלוס",
+        type: false
+      }, {
+        answer: "המשבר הגדול",
+        type: false
+      }, {
+        answer: "התקופה השחורה",
+        type: false
+      }]
+    }, {
+      question: "?כיצד נגמרה סופית מלחמת העולם השנייה בכלל החזיתות ",
+      answers: [{
+        answer: "הפלת 2 פצצות האטום של הירושימה ונגאסקי",
+        type: true
+      }, {
+        answer: "כיבוש ברלין ע''י ברית המועצות לבעלות הברית",
+        type: false
+      }, {
+        answer: "התאבדותו של אדולף היטלר, מנהיג המפלגה הנאצית",
+        type: false
+      }, {
+        answer: "היכנעותה הרשמית של גרמניה",
+        type: false
+      }]
+    }, {
+      question: "?כיצד ניסה אדולף אייכמן להקל על עונשו במשפטו",
+      answers: [{
+        answer: "טען שהיה בורג קטן במערכת שרק מילא פקודות",
+        type: true
+      }, {
+        answer: "טען שאינו קשור כלל ליישום הפיתרון הסופי",
+        type: false
+      }, {
+        answer: "טען שהיה לא שפוי כתוצאה ממלחמת העולם ה-1",
+        type: false
+      }, {
+        answer: "טען כי עסק בתיעוד וכתיבה ולא ביישום וביצוע",
+        type: false
+      }]
+    }, {
+      question: "(כיצד ניסתה בתחילת דרכה המפלגה הנאצית לעלות לשלטון? (1923",
+      answers: [{
+        answer: "(ביצוע הפיכה שכשלה (פוטש",
+        type: true
+      }, {
+        answer: "ליל הסכינים הארוכות",
+        type: false
+      }, {
+        answer: "בחירות",
+        type: false
+      }, {
+        answer: "ניצול האנרכיה ששררה בגרמניה",
+        type: false
+      }]
+    }, {
+      question: "?כיצד נקרא התשלום החודשי הקבוע מגרמניה למדינת ישראל",
+      answers: [{
+        answer: "רנטות",
+        type: true
+      }, {
+        answer: "רטרו",
+        type: false
+      }, {
+        answer: "מענק צדק",
+        type: false
+      }, {
+        answer: "פיצוי הדמים",
+        type: false
+      }]
+    }, {
+      question: "?כיצד נקרא מחנה ההשמדה הראשון",
+      answers: [{
+        answer: "חלמנו",
+        type: true
+      }, {
+        answer: "בלדץ'",
+        type: false
+      }, {
+        answer: "ברגן בלזן",
+        type: false
+      }, {
+        answer: "דכאו",
+        type: false
+      }]
+    }, {
+      question: "כיצד נקראו היחידות אשר היו אמונות על טיהור הגזע במהלך הקרבות בברית המועצות",
+      answers: [{
+        answer: "אייזנצגרופן",
+        type: true
+      }, {
+        answer: "אומשלגפלאץ",
+        type: false
+      }, {
+        answer: "לופטוואפה",
+        type: false
+      }, {
+        answer: "הוורמאכט",
+        type: false
+      }]
+    }, {
+      question: "?לאחר איזה אירוע, חל שינוי ביחס אשר קיבלו ניצולי השואה בארץ",
+      answers: [{
+        answer: "משפטו של אדולף אייכמן",
+        type: true
+      }, {
+        answer: "הטבח באולימפיאדת מינכן",
+        type: false
+      }, {
+        answer: "תפיסתו של דוקטור מנגלה",
+        type: false
+      }, {
+        answer: "יציאתו של הסרט רשימת שינדלר",
+        type: false
+      }]
+    }, {
+      question: "?לאיזו אמירה משפטי נירנברג שימשו כבסיס",
+      answers: [{
+        answer: "מניעת רצח עם",
+        type: true
+      }, {
+        answer: "אטלנטיס",
+        type: false
+      }, {
+        answer: "שוויון זכויות",
+        type: false
+      }, {
+        answer: "כבוד האדם וחירותו",
+        type: false
+      }]
+    }, {
+      question: "?מה היה המניע לפרוץ מהומות ליל הבדולח ב-1938",
+      answers: [{
+        answer: "רצח המזכיר בשגרירות גרמניה בצרפת",
+        type: true
+      }, {
+        answer: "מהומות ונסיון התנגדותם של היהודים בפרוץ המלחמה",
+        type: false
+      }, {
+        answer: "בעיקבות אונס וגניבת רכוש מאישה גרמניה",
+        type: false
+      }, {
+        answer: "אמצעי התראה, ניסיון לגרום ליהודים לברוח מגרמניה",
+        type: false
+      }]
+    }, {
+      question: "?''מה מטרתו של הסכם ''ריבנטרופ- מולטוב'' ",
+      answers: [{
+        answer: "אי תקיפת ברית המועצות על ידי גרמניה",
+        type: true
+      }, {
+        answer: "סיפוח אוסטריה לגרמניה טרם המלחמה",
+        type: false
+      }, {
+        answer: "החזרת הדיפלומטים הגרמניים מפולין",
+        type: false
+      }, {
+        answer: "חלוקת צ'כיה בין אוסטריה לגרמניה",
+        type: false
+      }]
+    }, {
+      question: "?מה מקור השם גטו ",
+      answers: [{
+        answer: "רובע נפרד של העיר בו התגוררו יהודים בימי הביינים",
+        type: true
+      }, {
+        answer: "כינוי לבור השופכין של הערים באירופה",
+        type: false
+      }, {
+        answer: "משמעו באיטלקית גועל/חלחלה",
+        type: false
+      }, {
+        answer: "כינוי לשכונת עוני ",
+        type: false
+      }]
+    }, {
+      question: "?מה נוצר בקרב העם הגרמני לאחר מלחמת העולם הראשונה",
+      answers: [{
+        answer: "תחושת השפלה ומשבר כלכלי חברתי חמור",
+        type: true
+      }, {
+        answer: "תחושת ניצחון ושאננות",
+        type: false
+      }, {
+        answer: "פחד וחשש מכיבוש",
+        type: false
+      }, {
+        answer: "שגשוג כלכלי ופיתוח תעשייתי",
+        type: false
+      }]
+    }, {
+      question: "?''מהו ''הסכם השילומים",
+      answers: [{
+        answer: "הסכם שנחתם בין ממשלת מערב גרמניה לממשלת ישראל הכולל 3 מיליארד מארק ",
+        type: true
+      }, {
+        answer: "הסכם לפיו מדינת ישראל צריכה לסייע כלכלית לניצולי שואה עד יום מותם מכספי המדינה",
+        type: false
+      }, {
+        answer: "הסכם לפיו הצלב האדום שילם מיליארד מארק לשלטון הנאצי עבור הצלתם של 3,000 יהודים",
+        type: false
+      }, {
+        answer: "הסכם בין האו''ם למדינת ישראל לפיו ישראל תקבל מליון דולר כפיצוי לפשעי הנאצים וחטאיהם",
+        type: false
+      }]
+    }, {
+      question: "?''מהו ''ליל הסכינים הארוכות'",
+      answers: [{
+        answer: "חיסול חברי המפלגה הנאצית שהיו חשודים כמתנגדייה",
+        type: true
+      }, {
+        answer: "נסיון הפיכת המפלגה הנאצית לעלייתה לשלטון",
+        type: false
+      }, {
+        answer: "שריפת הספרים היהודיים",
+        type: false
+      }, {
+        answer: "הרס חורבן בתי הכנסת והחנויות היהודיות",
+        type: false
+      }]
+    }, {
+      question: "?''מהו ''מישילנגה",
+      answers: [{
+        answer: "צאצא לנישואי תערובת",
+        type: true
+      }, {
+        answer: "חוקים לאיסור קראית ספרים בעלי אופי יהודי",
+        type: false
+      }, {
+        answer: "תנועת הנוער הנאצית",
+        type: false
+      }, {
+        answer: "תנועת נוער יהודית",
+        type: false
+      }]
+    }, {
+      question: "?מהו האומשלגפלאץ",
+      answers: [{
+        answer: "כיכר השילוחין בגטו",
+        type: true
+      }, {
+        answer: "הכוחות המיוחדים לטיהור העם הגרמני",
+        type: false
+      }, {
+        answer: "אסיר האחראי על השלטת סדר במחנה",
+        type: false
+      }, {
+        answer: "כינוי לעובדים במשרפות",
+        type: false
+      }]
+    }, {
+      question: "?מהו הדר-שטירמר",
+      answers: [{
+        answer: "שבועון שהיווה חלק מהתעמולה הנאצית",
+        type: true
+      }, {
+        answer: "מועצת זקנים- הגוף המתווך בין הגרמנים לציבור היהודי",
+        type: false
+      }, {
+        answer: "חיבור שכתב משורר שנולד בגטו וילנה",
+        type: false
+      }, {
+        answer: "הפלישה לברית המועצות",
+        type: false
+      }]
+    }, {
+      question: "?מהו החוק בדבר החזרת הפקידות המקצועית על כנה",
+      answers: [{
+        answer: "סילוק גורמים הנתפסים כלא נאמנים למוסדות השלטון",
+        type: true
+      }, {
+        answer: "חוק המטיל מיסים כבדים על פקידים יהודים",
+        type: false
+      }, {
+        answer: "סילוק היהודים מתפקידי הפקידות",
+        type: false
+      }, {
+        answer: "חוק מתוך חוקי נירנברג",
+        type: false
+      }]
+    }, {
+      question: "''מהו המושג ''גרמניה האחרת",
+      answers: [{
+        answer: "מושג אותו תבע בן גוריון שמשמעו, כי גרמניה של היום איננה גרמניה הנאצית",
+        type: true
+      }, {
+        answer: "גרמניה הנאצית הינה גרמניה שהעולם עוד לא הכיר ולא חווה",
+        type: false
+      }, {
+        answer: "דימוי גרמניה לפלנטה אחרת ולעולם הזוי ואכזרי",
+        type: false
+      }, {
+        answer: "מושג ממערב גרמניה המדבר על מזרח גרמניה כעולם נפרד",
+        type: false
+      }]
+    }, {
+      question: "?מהו חוק אזרחות הרייך לפי חוקי נירנברג",
+      answers: [{
+        answer: "אזרחי המדינה חייבים להיות בעלי דם גרמני",
+        type: true
+      }, {
+        answer: "אזרחי המדינה חייבים להיות נאמנים לה",
+        type: false
+      }, {
+        answer: "היהודים מחויבים לשרת את אזרחי המדינה",
+        type: false
+      }, {
+        answer: "גרמנים שחיים באזור חבל ה''סודטים'' יחשבו לאזרחי גרמניה",
+        type: false
+      }]
+    }, {
+      question: "?מהו יודנראט",
+      answers: [{
+        answer: "הגוף האמון על תיווך הציבור היהודי לשלטון הגרמני",
+        type: true
+      }, {
+        answer: "כינוי לסטריאוטיפ היהודי כעכברוש",
+        type: false
+      }, {
+        answer: "כינוי ליהודים שעבדו בקרמטוריום",
+        type: false
+      }, {
+        answer: "כינוי לשוטרים יהודים במחנות ההשמדה",
+        type: false
+      }]
+    }, {
+      question: "(מהו מבצע ברברוסה? (1941",
+      answers: [{
+        answer: "כיבוש ברית המועצות",
+        type: true
+      }, {
+        answer: "ניסיון כיבוש בריטניה",
+        type: false
+      }, {
+        answer: "כיבוש צרפת",
+        type: false
+      }, {
+        answer: "פלישת בעלות הברית לאיטליה",
+        type: false
+      }]
+    }, {
+      question: "?''מהי ''אריזציה",
+      answers: [{
+        answer: "השתלטות אלימה על בתי עסק ונכסים יהודים",
+        type: true
+      }, {
+        answer: "הרחקת העובדים היהודים ממפעלי התעשייה",
+        type: false
+      }, {
+        answer: "כינוי למבצע ''ישוב מחדש'' שמטרתו השמדת היהודים",
+        type: false
+      }, {
+        answer: "?''אריזת כול ספרי התורה ושריפתם ב''ליל הבדולח",
+        type: false
+      }]
+    }, {
+      question: "?מהי אקציה",
+      answers: [{
+        answer: "שילוח היהודים למחנות",
+        type: true
+      }, {
+        answer: "כינוי לניסויי מנגלה באסירי אשוויץ",
+        type: false
+      }, {
+        answer: "בריחת היהודים מהגטאות ליערות",
+        type: false
+      }, {
+        answer: "ריכוז היהודים בגטאות",
+        type: false
+      }]
+    }, {
+      question: "?מהי סלקציה",
+      answers: [{
+        answer: "מיון בין עבודת פרך להשמדה",
+        type: true
+      }, {
+        answer: "תהליך הכנסת היהודים לרכבות",
+        type: false
+      }, {
+        answer: "תהליך קליטת האסירים במחנות העבודה",
+        type: false
+      }, {
+        answer: "מיון בין גברים לנשים במחנות",
+        type: false
+      }]
+    }, {
+      question: "?מהי עמדתם של מתנגדי הסכם השילומים ומנחם בגין שעמד בראשם",
+      answers: [{
+        answer: "הסכם זה מהווה מחילה רשמית לנאצים עבור פשעיהם",
+        type: true
+      }, {
+        answer: "ישראל לא תקיים משא ומתן עם מדינה אשר ניסתה להשמיד את עמה",
+        type: false
+      }, {
+        answer: "הסכום שנקבע בהסכם אינו מספק והוא ''סמלי'' ביותר",
+        type: false
+      }, {
+        answer: "  כ3 מיליאד המארק מגואלים בדם אחינו, איננו מוכנים לגעת בהם ",
+        type: false
+      }]
+    }, {
+      question: "?''מהי פרשת האונייה ''סנט לואיס''",
+      answers: [{
+        answer: "אוניית פליטים יהודית, שלמעט אירופה לא הסכימו לקבלה",
+        type: true
+      }, {
+        answer: "אוניית מלחמה אמריקאית שהוטבעה ע''י גרמניה והייתה המניע לפרוץ המלחמה",
+        type: false
+      }, {
+        answer: "אונייה רפואית שנשלחה לעזור ליהודי אפריקה",
+        type: false
+      }, {
+        answer: "אוניית המעפילים האחרונה שיצאה מגרמניה לארץ ישראל",
+        type: false
+      }]
+    }, {
+      question: "?מהי פרשת האונייה סנט לואיז? ובאיזו שנה התרחשה",
+      answers: [{
+        answer: "אוניית מעפילים שיצאה מגרמנייה אל עבר קובה אך הממשלה שם סירבה לקבל אותה, בשנת 1939",
+        type: true
+      }, {
+        answer: "אוניית מעפילים שטבעה בדרכה לישראל בשנת 1946",
+        type: false
+      }, {
+        answer: "אוניית נשק שהובאה אל ישראל והופצצה ע''י צה''ל בשנת 1948",
+        type: false
+      }, {
+        answer: "אוניית נופש שיצאה מחופשי ישראל אל עבר בורגס, בשנת 1980",
+        type: false
+      }]
+    }, {
+      question: "?''מהם משפטי נירנברג",
+      answers: [{
+        answer: "העמדה לדין והענשת פושעי מלחמה נאצים",
+        type: true
+      }, {
+        answer: "משפטים האוכפים את תורת הגזע וחוקי הרייך",
+        type: false
+      }, {
+        answer: "משפטיהם של סרבנים גרמנים שהתנגדו להשמדה",
+        type: false
+      }, {
+        answer: "משפטם של חסידי אומות העולם שנתפסו ע''י הנאצים",
+        type: false
+      }]
+    }, {
+      question: "?מי היא מיפ חיס",
+      answers: [{
+        answer: "תושבת אמסטרדם אשר עבדה עם אוטו פרנק, אביה של אנה פרנק וסייעה להם להסתתר במחבואם",
+        type: true
+      }, {
+        answer: "יהודיה מהונגריה שניצלה את היותה בכירה ב''וועד להצלה'' והצילה רבבות יהודים בהברחתם לשוויץ",
+        type: false
+      }, {
+        answer: "אשת עסקים שפעלה בהונגריה תוך ניצול מעמדה הצילה יהודי הונגריה",
+        type: false
+      }, {
+        answer: "גרמניה שהצילה את מעמדה החברתי להצלת אלפי יהודים באמצעות מפעל לייצור סירים ופגזים",
+        type: false
+      }]
+    }, {
+      question: "?מי היה אדולף אייכמן",
+      answers: [{
+        answer: "מבכירי המנגנון הנאצי והאחראיים ליישום הפיתרון הסופי",
+        type: true
+      }, {
+        answer: "מנהיג התעמולה הנאצית",
+        type: false
+      }, {
+        answer: "מפקד מחנה אשוויץ בירקנאו",
+        type: false
+      }, {
+        answer: "השר לענייני בעיית היהודים ותורת הגזע",
+        type: false
+      }]
+    }, {
+      question: "?מי היה אהרון לידסקינד",
+      answers: [{
+        answer: "לוחם מחתרת ופרטיזן יהודי, ממקימי המחתרת בקרקוב",
+        type: true
+      }, {
+        answer: "מפקד מרד גטו וורשה לקראת סוף המלחמה",
+        type: false
+      }, {
+        answer: "מפקד הבריגדה היהודית בצבא הבריטי",
+        type: false
+      }, {
+        answer: "מפקד במחנה אושוויץ שהורה על פיצוץ המשרפות",
+        type: false
+      }]
+    }, {
+      question: "?מי היה אוסקר שינדלר",
+      answers: [{
+        answer: "עסקן גרמני שניצל את מעמדו החברתי להצלת אלפי יהודים באמצעות מפעל לייצור סירים ופגזים",
+        type: true
+      }, {
+        answer: "יהודי גרמני שניצל את היותו בכיר ב''וועד להצלה'' והציל רבבות יהודים בהברחתם לשוויץ",
+        type: false
+      }, {
+        answer: "איש עסקים לדיפלומט שוודי שפעל בהונגריה תוך שימוש במעמדו להצלת יהודי הונגריה",
+        type: false
+      }, {
+        answer: "תושב אמסטרדם אשר הסתיר יהודים, בין היתר הסתיר את אנה פרנק ומשפחתה",
+        type: false
+      }]
+    }, {
+      question: "?מי היה האנס פרנק",
+      answers: [{
+        answer: "המושל הנאצי לפולין",
+        type: true
+      }, {
+        answer: "אביה של אנה פרנק",
+        type: false
+      }, {
+        answer: "ממקימי האומשלגפלץ",
+        type: false
+      }, {
+        answer: "מראשי הגסטפו",
+        type: false
+      }]
+    }, {
+      question: "?מי היה יואכים-פון ריבנטרופ",
+      answers: [{
+        answer: "שר החוץ הגרמני",
+        type: true
+      }, {
+        answer: "שר החוץ הרוסי",
+        type: false
+      }, {
+        answer: "ראש הצבא הסדיר הגרמני",
+        type: false
+      }, {
+        answer: "ראש הצבא האדום",
+        type: false
+      }]
+    }, {
+      question: "?מי היה ישראל רז'ו קסטנר",
+      answers: [{
+        answer: "עורך דין ועיתונאי שפעל להצלת יהודי הונגריה",
+        type: true
+      }, {
+        answer: "חבר כנסת שהוביל וקידם את הסכם השילומים",
+        type: false
+      }, {
+        answer: "התובע הראשי במשפט אייכמן",
+        type: false
+      }, {
+        answer: "מנהיג יהודי ממייסדי הקונגרס הציוני העולמי",
+        type: false
+      }]
+    }, {
+      question: "?מי היה פרדריך ברברוסה",
+      answers: [{
+        answer: "אחד ממלכי גרמניה שנערץ ע''י היטלר",
+        type: true
+      }, {
+        answer: "מפקד הגסטפו וחיל האוויר הגרמני",
+        type: false
+      }, {
+        answer: "שר התעמולה הנאצית בתקופתו של היטלר",
+        type: false
+      }, {
+        answer: "הקיסר הגרמני אותו החליף היטלר בשלטון",
+        type: false
+      }]
+    }, {
+      question: "?מי היה ראש ה''ועד לעזרה והצלה'' בהונגריה בתקופת המלחמה",
+      answers: [{
+        answer: "דב יוסף",
+        type: true
+      }, {
+        answer: "דוב הוז",
+        type: false
+      }, {
+        answer: "נחום גולדמן",
+        type: false
+      }, {
+        answer: "גדעון האוזנר",
+        type: false
+      }]
+    }, {
+      question: "?מי היה ריינהארד היידריך",
+      answers: [{
+        answer: "ראש משטרת הביטחון הגרמנית בשטחי פולין",
+        type: true
+      }, {
+        answer: "מפקד המטה הכללי של פולין",
+        type: false
+      }, {
+        answer: "מפקד כוחות האייזנצגרופן במבצע ברברוסה",
+        type: false
+      }, {
+        answer: "ראש מטה המודיעין למתנגדי המשטר הנאצי",
+        type: false
+      }]
+    }, {
+      question: "?''מי הם ה''פרטיזנים",
+      answers: [{
+        answer: "כוחות המורדים שניסו לפגוע בעורף הגרמני בלחימתם ביערות",
+        type: true
+      }, {
+        answer: "כינוי למורדים יהודים בגטאות אשר לחמו במחתרת",
+        type: false
+      }, {
+        answer: "המחתרת הצרפתית אשר נלחמה בכיבוש הגרמני",
+        type: false
+      }, {
+        answer: "יחידות הגרילה של הצבא האדום שנלחמו בגרמנים",
+        type: false
+      }]
+    }, {
+      question: "?מי הם חסידי אומות העולם",
+      answers: [{
+        answer: "גויים אשר נטלו חלק בהצלת יהודים תוך סיכון עצמי ללא תמורה",
+        type: true
+      }, {
+        answer: "יהודים אשר נטלו חלק בהצלת היהודים תוך סיכון עצמי ללא תמורה",
+        type: false
+      }, {
+        answer: "גרמנים אשר נטלו חלק בהצלת יהודים בגרמניה תמורת סכום כספי ורכוש",
+        type: false
+      }, {
+        answer: "אוקראינים אשר נטלו חלק בהצלת יהודים תמורת סכום כספי ורכוש",
+        type: false
+      }]
+    }, {
+      question: "?מי טבע את האנטישמיות בשנת 1897",
+      answers: [{
+        answer: "ויליהם מאר",
+        type: true
+      }, {
+        answer: "קייזר הינדנבורג",
+        type: false
+      }, {
+        answer: "פון רוהאם",
+        type: false
+      }, {
+        answer: "אדולף היטלר",
+        type: false
+      }]
+    }, {
+      question: "?מיהו בנימין הלוי",
+      answers: [{
+        answer: "שופט אשר ניהל את משפט קסטנר, אייכמן והשתתף במשפט כפר קאסם",
+        type: true
+      }, {
+        answer: "''התובע הכללי במשפט אייכמן שתבע את השמפט ''6 מליון קטגוריות",
+        type: false
+      }, {
+        answer: "סגן ראש ה''ועד לעזרה והצלה'' בהונגריה בתקופת המלחמה",
+        type: false
+      }, {
+        answer: "הרב הראשי בקהילת לובלין אשר צעד בראש האקציה למחנה מיידנק",
+        type: false
+      }]
+    }, {
+      question: "?מיהו פרימו לוי",
+      answers: [{
+        answer: "סופר וכימאי יהודי שנכלא באושוויץ",
+        type: true
+      }, {
+        answer: "ראש כל מועצות היהודנרט",
+        type: false
+      }, {
+        answer: "מנהיג מרד גטו וורשה",
+        type: false
+      }, {
+        answer: "הוגה דעות ופילוסוף יהודי מיגוסלביה",
+        type: false
+      }]
+    }, {
+      question: "?מיהו צ'יונה סוגיארה",
+      answers: [{
+        answer: "קונסול יפני שניצל את מעמדו להבריח רבבות יהודים מהעיר קובנה שבליטא",
+        type: true
+      }, {
+        answer: "קונסול סין שניפק אשרות ליהודי אוסטריה וע''י כך הבריח אותם מאירופה",
+        type: false
+      }, {
+        answer: "(מפקד חיל האוויר היפני שפיקד על מבצע פרל הארבור (הפצצת חיל הים האמריקאי",
+        type: false
+      }, {
+        answer: "שר החוץ הסיני אשר חתם על הסכמי הברית בין גרמניה הנאצית לקיסרות סין",
+        type: false
+      }]
+    }, {
+      question: "?מיהו ראול ולנברג",
+      answers: [{
+        answer: "איש עסקים ודיפלומט שוודי שהציל רבבות מיהודי הונגריה",
+        type: true
+      }, {
+        answer: "קונסול פורטוגל שהבריח עשרות אלפי יהודים מצרפת לספרד ומשם לאמריקה",
+        type: false
+      }, {
+        answer: "עסקן גרמני שהעסיק יהודים במפעליו על מנת להצילם",
+        type: false
+      }, {
+        answer: "מלך דנמרק שהבריח יהודים לשבדיה",
+        type: false
+      }]
+    }, {
+      question: "?מיהו/מהו ג'נרל גוברנמן ",
+      answers: [{
+        answer: "שטחי פולין שאינם עתידים להיות מסופחים לגרמניה",
+        type: true
+      }, {
+        answer: "מפקד הכוחות הגרמנים בקרבות סטלינגרד",
+        type: false
+      }, {
+        answer: "מפקד כוחות הגרמנים במבצע אוברלורד",
+        type: false
+      }, {
+        answer: "כינוי לאזור מוסדות השלטון ברייך השלישי באירופה המערבית",
+        type: false
+      }]
+    }, {
+      question: "?מתי החלה רדיפת יהודי פולין",
+      answers: [{
+        answer: "ב1939 עם הפלישה לפולין",
+        type: true
+      }, {
+        answer: "ב1940 עם הפלישה לרומניה",
+        type: false
+      }, {
+        answer: "ב1941 עם תחילת המבצע ריבנטרוב-מולוטוב",
+        type: false
+      }, {
+        answer: "ב1938 מערב ליל הבדולח",
+        type: false
+      }]
+    }, {
+      question: "?מתי לראשונה נשלחו יהודים למחנות הריכוז",
+      answers: [{
+        answer: "לאחר ליל הבדולח",
+        type: true
+      }, {
+        answer: "עם סיפוח חבל הסודטים בצ'כיה",
+        type: false
+      }, {
+        answer: "עם כיבוש גרמניה",
+        type: false
+      }, {
+        answer: "עם סיפוח אוסטריה לגרמניה",
+        type: false
+      }]
+    }, {
+      question: "?מתי נכנעה גרמניה בפני בעלות הברית ",
+      answers: [{
+        answer: "1945",
+        type: true
+      }, {
+        answer: "1944",
+        type: false
+      }, {
+        answer: "1946",
+        type: false
+      }, {
+        answer: "1947",
+        type: false
+      }]
+    }, {
+      question: "?מתי נפתרה סופית בעיית הפליטים",
+      answers: [{
+        answer: "בהקמת מדינת ישראל",
+        type: true
+      }, {
+        answer: "עם סיום המלחמה",
+        type: false
+      }, {
+        answer: "עם שחרור מחנות הריכוז וההשמדה",
+        type: false
+      }, {
+        answer: "''עם סיום תהליך ''הפיתרון הסופי",
+        type: false
+      }]
+    }, {
+      question: "?מתי פרצה מלחמת העולם השניה",
+      answers: [{
+        answer: "הראשון לספטמבר 1939",
+        type: true
+      }, {
+        answer: "החמישי לספטמבר 1936",
+        type: false
+      }, {
+        answer: "השישי ליוני 1939",
+        type: false
+      }, {
+        answer: "ה-22 ליוני 1939",
+        type: false
+      }]
+    }, {
+      question: "?על איזה גוף הוטלה המשימה להנציח את קורבנות השואה",
+      answers: [{
+        answer: "הועד הלאומי",
+        type: true
+      }, {
+        answer: "התנועה הלאומית",
+        type: false
+      }, {
+        answer: "הועד הממשלתי",
+        type: false
+      }, {
+        answer: "התנועה הממשלתית",
+        type: false
+      }]
+    }, {
+      question: "?על מה התבססו המחתרות בגטאות",
+      answers: [{
+        answer: "תנועות הנוער היהודיות",
+        type: true
+      }, {
+        answer: "מוזלמנים",
+        type: false
+      }, {
+        answer: "קאפו",
+        type: false
+      }, {
+        answer: "יהודנרט",
+        type: false
+      }]
+    }, {
+      question: "?..'השבת השחורה'' הייתה פעולה של'",
+      answers: [{
+        answer: "הבריטים",
+        type: true
+      }, {
+        answer: "הלח''י",
+        type: false
+      }, {
+        answer: "האצ''ל",
+        type: false
+      }, {
+        answer: "המרי העברי",
+        type: false
+      }]
+    }, {
+      question: "?איזה ארגון עובדים הוקם בשנת 1920",
+      answers: [{
+        answer: "ההסתדרות הכללית של העובדים",
+        type: true
+      }, {
+        answer: "אגודת ישראל",
+        type: false
+      }, {
+        answer: "חלוצי העלייה השנייה",
+        type: false
+      }, {
+        answer: "ההסתדרות החקלאית של העובדים",
+        type: false
+      }]
+    }, {
+      question: "?איזה גל עלייה נמשך עד לפרוץ מלחמת העולם הראשונה",
+      answers: [{
+        answer: "עלייה שנייה",
+        type: true
+      }, {
+        answer: "עלייה ראשונה",
+        type: false
+      }, {
+        answer: "עלייה שלישית",
+        type: false
+      }, {
+        answer: "עלייה רביעית",
+        type: false
+      }]
+    }, {
+      question: "?איזו מהחברות הבאות היא חברה צודקת ושוויונית המתבססת על עקרונות סוציאליסטיים",
+      answers: [{
+        answer: "קיבוץ",
+        type: true
+      }, {
+        answer: "מושבה",
+        type: false
+      }, {
+        answer: "כפר",
+        type: false
+      }, {
+        answer: "עיר  ",
+        type: false
+      }]
+    }, {
+      question: "?איזו מושבה הוקמה במקביל לראש פינה",
+      answers: [{
+        answer: "פתח תקווה",
+        type: true
+      }, {
+        answer: "זכרון יעקב",
+        type: false
+      }, {
+        answer: "דגניה",
+        type: false
+      }, {
+        answer: "משכנות שאננים",
+        type: false
+      }]
+    }, {
+      question: "?איזו עיר שימשה כמוקד להפצה ולחידוש העברית כשפה מודרנית",
+      answers: [{
+        answer: "יפו",
+        type: true
+      }, {
+        answer: "ירושלים",
+        type: false
+      }, {
+        answer: "רמת גן",
+        type: false
+      }, {
+        answer: "חיפה",
+        type: false
+      }]
+    }, {
+      question: "?איזו עליות / עלייה התרחשה בתקופת המנדט הבריטי",
+      answers: [{
+        answer: "עלייה שלישית",
+        type: true
+      }, {
+        answer: "עלייה שנייה ושלישית",
+        type: false
+      }, {
+        answer: "עלייה ראשונה ושלישית",
+        type: false
+      }, {
+        answer: "עלייה ראשונה ורביעית",
+        type: false
+      }]
+    }, {
+      question: "? איזו קבוצה הוקמה ב1909",
+      answers: [{
+        answer: "דגניה",
+        type: true
+      }, {
+        answer: "אם המושבות",
+        type: false
+      }, {
+        answer: "משכנות שאננים",
+        type: false
+      }, {
+        answer: "ראש פינה",
+        type: false
+      }]
+    }, {
+      question: "?איזו תנועה התנגדה לפקידי הברון רוטשילד",
+      answers: [{
+        answer: "ביל''ו",
+        type: true
+      }, {
+        answer: "הציונות הכללית",
+        type: false
+      }, {
+        answer: "אגודת ישראל",
+        type: false
+      }, {
+        answer: "בית''ר",
+        type: false
+      }]
+    }, {
+      question: "?אילו אגודות הקים אליעזר בן יהודה",
+      answers: [{
+        answer: "ללימוד השפה העברית",
+        type: true
+      }, {
+        answer: "כלכליות",
+        type: false
+      }, {
+        answer: "חקלאיות",
+        type: false
+      }, {
+        answer: "ללימוד הדת",
+        type: false
+      }]
+    }, {
+      question: "?אילו אנשים פעלו בירושלים לשם תחיית השפה העברית",
+      answers: [{
+        answer: "קבוצת מחנכים ואינטלקטואלים",
+        type: true
+      }, {
+        answer: "קבוצת רבנים ותלמידיהם",
+        type: false
+      }, {
+        answer: "אליעזר בן יהודה וחותנו",
+        type: false
+      }, {
+        answer: "מחנכים",
+        type: false
+      }]
+    }, {
+      question: "?באיזה ספר לבן נקבע כי במדינת ישראל תקום מדינה דו-לאומית",
+      answers: [{
+        answer: "הספר הלבן השלישי",
+        type: true
+      }, {
+        answer: "הספר הלבן הראשון",
+        type: false
+      }, {
+        answer: "הספר הלבן השני",
+        type: false
+      }, {
+        answer: "הספר הלבן הרביעי",
+        type: false
+      }]
+    }, {
+      question: "?''באיזה ערי קודש התרכז ''היישוב היהודי",
+      answers: [{
+        answer: "חברון, ירושלים, טבריה, צפת",
+        type: true
+      }, {
+        answer: "צפת, עכו, ירושלים, חברון",
+        type: false
+      }, {
+        answer: "ירושלים, טבריה, חברון, באר שבע",
+        type: false
+      }, {
+        answer: "באר שבע, חברון, עכו, ירושלים",
+        type: false
+      }]
+    }, {
+      question: "?באיזה שנה הוקמה הקבוצה הראשונה דגניה",
+      answers: [{
+        answer: "1909",
+        type: true
+      }, {
+        answer: "1905",
+        type: false
+      }, {
+        answer: "1915",
+        type: false
+      }, {
+        answer: "1902",
+        type: false
+      }]
+    }, {
+      question: "?באיזו שנה גירשו הטורקים את תושבי יפו והסביבה",
+      answers: [{
+        answer: "1917",
+        type: true
+      }, {
+        answer: "1918",
+        type: false
+      }, {
+        answer: "1916",
+        type: false
+      }, {
+        answer: "1919",
+        type: false
+      }]
+    }, {
+      question: "?באיזו שנה החל גל העלייה השניה",
+      answers: [{
+        answer: "1904",
+        type: true
+      }, {
+        answer: "1903",
+        type: false
+      }, {
+        answer: "1905",
+        type: false
+      }, {
+        answer: "1902",
+        type: false
+      }]
+    }, {
+      question: "?''באיזו שנה החלה ''תקופת המאבק",
+      answers: [{
+        answer: "1945",
+        type: true
+      }, {
+        answer: "1941",
+        type: false
+      }, {
+        answer: "1942",
+        type: false
+      }, {
+        answer: "1947",
+        type: false
+      }]
+    }, {
+      question: "?''באיזו שנה נוסדה תנועת ''החלוץ",
+      answers: [{
+        answer: "1880",
+        type: true
+      }, {
+        answer: "1915",
+        type: false
+      }, {
+        answer: "1890",
+        type: false
+      }, {
+        answer: "1870",
+        type: false
+      }]
+    }, {
+      question: "?באיזו שפה דרשה חברת ''עזרה'' שבעזרתה ילמדו בטכניון",
+      answers: [{
+        answer: "גרמנית",
+        type: true
+      }, {
+        answer: "עברית",
+        type: false
+      }, {
+        answer: "פולנית",
+        type: false
+      }, {
+        answer: "אנגלית",
+        type: false
+      }]
+    }, {
+      question: "?''בין איזה שנים חל האירוע המכונה ''מלחמת השפות",
+      answers: [{
+        answer: "1913-1914",
+        type: true
+      }, {
+        answer: "1914-1915",
+        type: false
+      }, {
+        answer: "1913-1915",
+        type: false
+      }, {
+        answer: "1912-1913",
+        type: false
+      }]
+    }, {
+      question: "?בין אילו שנים חלה העלייה הראשונה",
+      answers: [{
+        answer: "1882-1903",
+        type: true
+      }, {
+        answer: "1882-1904",
+        type: false
+      }, {
+        answer: "1883-1903",
+        type: false
+      }, {
+        answer: "1883-1904",
+        type: false
+      }]
+    }, {
+      question: "?בין מי למי נחתם הסכמי הקפיטולציות",
+      answers: [{
+        answer: "האימפריה העות'מנית למעצמות השונות",
+        type: true
+      }, {
+        answer: "האימפריה הבריטית עם האימפריה העות'מנית",
+        type: false
+      }, {
+        answer: "המעצמות האירופיות עם האימפריה הבריטית",
+        type: false
+      }, {
+        answer: "מעצמות שונות לאימפריה הבריטית",
+        type: false
+      }]
+    }, {
+      question: "?''במה עסקו חברי ''גדוד העבודה",
+      answers: [{
+        answer: "סלילת כבישים והקמת ישובים",
+        type: true
+      }, {
+        answer: "סלילת כבישים ולימוד עבודה חקלאית",
+        type: false
+      }, {
+        answer: "לימוד תורה",
+        type: false
+      }, {
+        answer: "שילוב תורה ועבודה",
+        type: false
+      }]
+    }, {
+      question: "?''היכן ישבו אנשי ''הישוב הישן",
+      answers: [{
+        answer: "ירושלים, צפת, טבריה וחברון",
+        type: true
+      }, {
+        answer: "ירושלים, צפת, טבריה וחיפה",
+        type: false
+      }, {
+        answer: "ירושלים, טבריה, עתלית וחברון",
+        type: false
+      }, {
+        answer: "ירושלים, צפת, חיפה ועתלית",
+        type: false
+      }]
+    }, {
+      question: "?כיצד באה לידי ביטוי עזרתו של הברון רוטשילד למושבות",
+      answers: [{
+        answer: "הברון רוטשילד השקעי המושבות סכומים גדולים ושלח צוותים של מומחים ופקידים שיסייעו בניהולם הכלכלי",
+        type: true
+      }, {
+        answer: "הברון רוטשילד שלח צוותים של פקידים שסייעו בניהול הכלכלי של המשק החקלאי",
+        type: false
+      }, {
+        answer: "הברון רוטשילד שלח צוותים של מומחים בחקלאות כדי לפתח שיטות גידול חדשות",
+        type: false
+      }, {
+        answer: "הברון רוטשילד השקיע אך ורק בתחום הכספי של היישוב בעזרת תרומות",
+        type: false
+      }]
+    }, {
+      question: "?כיצד נקראה השכונה היהודית הראשונה שהוקמה מחוץ לחומות ירושלים",
+      answers: [{
+        answer: "משכנות שאננים",
+        type: true
+      }, {
+        answer: "מחנה ישראל",
+        type: false
+      }, {
+        answer: "גילה",
+        type: false
+      }, {
+        answer: "המושבה הגרמנית",
+        type: false
+      }]
+    }, {
+      question: "?כמה יהודים היו בארץ בראשיתה של המאה ה- 19",
+      answers: [{
+        answer: "6,000",
+        type: true
+      }, {
+        answer: "30,000",
+        type: false
+      }, {
+        answer: "60,000",
+        type: false
+      }, {
+        answer: "300,000",
+        type: false
+      }]
+    }, {
+      question: "?כמה עולים בעליה הראשונה דגלו בעבודת אדמה והקימו מושבות חדשות",
+      answers: [{
+        answer: "5000",
+        type: true
+      }, {
+        answer: "500",
+        type: false
+      }, {
+        answer: "20,000",
+        type: false
+      }, {
+        answer: "50,000",
+        type: false
+      }]
+    }, {
+      question: "?לאחר איזו עליה חודשה ההתיישבות בפתח תקווה",
+      answers: [{
+        answer: "עליה ראשונה",
+        type: true
+      }, {
+        answer: "עליה שניה",
+        type: false
+      }, {
+        answer: "עליה שלישית",
+        type: false
+      }, {
+        answer: "עליה רביעית",
+        type: false
+      }]
+    }, {
+      question: "?למה גרמה שיטת הפקידות",
+      answers: [{
+        answer: "תלות של החקלאים במימון חיצוני",
+        type: true
+      }, {
+        answer: "פיתוח של בנקים בהתיישבות שעזרו לחקלאים בניהול כלכלי",
+        type: false
+      }, {
+        answer: "תלות של החקלאים בעובדים רבים",
+        type: false
+      }, {
+        answer: "פיתוח של התשתיות הכלכליות במושבות",
+        type: false
+      }]
+    }, {
+      question: "?''למה הוביל הדגשת העקרון האידיאולוגי ''כיבוש האדמה",
+      answers: [{
+        answer: "הקמת קיבוצים על קרקעות לאומיות",
+        type: true
+      }, {
+        answer: "הקמת עיירות פיתוח",
+        type: false
+      }, {
+        answer: "הקמת כפרי אירוח",
+        type: false
+      }, {
+        answer: "הקמת המושבות",
+        type: false
+      }]
+    }, {
+      question: "?''מאיזו עליה החל להתקיים ''הישוב החדש",
+      answers: [{
+        answer: "עליה ראשונה",
+        type: true
+      }, {
+        answer: "עליה שניה",
+        type: false
+      }, {
+        answer: "עליה שלישית",
+        type: false
+      }, {
+        answer: "עליה רביעית",
+        type: false
+      }]
+    }, {
+      question: "?מה אפיין את העלייה החמישית",
+      answers: [{
+        answer: "החרדה מפני המשטרים הפשיסטיים",
+        type: true
+      }, {
+        answer: "הברון רוטשילד שהשקיע במושבות סכומים גדולים בשיטה שנקראה שיטת הפקידות",
+        type: false
+      }, {
+        answer: "הגעתה לארץ של האונייה ''רוסלן'' שעל סיפונה היו מעל 600 עולים",
+        type: false
+      }, {
+        answer: "החשיבות שבעבודת האדמה ועבודת הכפיים",
+        type: false
+      }]
+    }, {
+      question: "?''מה היה ''ליל הגשרים",
+      answers: [{
+        answer: "פעולה שנקטה תנועת המרי העברית שבמהלכה פוצצו 11 גשרים ברחבי הארץ",
+        type: true
+      }, {
+        answer: "פעולה בה היישוב היהודי הקים 11 גשרים המסגרת חומה ומגדל",
+        type: false
+      }, {
+        answer: "פעולה של הפרטיזנים ביוגוסלביה שמטרתה הייתה לעצור את תנועת הרכבות לכיוון מזרח",
+        type: false
+      }, {
+        answer: "מבצע שהתרחש במסגרת מבצע נחשון בו חטיבת הראל פרצה באמצעות גשרים מאולתרים את דרכה במרחב לטרון",
+        type: false
+      }]
+    }, {
+      question: "?מה היה בסיס רעיון הקבוצה שהתגלגל והפך לימים לרעיון הקיבוץ",
+      answers: [{
+        answer: "התיישבות משותפת ועיבוד משותף של חלקות האדמה",
+        type: true
+      }, {
+        answer: "כיבוש האדמה והפיכתה לאדמה חקלאית",
+        type: false
+      }, {
+        answer: "התיישבות משותפת וחלוקת האדמה לחלקות",
+        type: false
+      }, {
+        answer: "כיבוש האדמה ובניית מבני מגורים בה",
+        type: false
+      }]
+    }, {
+      question: "?מה היה הקיבוץ הראשון ומתי הוקם",
+      answers: [{
+        answer: "דגניה, 1909",
+        type: true
+      }, {
+        answer: "נהלל, 1906",
+        type: false
+      }, {
+        answer: "דגניה, 1907",
+        type: false
+      }, {
+        answer: "כינרת, 1908",
+        type: false
+      }]
+    }, {
+      question: "?מה היה כינוייה של פתח תקווה",
+      answers: [{
+        answer: "אם המושבות",
+        type: true
+      }, {
+        answer: "משכנות שאננים",
+        type: false
+      }, {
+        answer: "המושבה הראשונה",
+        type: false
+      }, {
+        answer: "אחוזת בית",
+        type: false
+      }]
+    }, {
+      question: "?מה היה פועלה של וועדת אונסקו''פ",
+      answers: [{
+        answer: "המליצה על תכנית החלוקה",
+        type: true
+      }, {
+        answer: "החליטה למסור למדינה היהודית את מרבית שטחי הנגב",
+        type: false
+      }, {
+        answer: "הוועדה המיוחדת של האו''ם לענייני כלכלה במזרח התיכון",
+        type: false
+      }, {
+        answer: "דנה בבעיית הפליטים היהודים",
+        type: false
+      }]
+    }, {
+      question: "?מה הייתה השכונה היהודית הראשונה שהוקמה מחוץ לחומות",
+      answers: [{
+        answer: "משכנות שאננים",
+        type: true
+      }, {
+        answer: "נווה שאנן",
+        type: false
+      }, {
+        answer: "פתח תקווה",
+        type: false
+      }, {
+        answer: "אחוזת בית",
+        type: false
+      }]
+    }, {
+      question: "?''מה הייתה מטרתה של ''ועדת פיל''",
+      answers: [{
+        answer: "הצעת פתרון לסכסוך הערבי-יהודי המתהווה",
+        type: true
+      }, {
+        answer: "הוועדה אשר גיבשה את הסכמי ההפוגה הראשונה במלחמת העצמאות",
+        type: false
+      }, {
+        answer: "בדיקת סיבות פריצתה של מלחמת העולם הראשונה",
+        type: false
+      }, {
+        answer: "קביעת קריטריונים לעלייה בתקופת העלייה השנייה",
+        type: false
+      }]
+    }, {
+      question: "?מה היתה התוצאה של מאורעות תרפ''ט",
+      answers: [{
+        answer: "הצעת פתרון לסכסוך הערבי-יהודי המתהווה",
+        type: true
+      }, {
+        answer: "הוועדה אשר גיבשה את הסכמי ההפוגה הראשונה במלחמת העצמאות",
+        type: false
+      }, {
+        answer: "בדיקת סיבות פריצתה של מלחמת העולם הראשונה",
+        type: false
+      }, {
+        answer: "קביעת קריטריונים לעלייה בתקופת העלייה השנייה",
+        type: false
+      }]
+    }, {
+      question: "?מה השפיע על הריבוי של האוכלוסיה בארץ",
+      answers: [{
+        answer: "עליות קדם ציוניות",
+        type: true
+      }, {
+        answer: "תמותה באחוז נמוך",
+        type: false
+      }, {
+        answer: "ריבוי טבעי",
+        type: false
+      }, {
+        answer: "אימוץ",
+        type: false
+      }]
+    }, {
+      question: "?מה יזם משה מונטיפיורי בשנת 1860",
+      answers: [{
+        answer: "הקמתה של השכונה היהודית הראשונה מחוץ לחומות",
+        type: true
+      }, {
+        answer: "הקמתה של שכונה יהודית בירושלים",
+        type: false
+      }, {
+        answer: "פרויקט למימון המפעל הציוני",
+        type: false
+      }, {
+        answer: "פרויקט למימון ההתיישבות בארץ ישראל",
+        type: false
+      }]
+    }, {
+      question: "?''מה מהווה ''הצהרת בלפור",
+      answers: [{
+        answer: "הישג דיפלומטי חשוב בדרך להקמת המדינה",
+        type: true
+      }, {
+        answer: "מכתב שכתב בלפור שנלקח בחשבון בזמן המנדט הבריטי",
+        type: false
+      }, {
+        answer: "מכתב שנכתב לברון רוטשילד",
+        type: false
+      }, {
+        answer: "הישג דיפלומטי חשוב העוסק בחיבור עם מדינות העולם",
+        type: false
+      }]
+    }, {
+      question: "?מה נקבע בספר הלבן השלישי",
+      answers: [{
+        answer: "כי בפלסטינה תקום מדינה דו לאומית",
+        type: true
+      }, {
+        answer: "כי בפלסטינה תקום מדינה יהודית",
+        type: false
+      }, {
+        answer: "כי בפלסטינה תקום מדינה יהודית לצד מדינה ערבית",
+        type: false
+      }, {
+        answer: "כי בפלסטינה תקום מדינה ערבית",
+        type: false
+      }]
+    }, {
+      question: "?''מה קיימו היהודים הספרדים בתקופת ''הישוב הישן'",
+      answers: [{
+        answer: "מערכת של קשרים כלכלים עם אוכלוסית הרוב המוסלמית ורבים מהם עבדו לפרנסתם",
+        type: true
+      }, {
+        answer: "מערכת של קשרים חברתיים עם אוכלוסית הרוב המוסלמית ורבים מהם עבדו לפרנסתם",
+        type: false
+      }, {
+        answer: "מערכת של קשרים כלכליים עם אוכלוסית הרוב הערבית ורבים מהם עבדו בפיתוח מיומנויות לחימה",
+        type: false
+      }, {
+        answer: "מערכת של קשרים חברתיים עם אוכלסית הרוב הנוצרית ורבים מהם עסקו בחקלאות",
+        type: false
+      }]
+    }, {
+      question: "?''מהו ''ריב הלשונות",
+      answers: [{
+        answer: "וויכוח שפרץ לגביי שפת הלימוד בטכניון",
+        type: true
+      }, {
+        answer: "וויכוח שפרץ בין הטכניון לבין הגימנסיה הרצליה",
+        type: false
+      }, {
+        answer: "וויכוח שפרץ לגביי שפת הלימוד במוסדות הלימוד בארץ",
+        type: false
+      }, {
+        answer: "וויכוח שפרץ בין הטכניון לבין האוניברסיטה העברית",
+        type: false
+      }]
+    }, {
+      question: "?מהו הספר הלבן הראשון",
+      answers: [{
+        answer: "מסמך רשמי שהוצא לאור ע''י ממשלת בריטניה, המציג את מדיניות הממשלה כלפי היישוב היהודי",
+        type: true
+      }, {
+        answer: "מסמך המסכם את ''הצהרת בלפור'' אשר נכתב ע''י הלורד ריצ'מונד דהלאנור רמינגטון",
+        type: false
+      }, {
+        answer: "מסמך המתאר את הקשיים שגרמו למתחים בין ראשי היישוב היהודי והציונות לבין בריטניה",
+        type: false
+      }, {
+        answer: "מסמך המבטא את הנסיגה מהמחויבות להקמתו של הבית הלאומי וקובע קריטריונים חדשים לעלייה ורכישת קרקעות",
+        type: false
+      }]
+    }, {
+      question: "?מהו הספר הלבן",
+      answers: [{
+        answer: "שינויים במדיניות הבריטית שהוגדרו רשמית בסדרה של מסמכים",
+        type: true
+      }, {
+        answer: "שינויים במדיניות הבריטית שהוגדרו רשמית בסדרה של צווים",
+        type: false
+      }, {
+        answer: "אוסף מסמכים שביניהם גם הצהרת בלפור",
+        type: false
+      }, {
+        answer: "אוסף פקודות ושינויים במדיניות הגרמנית שהוגדרו רשמית בסדרה של מסמכים",
+        type: false
+      }]
+    }, {
+      question: "?מהו שמה של השכונה, שהפכה לימים לעיר העברית הראשונה",
+      answers: [{
+        answer: "אחוזת בית",
+        type: true
+      }, {
+        answer: "מחנה ישראל",
+        type: false
+      }, {
+        answer: "הגימנסיה",
+        type: false
+      }, {
+        answer: "אום רשרש",
+        type: false
+      }]
+    }, {
+      question: "?''מהי ''ההסתדרות הכללית של העובדים העבריים בארץ ישראל",
+      answers: [{
+        answer: "ארגון עובדים שאיגד את כל העובדים היהודים בארץ",
+        type: true
+      }, {
+        answer: "ארגון עובדים שאיגד את כל העובדים בארץ",
+        type: false
+      }, {
+        answer: "ארגון עובדים שהוקם על ידי הבריטים למען המושבה היהודית בארץ",
+        type: false
+      }, {
+        answer: "ארגון עובדים שהוקם על ידי גדוד העבודה",
+        type: false
+      }]
+    }, {
+      question: "?מהי גיא אוני",
+      answers: [{
+        answer: "ראש פינה",
+        type: true
+      }, {
+        answer: "פתח תקווה",
+        type: false
+      }, {
+        answer: "חברון",
+        type: false
+      }, {
+        answer: "צפת",
+        type: false
+      }]
+    }, {
+      question: "?מהי הצהרת בלפור",
+      answers: [{
+        answer: "הכרה רשמית בתביעותיה של התנועה הציונית על ארץ ישראל",
+        type: true
+      }, {
+        answer: "הכרה רשמית בתביעותיה של תנועת ההסתדרות הכללית על ארץ ישראל",
+        type: false
+      }, {
+        answer: "שיתוף פעולה עם הבריטים באזור",
+        type: false
+      }, {
+        answer: "הכרה רשמית בקשיים בין ראשי היישוב היהודי לבין הבריטים",
+        type: false
+      }]
+    }, {
+      question: "?''מהי השיטה בה נקט הברון רוטשילד שהפכה את העולים ל''מנהלי עבודה",
+      answers: [{
+        answer: "הפקידות",
+        type: true
+      }, {
+        answer: "היישוב הקטן",
+        type: false
+      }, {
+        answer: "המנהלים",
+        type: false
+      }, {
+        answer: "החקלאות",
+        type: false
+      }]
+    }, {
+      question: "?מהיכן הגיעו רוב עולי העליה הראשונה",
+      answers: [{
+        answer: "רוסיה, רומניה ופולין",
+        type: true
+      }, {
+        answer: "רוסיה, גרמניה ורומניה",
+        type: false
+      }, {
+        answer: "רוסיה, רומניה והונגריה",
+        type: false
+      }, {
+        answer: "פולין, רוסיה וגרמניה",
+        type: false
+      }]
+    }, {
+      question: "?מהיכן הגיעו רוב עולי העלייה החמישית",
+      answers: [{
+        answer: "גרמניה",
+        type: true
+      }, {
+        answer: "פולין",
+        type: false
+      }, {
+        answer: "רומניה",
+        type: false
+      }, {
+        answer: "תימן",
+        type: false
+      }]
+    }, {
+      question: "?מהם הסכמי קפיטוליציות",
+      answers: [{
+        answer: "הסכמים שהקנו זכויות יתר לנתיני המעצמות",
+        type: true
+      }, {
+        answer: "הסכמים שהקנו זכויות יתר לתושבי מדינת ישראל",
+        type: false
+      }, {
+        answer: "הסכמים שחייבו את נתיני המעצמות בביצוע גזירות רבות",
+        type: false
+      }, {
+        answer: "הסכמים של שלום בין המעצמות",
+        type: false
+      }]
+    }, {
+      question: "?מהן תוכניות ההצלה ומהי מטרתן",
+      answers: [{
+        answer: "תוכניות אשר מטרתן הייתה להציל יהודים בזמן מלחמת העולם השנייה",
+        type: true
+      }, {
+        answer: "תוכניות אשר מטרתן הייתה להעלות עולים בצורה בלתי לגאלית בזמן מלחמת העולם השנייה",
+        type: false
+      }, {
+        answer: "תוכנית אשר מטרתן הייתה רקימת קשר עם ארה''ב בזמן מלחמת העולם השנייה",
+        type: false
+      }, {
+        answer: "תוכניות אשר מטרתן הייתה להציל יהודים מרוסיה ואתיופיה בזמן מלחמת העולם השנייה",
+        type: false
+      }]
+    }, {
+      question: "?מי היה אברהם משה (א''מ) לונץ",
+      answers: [{
+        answer: "מראשוני החוקרים של ארץ ישראל",
+        type: true
+      }, {
+        answer: "נחשב לאחד התומכים לטובת המפעל הציוני",
+        type: false
+      }, {
+        answer: "איש ציבור שהשתייך אל היישוב הישן",
+        type: false
+      }, {
+        answer: "מחלוצי העלייה השנייה",
+        type: false
+      }]
+    }, {
+      question: "?מי היה משה מונטיפיורי",
+      answers: [{
+        answer: "יהודי עשיר אשר סייע לתושבים היהודים להתיישב מחוץ לחומות",
+        type: true
+      }, {
+        answer: "יהודי אשר סייע לתושבים הערביים להגר מחוץ לא''י",
+        type: false
+      }, {
+        answer: "יהודי עשיר אשר סייע לתושבים הערביים להתיישב מחוץ לחומות",
+        type: false
+      }, {
+        answer: "יהודי אשר הוביל את פרוייקט חומה ומגדל",
+        type: false
+      }]
+    }, {
+      question: "?מי היו מדינות ההסכמה במלחמת העולם הראשונה",
+      answers: [{
+        answer: "איטליה, בריטניה, יפן, ארה''ב, רוסיה, צרפת",
+        type: true
+      }, {
+        answer: "איטליה, גרמניה, יפן, סין, ארה''ב, צרפת",
+        type: false
+      }, {
+        answer: "איטליה, גרמניה, רוסיה, בריטניה, אירלנד, סין",
+        type: false
+      }, {
+        answer: "איטליה, בריטניה, בולגריה, רוסיה, צרפת",
+        type: false
+      }]
+    }, {
+      question: "?מי הקים את ועדת אונסקו''פ",
+      answers: [{
+        answer: "האו''ם",
+        type: true
+      }, {
+        answer: "האיחוד האירופאי",
+        type: false
+      }, {
+        answer: "הממשל הבריטי",
+        type: false
+      }, {
+        answer: "נאט''ו",
+        type: false
+      }]
+    }, {
+      question: "?מי מהבאים נתמך בכספי החלוקה",
+      answers: [{
+        answer: "האשכנזים, ביישוב הישן",
+        type: true
+      }, {
+        answer: "הספרדים, ביישוב הישן",
+        type: false
+      }, {
+        answer: "האשכנזים, בעלייה השנייה",
+        type: false
+      }, {
+        answer: "הספרדים, בעלייה השנייה",
+        type: false
+      }]
+    }, {
+      question: "?ממה הורכבה העלייה הרביעית בעיקרה",
+      answers: [{
+        answer: "ממשפחות בנות המעמד הבינוני שעזבו את פולין",
+        type: true
+      }, {
+        answer: "ממשפחות בנות המעמד הבינוני שעזבו את רומניה",
+        type: false
+      }, {
+        answer: "ממשפחות בנות המעמד הגבוה שעזבו את בריטניה",
+        type: false
+      }, {
+        answer: "ממשפחות בנות המעמד הגבוה שעזבו את גרמניה",
+        type: false
+      }]
+    }, {
+      question: "?מתי היה גירוש תל אביב",
+      answers: [{
+        answer: "במרץ 1917 גירשו הטורקים את תושבי המקום",
+        type: true
+      }, {
+        answer: "ביולי 1918 גירשו הטורקים את תושבי המקום",
+        type: false
+      }, {
+        answer: "במרץ 1917 גירשו הבריטים את תושבי המקום",
+        type: false
+      }, {
+        answer: "ביולי 1918 גירשו הבריטים את תושבי המקום",
+        type: false
+      }]
+    }, {
+      question: "?ע''י מי פורסם הספר הלבן",
+      answers: [{
+        answer: "שר המושבות הבריטי",
+        type: true
+      }, {
+        answer: "שר החוץ הבריטי",
+        type: false
+      }, {
+        answer: "התנועה הציונית",
+        type: false
+      }, {
+        answer: "תנועת המחתרת ניל''י",
+        type: false
+      }]
+    }, {
+      question: "?על ידי מי פורסם הספר הלבן הראשון",
+      answers: [{
+        answer: "ווינסטון צ'רצ'יל",
+        type: true
+      }, {
+        answer: "ג'יימס בלפור",
+        type: false
+      }, {
+        answer: "הברון רוטשילד",
+        type: false
+      }, {
+        answer: "אדמונס ג'יימס",
+        type: false
+      }]
+    }, {
+      question: "?על מה נאבקו בעלי תודעה לאומית סוציאליסטית מהעלייה השנייה",
+      answers: [{
+        answer: "כיבוש העבודה",
+        type: true
+      }, {
+        answer: "כיבוש השמירה",
+        type: false
+      }, {
+        answer: "השפה העברית",
+        type: false
+      }, {
+        answer: "צביון דתי בארץ",
+        type: false
+      }]
+    }, {
+      question: "?על שמו של איזה רמטכ''ל נקרא בסיס מטה מפקדת זרוע היבשה בקרית מלאכי",
+      answers: [{
+        answer: "חיים בר לב ",
+        type: true
+      }, {
+        answer: "דוד אלעזר ",
+        type: false
+      }, {
+        answer: "יצחק רבין ",
+        type: false
+      }, {
+        answer: "צבי צור",
+        type: false
+      }]
+    }, {
+      question: "?''איזה נשיא הקים את מפלגת ''יחד",
+      answers: [{
+        answer: "עזר ויצמן",
+        type: true
+      }, {
+        answer: "שמעון פרס ",
+        type: false
+      }, {
+        answer: "אפרים קציר",
+        type: false
+      }, {
+        answer: "חיים ויצמן",
+        type: false
+      }]
+    }, {
+      question: "?איזה נשיא מונה למנכ''ל משרד הביטחון",
+      answers: [{
+        answer: "שמעון פרס",
+        type: true
+      }, {
+        answer: "זלמן שזר",
+        type: false
+      }, {
+        answer: "יצחק בן צבי",
+        type: false
+      }, {
+        answer: "יצחק נבון",
+        type: false
+      }]
+    }, {
+      question: "?איזה נשיא נולד בשנת 1884 בפולטובה שברוסיה ונקבר בהר המנוחות בירושלים",
+      answers: [{
+        answer: "יצחק בן צבי",
+        type: true
+      }, {
+        answer: "אפריים קציר",
+        type: false
+      }, {
+        answer: "לוי אשכול",
+        type: false
+      }, {
+        answer: "יצחק רבין",
+        type: false
+      }]
+    }, {
+      question: "?איזה נשיא פעל להשגתה של הצהרת בלפור",
+      answers: [{
+        answer: "חיים ויצמן",
+        type: true
+      }, {
+        answer: "משה קצב",
+        type: false
+      }, {
+        answer: "עזר ויצמן",
+        type: false
+      }, {
+        answer: "חיים הרצוג",
+        type: false
+      }]
+    }, {
+      question: "?''איזה פיקוד היה אחראי על הלחימה בעזה במבצע ''צוק איתן",
+      answers: [{
+        answer: "פיקוד דרום",
+        type: true
+      }, {
+        answer: "פיקוד צפון",
+        type: false
+      }, {
+        answer: "פיקוד מרכז",
+        type: false
+      }, {
+        answer: "מז''י",
+        type: false
+      }]
+    }, {
+      question: "?איזה רמטכ''ל התמנה לנציב קבילות החיילים הראשון בצה''ל",
+      answers: [{
+        answer: "חיים לסקוב",
+        type: true
+      }, {
+        answer: "משה דיין",
+        type: false
+      }, {
+        answer: "מרדכי מקלף",
+        type: false
+      }, {
+        answer: "צבי צור",
+        type: false
+      }]
+    }, {
+      question: "?איזה שר שימש שמיר בממשלה שבה ניצח פרס בבחירות",
+      answers: [{
+        answer: "שר חוץ",
+        type: true
+      }, {
+        answer: "שר פנים",
+        type: false
+      }, {
+        answer: "שר האוצר",
+        type: false
+      }, {
+        answer: "שר החינוך",
+        type: false
+      }]
+    }, {
+      question: "?איזו בעיה העצימה העלייה ההמונית במדינה",
+      answers: [{
+        answer: "בעיות כלכליות",
+        type: true
+      }, {
+        answer: "בעיה מדינית",
+        type: false
+      }, {
+        answer: "בעיה ביטחונית",
+        type: false
+      }, {
+        answer: "בעיות בינלאומיות",
+        type: false
+      }]
+    }, {
+      question: "?איך נקרא גל המחאה שפקד את מדינת ישראל בין השנים 1971-1970",
+      answers: [{
+        answer: "הפנתרים השחורים",
+        type: true
+      }, {
+        answer: "הסכסוך הפלסטינאי",
+        type: false
+      }, {
+        answer: "ואדי סאליב",
+        type: false
+      }, {
+        answer: "הציבורי",
+        type: false
+      }]
+    }, {
+      question: "?ב-1940 נעצר מנחם בגין בברית המועצות, מתי הוא שוחרר",
+      answers: [{
+        answer: "בעת מבצע ברברוסה",
+        type: true
+      }, {
+        answer: "בזמן האינטיפאדה",
+        type: false
+      }, {
+        answer: "בעת מבצע יונתן",
+        type: false
+      }, {
+        answer: "בעת הסכמי אוסלו",
+        type: false
+      }]
+    }, {
+      question: "?ב1967 התגייס בנימין נתניהו. לאיזו יחידה",
+      answers: [{
+        answer: "סיירת מטכ''ל",
+        type: true
+      }, {
+        answer: "פלס''ר גולני",
+        type: false
+      }, {
+        answer: "דובדבן",
+        type: false
+      }, {
+        answer: "חיל החימוש",
         type: false
       }]
     }, {
