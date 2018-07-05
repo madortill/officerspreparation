@@ -354,7 +354,7 @@
 .billionaire--answer-number {
   direction: rtl;
   margin-right: 0.5em;
-  font-size: 1.7em;
+  font-size: 3vh;
 }
 
 .billionaire--life {
@@ -393,7 +393,8 @@
 .billionaireQuestion {
   position: absolute;
   text-align: right;
-  top: 24.5vh;
+  top: 18.5vh;
+  font-size: 4vh;
 }
 
 .hideElement {

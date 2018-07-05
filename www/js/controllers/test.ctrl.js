@@ -46,7 +46,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     $scope.unClickAnswer = [false, false, false, false];
     console.log($scope.unClickAnswer);
 
-    if ($scope.questionNumber == 5) {
+    if ($scope.questionNumber == 20) {
       $scope.finishGame = true;
 
     }
@@ -62,11 +62,11 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   }
 
   function randomNumbers() {
-    questionIndex[0] = Math.floor((Math.random() * 7) + 0);
-    randomNum = Math.floor((Math.random() * 7) + 0);
-    for (var i = 1; i < 5; i++) {
+    questionIndex[0] = Math.floor((Math.random() * 350) + 0);
+    randomNum = Math.floor((Math.random() * 350) + 0);
+    for (var i = 1; i < 30; i++) {
       while (ifNumberExist(questionIndex, randomNum)) {
-        randomNum = Math.floor((Math.random() * 7) + 0);
+        randomNum = Math.floor((Math.random() * 350) + 0);
       }
       questionIndex[i] = randomNum;
 
@@ -96,7 +96,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     $scope.minute_text = minute; // update scope
     countDown--; // -1
     if (countDown > -1) {
-      $timeout($scope.countDowner, 100); // loop it again
+      $timeout($scope.countDowner, 1000); // loop it again
     }
     if (countDown == 0) {
       minute--;
@@ -114,6 +114,8 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   function testcontent() {
     $scope.question = TestService.test[questionIndex[$scope.questionNumber - 1]];
     $scope.answers = TestService.test[questionIndex[$scope.questionNumber - 1]].answers;
+    shuffle($scope.answers);
+
 
   }
 
@@ -131,6 +133,15 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       $timeout(function () {
         console.log("false answer");
         $scope.inCorrectAnswer[index] = true;
+        for (var i = 0; i < 4; i++) {
+          if ($scope.answers[i].type == true) {
+            // $scope.correctAnswer[index] = true;
+            console.log(i);
+            $scope.correctAnswer[i] = true;
+
+          }
+        }
+
         $scope.wrongAnswer++;
       }, 100);
     }
@@ -147,7 +158,22 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     if ($scope.questionCounter == 5) {
       $scope.finishGame = true;
     }
+
     console.log($scope.unClickAnswer);
 
   }
+
+  function shuffle(array) {
+    var m = array.length,
+      t, i;
+    while (m) {
+      i = Math.floor(Math.random() * m--);
+      t = array[m];
+      array[m] = array[i];
+      array[i] = t;
+    }
+    return array;
+  }
+
+
 }
