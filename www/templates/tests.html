@@ -16,15 +16,17 @@
 
     </div>
     <div class="test--finishScreen" ng-show="finishGame">
-      <h1 class="test--finish-text" id="test--firstLine-finishText"> צדקת ב {{rightAnswer}}</h1>
-      <h1 class="test--finish-text"> טעית ב {{wrongAnswer}}</h1>
+      <h1 class="test--finish-text" id="test--firstLine-finishText"> מספר התשובות הנכונות {{rightAnswer}}</h1>
+      <h1 class="test--finish-text"> מספר הטעויות {{wrongAnswer}}</h1>
+      <h1 class="test--start" ng-click="backToHome" ui-sref="home">לדף הבית</h1>
+
     </div>
     <div class="book--menu">
       <img src="img/backbutton.svg" class="book--menu-menubutton" ng-click="goBack()">
       <h1 class="book--menu-title" ng-click="countDowner()"> start game</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
-    <div class="game--next-question" ng-click="nextQuestion()" ng-show="hideNextQuestion">לשאלה הבאה</div>
+    <!-- <div class="game--next-question" ng-click="nextQuestion()" ng-show="hideNextQuestion">לשאלה הבאה</div> -->
     <div class="game">
       <div class="game--firstline"></div>
       <div class="game--secondline"></div>

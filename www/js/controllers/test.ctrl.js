@@ -4,12 +4,7 @@ testcontroller.$inject = ['$scope', '$state', '$timeout', 'TestService', '$inter
 
 
 function testcontroller($scope, $state, $timeout, TestService, $interval) {
-  /************************************************
-   * *****************************************************
-   * dont forget put shuffle function before finish&upload app
-   * ************************************************
-   * ************************************************
-   */
+
 
   $scope.questionNumber = 1; //count the question num
   var questionIndex = []; //the array to to index
@@ -39,22 +34,22 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
   }
 
-  $scope.nextQuestion = function () {
-    $scope.questionNumber++;
-    $scope.hideNextQuestion = false;
+  // $scope.nextQuestion = function () {
+  // $scope.questionNumber++;
+  // $scope.hideNextQuestion = false;
 
-    $scope.unClickAnswer = [false, false, false, false];
-    console.log($scope.unClickAnswer);
+  // $scope.unClickAnswer = [false, false, false, false];
+  // console.log($scope.unClickAnswer);
 
-    if ($scope.questionNumber == 20) {
-      $scope.finishGame = true;
+  // if ($scope.questionNumber == 20) {
+  //   $scope.finishGame = true;
 
-    }
-    testcontent();
-    unPaintaAnswer();
+  // }
+  // testcontent();
+  // unPaintaAnswer();
 
 
-  }
+  // }
 
   function unPaintaAnswer() {
     $scope.inCorrectAnswer = [false, false, false, false];
@@ -62,11 +57,11 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   }
 
   function randomNumbers() {
-    questionIndex[0] = Math.floor((Math.random() * 350) + 0);
-    randomNum = Math.floor((Math.random() * 350) + 0);
-    for (var i = 1; i < 30; i++) {
+    questionIndex[0] = Math.floor((Math.random() * 10) + 0);
+    randomNum = Math.floor((Math.random() * 10) + 0);
+    for (var i = 1; i < 10; i++) {
       while (ifNumberExist(questionIndex, randomNum)) {
-        randomNum = Math.floor((Math.random() * 350) + 0);
+        randomNum = Math.floor((Math.random() * 10) + 0);
       }
       questionIndex[i] = randomNum;
 
@@ -91,7 +86,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   var countDown = 59;
   var minute = 2;
   $scope.countDowner = function () {
-
+    // function stopcountdown() {
     $scope.countDown_text = countDown;
     $scope.minute_text = minute; // update scope
     countDown--; // -1
@@ -110,6 +105,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       minute = 2;
     }
   };
+  // }
 
   function testcontent() {
     $scope.question = TestService.test[questionIndex[$scope.questionNumber - 1]];
@@ -125,7 +121,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
 
   $scope.userAnswer = (index) => {
-
+    $scope.questionCounter++;
     // console.log($scope.answers[index].type);
     if ($scope.answers[index].type == false) {
       console.log($scope.unClickAnswer);
@@ -160,8 +156,33 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     }
 
     console.log($scope.unClickAnswer);
+    $timeout(function () {
+      $scope.questionNumber++;
+      $scope.hideNextQuestion = false;
+
+      $scope.unClickAnswer = [false, false, false, false];
+      console.log($scope.unClickAnswer);
+
+      if ($scope.questionNumber == 20) {
+        $scope.finishGame = true;
+
+      }
+      testcontent();
+      unPaintaAnswer();
+    }, 3000);
+
+
 
   }
+
+  // 
+  $scope.backToHome = () => {
+    $scope.finishGame = false;
+
+
+  }
+
+
 
   function shuffle(array) {
     var m = array.length,

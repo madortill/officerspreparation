@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Open Sans Hebrew', serif;
-  src: url('./OpenSansHebrewCondensed-Light.ttf') format('truetype');
+  font-family: "Open Sans Hebrew", serif;
+  src: url("./OpenSansHebrewCondensed-Light.ttf") format("truetype");
 }
 
 /* * {
@@ -14,7 +14,7 @@
   margin-top: 25vh;
 }
 
-.overflow-scroll>.scroll {
+.overflow-scroll > .scroll {
   background: #fff6ee;
 }
 
@@ -66,7 +66,7 @@
   position: absolute;
   bottom: 4px;
   left: 7px;
-  width: 20vh;
+  width: 30vh;
 }
 
 .home--buttons {
@@ -145,14 +145,14 @@
 }
 
 .book--menu-title {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   font-size: 1.7em;
   text-align: right;
   margin-top: 2vh;
 }
 
 .book--title {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   font-size: 4em;
   text-align: center;
   margin-top: 3%;
@@ -166,10 +166,10 @@
 }
 
 .book--chapters-title {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   text-align: right;
-  padding: 3.5vh;
-  font-size: 2.5em;
+  padding: 1vh;
+  font-size: 6.5vh;
 }
 
 .book--chapter-list {
@@ -180,24 +180,29 @@
 }
 
 .book--chapter-list_item {
-  font-size: 1.5em;
-  padding: 4vh;
+  font-size: 3.5vh;
+  /* padding: 2vh; */
+  padding-right: 4%;
+  padding-top: 2vh;
   height: 13vh;
+  padding-bottom: 2vh;
   border-bottom: solid #e7ebe7 3.5px;
+  line-height: 4vh;
 }
 
 .book--topiccontent-title {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   text-align: right;
-  font-size: 1.8em;
+  font-size: 4.3vh;
   margin-right: 0.35em;
   padding-top: 0.5em;
 }
 
 .book--topiccontent-secondtitle {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   margin-right: 0.6em;
   font-size: 1.4em;
+  padding-left: 1em;
 }
 
 .book--text {
@@ -206,7 +211,7 @@
 }
 
 .book--topiccontent-starttitle {
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
   font-size: 1.8em;
   margin-right: 0.7em;
   direction: rtl;
@@ -215,6 +220,7 @@
 .book--text-style {
   font-size: 1.2em;
   margin: 1em;
+  font-family: "Open Sans Hebrew", serif;
 }
 
 .background {
@@ -255,6 +261,7 @@
 }
 
 .sidemenu--buttons {
+  font-family: "Open Sans Hebrew", serif;
   color: white;
   text-align: right;
   padding-right: 10%;
@@ -293,6 +300,7 @@
   padding: 12vh;
   padding-top: 13vh;
   height: 35vh;
+  font-family: "Open Sans Hebrew", serif;
   text-align: center;
   border-bottom: solid #e7ebe7 2vh;
 }
@@ -340,6 +348,7 @@
 .billionaire--money-offer {
   position: absolute;
   top: 16vh;
+  font-family: "Open Sans Hebrew", serif;
   font-size: 5vh;
 }
 
@@ -348,6 +357,7 @@
   width: 100%;
   margin-top: 3vh;
   height: 10vh;
+  font-family: "Open Sans Hebrew", serif;
   background: #e7ebe7;
 }
 
@@ -355,18 +365,19 @@
   direction: rtl;
   margin-right: 0.5em;
   font-size: 3vh;
+  font-family: "Open Sans Hebrew", serif;
 }
 
 .billionaire--life {
-  height: 6vh;
+  height: 5vh;
   margin-right: 0.5em;
 }
 
 .billionaire--lifes {
   position: fixed;
-  bottom: 2px;
+  bottom: 1vh;
   display: flex;
-  left: 6px;
+  left: 2vh;
 }
 
 .billionaire--help-square {
@@ -393,8 +404,11 @@
 .billionaireQuestion {
   position: absolute;
   text-align: right;
-  top: 18.5vh;
-  font-size: 4vh;
+  font-family: "Open Sans Hebrew", serif;
+  top: 24vh;
+  padding-right: 3vh;
+  font-size: 3.5vh;
+  direction: rtl;
 }
 
 .hideElement {
@@ -418,7 +432,7 @@
 .billionaire--win-fullgame {
   position: absolute;
   z-index: 2;
-  background: #B8CC79;
+  background: #b8cc79;
   width: 100%;
   height: 100%;
   display: flex;
@@ -474,7 +488,7 @@
 
 .test--start {
   text-align: center;
-  margin-top: 29vh;
+  margin-top: 10vh;
   width: 100%;
   height: 10vh;
   background: #fff6ee;
@@ -515,14 +529,14 @@
   flex-direction: column;
   background-color: #f9f5ef;
   border: 40px solid #e7ebe7;
-  height: 70%;
+  height: 60%;
   width: 100%;
   justify-content: space-evenly;
 }
 
 .adjustDate--eventHeadline {
   direction: rtl;
-  font-size: 1.5em;
+  font-size: 3em;
   margin: 0;
   font-family: "Open Sans Hebrew", serif;
   padding-right: 4vh;
@@ -531,13 +545,14 @@
 }
 
 .adjustDate--event {
+  height: 30vh;
   direction: rtl;
-  font-size: 1.5em;
-  margin: 0;
+  font-size: 3vh;
+  margin: 0.8vh;
   font-family: "Open Sans Hebrew", serif;
-  padding-top: 0.2vh;
-  padding-right: 4vh;
-  padding-left: 4vh;
+  padding-top: 2.2vh;
+  padding-right: 2.8vh;
+  padding-left: 2.2vh;
 }
 
 .adjustDate--dateContainer {
@@ -558,18 +573,18 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fff6ee;
-  font-size: 2em;
+  font-size: 3.2vh;
   margin: 0;
   font-family: "Open Sans Hebrew", serif;
-  height: 40px;
-  width: 210px;
+  height: 9vh;
+  width: 39vh;
   text-align: center;
 }
 
 .adjustDate--checkAnswerContainer {
-  margin-top: 1.5vh;
+  margin-top: 4vh;
   width: 100%;
-  height: 6.7vh;
+  height: 10.7vh;
 }
 
 .adjustDate--checkAnswerBtn {
@@ -577,8 +592,8 @@
   width: 100%;
   height: 100%;
   border: 0;
-  font-size: 1.6em;
-  color: rgb(0, 0, 0);
+  font-size: 4vh;
+  color: black;
 }
 
 .adjustDate--btn {
@@ -589,8 +604,7 @@
 }
 
 .adjustDate--life {
-  height: 90%;
-  height: 30px;
+  height: 5vh;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -641,10 +655,6 @@
   z-index: 1;
 }
 
-/* .adjustDateFinish--upperPart {
-  padding: 10%;
-} */
-
 .adjustDateFinish--buttonPart {
   display: flex;
   flex-direction: column;
@@ -661,7 +671,6 @@
   font-size: 1.7em;
   text-align: center;
   justify-content: center;
-  /* margin-bottom: 3.5%; */
   margin-top: 6vh;
 }
 
