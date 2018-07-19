@@ -1,0 +1,28 @@
+<ion-view view-title="home page">
+
+  <div class="background">
+
+    <div class="book--menu">
+      <div class="back-button--container" ui-sref="home">
+        <img src="img/backbutton.svg" class="book--menu-menubutton">
+      </div>
+      <h1 class="book--menu-title">ספרים</h1>
+      <img src="img/till-logo.svg" class="book--menu-logo">
+    </div>
+
+    <div class="book--chapters-titlecontainer">
+      <h1 class="book--chapters-title">בחירת קושי</h1>
+    </div>
+  </div>
+
+  <ion-content overflow-scroll="true" scrollbar-y="true" class="top-content">
+    <ul class="book--chapter-list">
+
+      <li class="book--chapter-list_item" ng-repeat="difficultylevel in difficultylevels" ng-click="goTraining(difficultylevel)">
+        {{difficultylevel.difficulty}}
+      </li>
+
+    </ul>
+  </ion-content>
+
+</ion-view>

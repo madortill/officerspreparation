@@ -1,6 +1,8 @@
-angular.module('officerspreparation').controller('BookController', BookController);
+angular
+  .module("officerspreparation")
+  .controller("BookController", BookController);
 
-BookController.$inject = ['$scope', '$state', 'DataService'];
+BookController.$inject = ["$scope", "$state", "DataService"];
 
 // $scope.menu = true;
 
@@ -8,24 +10,23 @@ function BookController($scope, $state, DataService) {
   $scope.menu = true;
   console.log("xyz");
   $scope.topics = DataService.book.topics;
-  // console.log($scope.topics);
+  console.log($scope.topics);
 
-  $scope.goToTopic = function (topic) {
+  $scope.goToTopic = function(topic) {
     DataService.currentBook.topic = topic;
     console.log(DataService.currentBook.topic);
-    $state.go('topic');
-  }
-  $scope.openmenu = function () {
+    $state.go("topic");
+  };
+  $scope.openmenu = function() {
     $scope.menu = false;
     console.log($scope.menu);
-  }
+  };
 
-  $scope.closemenu = function () {
+  $scope.closemenu = function() {
     $scope.menu = true;
     console.log($scope.menu);
-  }
+  };
   var cat = [];
   cat[0] = localStorage.removeItem("myCat");
-  console.log(localStorage.getItem("myCat"))
-
+  console.log(localStorage.getItem("myCat"));
 }

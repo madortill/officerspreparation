@@ -6,21 +6,22 @@
         <img src="img/backbutton.svg" class="book--menu-menubutton">
       </div>
       <!-- <img src="img/backbutton.svg" ng-click="goBack()" class="book--menu-menubutton"> -->
-      <h1 class="book--menu-title">נושאים</h1>
+      <h1 class="book--menu-title">אימונים</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
 
     <div class="book--chapters-titlecontainer">
-      <h1 class="book--chapters-title">{{ topic.name }}</h1>
+      <h1 class="book--chapters-title">{{difficultylevel.difficulty}}</h1>
     </div>
     <ion-content overflow-scroll="true" scrollbar-y="true" class="top-content">
       <ul class="book--chapter-list">
 
-        <li class="book--chapter-list_item" ng-repeat="subject in topic.subjects" ng-click="goToTopicContent(subject)">
-          {{subject.name}}
+        <li class="book--chapter-list_item" ng-repeat="training in difficultylevel.trainingList" ng-click="goExercise(training)">
+          {{training.trainingName}}
         </li>
 
       </ul>
     </ion-content>
   </div>
+
 </ion-view>
