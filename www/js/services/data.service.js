@@ -76,7 +76,7 @@
           name: "תולדות עם ישראל",
           subjects: [
             {
-              name: "''...פתיחה: ''עם שאינו יודע את עברו",
+              name: "פתיחה: ''עם שאינו יודע את עברו...''",
               topicName: "3_1opening"
             },
             {
@@ -132,7 +132,7 @@
               topicName: "3_14nationalIdea"
             },
             {
-              name: "''פרסום האוטואמנציפיציה ותנועת ''חיבת ציון",
+              name: "פרסום האוטואמנציפיציה ותנועת ''חיבת ציון''",
               topicName: "3_15autoEmancipation"
             },
             {
@@ -264,6 +264,10 @@
             {
               name: "ראשי המטה הכללי",
               topicName: "6_6chiefOfGeneralStaff"
+            },
+            {
+              name: "סיכום",
+              topicName: "6_7summary"
             }
           ]
         },

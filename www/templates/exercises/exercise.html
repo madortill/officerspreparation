@@ -5,7 +5,7 @@
       <img src="img/menu--close.svg" class="sidemenu--buttons-close" ng-click="closemenu()">
       <div class="sidemenu--buttons sidemenu--move" ui-sref="home">דף הבית</div>
       <div class="sidemenu--buttons" ui-sref="book">ספרים</div>
-      <div class="sidemenu--buttons" ui-sref="exercise">תרגול</div>
+      <div class="sidemenu--buttons sidemenu--mark" ng-click="closemenu()">תרגול</div>
       <div class="sidemenu--buttons" ui-sref="tests">מבחנים</div>
       <!-- <div class="sidemenu--buttons" ui-sref="chooseGender">כושר קרבי</div> -->
       <div class="sidemenu--buttons" ui-sref="about">אודות</div>
@@ -21,7 +21,9 @@
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
 
-    <div class="book--chapters-titlecontainer">
+    <div class="book--chapters-firstLine"></div>
+
+    <div class="book--chapters-titlecontainer book--content-titlecontainer">
       <h1 class="book--chapters-title">בחר תרגול</h1>
     </div>
 

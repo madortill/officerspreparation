@@ -411,7 +411,11 @@ angular
         templateUrl: "templates/book/sixthChapter/6_6chiefOfGeneralStaff.html",
         controller: "TopicContentController"
       })
-
+      .state("6_7summary", {
+        url: "/6_7summary",
+        templateUrl: "templates/book/sixthChapter/6_7summary.html",
+        controller: "TopicContentController"
+      })
       //seventh chapter
       .state("7_1opening", {
         url: "/7_1opening",

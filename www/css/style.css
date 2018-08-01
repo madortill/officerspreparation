@@ -1,8 +1,20 @@
-@font-face {
+/* @font-face {
   font-family: "Open Sans Hebrew", serif;
   src: url("./OpenSansHebrewCondensed-Light.ttf") format("truetype");
-}
+} */
 
+/* @font-face {
+  font-family: "Heebo Light", sans-serif;
+  src: url("./Heebo-Light.ttf") format("truetype");
+  font-weight: normal;
+
+} */
+
+/* @font-face {
+  font-family: "HeeboBold", sans-serif;
+  src: url("./Heebo-Bold.ttf") format("truetype");
+  font-weight: bold;
+} */
 /* * {
   font-family: 'Open Sans Hebrew', sans-serif !important;
   box-sizing: border-box;
@@ -10,20 +22,28 @@
   margin: 0;
 } */
 
+.lightHeebo {
+  font-weight: 400 !important;
+}
+
+.boldHeebo {
+  font-weight: bold;
+}
+
 .top-content {
   margin-top: 25vh;
 }
 
 .overflow-scroll > .scroll {
-  background: #fff6ee;
+  background: #f9f5ef;
 }
 
 .overflow-scroll {
-  background: #fff6ee;
+  background: #f9f5ef;
 }
 
 .text-top {
-  margin-top: 25vh;
+  margin-top: 30vh;
 }
 
 /* the home page !! */
@@ -57,20 +77,27 @@
   z-index: -2;
 }
 
-.home--title {
-  text-align: center;
-  margin-top: 13vh;
+.home--appTitle {
+  position: absolute;
+  direction: rtl;
+  right: 23.2vh;
+  top: 0vh;
+  font-size: 4.5vh;
+  font-family: "Heebo", sans-serif;
+  font-weight: 900;
 }
 
 .home--logos {
   position: absolute;
   bottom: 4px;
   left: 7px;
-  width: 27vh;
+  width: 20vh;
 }
 
 .home--buttons {
   display: flex;
+  align-items: unset;
+  justify-content: space-around;
   flex-direction: column;
   height: 100%;
   right: 0;
@@ -86,13 +113,15 @@
 }
 
 .home--buttons-book {
-  height: 20vh;
-  margin-top: 1.5vh;
+  height: 18vh;
+  margin-top: 0;
+  padding-right: 1.5vh;
 }
 
 .home--buttons-about {
-  height: 11vh;
-  margin-top: 1.5vh;
+  height: 9.5vh;
+  margin-top: 0;
+  padding-right: 1.3vh;
 }
 
 .book {
@@ -125,7 +154,8 @@
   flex-direction: row-reverse;
   width: 100%;
   height: 10vh;
-  background: #fff6ee;
+  /* background: #f9f5ef; */
+  background: #f9f5ef;
   justify-content: space-around;
   z-index: 3;
 }
@@ -142,7 +172,7 @@
 }
 
 .book--menu-menubutton {
-  height: 42%;
+  height: 33%;
   margin-right: 1vh;
 }
 
@@ -154,7 +184,8 @@
 }
 
 .book--menu-title {
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
   font-size: 1.7em;
   text-align: right;
   margin-top: 2vh;
@@ -167,73 +198,103 @@
   margin-top: 3%;
 }
 
+.book--chapters-firstLine {
+  width: 100%;
+  height: 1.2vh;
+  background: #e7ebe7;
+}
+
 .book--chapters-titlecontainer {
   width: 100%;
-  height: 20vh;
+  height: 11vh;
   background: #e7ebe7;
-  justify-content: space-around;
+  text-align: center;
+  margin-top: 1.2vh;
+  /* justify-content: space-around; */
+  box-shadow: 0 5px 9px -1px #acaba9;
+}
+
+.book--content-titlecontainerSize {
+  height: 15vh;
+}
+
+.pane {
+  background: #f9f5ef;
 }
 
 .book--chapters-title {
-  font-family: "Open Sans Hebrew", serif;
-  text-align: right;
-  padding: 1vh;
-  font-size: 6.5vh;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  /* text-align: right; */
+  padding: 1vh 3vh;
+  font-size: 4.5vh;
 }
 
 .book--chapter-list {
   width: 100%;
-  background: #fff6ee;
+  background: #f9f5ef;
   justify-content: space-around;
   text-align: right;
 }
 
 .book--chapter-list_item {
   font-size: 3.5vh;
-  /* padding: 2vh; */
-  padding-right: 4%;
-  padding-top: 2vh;
-  height: 13vh;
-  padding-bottom: 2vh;
-  border-bottom: solid #e7ebe7 3.5px;
-  line-height: 4vh;
+  padding: 3vh;
+  border-bottom: solid #e7ebe7 5.5px;
+  font-family: "Heebo", sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  line-height: 8vh;
 }
 
 .book--topiccontent-title {
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
   text-align: right;
-  font-size: 4.3vh;
-  margin-right: 0.35em;
-  padding-top: 0.5em;
+  direction: rtl;
+  font-size: 4vh;
+  margin: 2vh 2vh 0vh 1vh;
+  padding-top: 1vh;
+}
+
+.book--topiccontent-starttitle {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-right: 0.7em;
+  direction: rtl;
 }
 
 .book--topiccontent-secondtitle {
-  font-family: "Open Sans Hebrew", serif;
-  margin-right: 0.6em;
+  font-family: "Heebo", sans-serif;
+  margin: 3vh 2vh 0vh 1vh;
   font-size: 1.4em;
   padding-left: 1em;
 }
 
 .book--text {
   direction: rtl;
-  background: #fff6ee;
-}
-
-.book--topiccontent-starttitle {
-  font-family: "Open Sans Hebrew", serif;
-  font-size: 1.8em;
-  margin-right: 0.7em;
-  direction: rtl;
+  background: #f9f5ef;
 }
 
 .book--text-style {
-  font-size: 1.2em;
-  margin: 1em;
-  font-family: "Open Sans Hebrew", serif;
+  font-size: 2.7vh;
+  margin: 2vh 2vh 0vh 2vh;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  text-align: right;
+}
+blockquote {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
 }
 
 .background {
-  background: #fff6ee;
+  background: #f9f5ef;
 }
 
 .book--poetry-line {
@@ -255,7 +316,7 @@
   position: absolute;
   z-index: 5;
   height: 121%;
-  width: 33%;
+  width: 42%;
   right: 0;
   display: flex;
   flex-direction: column;
@@ -270,12 +331,16 @@
 }
 
 .sidemenu--buttons {
-  font-family: "Open Sans Hebrew", serif;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
   color: white;
   text-align: right;
   padding-right: 10%;
-  padding-bottom: 5vh;
-  font-size: 1.4em;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+  font-size: 1.8em;
 }
 
 .sidemenu--move {
@@ -297,9 +362,14 @@
 
 .sidemenu--logo {
   position: absolute;
-  bottom: 4vh;
-  height: 12vh;
+  bottom: 24vh;
+  height: 8vh;
   align-self: center;
+}
+
+.sidemenu--mark {
+  background-color: #f9f5ef;
+  color: #2d1710;
 }
 
 /* the exercises style */
@@ -311,23 +381,23 @@
   height: 35vh;
   font-family: "Open Sans Hebrew", serif;
   text-align: center;
-  border-bottom: solid #e7ebe7 2vh;
+  border-bottom: solid #eff2ed 2vh;
 }
 
 .game--firstline {
   width: 100%;
   height: 7vh;
-  background: #e7ebe7;
+  background: #eff2ed;
 }
 
 .game--secondline {
   width: 100%;
   height: 2vh;
-  background: #fff6ee;
+  background: #f9f5ef;
 }
 
 .billionaire--trapeze {
-  border-top: 5vh solid #fff6ee;
+  border-top: 5vh solid #f9f5ef;
   border-left: 3vh solid transparent;
   border-right: 3vh solid transparent;
   width: 40%;
@@ -347,7 +417,7 @@
 .billionaire {
   width: 100%;
   height: 20vh;
-  background: #e7ebe7;
+  background: #eff2ed;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -367,7 +437,7 @@
   margin-top: 3vh;
   height: 10vh;
   font-family: "Open Sans Hebrew", serif;
-  background: #e7ebe7;
+  background: #eff2ed;
 }
 
 .billionaire--answer-number {
@@ -492,7 +562,7 @@
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: #e7ebe7;
+  background: #eff2ed;
 }
 
 .test--start {
@@ -500,7 +570,7 @@
   margin-top: 10vh;
   width: 100%;
   height: 10vh;
-  background: #fff6ee;
+  background: #f9f5ef;
 }
 
 .test--start-text {
@@ -520,7 +590,7 @@
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: #e7ebe7;
+  background: #eff2ed;
 }
 
 /* adjust date game */
@@ -537,7 +607,7 @@
   display: flex;
   flex-direction: column;
   background-color: #f9f5ef;
-  border: 40px solid #e7ebe7;
+  border: 40px solid #eff2ed;
   height: 60%;
   width: 100%;
   justify-content: space-evenly;
@@ -571,8 +641,8 @@
   align-items: center;
   width: 100%;
   height: 15vh;
-  border-bottom: 25px solid #e7ebe7;
-  background-color: #e7ebe7;
+  border-bottom: 25px solid #eff2ed;
+  background-color: #eff2ed;
   background-position: center;
   margin-top: -25px;
 }
@@ -581,7 +651,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fff6ee;
+  background-color: #f9f5ef;
   font-size: 3.2vh;
   margin: 0;
   font-family: "Open Sans Hebrew", serif;
@@ -597,7 +667,7 @@
 }
 
 .adjustDate--checkAnswerBtn {
-  background-color: #e7ebe7;
+  background-color: #eff2ed;
   width: 100%;
   height: 100%;
   border: 0;
@@ -728,7 +798,7 @@
 
 .about--paragraphContainer {
   background: #f9f5ef;
-  /* border-bottom: #e7ebe7 solid 1vh; */
+  /* border-bottom: #eff2ed solid 1vh; */
   height: 33vh;
   padding-top: 2.5vh;
 }
@@ -743,7 +813,7 @@
 
 .about--iconsFirstP {
   display: flex;
-  background-color: #e7ebe7;
+  background-color: #eff2ed;
   height: 1.5vh;
   flex-direction: row-reverse;
   align-items: center;
@@ -786,7 +856,7 @@
 }
 
 .adjustDateinCorrectAnswer {
-  border-color: #d67963;
+  border-color: #eda2a7;
 }
 
 .correctAnswer {
@@ -794,7 +864,7 @@
 }
 
 .inCorrectAnswer {
-  background: #d67963;
+  background: #eda2a7;
 }
 
 .setFont {
