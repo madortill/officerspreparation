@@ -2,7 +2,7 @@
   angular.module("officerspreparation").factory("TrainingService", function() {
     // Might use a resource here that returns a JSON array
 
-    var sportProgram = {
+    var strengthProgram = {
       difficultylevels: [
         {
           difficulty: "קל",
@@ -688,7 +688,7 @@
     var currentTraining = {};
 
     return {
-      sportProgram: sportProgram,
+      strengthProgram: strengthProgram,
       currentDifficulty: currentDifficulty,
       currentTraining: currentTraining,
       currentExercise: currentExercise

@@ -5,7 +5,7 @@ angular
 chooseDifficultyController.$inject = ["$scope", "$state", "TrainingService"];
 
 function chooseDifficultyController($scope, $state, TrainingService) {
-  $scope.difficultylevels = TrainingService.sportProgram.difficultylevels;
+  $scope.difficultylevels = TrainingService.strengthProgram.difficultylevels;
   console.log($scope.difficultylevels);
 
   $scope.goTraining = function(difficultylevel) {
