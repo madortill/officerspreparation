@@ -93,6 +93,34 @@ angular
         controller: "exerciseDescriptionController"
       })
 
+      //run program
+      .state("sportProgramFrontPg", {
+        url: "/sportProgramFrontPg",
+        templateUrl: "templates/fitnessTraining/sportProgramFrontPg.html",
+        controller: "sportProgramFrontPgController"
+      })
+
+      .state("runChooseDifficulty", {
+        url: "/runChooseDifficulty",
+        templateUrl:
+          "templates/fitnessTraining/runingProgram/runChooseDifficulty.html",
+        controller: "runChooseDifficultyController"
+      })
+
+      .state("weeklyRunList", {
+        url: "/weeklyRunList",
+        templateUrl:
+          "templates/fitnessTraining/runingProgram/weeklyRunList.html",
+        controller: "weeklyRunListController"
+      })
+
+      .state("runTrainingList", {
+        url: "/runTrainingList",
+        templateUrl:
+          "templates/fitnessTraining/runingProgram/runTrainingList.html",
+        controller: "runTrainingListController"
+      })
+
       //book page
       .state("book", {
         url: "/book",

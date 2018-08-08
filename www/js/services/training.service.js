@@ -2,7 +2,234 @@
   angular.module("officerspreparation").factory("TrainingService", function() {
     // Might use a resource here that returns a JSON array
 
-    var sportProgram = {
+    var runProgram = {
+      difficultyRunlevels: [
+        {
+          difficulty: "רמה 1",
+          weeksList: [
+            {
+              weekNumber: "שבוע ראשון",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ",
+                  showData: false
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 2 ק''מ",
+                  showData: false
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 3 ק''מ",
+                  showData: false
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שני",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שלישי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע רביעי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          difficulty: "רמה 2",
+          weeksList: [
+            {
+              weekNumber: "שבוע ראשון",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שני",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שלישי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע רביעי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          difficulty: "רמה 3",
+          weeksList: [
+            {
+              weekNumber: "שבוע ראשון",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שני",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע שלישי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            },
+            {
+              weekNumber: "שבוע רביעי",
+              runTrainingList: [
+                {
+                  trainingNumber: "אימון - 1",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 2",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                },
+                {
+                  trainingNumber: "אימון - 3",
+                  explanation: "מדידת ריצה 1 ק''מ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
+    var strengthProgram = {
       difficultylevels: [
         {
           difficulty: "קל",
@@ -683,15 +910,23 @@
         }
       ]
     };
+    //strength training
     var currentDifficulty = {};
     var currentExercise = {};
     var currentTraining = {};
 
+    //run training
+    var currentRunLevel = {};
+    var currentWeek = {};
+
     return {
-      sportProgram: sportProgram,
+      strengthProgram: strengthProgram,
       currentDifficulty: currentDifficulty,
       currentTraining: currentTraining,
-      currentExercise: currentExercise
+      currentExercise: currentExercise,
+      runProgram: runProgram,
+      currentRunLevel: currentRunLevel,
+      currentWeek: currentWeek
     };
   });
 })();

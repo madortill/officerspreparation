@@ -11,15 +11,15 @@
     </div>
     <div class="book--chapters-firstLine"></div>
     <div class="book--chapters-titlecontainer">
-      <h1 class="book--chapters-title">בחירת קושי</h1>
+      <h1 class="book--chapters-title">בחירת רמה</h1>
     </div>
   </div>
 
   <ion-content overflow-scroll="true" scrollbar-y="true" class="top-content">
     <ul class="book--chapter-list">
 
-      <li class="book--chapter-list_item" ng-repeat="difficultylevel in difficultylevels" ng-click="goTraining(difficultylevel)">
-        {{difficultylevel.difficulty}}
+      <li class="book--chapter-list_item" ng-repeat="difficultyRunlevel in difficultyRunlevels" ng-click="goWeekList(difficultyRunlevel)">
+        {{difficultyRunlevel.difficulty}}
       </li>
 
     </ul>
