@@ -69,37 +69,40 @@ angular
       })
 
       //sport page
-      .state("chooseDifficulty", {
-        url: "/chooseDifficulty",
-        templateUrl: "templates/fitnessTraining/chooseDifficulty.html",
-        controller: "chooseDifficultyController"
-      })
-
-      .state("training", {
-        url: "/training",
-        templateUrl: "templates/fitnessTraining/training.html",
-        controller: "trainingController"
-      })
-
-      .state("exerciseList", {
-        url: "/exerciseList",
-        templateUrl: "templates/fitnessTraining/exerciseList.html",
-        controller: "exerciseListController"
-      })
-
-      .state("exerciseDescription", {
-        url: "/exerciseDescription",
-        templateUrl: "templates/fitnessTraining/exerciseDescription.html",
-        controller: "exerciseDescriptionController"
-      })
-
-      //run program
       .state("sportProgramFrontPg", {
         url: "/sportProgramFrontPg",
         templateUrl: "templates/fitnessTraining/sportProgramFrontPg.html",
         controller: "sportProgramFrontPgController"
       })
 
+      .state("chooseDifficulty", {
+        url: "/chooseDifficulty",
+        templateUrl:
+          "templates/fitnessTraining/strengthTraining/chooseDifficulty.html",
+        controller: "chooseDifficultyController"
+      })
+
+      .state("training", {
+        url: "/training",
+        templateUrl: "templates/fitnessTraining/strengthTraining/training.html",
+        controller: "trainingController"
+      })
+
+      .state("exerciseList", {
+        url: "/exerciseList",
+        templateUrl:
+          "templates/fitnessTraining/strengthTraining/exerciseList.html",
+        controller: "exerciseListController"
+      })
+
+      .state("exerciseDescription", {
+        url: "/exerciseDescription",
+        templateUrl:
+          "templates/fitnessTraining/strengthTraining/exerciseDescription.html",
+        controller: "exerciseDescriptionController"
+      })
+
+      //run program
       .state("runChooseDifficulty", {
         url: "/runChooseDifficulty",
         templateUrl:

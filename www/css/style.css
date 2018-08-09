@@ -375,13 +375,17 @@ blockquote {
 /* the exercises style */
 
 .exercise--choose-unit {
-  font-size: 1.5em;
-  padding: 12vh;
+  font-size: 4.5vh;
+  padding: 2vh;
   padding-top: 13vh;
   height: 35vh;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   text-align: center;
   border-bottom: solid #eff2ed 2vh;
+}
+
+.exercise--marginBody {
+  margin-top: 3vh;
 }
 
 .game--firstline {
@@ -615,9 +619,9 @@ blockquote {
 
 .adjustDate--eventHeadline {
   direction: rtl;
-  font-size: 3em;
+  font-size: 6vh;
   margin: 0;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   padding-right: 4vh;
   padding-left: 4vh;
   padding-top: 1.5vh;
@@ -626,12 +630,10 @@ blockquote {
 .adjustDate--event {
   height: 30vh;
   direction: rtl;
-  font-size: 3vh;
+  font-size: 4vh;
   margin: 0.8vh;
-  font-family: "Open Sans Hebrew", serif;
-  padding-top: 2.2vh;
-  padding-right: 2.8vh;
-  padding-left: 2.2vh;
+  font-family: "Heebo", sans-serif;
+  padding: 2.2vh 2.8vh 0vh 2.2vh;
 }
 
 .adjustDate--dateContainer {
@@ -645,6 +647,7 @@ blockquote {
   background-color: #eff2ed;
   background-position: center;
   margin-top: -25px;
+  box-shadow: 0 5px 9px -1px #acaba9;
 }
 
 .adjustDate--date {
@@ -652,11 +655,11 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   background-color: #f9f5ef;
-  font-size: 3.2vh;
+  font-size: 4.2vh;
   margin: 0;
-  font-family: "Open Sans Hebrew", serif;
-  height: 9vh;
-  width: 39vh;
+  font-family: "Heebo", sans-serif;
+  height: 8vh;
+  width: 36vh;
   text-align: center;
 }
 
@@ -671,15 +674,17 @@ blockquote {
   width: 100%;
   height: 100%;
   border: 0;
-  font-size: 4vh;
+  font-size: 5vh;
   color: black;
+  box-shadow: 0 5px 9px -1px #acaba9;
+  font-family: "Heebo", sans-serif;
 }
 
 .adjustDate--btn {
   background-color: Transparent;
   border: 0;
-  height: 2em;
-  width: 2em;
+  height: 5vh;
+  width: 5vh;
 }
 
 .adjustDate--life {
@@ -787,13 +792,15 @@ blockquote {
   font-size: 3.5vh;
   padding-right: 3vh;
   margin: 0;
+  font-family: "Heebo", sans-serif;
 }
 
 .about--aboutParagraph {
-  font-size: 2.5vh;
+  font-size: 3vh;
   padding-right: 11vh;
   margin-bottom: 1.5vh;
   padding-top: 1vh;
+  font-family: "Heebo", sans-serif;
 }
 
 .about--paragraphContainer {
@@ -801,10 +808,7 @@ blockquote {
   /* border-bottom: #eff2ed solid 1vh; */
   height: 33vh;
   padding-top: 2.5vh;
-}
-
-.about--ramadName {
-  padding-right: 3vh !important;
+  margin-top: 2vh;
 }
 
 .about--paragraphContainerRamad {
@@ -898,8 +902,4 @@ blockquote {
 
 .inCorrectAnswer {
   background: #eda2a7;
-}
-
-.setFont {
-  font-family: "Open Sans Hebrew", serif;
 }
