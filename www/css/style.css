@@ -211,7 +211,7 @@
   text-align: center;
   margin-top: 1.2vh;
   /* justify-content: space-around; */
-  box-shadow: 0 5px 9px -1px #acaba9;
+  box-shadow: 0 3px 9px -1px #acaba9;
 }
 
 .book--content-titlecontainerSize {
@@ -600,40 +600,42 @@ blockquote {
 /* adjust date game */
 
 .adjustDate--game {
+  width: 100%;
+  height: 87vh;
+}
+
+.adjustDate--dateAndEvent-container {
+  margin-top: 1.5vh;
+  width: 100%;
+  height: 70%;
+  box-shadow: 0 3px 9px -1px #acaba9;
+  background-color: #e7ebe7;
   display: flex;
-  height: 90%;
-  align-items: center;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
 }
 
 .adjustDate--eventContainer {
-  display: flex;
-  flex-direction: column;
   background-color: #f9f5ef;
-  border: 40px solid #eff2ed;
-  height: 60%;
-  width: 100%;
-  justify-content: space-evenly;
+  height: 63%;
+  width: 78%;
+  margin-top: 8px;
+  box-shadow: 0 1px 20px 0px #6e6e6e;
 }
 
 .adjustDate--eventHeadline {
+  margin: 3vh !important;
   direction: rtl;
   font-size: 6vh;
-  margin: 0;
   font-family: "Heebo", sans-serif;
-  padding-right: 4vh;
-  padding-left: 4vh;
-  padding-top: 1.5vh;
 }
 
 .adjustDate--event {
-  height: 30vh;
   direction: rtl;
   font-size: 4vh;
-  margin: 0.8vh;
   font-family: "Heebo", sans-serif;
-  padding: 2.2vh 2.8vh 0vh 2.2vh;
+  margin: 3vh;
 }
 
 .adjustDate--dateContainer {
@@ -642,12 +644,11 @@ blockquote {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 15vh;
-  border-bottom: 25px solid #eff2ed;
-  background-color: #eff2ed;
-  background-position: center;
-  margin-top: -25px;
-  box-shadow: 0 5px 9px -1px #acaba9;
+  /* height: 15vh; */
+  /* border-bottom: 25px solid #eff2ed; */
+  /* background-color: #eff2ed; */
+  /* background-position: center; */
+  margin-top: 25px;
 }
 
 .adjustDate--date {
@@ -659,12 +660,14 @@ blockquote {
   margin: 0;
   font-family: "Heebo", sans-serif;
   height: 8vh;
-  width: 36vh;
+  width: 65%;
   text-align: center;
+  box-shadow: 0 1px 10px 0px #6e6e6e;
+  direction: rtl;
 }
 
 .adjustDate--checkAnswerContainer {
-  margin-top: 4vh;
+  margin-top: 10.5vh;
   width: 100%;
   height: 10.7vh;
 }
@@ -676,10 +679,13 @@ blockquote {
   border: 0;
   font-size: 5vh;
   color: black;
-  box-shadow: 0 5px 9px -1px #acaba9;
+  box-shadow: 0 0vh 10px 1px #acaba9;
   font-family: "Heebo", sans-serif;
 }
 
+.arrowsize {
+  height: 100%;
+}
 .adjustDate--btn {
   background-color: Transparent;
   border: 0;
@@ -688,17 +694,17 @@ blockquote {
 }
 
 .adjustDate--life {
-  height: 5vh;
-  margin-right: 10px;
-  margin-left: 10px;
+  height: 8vh;
+  margin-right: 0;
+  margin-left: 0px;
 }
 
 .adjustDate--lifes {
   display: flex;
   position: fixed;
-  bottom: 0;
   width: 100%;
   flex-direction: row;
+  bottom: 16vh;
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -806,13 +812,12 @@ blockquote {
 .about--paragraphContainer {
   background: #f9f5ef;
   /* border-bottom: #eff2ed solid 1vh; */
-  height: 33vh;
-  padding-top: 2.5vh;
+  height: 45vh;
   margin-top: 2vh;
 }
 
 .about--paragraphContainerRamad {
-  height: 17vh;
+  height: 12vh;
 }
 
 .about--iconsFirstP {
@@ -843,7 +848,7 @@ blockquote {
   margin-top: 2vh;
   border: 0;
   background-color: #e7ebe7;
-  box-shadow: 0 5px 9px -1px #acaba9;
+  box-shadow: 0 3px 9px -1px #acaba9;
   font-family: "Heebo", sans-serif;
   font-weight: bold;
   font-size: 5vh;
@@ -854,20 +859,79 @@ blockquote {
   width: 13vh;
   padding-right: 1vh;
   height: 8vh;
+  position: fixed;
+  left: 16px;
 }
 
 /*exerciseDescription*/
 .exerciseDescription--gif {
-  width: 45vh;
-  height: 25vh;
   display: block;
-  margin-top: 3vh;
-  margin-right: auto;
-  margin-left: auto;
+  height: 34vh;
+  width: 50vh;
+}
+
+.exerciseDescription--gifContainer {
+  width: 100%;
+  height: 40%;
+  margin-top: 1vh;
+  background: white;
+  box-shadow: 0 1px 12px 3px #acaba9;
+}
+
+.exerciseDescription--pgContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 84%;
+  margin-top: 1.5vh;
+  background-color: #e7ebe7;
+}
+
+.exerciseDiscription--lastLine {
+  width: 100%;
+  height: 1.5vh;
+  position: absolute;
+  background: #e7ebe7;
+  z-index: 1;
+  bottom: 0px;
+}
+.exerciseDescription--title {
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  direction: rtl;
+  font-size: 5.5vh;
+  margin: 2vh 2vh 0vh 1vh;
+  padding-top: 1vh;
+}
+.exerciseDescription--repeats {
+  white-space: pre-line;
+  direction: rtl;
+  line-height: 1;
+  font-size: 5vh;
+  margin: -3vh 2vh 3vh 2vh;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+}
+.exerciseDescription--explanation {
+  font-size: 3.5vh;
+  font-weight: 340;
+}
+
+.exerciseList--listItem {
+  display: flex;
+  align-items: center;
+  font-size: 3.5vh;
+  padding: 1.5vh;
+  border-bottom: solid #e7ebe7 5.5px;
+  font-family: "Heebo", sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  line-height: 8vh;
 }
 
 .runTrainingList--showRunTrainingData {
-  max-height: 20vh;
+  max-height: 30vh;
   width: 100%;
   transition: 0.8s;
   overflow: hidden;
@@ -876,6 +940,11 @@ blockquote {
 .runTrainingList--showRunTrainingData.hidden {
   max-height: 0;
   border: 0;
+}
+
+.runTrainingList--description {
+  font-size: 0.9em;
+  direction: rtl;
 }
 
 .flexDisplay {
@@ -888,18 +957,23 @@ blockquote {
   visibility: visible !important;
 }
 
-.adjustDatecorrectAnswer {
+.whiteSpace {
+  white-space: pre-line;
+  direction: rtl;
+}
+
+/* .adjustDatecorrectAnswer {
   border-color: #b8cc79;
 }
 
 .adjustDateinCorrectAnswer {
   border-color: #eda2a7;
-}
+} */
 
 .correctAnswer {
   background: #b8cc79;
 }
 
 .inCorrectAnswer {
-  background: #eda2a7;
+  background: #d67963;
 }

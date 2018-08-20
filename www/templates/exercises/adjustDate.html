@@ -1,5 +1,5 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+  <ion-content overflow-scroll="false" scrollbar-y="false" class="background">
     <div class="book--menu">
       <div class="back-button--container" ng-click="goBackExercise()">
         <img src="img/backbutton.svg" class="book--menu-menubutton">
@@ -36,14 +36,41 @@
       </div>
     </div>
 
+    <div class="book--chapters-firstLine"></div>
     <div class="adjustDate--game">
-      <div class="adjustDate--eventContainer" ng-class="{adjustDateinCorrectAnswer:ifDateNotFit, adjustDatecorrectAnswer:ifDateFit}">
-
-        <ion-scroll direction="y" class="theroot">
-
+      <div class="adjustDate--dateAndEvent-container" ng-class="{inCorrectAnswer:ifDateNotFit, correctAnswer:ifDateFit}">
+        <div class="adjustDate--eventContainer">
           <h2 class="adjustDate--eventHeadline">אירוע</h2>
           <p class="adjustDate--event">{{events}}</p>
-        </ion-scroll>
+        </div>
+        <div class="adjustDate--dateContainer">
+          <button class=" adjustDate--btn Lbtn " ng-click="previousDate() ">
+            <img src="img/lArrow.svg " class="arrowsize" /> </button>
+          <p class="adjustDate--date ">{{date}}</p>
+          <button class="adjustDate--btn Rbtn " ng-click="nextDate() ">
+            <img src="img/rArrow.svg " class="arrowsize" /> </button>
+        </div>
+      </div>
+
+      <div class="adjustDate--lifes ">
+        <div ng-repeat="life in dateLife track by $index " ng-show="dateLife[$index] ">
+          <img src="img/adjustDate--life.svg " class="adjustDate--life " id="adjustDate--lifeID ">
+        </div>
+      </div>
+      <div class="adjustDate--checkAnswerContainer ">
+        <button class="adjustDate--checkAnswerBtn " ng-click="checkAnswer() ">
+          בדוק
+        </button>
+      </div>
+    </div>
+
+
+    <!-- <div class="adjustDate--game">
+      <div class="adjustDate--eventContainer" ng-class="{adjustDateinCorrectAnswer:ifDateNotFit, adjustDatecorrectAnswer:ifDateFit}">
+        <div>
+          <h2 class="adjustDate--eventHeadline">אירוע</h2>
+          <p class="adjustDate--event">{{events}}</p>
+        </div>
       </div>
       <div class="adjustDate--dateContainer" ng-class="{adjustDateinCorrectAnswer:ifDateNotFit, adjustDatecorrectAnswer:ifDateFit, correctAnswer:ifDateFit, inCorrectAnswer:ifDateNotFit}">
         <button class=" adjustDate--btn Lbtn " ng-click="previousDate() ">
@@ -52,17 +79,21 @@
         <button class="adjustDate--btn Rbtn " ng-click="nextDate() ">
           <img src="img/rArrow.svg " /> </button>
       </div>
-      <div class="adjustDate--checkAnswerContainer ">
-        <button class="adjustDate--checkAnswerBtn " ng-click="checkAnswer() ">
-          בדוק
-        </button>
-      </div>
       <div class="adjustDate--lifes ">
         <div ng-repeat="life in dateLife track by $index " ng-show="dateLife[$index] ">
           <img src="img/billionaire--life.svg " class="adjustDate--life " id="adjustDate--lifeID ">
         </div>
-      </div>
-    </div>
+        <div class="adjustDate--checkAnswerContainer ">
+          <button class="adjustDate--checkAnswerBtn " ng-click="checkAnswer() ">
+            בדוק
+          </button>
+        </div>
+        <!-- <div class="adjustDate--lifes ">
+        <div ng-repeat="life in dateLife track by $index " ng-show="dateLife[$index] ">
+          <img src="img/billionaire--life.svg " class="adjustDate--life " id="adjustDate--lifeID ">
+        </div> -->
+    <!-- </div>
+    </div> -->
 
   </ion-content>
 </ion-view>

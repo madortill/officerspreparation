@@ -16,8 +16,9 @@
     <ion-content overflow-scroll="true" scrollbar-y="true" class="top-content">
       <ul class="book--chapter-list">
 
-        <li class="book--chapter-list_item flexDisplay" ng-repeat="exercise in training.exercises" ng-click="goExerciseDescription(exercise)">
-          <img src="{{exercise.gif}}.gif" class="exerciseList--gif"> {{exercise.exerciseName}}
+        <li class="exerciseList--listItem" ng-repeat="exercise in training.exercises" ng-click="goExerciseDescription(exercise)">
+          {{exercise.exerciseName}}
+          <img src="{{exercise.gif}}" class="exerciseList--gif">
         </li>
 
       </ul>

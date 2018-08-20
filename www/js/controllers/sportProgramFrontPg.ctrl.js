@@ -15,6 +15,8 @@ function sportProgramFrontPgController($scope, $state, $timeout, DataService) {
   };
 
   $scope.explenation = function() {
-    alert("fdsrpoijfhjkljhvajlgh");
+    alert(
+      "הפוגות ריצה – רצים הכי מהר שאפשר למרחק מוגבל, נחים עד שהדופק יורד ל120 או דקה וחצי ויוצאים לעוד חזרה.\n ריצת שינויי קצב – 10 שניות מהיר ו50 שניות לאט."
+    );
   };
 }
