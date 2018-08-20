@@ -1,9 +1,22 @@
 <ion-view view-title="home page">
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
-
+    <div class="sidemenu--opacity" ng-hide="menu" ng-click="closemenu()"></div>
+    <div class="sidemenu" ng-hide="menu">
+      <img src="img/menu--close.svg" class="sidemenu--buttons-close" ng-click="closemenu()">
+      <div class="sidemenu--buttons sidemenu--move" ui-sref="home">דף הבית</div>
+      <div class="sidemenu--buttons sidemenu--mark" ng-click="closemenu()">ספרים</div>
+      <div class="sidemenu--buttons" ui-sref="exercise">תרגול</div>
+      <div class="sidemenu--buttons" ui-sref="tests">מבחנים</div>
+      <div class="sidemenu--buttons" ui-sref="sportProgramFrontPg">כושר קרבי</div>
+      <div class="sidemenu--buttons" ui-sref="about">אודות</div>
+      <img src="img/till-logo(white).svg" class="sidemenu--logo">
+    </div>
     <div class="book--menu">
-      <div class="back-button--container" ng-click="goBack()">
+      <!-- <div class="back-button--container" ng-click="goBack()">
         <img src="img/backbutton.svg" class="book--menu-menubutton">
+      </div> -->
+      <div class="back-button--container" ng-click="openmenu()">
+        <img src="img/menu--open.svg" class="book--menu-menubutton">
       </div>
       <h1 class="book--menu-title">תכנית כושר</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">

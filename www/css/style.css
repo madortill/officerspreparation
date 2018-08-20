@@ -4,10 +4,9 @@
 } */
 
 /* @font-face {
-  font-family: "Heebo Light", sans-serif;
+  font-family: "Heebo-Regular", sans-serif;
   src: url("./Heebo-Light.ttf") format("truetype");
   font-weight: normal;
-
 } */
 
 /* @font-face {
@@ -192,7 +191,7 @@
 }
 
 .book--title {
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   font-size: 4em;
   text-align: center;
   margin-top: 3%;
@@ -431,7 +430,7 @@ blockquote {
 .billionaire--money-offer {
   position: absolute;
   top: 16vh;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   font-size: 5vh;
 }
 
@@ -440,7 +439,7 @@ blockquote {
   width: 100%;
   margin-top: 3vh;
   height: 10vh;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   background: #eff2ed;
 }
 
@@ -448,7 +447,7 @@ blockquote {
   direction: rtl;
   margin-right: 0.5em;
   font-size: 3vh;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
 }
 
 .billionaire--life {
@@ -487,7 +486,7 @@ blockquote {
 .billionaireQuestion {
   position: absolute;
   text-align: right;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   top: 24vh;
   padding-right: 3vh;
   font-size: 3.5vh;
@@ -711,7 +710,7 @@ blockquote {
 
 .adjustDateFinishPg--wellDone-title,
 .adjustDateFinishFail--title {
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   font-size: 4em;
   color: black;
   text-align: center;
@@ -757,7 +756,7 @@ blockquote {
   height: 10vh;
   border: 0;
   background-color: #f9f5ef;
-  font-family: "Open Sans Hebrew", serif;
+  font-family: "Heebo", sans-serif;
   font-size: 1.7em;
   text-align: center;
   justify-content: center;
@@ -849,7 +848,7 @@ blockquote {
   border: 0;
   background-color: #e7ebe7;
   box-shadow: 0 3px 9px -1px #acaba9;
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo", sans-serif !important;
   font-weight: bold;
   font-size: 5vh;
 }
@@ -896,7 +895,7 @@ blockquote {
   bottom: 0px;
 }
 .exerciseDescription--title {
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo", sans-serif !important;
   font-weight: bold;
   text-align: right;
   direction: rtl;
@@ -910,7 +909,7 @@ blockquote {
   line-height: 1;
   font-size: 5vh;
   margin: -3vh 2vh 3vh 2vh;
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo", sans-serif !important;
   font-weight: 300;
 }
 .exerciseDescription--explanation {
@@ -924,7 +923,7 @@ blockquote {
   font-size: 3.5vh;
   padding: 1.5vh;
   border-bottom: solid #e7ebe7 5.5px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo", sans-serif !important;
   font-weight: normal;
   direction: rtl;
   line-height: 8vh;
