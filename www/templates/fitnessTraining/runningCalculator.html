@@ -1,0 +1,40 @@
+<ion-view view-title="running calculator">
+  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+
+    <div class="book--menu">
+      <!-- <div class="back-button--container" ng-click="goBack()">
+          <img src="img/backbutton.svg" class="book--menu-menubutton">
+        </div> -->
+      <div class="back-button--container" ng-click="openmenu()">
+        <img src="img/menu--open.svg" class="book--menu-menubutton">
+      </div>
+      <h1 class="book--menu-title">מחשבון ריצה</h1>
+      <img src="img/till-logo.svg" class="book--menu-logo">
+    </div>
+    <div class="book--chapters-firstLine"></div>
+    <div class="sportProgram--menubuttonContainer">
+      <button class="running--title" ui-sref="runChooseDifficulty" ng-click="explenation()">מחשבון</button>
+      <div class="runningCalc--inputs">
+        <input type="text" placeholder="מספר הדקות" dir="rtl" ng-model="minute" class="runningCalc--input">
+        <input type="text" placeholder="מספר השניות" dir="rtl" ng-model="second" class="runningCalc--input">
+
+      </div>
+      <h1 class="running--title">לאיזה מסלול אני מתמיין?</h1>
+      <h3 class="running--answer">נחשון</h3>
+      <h3 class="running--answer">מעוז</h3>
+      <h3 class="running--answer">להב</h3>
+
+      <h3 class="running--answer">אני</h3>
+      <div class="running--gender">
+        <h3 class="running--answer-gender">בת</h3>
+        <h3 class="running--answer-gender">בן</h3>
+
+      </div>
+
+      <button class="runningCalc--submit" ng-click="clickedwork(minute,second)"></button>
+
+
+    </div>
+
+  </ion-content>
+</ion-view>

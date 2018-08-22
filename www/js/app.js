@@ -6,8 +6,8 @@
 angular
   .module("officerspreparation", ["ionic"])
 
-  .run(function($ionicPlatform) {
-    $ionicPlatform.ready(function() {
+  .run(function ($ionicPlatform) {
+    $ionicPlatform.ready(function () {
       if (window.cordova && window.cordova.plugins.Keyboard) {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
@@ -24,7 +24,7 @@ angular
     });
   })
 
-  .config(function($stateProvider, $urlRouterProvider) {
+  .config(function ($stateProvider, $urlRouterProvider) {
     // Ionic uses AngularUI Router which uses the concept of states
     // Learn more here: https://github.com/angular-ui/ui-router
     // Set up the various states which the app can be in.
@@ -77,8 +77,7 @@ angular
 
       .state("chooseDifficulty", {
         url: "/chooseDifficulty",
-        templateUrl:
-          "templates/fitnessTraining/strengthTraining/chooseDifficulty.html",
+        templateUrl: "templates/fitnessTraining/strengthTraining/chooseDifficulty.html",
         controller: "chooseDifficultyController"
       })
 
@@ -90,37 +89,38 @@ angular
 
       .state("exerciseList", {
         url: "/exerciseList",
-        templateUrl:
-          "templates/fitnessTraining/strengthTraining/exerciseList.html",
+        templateUrl: "templates/fitnessTraining/strengthTraining/exerciseList.html",
         controller: "exerciseListController"
+      })
+
+      .state("runningCalculator", {
+        url: "/runningCalculator",
+        templateUrl: "templates/fitnessTraining/runningCalculator.html",
+        controller: "runningCalculatorController"
       })
 
       .state("exerciseDescription", {
         url: "/exerciseDescription",
-        templateUrl:
-          "templates/fitnessTraining/strengthTraining/exerciseDescription.html",
+        templateUrl: "templates/fitnessTraining/strengthTraining/exerciseDescription.html",
         controller: "exerciseDescriptionController"
       })
 
       //run program
       .state("runChooseDifficulty", {
         url: "/runChooseDifficulty",
-        templateUrl:
-          "templates/fitnessTraining/runingProgram/runChooseDifficulty.html",
+        templateUrl: "templates/fitnessTraining/runingProgram/runChooseDifficulty.html",
         controller: "runChooseDifficultyController"
       })
 
       .state("weeklyRunList", {
         url: "/weeklyRunList",
-        templateUrl:
-          "templates/fitnessTraining/runingProgram/weeklyRunList.html",
+        templateUrl: "templates/fitnessTraining/runingProgram/weeklyRunList.html",
         controller: "weeklyRunListController"
       })
 
       .state("runTrainingList", {
         url: "/runTrainingList",
-        templateUrl:
-          "templates/fitnessTraining/runingProgram/runTrainingList.html",
+        templateUrl: "templates/fitnessTraining/runingProgram/runTrainingList.html",
         controller: "runTrainingListController"
       })
 
@@ -157,26 +157,22 @@ angular
       //Second chapter
       .state("2_1CultureAndFaithInIsrael", {
         url: "/2_1CultureAndFaithInIsrael",
-        templateUrl:
-          "templates/book/secondChapter/2_1CultureAndFaithInIsrael.html",
+        templateUrl: "templates/book/secondChapter/2_1CultureAndFaithInIsrael.html",
         controller: "TopicContentController"
       })
       .state("2_2TheWorldOfJewishFaith", {
         url: "/2_2TheWorldOfJewishFaith",
-        templateUrl:
-          "templates/book/secondChapter/2_2TheWorldOfJewishFaith.html",
+        templateUrl: "templates/book/secondChapter/2_2TheWorldOfJewishFaith.html",
         controller: "TopicContentController"
       })
       .state("2_3MinoritiesInTheStateOfIsrael", {
         url: "/2_3MinoritiesInTheStateOfIsrael",
-        templateUrl:
-          "templates/book/secondChapter/2_3MinoritiesInTheStateOfIsrael.html",
+        templateUrl: "templates/book/secondChapter/2_3MinoritiesInTheStateOfIsrael.html",
         controller: "TopicContentController"
       })
       .state("2_4TheJewish-IsraeliCalendarHolidaysAndFestivals", {
         url: "/2_4TheJewish-IsraeliCalendarHolidaysAndFestivals",
-        templateUrl:
-          "templates/book/secondChapter/2_4TheJewish-IsraeliCalendarHolidaysAndFestivals.html",
+        templateUrl: "templates/book/secondChapter/2_4TheJewish-IsraeliCalendarHolidaysAndFestivals.html",
         controller: "TopicContentController"
       })
       .state("2_4_3JewishHolidays", {
@@ -243,8 +239,7 @@ angular
       })
       .state("3_7judeaLifeAfterDestruction", {
         url: "/3_7judeaLifeAfterDestruction",
-        templateUrl:
-          "templates/book/thirdChapter/3_7judeaLifeAfterDestruction.html",
+        templateUrl: "templates/book/thirdChapter/3_7judeaLifeAfterDestruction.html",
         controller: "TopicContentController"
       })
       .state("3_8jewishInBabylon", {
@@ -269,8 +264,7 @@ angular
       })
       .state("3_12emancipationChallenge", {
         url: "/3_12emancipationChallenge",
-        templateUrl:
-          "templates/book/thirdChapter/3_12emancipationChallenge.html",
+        templateUrl: "templates/book/thirdChapter/3_12emancipationChallenge.html",
         controller: "TopicContentController"
       })
       .state("3_13jewishInModernDays", {
@@ -305,8 +299,7 @@ angular
       })
       .state("3_19jewishPupulationByCountry", {
         url: "/3_19jewishPupulationByCountry",
-        templateUrl:
-          "templates/book/thirdChapter/3_19jewishPupulationByCountry.html",
+        templateUrl: "templates/book/thirdChapter/3_19jewishPupulationByCountry.html",
         controller: "TopicContentController"
       })
 
@@ -343,8 +336,7 @@ angular
       })
       .state("4_7TheHolocaustAndTheStateOfIsrael", {
         url: "/4_7TheHolocaustAndTheStateOfIsrael",
-        templateUrl:
-          "templates/book/fourthChapter/4_7TheHolocaustAndTheStateOfIsrael.html",
+        templateUrl: "templates/book/fourthChapter/4_7TheHolocaustAndTheStateOfIsrael.html",
         controller: "TopicContentController"
       })
       .state("4_8Summary", {
@@ -361,8 +353,7 @@ angular
       })
       .state("5_2TheBeginningOfTheNewSettlement", {
         url: "/5_2TheBeginningOfTheNewSettlement",
-        templateUrl:
-          "templates/book/fifthChapter/5_2TheBeginningOfTheNewSettlement.html",
+        templateUrl: "templates/book/fifthChapter/5_2TheBeginningOfTheNewSettlement.html",
         controller: "TopicContentController"
       })
       .state("5_3TheSecondAliyah", {
@@ -372,8 +363,7 @@ angular
       })
       .state("5_4TheRevivalOfTheHebrewlanguage", {
         url: "/5_4TheRevivalOfTheHebrewlanguage",
-        templateUrl:
-          "templates/book/fifthChapter/5_4TheRevivalOfTheHebrewlanguage.html",
+        templateUrl: "templates/book/fifthChapter/5_4TheRevivalOfTheHebrewlanguage.html",
         controller: "TopicContentController"
       })
       .state("5_5WorldWarI", {
@@ -383,20 +373,17 @@ angular
       })
       .state("5_6DuringTheBritishMandatePeriod", {
         url: "/5_6DuringTheBritishMandatePeriod",
-        templateUrl:
-          "templates/book/fifthChapter/5_6DuringTheBritishMandatePeriod.html",
+        templateUrl: "templates/book/fifthChapter/5_6DuringTheBritishMandatePeriod.html",
         controller: "TopicContentController"
       })
       .state("5_7TriangleoftheLandOfIsrael", {
         url: "/5_7TriangleoftheLandOfIsrael",
-        templateUrl:
-          "templates/book/fifthChapter/5_7TriangleoftheLandOfIsrael.html",
+        templateUrl: "templates/book/fifthChapter/5_7TriangleoftheLandOfIsrael.html",
         controller: "TopicContentController"
       })
       .state("5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII", {
         url: "/5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII",
-        templateUrl:
-          "templates/book/fifthChapter/5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII.html",
+        templateUrl: "templates/book/fifthChapter/5_8EretzIsraelAndTheJewishYishuvDuringWorldWarII.html",
         controller: "TopicContentController"
       })
       .state("5_9TowardsAState", {
@@ -433,8 +420,7 @@ angular
       })
       .state("6_5primeMinisterOfIsrael", {
         url: "/6_5primeMinisterOfIsrael",
-        templateUrl:
-          "templates/book/sixthChapter/6_5primeMinisterOfIsrael.html",
+        templateUrl: "templates/book/sixthChapter/6_5primeMinisterOfIsrael.html",
         controller: "TopicContentController"
       })
       .state("6_6chiefOfGeneralStaff", {
@@ -455,20 +441,17 @@ angular
       })
       .state("7_2JewishDefenseForceDevelopment", {
         url: "/7_2JewishDefenseForceDevelopment",
-        templateUrl:
-          "templates/book/seventhChapter/7_2JewishDefenseForceDevelopment.html",
+        templateUrl: "templates/book/seventhChapter/7_2JewishDefenseForceDevelopment.html",
         controller: "TopicContentController"
       })
       .state("7_3TheEstablishmentOfTheIDF", {
         url: "/7_3TheEstablishmentOfTheIDF",
-        templateUrl:
-          "templates/book/seventhChapter/7_3TheEstablishmentOfTheIDF.html",
+        templateUrl: "templates/book/seventhChapter/7_3TheEstablishmentOfTheIDF.html",
         controller: "TopicContentController"
       })
       .state("7_4WarsAndIDFoperations", {
         url: "/7_4WarsAndIDFoperations",
-        templateUrl:
-          "templates/book/seventhChapter/7_4WarsAndIDFoperations.html",
+        templateUrl: "templates/book/seventhChapter/7_4WarsAndIDFoperations.html",
         controller: "TopicContentController"
       })
       .state("7_5Summary", {
