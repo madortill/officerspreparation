@@ -14,6 +14,7 @@
   src: url("./Heebo-Bold.ttf") format("truetype");
   font-weight: bold;
 } */
+
 /* * {
   font-family: 'Open Sans Hebrew', sans-serif !important;
   box-sizing: border-box;
@@ -33,7 +34,7 @@
   margin-top: 25vh;
 }
 
-.overflow-scroll > .scroll {
+.overflow-scroll>.scroll {
   background: #f9f5ef;
 }
 
@@ -287,6 +288,7 @@
 p {
   text-align: right;
 }
+
 blockquote {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
@@ -685,6 +687,7 @@ blockquote {
 .arrowsize {
   height: 100%;
 }
+
 .adjustDate--btn {
   background-color: Transparent;
   border: 0;
@@ -833,8 +836,9 @@ blockquote {
 }
 
 /* sport program */
+
 .sportProgram--menubuttonContainer {
-  height: 85%;
+  /* height: 85%; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -843,7 +847,7 @@ blockquote {
 
 .sportProgram--button {
   width: 100%;
-  height: 17%;
+  height: 11vh;
   margin-top: 2vh;
   border: 0;
   background-color: #e7ebe7;
@@ -854,6 +858,7 @@ blockquote {
 }
 
 /*exerciseList*/
+
 .exerciseList--gif {
   width: 13vh;
   padding-right: 1vh;
@@ -863,6 +868,7 @@ blockquote {
 }
 
 /*exerciseDescription*/
+
 .exerciseDescription--gif {
   display: block;
   height: 34vh;
@@ -894,6 +900,7 @@ blockquote {
   z-index: 1;
   bottom: 0px;
 }
+
 .exerciseDescription--title {
   font-family: "Heebo", sans-serif !important;
   font-weight: bold;
@@ -903,6 +910,7 @@ blockquote {
   margin: 2vh 2vh 0vh 1vh;
   padding-top: 1vh;
 }
+
 .exerciseDescription--repeats {
   white-space: pre-line;
   direction: rtl;
@@ -912,6 +920,7 @@ blockquote {
   font-family: "Heebo", sans-serif !important;
   font-weight: 300;
 }
+
 .exerciseDescription--explanation {
   font-size: 3.5vh;
   font-weight: 340;
@@ -975,4 +984,84 @@ blockquote {
 
 .inCorrectAnswer {
   background: #d67963;
+}
+
+.runningCalc--inputs {
+  display: flex;
+  flex-direction: row;
+  height: 21vh;
+  padding-top: 4vh;
+  /* margin-top: 4vh; */
+  background: #CFA46B;
+  opacity: 0.8;
+  justify-content: space-around;
+}
+
+.runningCalc--input {
+  height: 14vh;
+  width: 41%;
+  background: #F2D5B1;
+  text-align: center;
+}
+
+/* .runningCalc--input::placeholder {
+ 
+  color: red;
+} */
+
+.inputdiv {
+  height: 13vh;
+}
+
+/* .input[type="text"] {
+  height: 0;
+  ;
+} */
+
+.textarea,
+input[type="text"],
+input[type="color"] {
+  height: 12vh;
+}
+
+.runningCalc--submit {
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.running--title {
+  width: 100%;
+  height: 11vh;
+  margin-top: 2vh;
+  border: 0;
+  background-color: #e7ebe7;
+  box-shadow: 0 3px 9px -1px #acaba9;
+  font-family: "Heebo", sans-serif !important;
+  font-weight: bold;
+  font-size: 5vh;
+  text-align: right;
+  direction: rtl;
+  padding-right: 4%;
+}
+
+.running--answer {
+  width: 100%;
+  height: 5vh;
+  margin-top: 0.5vh;
+  border: 0;
+  background-color: #e7ebe7;
+  box-shadow: 0 3px 9px -1px #acaba9;
+  font-family: "Heebo", sans-serif !important;
+  font-weight: bold;
+  font-size: 5vh;
+  text-align: right;
+  direction: rtl;
+  padding-right: 4%;
+}
+
+.running--gender {
+  display: flex;
+  flex-direction: row;
 }
