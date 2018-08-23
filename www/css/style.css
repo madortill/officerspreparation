@@ -2,10 +2,10 @@
   font-family: "Open Sans Hebrew", serif;
   src: url("./OpenSansHebrewCondensed-Light.ttf") format("truetype");
 } */
-
-/* @font-face {
-  font-family: "Heebo-Regular", sans-serif;
-  src: url("./Heebo-Light.ttf") format("truetype");
+/*
+@font-face {
+  font-family: "Heebo", sans-serif;
+  src: url("./Heebo-Medium.ttf") format("truetype");
   font-weight: normal;
 } */
 
@@ -34,7 +34,7 @@
   margin-top: 25vh;
 }
 
-.overflow-scroll>.scroll {
+.overflow-scroll > .scroll {
   background: #f9f5ef;
 }
 
@@ -391,21 +391,22 @@ blockquote {
 
 .game--firstline {
   width: 100%;
-  height: 7vh;
-  background: #eff2ed;
+  height: 1.5vh;
+  background: #e7ebe7;
 }
 
 .game--secondline {
   width: 100%;
-  height: 2vh;
+  height: 3.2vh;
   background: #f9f5ef;
+  border-bottom: 1.5vh solid #e7ebe7;
 }
 
 .billionaire--trapeze {
-  border-top: 5vh solid #f9f5ef;
-  border-left: 3vh solid transparent;
-  border-right: 3vh solid transparent;
-  width: 40%;
+  border-top: 5vh solid #e7ebe7;
+  border-left: 4vh solid transparent;
+  border-right: 4vh solid transparent;
+  width: 55%;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -417,32 +418,37 @@ blockquote {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #e7ebe7;
 }
 
 .billionaire {
   width: 100%;
-  height: 20vh;
-  background: #eff2ed;
+  height: 23vh;
+  background: #f9f5ef;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 1vh 13px -6px #a0a09e;
 }
 
 .billionaire--money-offer {
   position: absolute;
-  top: 16vh;
+  top: 12vh;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
   font-size: 5vh;
 }
 
 .game--answer {
   border: none;
   width: 100%;
-  margin-top: 3vh;
+  margin-top: 2.5vh;
   height: 10vh;
   font-family: "Heebo", sans-serif;
-  background: #eff2ed;
+  background: #f9f5ef;
+  box-shadow: 0 0vh 10px 1px #acaba9;
+  z-index: 1;
 }
 
 .billionaire--answer-number {
@@ -450,32 +456,43 @@ blockquote {
   margin-right: 0.5em;
   font-size: 3vh;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
 }
 
 .billionaire--life {
-  height: 5vh;
-  margin-right: 0.5em;
+  height: 8vh;
+  margin-right: -2vh;
 }
 
 .billionaire--lifes {
   position: fixed;
-  bottom: 1vh;
+  bottom: 2vh;
   display: flex;
-  left: 2vh;
+  left: 0vh;
+}
+
+.billionaire--lifeContainer {
+  width: 100%;
+  height: 7vh;
+  background-color: #e7ebe7;
 }
 
 .billionaire--help-square {
   margin-right: 10%;
-  margin-left: 2em;
-  width: 7em;
-  height: 6vh;
-  background: #a34824;
+  margin-left: 12px;
+  width: 15vh;
+  height: 5vh;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 3vh;
+  background: #f9f5ef;
   text-align: center;
   padding-top: 1vh;
   vertical-align: middle;
   line-height: 4vh;
   border: 0;
-  color: white;
+  color: black;
+  box-shadow: 0 1px 13px 0px #717170;
 }
 
 .billionaire--help {
@@ -489,8 +506,12 @@ blockquote {
   position: absolute;
   text-align: right;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  width: 100%;
   top: 24vh;
-  padding-right: 3vh;
+  margin-top: -3vh !important;
+  padding: 0px 4vh 2vh 4vh;
+  /* padding-right: 3vh; */
   font-size: 3.5vh;
   direction: rtl;
 }
@@ -567,7 +588,12 @@ blockquote {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: #eff2ed;
+  background: #e7ebe7;
+}
+
+.test--start-line {
+  width: 100%;
+  height: 1.5vh;
 }
 
 .test--start {
@@ -797,10 +823,11 @@ blockquote {
 }
 
 .about--paragraphTitle {
-  font-size: 3.5vh;
+  font-size: 3vh;
   padding-right: 3vh;
   margin: 0;
   font-family: "Heebo", sans-serif;
+  font-weight: 800;
 }
 
 .about--aboutParagraph {
@@ -816,6 +843,10 @@ blockquote {
   /* border-bottom: #eff2ed solid 1vh; */
   height: 45vh;
   margin-top: 2vh;
+}
+
+.about--lastParagraph {
+  height: 20vh;
 }
 
 .about--paragraphContainerRamad {
@@ -843,6 +874,7 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 1vh;
 }
 
 .sportProgram--button {
@@ -860,11 +892,11 @@ blockquote {
 /*exerciseList*/
 
 .exerciseList--gif {
-  width: 13vh;
-  padding-right: 1vh;
-  height: 8vh;
+  width: 17vh;
+  padding-right: 0;
+  height: 12vh;
   position: fixed;
-  left: 16px;
+  left: -17px;
 }
 
 /*exerciseDescription*/
@@ -935,7 +967,7 @@ blockquote {
   font-family: "Heebo", sans-serif !important;
   font-weight: normal;
   direction: rtl;
-  line-height: 8vh;
+  line-height: 10vh;
 }
 
 .runTrainingList--showRunTrainingData {
@@ -979,11 +1011,11 @@ blockquote {
 } */
 
 .correctAnswer {
-  background: #b8cc79;
+  background: #c3d380;
 }
 
 .inCorrectAnswer {
-  background: #d67963;
+  background: #eda2a7;
 }
 
 .runningCalc--inputs {
@@ -992,7 +1024,7 @@ blockquote {
   height: 21vh;
   padding-top: 4vh;
   /* margin-top: 4vh; */
-  background: #CFA46B;
+  background: #cfa46b;
   opacity: 0.8;
   justify-content: space-around;
 }
@@ -1000,12 +1032,12 @@ blockquote {
 .runningCalc--input {
   height: 14vh;
   width: 41%;
-  background: #F2D5B1;
+  background: #f2d5b1;
   text-align: center;
 }
 
 /* .runningCalc--input::placeholder {
- 
+
   color: red;
 } */
 

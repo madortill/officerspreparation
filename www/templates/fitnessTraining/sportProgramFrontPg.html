@@ -21,12 +21,31 @@
       <h1 class="book--menu-title">תכנית כושר</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
+
     <div class="book--chapters-firstLine"></div>
+
+    <div class="book--chapters-titlecontainer">
+      <h1 class="book--chapters-title">תכנית כושר</h1>
+    </div>
     <div class="sportProgram--menubuttonContainer">
-      <button class="sportProgram--button" ui-sref="runChooseDifficulty" ng-click="explenation()">ריצה</button>
+      <!-- <button class="sportProgram--button" ui-sref="runChooseDifficulty" ng-click="explenation()">ריצה</button>
       <button class="sportProgram--button" ui-sref="chooseDifficulty">אימון כוח</button>
       <button class="sportProgram--button" ui-sref="runningCalculator">מחשבון ריצה</button>
-      <button class="sportProgram--button">מאגר מידע ועזרה</button>
+      <button class="sportProgram--button">מאגר מידע ועזרה</button> -->
+      <ul class="book--chapter-list">
+        <li class="exerciseList--listItem" ui-sref="runChooseDifficulty" ng-click="explenation()">
+          ריצה
+        </li>
+        <li class="exerciseList--listItem" ui-sref="chooseDifficulty">
+          אימון כוח
+        </li>
+        <li class="exerciseList--listItem" ui-sref="runningCalculator">
+          מחשבון ריצה
+        </li>
+        <li class="exerciseList--listItem" class="sportProgram--button">
+          מאגר מידע
+        </li>
+      </ul>
     </div>
 
 

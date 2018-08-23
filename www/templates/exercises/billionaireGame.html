@@ -1,5 +1,5 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+  <div class="background">
 
     <div class="billionaire--win-fullgame" ng-show="winFullGame">
       <h1 class="billionaire--win-fullgame-text">!סיימת בהצלחה</h1>
@@ -14,7 +14,7 @@
       <h1 class="billionaire--win-fullgame-text">{{winMoney}}</h1>
       <img src="img/billionaire--win-fullgame.svg" class="billionaire--win-pic">
       <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
-      <div class="billionaire--play-again" ui-sref="home">חזרה</div>
+      <div class="billionaire--play-again" ng-click="goHome()">חזרה</div>
     </div>
 
     <div class="book--menu">
@@ -34,7 +34,7 @@
       <div class="billionaire">
         <div class="billionaire--trapeze">
           <h3 class="billionaireQuestion">{{questions.question}}</h3>
-          <h1 class="billionaire--money-offer">{{levelPoints}}</h1>
+          <h1 class="billionaire--money-offer">${{levelPoints}}</h1>
         </div>
       </div>
       <div class="billionaire--help">
@@ -51,14 +51,15 @@
         <h1 class="billionaire--answer-number">{{answer.answer}}</h1>
       </fieldset>
 
+      <div class="billionaire--lifeContainer"> </div>
       <div class="billionaire--lifes">
         <div ng-repeat="lifes in life track by $index" ng-show="life[$index]">
-          <img src="img/billionaire--life.svg" class="billionaire--life">
+          <img src="img/adjustDate--life.svg" class="billionaire--life">
         </div>
       </div>
 
-
+      <div class="exerciseDiscription--lastLine"></div>
     </div>
 
-  </ion-content>
+  </div>
 </ion-view>

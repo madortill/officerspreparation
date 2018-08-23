@@ -37,13 +37,17 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   //   alert("oran the king");
   // }
 
-  $scope.goBack = function () {
+  $scope.goHome = function() {
+    $scope.resetGame();
+    $state.go("home");
+  };
+  $scope.goBack = function() {
     window.history.back();
   };
 
   // the first help
   // clear 50 percentage of the answer
-  $scope.firstHelp = function () {
+  $scope.firstHelp = function() {
     var firstHelpHide = (firstHelpHide = [
       Math.floor(Math.random() * 4 + 0),
       Math.floor(Math.random() * 4 + 0)
@@ -72,7 +76,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.firstHelpTouch = false;
   };
 
-  $scope.secondHelp = function () {
+  $scope.secondHelp = function() {
     // alert("second help clicked");
     var firstHelpHide = (firstHelpHide = [
       Math.floor(Math.random() * 4 + 0),
@@ -129,7 +133,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     }
 
     function paintAnswers() {
-      $timeout(function () {
+      $timeout(function() {
         for (var i = 0; i < 4; i++) {
           if ($scope.questions.answers[i].type == true) {
             $scope.correctAnswer[i] = true;
@@ -138,14 +142,12 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         }
         if ($scope.questions.answers[index].type != false) {
           $timeout($scope.nextQuestion, 1000);
-
         }
 
         // if (correctAnswerIndex != index) {
         if ($scope.questions.answers[index].type != true) {
           $scope.inCorrectAnswer[index] = true;
           $timeout($scope.nextQuestion, 3000);
-
         }
         // }
         // unPaintAnswers();
@@ -159,8 +161,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         }
         $scope.nextQuestion1 = false;
       }, 10);
-
-
     }
 
     paintAnswers();
@@ -180,13 +180,14 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     console.log($scope.correctAnswer);
     console.log($scope.inCorrectAnswer);
   }
-  $scope.nextQuestion = function () {
+  $scope.nextQuestion = function() {
     $scope.nextQuestion1 = true;
     $scope.unClickAnswer = [false, false, false, false];
 
     unPaintAnswers();
     gameLevel++;
-    $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
+    $scope.questions =
+      DataService.billionaireGame[gameLevel].level[randomNumber()];
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
     if ($scope.firstHelpShow == true) {
       $scope.secondHelpTouch = true;
@@ -198,8 +199,8 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.theAnswers = [true, true, true, true];
     shuffle($scope.questions.answers);
   };
-  $scope.resetGame = function () {
-    // alert("dfdf");
+  $scope.resetGame = function() {
+    i = 0;
     $scope.theAnswers = [true, true, true, true];
     gameLevel = 0;
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points; //the points in the current level
@@ -208,12 +209,13 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.firstHelpShow = true;
     $scope.secondHelpShow = true;
     $scope.firstHelpTouch = true;
-    $scope.winFullGame = false; // show the screen if win full game
     $scope.finishGame = false;
-    $scope.unClickAnswer = [false, false, false, false];
-
+    $scope.winFullGame = false; // show the screen if win full game
     $scope.secondHelpTouch = true;
     $scope.inCorrectAnswer = [false, false, false, false];
     $scope.correctAnswer = [false, false, false, false];
+    $scope.unClickAnswer = [false, false, false, false];
+
+    $scope.nextQuestion1 = true;
   };
 }
