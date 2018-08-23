@@ -1069,7 +1069,6 @@ input[type="color"] {
   margin-top: 2vh;
   border: 0;
   background-color: #e7ebe7;
-  box-shadow: 0 3px 9px -1px #acaba9;
   font-family: "Heebo", sans-serif !important;
   font-weight: bold;
   font-size: 5vh;
@@ -1080,7 +1079,7 @@ input[type="color"] {
 
 .running--answer {
   width: 100%;
-  height: 5vh;
+  height: 6vh;
   margin-top: 0.5vh;
   border: 0;
   background-color: #e7ebe7;
@@ -1096,4 +1095,46 @@ input[type="color"] {
 .running--gender {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.running--caclAlert {
+  width: 80%;
+  height: 80%;
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  /* width: 100px; */
+  background: red;
+  top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.running--caclAlertOpacity {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  background: black;
+  opacity: 0.3;
+}
+
+.running--answer-gender {
+  width: 48%;
+  background-color: #e7ebe7;
+  text-align: center;
+  height: 8vh;
+}
+
+#running--genderTitle {
+  background: #f9f5ef;
+}
+
+.runningSelect {
+  background: red;
 }

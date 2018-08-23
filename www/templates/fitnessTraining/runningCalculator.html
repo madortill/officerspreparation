@@ -1,6 +1,9 @@
 <ion-view view-title="running calculator">
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
 
+    <!-- <div class="running--caclAlertOpacity">אביטל פיבןןןןןןןןןןןןן</div>
+    <div class="running--caclAlert">אביטל פיבןןןןןןןןןןןןן</div> -->
+
     <div class="book--menu">
       <!-- <div class="back-button--container" ng-click="goBack()">
           <img src="img/backbutton.svg" class="book--menu-menubutton">
@@ -19,19 +22,18 @@
         <input type="text" placeholder="מספר השניות" dir="rtl" ng-model="second" class="runningCalc--input">
 
       </div>
-      <h1 class="running--title">לאיזה מסלול אני מתמיין?</h1>
-      <h3 class="running--answer">נחשון</h3>
-      <h3 class="running--answer">מעוז</h3>
-      <h3 class="running--answer">להב</h3>
+      <h1 class="running--title" id="running--genderTitle">לאיזה מסלול אני מתמיין?</h1>
+      <h3 class="running--answer" ng-click="course('job')" ng-class={runningSelect:jobSelect}>מעוז / נחשון</h3>
+      <h3 class="running--answer" ng-click="course('fighter')" ng-class={runningSelect:fighterSelect}>להב</h3>
 
-      <h3 class="running--answer">אני</h3>
+      <h3 class="running--answer" id="running--genderTitle">אני :</h3>
       <div class="running--gender">
-        <h3 class="running--answer-gender">בת</h3>
-        <h3 class="running--answer-gender">בן</h3>
+        <div class="running--answer-gender" ng-click="genderSelect('female')" ng-class={runningSelect:femaleSelect}>נקבה</div>
+        <div class="running--answer-gender" ng-click="genderSelect('male')" ng-class={runningSelect:maleSelect}>זכר</div>
 
       </div>
 
-      <button class="runningCalc--submit" ng-click="clickedwork(minute,second)"></button>
+      <button class="runningCalc--submit" ng-click="submitButton(minute,second)"></button>
 
 
     </div>
