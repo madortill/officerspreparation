@@ -427,40 +427,40 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation:
                     "שלשה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/squat.gif",
                   repeats: "8X2",
                   explanation: "2 סטים של 8. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "img/sportProgram--gifs/",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "8X2",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -471,40 +471,40 @@
               exercises: [
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation:
                     "שלשה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/squat.gif",
                   repeats: "8X2",
                   explanation: "2 סטים של 8. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "8X2",
                   explanation: "2 סטים של 8. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -522,41 +522,41 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation:
                     "שלשה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "8X3",
                   explanation: "3 סטים של 8. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "8X3",
                   explanation: "3 סטים של 8. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -574,41 +574,41 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X4",
                   explanation:
                     "ארבעה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -626,41 +626,41 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X4",
                   explanation:
                     "ארבעה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -678,41 +678,41 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "simg/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X4",
                   explanation:
                     "ארבעה סטים של שמונה. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -730,27 +730,27 @@
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -768,27 +768,27 @@
                 },
                 {
                   exerciseName: "סקוואט",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/squat.gif",
                   repeats: "12X3",
                   explanation:
                     "3 סטים של 12 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -806,27 +806,27 @@
                 },
                 {
                   exerciseName: "סקוואט",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/squat.gif",
                   repeats: "12X3",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -849,40 +849,40 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation: "3 סטים של 8. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -900,40 +900,40 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation: "3 סטים של 8. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -951,46 +951,46 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות ברכיים",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/knee pushups.gif",
                   repeats: "8X3",
                   explanation: "3 סטים של 8. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מטפס הרים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/moutain climber.gif",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 5 סטים של 30 שניות \n45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1008,34 +1008,34 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1053,34 +1053,34 @@
                 },
                 {
                   exerciseName: "מצב 2 - סטטי",
-                  gif: "sportProgram--gifs/img/GIF",
+                  gif: "img/sportProgram--gifs/matsavTwo.png",
                   repeats: "30 שניות  5X",
                   explanation:
                     " 45 שניות מנוחה בין סט לסט.\n נשארים בתנוחה הסטטית למשך כל זמן העבודה כאשר משקל הגוף נישא "
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "30 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1098,33 +1098,33 @@
                 },
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "שלשה סטים של שלושים שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1135,27 +1135,27 @@
               exercises: [
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "20X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 20 \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "3 סטים של 45 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1166,26 +1166,26 @@
               exercises: [
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "4",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12 . \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "20 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "20 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 }
@@ -1196,39 +1196,40 @@
               exercises: [
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "20X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "3 סטים של 45 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "20 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "20 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 }
@@ -1239,33 +1240,34 @@
               exercises: [
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "20X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 20 \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "3 סטים של 45 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1276,39 +1278,39 @@
               exercises: [
                 {
                   exerciseName: "שכיבות סמיכה",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/pushups.gif",
                   repeats: "20X3",
                   explanation:
                     " 3 סטים של 20 \n שכיבות סמיכה הרמת יד \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "3 סטים של 45 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1319,21 +1321,21 @@
               exercises: [
                 {
                   exerciseName: "מתח",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/metach.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1349,39 +1351,39 @@
               exercises: [
                 {
                   exerciseName: "מתח",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/metach.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "20 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 }
@@ -1392,46 +1394,40 @@
               exercises: [
                 {
                   exerciseName: "עליית חבל",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
                   repeats: "3.5 מ'",
-                  explanation:
-                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
-                },
-                {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
+                  explanation: "ניתן למצוא במגרשים/בוחן מסלול בבסיסים."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "60 שניות  3X",
                   explanation:
                     "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "25X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1442,45 +1438,45 @@
               exercises: [
                 {
                   exerciseName: "מתח",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif: "img/sportProgram--gifs/metach.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1491,45 +1487,45 @@
               exercises: [
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 }
@@ -1540,53 +1536,54 @@
               exercises: [
                 {
                   exerciseName: "עליית חבל",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
                   repeats: "3.5 מ'",
                   explanation:
                     "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
                 },
                 {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "60 שניות  3X",
                   explanation:
                     "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "25X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
@@ -1598,46 +1595,46 @@
               exercises: [
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "45 שניות  3X",
                   explanation:
                     "3 סטים של 45 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "מכרע קדמי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/mikra kidmy.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 }
@@ -1648,83 +1645,78 @@
               exercises: [
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "עליית חבל",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
                   repeats: "3.5 מ'",
                   explanation:
                     "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
                 },
                 {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "10X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "60 שניות  3X",
                   explanation:
                     "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "25X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
@@ -1736,309 +1728,45 @@
               exercises: [
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "עליית חבל",
-                  gif: "",
-                  repeats: "6 מ'",
-                  explanation:
-                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
-                },
-                {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "ג'קסונים",
-                  gif: "",
-                  repeats: "10X3",
-                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "כפיפה צידית",
-                  gif: "",
-                  repeats: "10X2",
-                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "סקוואט קיר",
-                  gif: "000000",
-                  repeats: "60 שניות  3X",
-                  explanation:
-                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
-                },
-                {
-                  exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
-                  repeats: "25X3",
-                  explanation:
-                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
-                }
-              ]
-            },
-            {
-              trainingName: "קשה - אימון9",
-              exercises: [
-                {
-                  exerciseName: "מתח עם ווסט",
-                  gif: "",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "מקבילים",
-                  gif: "000000",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "סקוואט קפיצה",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (ימין)"
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (שמאל)"
-                },
-                {
-                  exerciseName: "פלאנק",
-                  gif: "",
-                  repeats: "60 שניות",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "הרמת אגן",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "עליית חבל",
-                  gif: "",
-                  repeats: "6 מ'",
-                  explanation:
-                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
-                },
-                {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "ג'קסונים",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "כפיפה צידית",
-                  gif: "",
-                  repeats: "15X2",
-                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "סקוואט קיר",
-                  gif: "000000",
-                  repeats: "60 שניות  3X",
-                  explanation:
-                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
-                },
-                {
-                  exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
-                  repeats: "30X3",
-                  explanation:
-                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
-                }
-              ]
-            },
-            {
-              trainingName: "קשה - אימון10",
-              exercises: [
-                {
-                  exerciseName: "מתח עם ווסט",
-                  gif: "",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "מקבילים",
-                  gif: "000000",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "סקוואט קפיצה",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (ימין)"
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (שמאל)"
-                },
-                {
-                  exerciseName: "פלאנק",
-                  gif: "",
-                  repeats: "60 שניות",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "הרמת אגן",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "עליית חבל",
-                  gif: "",
-                  repeats: "6 מ'",
-                  explanation:
-                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
-                },
-                {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "ג'קסונים",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "כפיפה צידית",
-                  gif: "",
-                  repeats: "15X2",
-                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "סקוואט קיר",
-                  gif: "000000",
-                  repeats: "60 שניות  3X",
-                  explanation:
-                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
-                },
-                {
-                  exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
-                  repeats: "30X3",
-                  explanation:
-                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
-                }
-              ]
-            },
-            {
-              trainingName: "קשה - אימון11",
-              exercises: [
-                {
-                  exerciseName: "מתח עם ווסט",
-                  gif: "",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "מקבילים",
-                  gif: "000000",
-                  repeats: "4 חלקים",
-                  explanation:
-                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
-                },
-                {
-                  exerciseName: "סקוואט קפיצה",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (ימין)"
-                },
-                {
-                  exerciseName: "פלאנק צידי",
-                  gif: "",
-                  repeats: "40 שניות",
-                  explanation: "פלאנק צידי (שמאל)"
-                },
-                {
-                  exerciseName: "פלאנק",
-                  gif: "",
-                  repeats: "60 שניות",
-                  explanation: ""
-                },
-                {
-                  exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
@@ -2050,33 +1778,283 @@
                     "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
                 },
                 {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
                   exerciseName: "ג'קסונים",
-                  gif: "",
-                  repeats: "12X3",
-                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                  gif: "img/sportProgram--gifs/jeckson.gif",
+                  repeats: "10X3",
+                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
-                  repeats: "15X2",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
+                  repeats: "10X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "60 שניות  3X",
                   explanation:
                     "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
+                  repeats: "25X3",
+                  explanation:
+                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 25 \n מנוחה של 45 שניות בין סט לסט."
+                }
+              ]
+            },
+            {
+              trainingName: "קשה - אימון9",
+              exercises: [
+                {
+                  exerciseName: "מתח עם ווסט",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "מקבילים",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "סקוואט קפיצה",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/right plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (ימין)"
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/left plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (שמאל)"
+                },
+                {
+                  exerciseName: "פלאנק",
+                  gif: "img/sportProgram--gifs/plank.png",
+                  repeats: "60 שניות",
+                  explanation: ""
+                },
+                {
+                  exerciseName: "הרמת אגן",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "עליית חבל",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
+                  repeats: "6 מ'",
+                  explanation:
+                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
+                },
+                {
+                  exerciseName: "ג'קסונים",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "כפיפה צידית",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
+                  repeats: "15X2",
+                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "סקוואט קיר",
+                  gif: "img/sportProgram--gifs/seated squat.png",
+                  repeats: "60 שניות  3X",
+                  explanation:
+                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
+                },
+                {
+                  exerciseName: "שכיבות סמיכה - שלילי",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
+                  repeats: "30X3",
+                  explanation:
+                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
+                }
+              ]
+            },
+            {
+              trainingName: "קשה - אימון10",
+              exercises: [
+                {
+                  exerciseName: "מתח עם ווסט",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "מקבילים",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "סקוואט קפיצה",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/right plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (ימין)"
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/left plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (שמאל)"
+                },
+                {
+                  exerciseName: "פלאנק",
+                  gif: "img/sportProgram--gifs/plank.png",
+                  repeats: "60 שניות",
+                  explanation: ""
+                },
+                {
+                  exerciseName: "הרמת אגן",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "עליית חבל",
+                  gif: "img/sportProgram--gifs/",
+                  repeats: "6 מ'",
+                  explanation:
+                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
+                },
+                {
+                  exerciseName: "עליית כוח",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
+                  repeats: "3 סטים",
+                  explanation: ""
+                },
+                {
+                  exerciseName: "ג'קסונים",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "כפיפה צידית",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
+                  repeats: "15X2",
+                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "סקוואט קיר",
+                  gif: "img/sportProgram--gifs/seated squat.png",
+                  repeats: "60 שניות  3X",
+                  explanation:
+                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
+                },
+                {
+                  exerciseName: "שכיבות סמיכה - שלילי",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
+                  repeats: "30X3",
+                  explanation:
+                    " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
+                }
+              ]
+            },
+            {
+              trainingName: "קשה - אימון11",
+              exercises: [
+                {
+                  exerciseName: "מתח עם ווסט",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "מקבילים",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
+                  repeats: "4 חלקים",
+                  explanation:
+                    " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
+                },
+                {
+                  exerciseName: "סקוואט קפיצה",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/right plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (ימין)"
+                },
+                {
+                  exerciseName: "פלאנק צידי",
+                  gif: "img/sportProgram--gifs/left plank.png",
+                  repeats: "40 שניות",
+                  explanation: "פלאנק צידי (שמאל)"
+                },
+                {
+                  exerciseName: "פלאנק",
+                  gif: "img/sportProgram--gifs/plank.png",
+                  repeats: "60 שניות",
+                  explanation: ""
+                },
+                {
+                  exerciseName: "הרמת אגן",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "עליית חבל",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
+                  repeats: "6 מ'",
+                  explanation:
+                    "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
+                },
+                {
+                  exerciseName: "ג'קסונים",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
+                  repeats: "12X3",
+                  explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "כפיפה צידית",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
+                  repeats: "15X2",
+                  explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
+                },
+                {
+                  exerciseName: "סקוואט קיר",
+                  gif: "img/sportProgram--gifs/seated squat.png",
+                  repeats: "60 שניות  3X",
+                  explanation:
+                    "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
+                },
+                {
+                  exerciseName: "שכיבות סמיכה - שלילי",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "30X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
@@ -2088,83 +2066,78 @@
               exercises: [
                 {
                   exerciseName: "מתח עם ווסט",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/metach im vest.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "מקבילים",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/makbilim.gif",
                   repeats: "4 חלקים",
                   explanation:
                     " 100 אחוז מיכולת , 75 אחוז מיכולת מרבית, 50 אחוז מיכולת מרבית, 100 אחוז מיכולת מרבית."
                 },
                 {
                   exerciseName: "סקוואט קפיצה",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jump squat.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/right plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (ימין)"
                 },
                 {
                   exerciseName: "פלאנק צידי",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/left plank.png",
                   repeats: "40 שניות",
                   explanation: "פלאנק צידי (שמאל)"
                 },
                 {
                   exerciseName: "פלאנק",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/plank.png",
                   repeats: "60 שניות",
                   explanation: ""
                 },
                 {
                   exerciseName: "הרמת אגן",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/haramot agan.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "עליית חבל",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/rope climbing.gif",
                   repeats: "6 מ'",
                   explanation:
                     "ניתן למצוא במגרשים/מגרשים של בוחן מסלול בבסיסים."
                 },
                 {
-                  exerciseName: "עליית כוח",
-                  gif: "",
-                  repeats: "3 סטים",
-                  explanation: ""
-                },
-                {
                   exerciseName: "ג'קסונים",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/jeckson.gif",
                   repeats: "12X3",
                   explanation: "3 סטים של 12. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "כפיפה צידית",
-                  gif: "",
+                  gif: "img/sportProgram--gifs/penguins (kfifa tsidit).gif",
                   repeats: "15X2",
                   explanation: "2 סטים של 10. \n 45 שניות מנוחה בין סט לסט."
                 },
                 {
                   exerciseName: "סקוואט קיר",
-                  gif: "000000",
+                  gif: "img/sportProgram--gifs/seated squat.png",
                   repeats: "60 שניות  3X",
                   explanation:
                     "3 סטים של 60 שניות. \n מנוחה של 45 שניות בין סט לסט."
                 },
                 {
                   exerciseName: "שכיבות סמיכה - שלילי",
-                  gif: "img/sportProgram--gifs/mountaineer.gif",
+                  gif:
+                    "img/sportProgram--gifs/pushups with a negetive angle.gif",
                   repeats: "30X3",
                   explanation:
                     " בשיפוע שלילי עליך לבצע שכיבות סמיכה, 3 סטים של 30 \n מנוחה של 45 שניות בין סט לסט."
