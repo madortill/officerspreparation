@@ -97,7 +97,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   console.log(questionIndex);
 
   var countDown = 59;
-  var minute = 2;
+  var minute = 10000000000;
   $scope.countDowner = function() {
     // function stopcountdown() {
     $scope.countDown_text = countDown;

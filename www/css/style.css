@@ -378,11 +378,27 @@ blockquote {
 .exercise--choose-unit {
   font-size: 4.5vh;
   padding: 2vh;
-  padding-top: 13vh;
-  height: 35vh;
-  font-family: "Heebo", sans-serif;
+  height: 36vh;
   text-align: center;
-  border-bottom: solid #eff2ed 2vh;
+  border-bottom: solid #e7ebe7 2vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exercise--list-icons {
+  width: 15vh;
+  height: 15vh;
+}
+
+.exercise--list-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  width: 25vh;
+  font-size: 5vh;
+  margin-top: 0;
 }
 
 .exercise--marginBody {
@@ -588,7 +604,91 @@ blockquote {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: #e7ebe7;
+  background: #f9f5ef;
+}
+
+.test--start-backdiv {
+  width: 100%;
+  height: 9vh;
+  background-color: #e7ebe7;
+}
+
+.test--start-firstline {
+  width: 100%;
+  height: 1vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+}
+
+.test--start-textContainer {
+  width: 100%;
+  height: 60vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+}
+
+.test--start-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 2vh 1vh 6vh 1vh;
+  font-size: 7vh;
+  direction: rtl;
+}
+
+.test--start-text {
+  font-family: "Heebo", sans-serif;
+  font-weight: 250;
+  font-size: 4vh;
+  direction: rtl;
+  padding: 0vh 5vh 0vh 5vh;
+}
+
+.test--start-startButtonContainer {
+  width: 100%;
+  height: 13vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test--start-startButton {
+  width: 100%;
+  height: 10vh;
+  background-color: #f9f5ef;
+  margin-top: 1.5vh !important;
+  box-shadow: 0 0vh 15px 0.5px #a2a2a2;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 6.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test--start-timeContainer {
+  width: 100%;
+  height: 7.6vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+  direction: rtl;
+  padding: 1vh 2vh 1vh 0;
+}
+.test--start-Time {
+  font-family: "Heebo", sans-serif;
+  font-weight: 220;
+  font-size: 5vh;
+}
+
+.test--start-lastLine-hight {
+  height: 2vh !important;
+}
+
+.test--backdiv {
+  height: 100%;
+  width: 100%;
 }
 
 .test--start-line {
@@ -602,10 +702,6 @@ blockquote {
   width: 100%;
   height: 10vh;
   background: #f9f5ef;
-}
-
-.test--start-text {
-  text-align: center;
 }
 
 .test--finish-text {

@@ -4,14 +4,22 @@
       <div class="back-button--container" ui-sref="home">
         <img src="img/backbutton.svg" class="book--menu-menubutton">
       </div>
-      <div class="test--start-line"></div>
-      <h1 class="test--start-text">ברוך הבא למבחן</h1>
-      <h2 class="test--start-text">ברגע שתלחץ התחל אתה תתחיל את המשחק</h2>
-      <h2 class="test--start-text">בהצלחה</h2>
+      <div class="test--start-backdiv"></div>
+      <div class="test--start-firstline"></div>
+      <div class="test--start-textContainer">
+        <h1 class="test--start-title">ברוך הבא למבחן בחינוך ומורשת!</h1>
+        <h2 class="test--start-text">יעמדו לרשותך 360 דק' </h2>
+        <h2 class="test--start-text">לענות על 25 שאלות</h2>
+        <h2 class="test--start-text">בהצלחה!</h2>
+      </div>
 
-
-      <h1 class="test--start" ng-click="startTest()">התחל</h1>
-
+      <div class="test--start-startButtonContainer">
+        <h1 class="test--start-startButton" ng-click="startTest()">התחל</h1>
+      </div>
+      <div class="test--start-timeContainer">
+        <h2 class="test--start-Time">30:00</h2>
+      </div>
+      <div class="exerciseDiscription--lastLine test--start-lastLine-hight"></div>
     </div>
 
 
@@ -44,7 +52,7 @@
       </fieldset>
 
       <div class="test--bottom">
-        <h7 class="test--bottom-countDown">{{minute_text}}:{{countDown_text}}</h7>
+        <!-- <h7 class="test--bottom-countDown">{{minute_text}}:{{countDown_text}}</h7> -->
         <h7 class="test--bottom-questionNum">{{questionNumber}}/25</h7>
 
       </div>
