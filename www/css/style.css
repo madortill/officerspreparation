@@ -985,25 +985,33 @@ blockquote {
 
 /* sport program */
 
-.sportProgram--menubuttonContainer {
-  /* height: 85%; */
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 1vh;
+.sportProgram--frontPg-menu {
+  padding: 3.8vh !important;
+  font-size: 4.5vh !important;
+  font-weight: 320 !important;
 }
 
-.sportProgram--button {
-  width: 100%;
-  height: 11vh;
-  margin-top: 2vh;
-  border: 0;
-  background-color: #e7ebe7;
-  box-shadow: 0 3px 9px -1px #acaba9;
-  font-family: "Heebo", sans-serif !important;
-  font-weight: bold;
-  font-size: 5vh;
+.sportProgram--frontPg-menubuttonsContainer {
+  margin-top: 1.5vh;
+}
+
+.SportP--frontPg-maagar {
+  width: 23vh;
+}
+
+.SportP--frontPg-arrow {
+  height: 2.5vh;
+  margin-bottom: 1.2vh;
+}
+
+#sportProgram--frontPg-info {
+  flex-wrap: wrap;
+}
+
+.SportP--frontPg-icons {
+  height: 9vh;
+  width: 9vh;
+  margin-left: 2.5vh;
 }
 
 /*exerciseList*/
