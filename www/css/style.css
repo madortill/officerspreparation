@@ -1008,6 +1008,12 @@ blockquote {
   flex-wrap: wrap;
 }
 
+.SportP--frontPg-link {
+  background-color: #f9f5ef !important;
+  line-height: 1.6;
+  font-size: 4vh;
+}
+
 .SportP--frontPg-icons {
   height: 9vh;
   width: 9vh;
