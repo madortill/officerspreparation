@@ -96,13 +96,16 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   randomNumbers();
   console.log(questionIndex);
 
-  var countDown = 59;
-  var minute = 10000000000;
+  var countDown = 5;
+  var minute = 0;
   $scope.countDowner = function() {
     // function stopcountdown() {
     $scope.countDown_text = countDown;
     $scope.minute_text = minute; // update scope
     countDown--; // -1
+    if (countDown < 10) {
+      countDown = "0" + countDown;
+    }
     if (countDown > -1) {
       $timeout($scope.countDowner, 1000); // loop it again
     }
