@@ -871,15 +871,15 @@ blockquote {
 
 .exerciseDescription--gif {
   display: block;
-  height: 34vh;
-  width: 50vh;
+  height: 33vh;
+  width: 35vh;
 }
 
 .exerciseDescription--gifContainer {
   width: 100%;
   height: 40%;
   margin-top: 1vh;
-  background: white;
+  background: #f9f5ef;
   box-shadow: 0 1px 12px 3px #acaba9;
 }
 
@@ -1019,7 +1019,7 @@ blockquote {
 } */
 
 .textarea,
-input[type="text"],
+input[type="number"],
 input[type="color"] {
   height: 12vh;
 }
@@ -1051,9 +1051,9 @@ input[type="color"] {
   margin-top: 0.5vh;
   border: 0;
   background-color: #e7ebe7;
-  box-shadow: 0 3px 9px -1px #acaba9;
+  /* box-shadow: 0 3px 9px -1px #acaba9; */
   font-family: "Heebo", sans-serif !important;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 5vh;
   text-align: right;
   direction: rtl;
@@ -1097,6 +1097,7 @@ input[type="color"] {
   background-color: #e7ebe7;
   text-align: center;
   height: 8vh;
+  font-size: 5vh;
 }
 
 #running--genderTitle {

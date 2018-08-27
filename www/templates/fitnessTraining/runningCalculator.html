@@ -1,25 +1,29 @@
 <ion-view view-title="running calculator">
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
 
-    <!-- <div class="running--caclAlertOpacity">אביטל פיבןןןןןןןןןןןןן</div>
-    <div class="running--caclAlert">אביטל פיבןןןןןןןןןןןןן</div> -->
+    <div class="running--caclAlertOpacity" ng-show="resultScreen">אביטל פיבןןןןןןןןןןןןן</div>
+    <div class="running--caclAlert" ng-show="resultScreen">אביטל פיבןןןןןןןןןןןןן</div>
+
+
+    <div class="running--caclAlertOpacity" ng-show="missingItems"></div>
+    <div class="running--caclAlert" ng-show="missingItems">חסרים נתונים, אנא מלא את כל התשובות</div>
 
     <div class="book--menu">
       <!-- <div class="back-button--container" ng-click="goBack()">
           <img src="img/backbutton.svg" class="book--menu-menubutton">
         </div> -->
-      <div class="back-button--container" ng-click="openmenu()">
-        <img src="img/menu--open.svg" class="book--menu-menubutton">
+      <div class="back-button--container" ng-click="goBack()">
+        <img src="img/backbutton.svg" class="book--menu-menubutton">
       </div>
       <h1 class="book--menu-title">מחשבון ריצה</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
     <div class="book--chapters-firstLine"></div>
     <div class="sportProgram--menubuttonContainer">
-      <button class="running--title" ui-sref="runChooseDifficulty" ng-click="explenation()">מחשבון</button>
+      <button class="running--title" ui-sref="runChooseDifficulty" ng-click="explenation()">מדידת 3 קילומטר</button>
       <div class="runningCalc--inputs">
-        <input type="text" placeholder="מספר הדקות" dir="rtl" ng-model="minute" class="runningCalc--input">
-        <input type="text" placeholder="מספר השניות" dir="rtl" ng-model="second" class="runningCalc--input">
+        <input type="number" placeholder="מספר הדקות" dir="rtl" ng-model="minute" class="runningCalc--input">
+        <input type="number" placeholder="מספר השניות" dir="rtl" ng-model="second" class="runningCalc--input">
 
       </div>
       <h1 class="running--title" id="running--genderTitle">לאיזה מסלול אני מתמיין?</h1>
