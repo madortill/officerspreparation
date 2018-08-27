@@ -9,12 +9,18 @@
       <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
       <div class="billionaire--play-again" ui-sref="home">חזרה</div>
     </div>
+    <!-- finishGame -->
     <div class="billionaire--win-fullgame" ng-show="finishGame">
-      <h1 class="billionaire--win-fullgame-text">:זכית ב</h1>
-      <h1 class="billionaire--win-fullgame-text">{{winMoney}}</h1>
-      <img src="img/billionaire--win-fullgame.svg" class="billionaire--win-pic">
-      <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
-      <div class="billionaire--play-again" ng-click="goHome()">חזרה</div>
+      <div class="billionaire--win-mainTitleContainer">
+        <h2 class="billionaire--win-mainTitle">המשחק נגמר</h2>
+        <div class="billionaire--win-mainTitle-line"></div>
+      </div>
+      <h1 class="billionaire--win-fullgame-text">${{winMoney}} :זכית ב</h1>
+      <img src="img/exercise/billionaire--you lost.svg" class="billionaire--win-pic">
+      <div class="billionaire--win-fullgame-buttons">
+        <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
+        <div class="billionaire--play-again" ng-click="goHome()">חזרה</div>
+      </div>
     </div>
 
     <div class="book--menu">

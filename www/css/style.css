@@ -554,7 +554,7 @@ blockquote {
 .billionaire--win-fullgame {
   position: absolute;
   z-index: 2;
-  background: #b8cc79;
+  background: #b8cd7a;
   width: 100%;
   height: 100%;
   display: flex;
@@ -562,23 +562,64 @@ blockquote {
   align-items: center;
 }
 
-.billionaire--win-fullgame-text {
+.billionaire--win-mainTitleContainer {
+  width: 100%;
+  height: 13vh;
+  background-color: #f9f5ef;
+  margin-top: 10vh;
   text-align: center;
-  /* color: white; */
+  box-shadow: 0 3px 9px -1px rgba(68, 68, 68, 0.36);
+}
+.billionaire--win-mainTitle {
+  color: #b8cd7a;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 7vh;
+}
+
+.billionaire--win-mainTitle-line {
+  width: 100%;
+  height: 1.2vh;
+  background-color: #b8cd7a;
+  margin-top: 2vh;
+}
+
+.billionaire--win-fullgame-text {
+  font-family: "Heebo", sans-serif;
+  font-size: 6vh;
+  font-weight: 300;
+  color: black;
+  text-align: center;
 }
 
 .billionaire--win-pic {
-  height: 30vh;
-  margin-bottom: 12vh;
-  margin-top: 6vh;
+  height: 25vh;
+  margin-bottom: 7vh;
+  margin-top: 7vh;
+}
+
+.billionaire--win-fullgame-buttons {
+  height: 20vh;
+  width: 100%;
+  background-color: #b8cd7a;
+  border-top: 1.2vh solid #f9f5ef;
+  border-bottom: 1.2vh solid #f9f5ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .billionaire--play-again {
-  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 4vh;
+  font-weight: 300;
   width: 100%;
-  text-align: center;
-  background: white;
-  margin-bottom: 3vh;
+  height: 7.5vh;
+  background: #f9f5ef;
+  box-shadow: 0 3px 9px -1px rgba(68, 68, 68, 0.45);
 }
 
 /* test */
@@ -1273,7 +1314,7 @@ input[type="color"] {
 }
 
 .runningSelect {
-  background: #CFA46B;
+  background: #cfa46b;
 }
 
 .running--caclAlert-text {
