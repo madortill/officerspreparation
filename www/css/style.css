@@ -2,10 +2,10 @@
   font-family: "Open Sans Hebrew", serif;
   src: url("./OpenSansHebrewCondensed-Light.ttf") format("truetype");
 } */
-
-/* @font-face {
-  font-family: "Heebo-Regular", sans-serif;
-  src: url("./Heebo-Light.ttf") format("truetype");
+/*
+@font-face {
+  font-family: "Heebo", sans-serif;
+  src: url("./Heebo-Medium.ttf") format("truetype");
   font-weight: normal;
 } */
 
@@ -34,7 +34,7 @@
   margin-top: 25vh;
 }
 
-.overflow-scroll>.scroll {
+.overflow-scroll > .scroll {
   background: #f9f5ef;
 }
 
@@ -378,11 +378,27 @@ blockquote {
 .exercise--choose-unit {
   font-size: 4.5vh;
   padding: 2vh;
-  padding-top: 13vh;
-  height: 35vh;
-  font-family: "Heebo", sans-serif;
+  height: 36vh;
   text-align: center;
-  border-bottom: solid #eff2ed 2vh;
+  border-bottom: solid #e7ebe7 2vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exercise--list-icons {
+  width: 15vh;
+  height: 15vh;
+}
+
+.exercise--list-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  width: 25vh;
+  font-size: 5vh;
+  margin-top: 0;
 }
 
 .exercise--marginBody {
@@ -391,21 +407,22 @@ blockquote {
 
 .game--firstline {
   width: 100%;
-  height: 7vh;
-  background: #eff2ed;
+  height: 1.5vh;
+  background: #e7ebe7;
 }
 
 .game--secondline {
   width: 100%;
-  height: 2vh;
+  height: 3.2vh;
   background: #f9f5ef;
+  border-bottom: 1.5vh solid #e7ebe7;
 }
 
 .billionaire--trapeze {
-  border-top: 5vh solid #f9f5ef;
-  border-left: 3vh solid transparent;
-  border-right: 3vh solid transparent;
-  width: 40%;
+  border-top: 5vh solid #e7ebe7;
+  border-left: 4vh solid transparent;
+  border-right: 4vh solid transparent;
+  width: 55%;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -417,32 +434,37 @@ blockquote {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #e7ebe7;
 }
 
 .billionaire {
   width: 100%;
-  height: 20vh;
-  background: #eff2ed;
+  height: 23vh;
+  background: #f9f5ef;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 1vh 13px -6px #a0a09e;
 }
 
 .billionaire--money-offer {
   position: absolute;
-  top: 16vh;
+  top: 12vh;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
   font-size: 5vh;
 }
 
 .game--answer {
   border: none;
   width: 100%;
-  margin-top: 3vh;
+  margin-top: 2.5vh;
   height: 10vh;
   font-family: "Heebo", sans-serif;
-  background: #eff2ed;
+  background: #f9f5ef;
+  box-shadow: 0 0vh 10px 1px #acaba9;
+  z-index: 1;
 }
 
 .billionaire--answer-number {
@@ -450,32 +472,43 @@ blockquote {
   margin-right: 0.5em;
   font-size: 3vh;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
 }
 
 .billionaire--life {
-  height: 5vh;
-  margin-right: 0.5em;
+  height: 8vh;
+  margin-right: -2vh;
 }
 
 .billionaire--lifes {
   position: fixed;
-  bottom: 1vh;
+  bottom: 2vh;
   display: flex;
-  left: 2vh;
+  left: 0vh;
+}
+
+.billionaire--lifeContainer {
+  width: 100%;
+  height: 7vh;
+  background-color: #e7ebe7;
 }
 
 .billionaire--help-square {
   margin-right: 10%;
-  margin-left: 2em;
-  width: 7em;
-  height: 6vh;
-  background: #a34824;
+  margin-left: 12px;
+  width: 15vh;
+  height: 5vh;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 3vh;
+  background: #f9f5ef;
   text-align: center;
   padding-top: 1vh;
   vertical-align: middle;
   line-height: 4vh;
   border: 0;
-  color: white;
+  color: black;
+  box-shadow: 0 1px 13px 0px #717170;
 }
 
 .billionaire--help {
@@ -489,8 +522,12 @@ blockquote {
   position: absolute;
   text-align: right;
   font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  width: 100%;
   top: 24vh;
-  padding-right: 3vh;
+  margin-top: -3vh !important;
+  padding: 0px 4vh 2vh 4vh;
+  /* padding-right: 3vh; */
   font-size: 3.5vh;
   direction: rtl;
 }
@@ -546,20 +583,21 @@ blockquote {
 /* test */
 
 .test--bottom {
-  position: absolute;
+  height: 8.8vh;
+  width: 100%;
+  /* position: absolute; */
   bottom: 2vh;
   display: flex;
-  width: 100%;
+  justify-content: space-between;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
-.test--bottom-countDown {
-  margin-right: 3%;
-}
-
-.test--bottom-questionNum {
-  position: absolute;
-  left: 2%;
+.test--bottom-Data {
+  font-family: "Heebo", sans-serif;
+  font-weight: 250;
+  font-size: 4vh;
+  margin: 2vh;
 }
 
 .test--startScreen {
@@ -567,9 +605,92 @@ blockquote {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: #eff2ed;
+  background: #f9f5ef;
 }
 
+.test--start-backdiv {
+  width: 100%;
+  height: 9vh;
+  background-color: #e7ebe7;
+}
+
+.test--start-firstline {
+  width: 100%;
+  height: 1vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+}
+
+.test--start-textContainer {
+  width: 100%;
+  height: 60vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+}
+
+.test--start-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 2vh 1vh 6vh 1vh;
+  font-size: 7vh;
+  direction: rtl;
+}
+
+.test--start-text {
+  font-family: "Heebo", sans-serif;
+  font-weight: 250;
+  font-size: 4vh;
+  direction: rtl;
+  padding: 0vh 5vh 0vh 5vh;
+}
+
+.test--start-startButtonContainer {
+  width: 100%;
+  height: 13vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test--start-startButton {
+  width: 100%;
+  height: 10vh;
+  background-color: #f9f5ef;
+  margin-top: 1.5vh !important;
+  box-shadow: 0 0vh 15px 0.5px #a2a2a2;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 6.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test--start-timeContainer {
+  width: 100%;
+  height: 7.6vh;
+  background-color: #e7ebe7;
+  margin-top: 1.5vh;
+  direction: rtl;
+  padding: 1vh 2vh 1vh 0;
+}
+.test--start-Time {
+  font-family: "Heebo", sans-serif;
+  font-weight: 220;
+  font-size: 5vh;
+}
+
+.test--start-lastLine-hight {
+  height: 2vh !important;
+}
+
+.test--backdiv {
+  height: 100%;
+  width: 100%;
+}
 .test--start {
   text-align: center;
   margin-top: 10vh;
@@ -578,8 +699,30 @@ blockquote {
   background: #f9f5ef;
 }
 
-.test--start-text {
-  text-align: center;
+.tests--QContainer {
+  width: 100%;
+  height: 25vh;
+  background: #f9f5ef;
+  margin-top: 2vh;
+  box-shadow: 0 3px 9px -1px #acaba9;
+}
+.tests--question {
+  margin-top: -7vh !important;
+}
+.tests--answer {
+  border: none;
+  width: 100%;
+  margin-top: 3.5vh;
+  height: 8.5vh;
+  font-family: "Heebo", sans-serif;
+  background: #f9f5ef;
+  box-shadow: 0 0vh 7px 0.5px #bfbfbf;
+  z-index: 1;
+}
+
+.tests--answersContainer {
+  width: 101%;
+  margin-top: 3vh;
 }
 
 .test--finish-text {
@@ -797,10 +940,11 @@ blockquote {
 }
 
 .about--paragraphTitle {
-  font-size: 3.5vh;
+  font-size: 3vh;
   padding-right: 3vh;
   margin: 0;
   font-family: "Heebo", sans-serif;
+  font-weight: 800;
 }
 
 .about--aboutParagraph {
@@ -816,6 +960,10 @@ blockquote {
   /* border-bottom: #eff2ed solid 1vh; */
   height: 45vh;
   margin-top: 2vh;
+}
+
+.about--lastParagraph {
+  height: 20vh;
 }
 
 .about--paragraphContainerRamad {
@@ -837,34 +985,49 @@ blockquote {
 
 /* sport program */
 
-.sportProgram--menubuttonContainer {
-  /* height: 85%; */
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.sportProgram--frontPg-menu {
+  padding: 3.8vh !important;
+  font-size: 4.5vh !important;
+  font-weight: 320 !important;
 }
 
-.sportProgram--button {
-  width: 100%;
-  height: 11vh;
-  margin-top: 2vh;
-  border: 0;
-  background-color: #e7ebe7;
-  box-shadow: 0 3px 9px -1px #acaba9;
-  font-family: "Heebo", sans-serif !important;
-  font-weight: bold;
-  font-size: 5vh;
+.sportProgram--frontPg-menubuttonsContainer {
+  margin-top: 1.5vh;
+}
+
+.SportP--frontPg-maagar {
+  width: 23vh;
+}
+
+.SportP--frontPg-arrow {
+  height: 2.5vh;
+  margin-bottom: 1.2vh;
+}
+
+#sportProgram--frontPg-info {
+  flex-wrap: wrap;
+}
+
+.SportP--frontPg-link {
+  background-color: #f9f5ef !important;
+  line-height: 1.6;
+  font-size: 4vh;
+}
+
+.SportP--frontPg-icons {
+  height: 9vh;
+  width: 9vh;
+  margin-left: 2.5vh;
 }
 
 /*exerciseList*/
 
 .exerciseList--gif {
-  width: 13vh;
-  padding-right: 1vh;
-  height: 8vh;
+  width: 17vh;
+  padding-right: 0;
+  height: 12vh;
   position: fixed;
-  left: 16px;
+  left: -17px;
 }
 
 /*exerciseDescription*/
@@ -935,7 +1098,7 @@ blockquote {
   font-family: "Heebo", sans-serif !important;
   font-weight: normal;
   direction: rtl;
-  line-height: 8vh;
+  line-height: 10vh;
 }
 
 .runTrainingList--showRunTrainingData {
@@ -979,11 +1142,11 @@ blockquote {
 } */
 
 .correctAnswer {
-  background: #b8cc79;
+  background: #c3d380;
 }
 
 .inCorrectAnswer {
-  background: #d67963;
+  background: #eda2a7;
 }
 
 .runningCalc--inputs {
@@ -992,7 +1155,7 @@ blockquote {
   height: 21vh;
   padding-top: 4vh;
   /* margin-top: 4vh; */
-  background: #CFA46B;
+  background: #cfa46b;
   opacity: 0.8;
   justify-content: space-around;
 }
@@ -1000,12 +1163,12 @@ blockquote {
 .runningCalc--input {
   height: 14vh;
   width: 41%;
-  background: #F2D5B1;
+  background: #f2d5b1;
   text-align: center;
 }
 
 /* .runningCalc--input::placeholder {
- 
+
   color: red;
 } */
 

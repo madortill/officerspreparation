@@ -21,12 +21,36 @@
       <h1 class="book--menu-title">תכנית כושר</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
     </div>
+
     <div class="book--chapters-firstLine"></div>
-    <div class="sportProgram--menubuttonContainer">
-      <button class="sportProgram--button" ui-sref="runChooseDifficulty" ng-click="explenation()">ריצה</button>
+
+    <div class="book--chapters-titlecontainer">
+      <h1 class="book--chapters-title">תכנית כושר</h1>
+    </div>
+    <div class="sportProgram--frontPg-menubuttonsContainer">
+      <!-- <button class="sportProgram--button" ui-sref="runChooseDifficulty" ng-click="explenation()">ריצה</button>
       <button class="sportProgram--button" ui-sref="chooseDifficulty">אימון כוח</button>
       <button class="sportProgram--button" ui-sref="runningCalculator">מחשבון ריצה</button>
-      <button class="sportProgram--button">מאגר מידע ועזרה</button>
+      <button class="sportProgram--button">מאגר מידע ועזרה</button> -->
+      <ul class="book--chapter-list">
+        <li class="exerciseList--listItem sportProgram--frontPg-menu" ui-sref="runChooseDifficulty" ng-click="explenation()">
+          <img class="SportP--frontPg-icons" src="img/sportProgram--menu-icons/run.svg" alt="run"> ריצה
+        </li>
+        <li class="exerciseList--listItem sportProgram--frontPg-menu" ui-sref="chooseDifficulty">
+          <img class="SportP--frontPg-icons" src="img/sportProgram--menu-icons/muscle exrecises.svg" alt="strength"> כוח
+        </li>
+        <li class="exerciseList--listItem sportProgram--frontPg-menu" ui-sref="runningCalculator">
+          <img class="SportP--frontPg-icons" src="img/sportProgram--menu-icons/calculator.svg" alt="calculator"> מחשבון ריצה
+        </li>
+        <li id="sportProgram--frontPg-info" class="exerciseList--listItem sportProgram--frontPg-menu" ng-click="showData = ! showData">
+          <img class="SportP--frontPg-icons" src="img/sportProgram--menu-icons/resources.svg" alt="info">
+          <p class="SportP--frontPg-maagar"> מאגר מידע</p>
+          <img src="img/sportProgram--menu-icons/drop down menu.svg" alt="arrow" class="SportP--frontPg-arrow" ng-show="showData">
+          <div class="runTrainingList--showRunTrainingData" ng-class="{'hidden': ! showData}">
+            <textarea class="SportP--frontPg-link" readonly>kosherkraviinfo.places2run.com</textarea>
+          </div>
+        </li>
+      </ul>
     </div>
 
 

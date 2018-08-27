@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HeeboMedium';
+    src: url('fonts/HeeboMedium.eot');
+    src: url('fonts/HeeboMedium.eot') format('embedded-opentype'),
+         url('fonts/HeeboMedium.woff2') format('woff2'),
+         url('fonts/HeeboMedium.woff') format('woff'),
+         url('fonts/HeeboMedium.ttf') format('truetype'),
+         url('fonts/HeeboMedium.svg#HeeboMedium') format('svg');
+}
