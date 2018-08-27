@@ -1068,7 +1068,7 @@ input[type="color"] {
 
 .running--caclAlert {
   width: 80%;
-  height: 80%;
+  height: 60%;
   z-index: 4;
   position: absolute;
   left: 0;
@@ -1077,7 +1077,7 @@ input[type="color"] {
   margin-right: auto;
   bottom: 0;
   /* width: 100px; */
-  background: red;
+  background: saddlebrown;
   top: 0;
   margin-top: auto;
   margin-bottom: auto;
@@ -1105,5 +1105,22 @@ input[type="color"] {
 }
 
 .runningSelect {
-  background: red;
+  background: #CFA46B;
+}
+
+.running--caclAlert-text {
+  padding-top: 8vh;
+  padding: 8%;
+  color: white;
+  direction: rtl;
+  font-size: 7vh;
+  font-family: "Heebo", sans-serif !important;
+}
+
+.runningCalc--backToCalc {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8vh;
+  font-family: "Heebo", sans-serif !important;
+  background: #e7ebe7;
 }

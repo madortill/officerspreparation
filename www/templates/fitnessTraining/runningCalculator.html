@@ -1,12 +1,20 @@
 <ion-view view-title="running calculator">
   <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
 
-    <div class="running--caclAlertOpacity" ng-show="resultScreen">אביטל פיבןןןןןןןןןןןןן</div>
-    <div class="running--caclAlert" ng-show="resultScreen">אביטל פיבןןןןןןןןןןןןן</div>
+    <div class="running--caclAlertOpacity" ng-show="resultScreen"></div>
+    <div class="running--caclAlert" ng-show="resultScreen">
+      <h1 class="running--caclAlert-text">הציון שלך בריצת 3 קילומטר (בראור) הוא {{mainGrade}}
+      </h1>
+      <button class="runningCalc--backToCalc" ng-click="backToCalc()">חזור למחשבון</button>
+    </div>
 
 
     <div class="running--caclAlertOpacity" ng-show="missingItems"></div>
-    <div class="running--caclAlert" ng-show="missingItems">חסרים נתונים, אנא מלא את כל התשובות</div>
+    <div class="running--caclAlert" ng-show="missingItems">
+      <h1 class="running--caclAlert-text">חסרים נתונים, אנא מלא את כל התשובות
+      </h1>
+      <button class="runningCalc--backToCalc" ng-click="backToCalc()">חזור למחשבון</button>
+    </div>
 
     <div class="book--menu">
       <!-- <div class="back-button--container" ng-click="goBack()">

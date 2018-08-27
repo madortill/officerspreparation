@@ -11,13 +11,18 @@ function runningCalculatorController($scope, $state, TrainingService) {
   var userSecond;
   var grade;
   var userMinute;
+  $scope.mainGrade;
   $scope.maleSelect = false;
   $scope.femaleSelect = false;
   $scope.fighterSelect = false;
   $scope.jobSelect = false;
   $scope.resultScreen = false;
   $scope.missingItems = false;
+  $scope.backToCalc = function () {
+    $scope.missingItems = false;
+    $scope.resultScreen = false;
 
+  }
   $scope.goBack = function () {
     window.history.back();
   }
@@ -73,7 +78,9 @@ function runningCalculatorController($scope, $state, TrainingService) {
     // function that check the inputs value
     // function inputCheck() {
     if (second == null || minute == null || genderOfUser == null || courseName == null) {
-      alert("אנא מלא את כל השדות")
+      // alert("אנא מלא את כל השדות")
+      $scope.missingItems = true;
+
       console.log("the second is " + userSecond + " the minute is" + userMinute + " the gender is " + genderOfUser + " the course name is " + courseName);
 
 
@@ -85,6 +92,7 @@ function runningCalculatorController($scope, $state, TrainingService) {
     }
     if (second != null && minute != null && genderOfUser != null && courseName != null && second < 60 && second > -1) {
       userGrade();
+      $scope.resultScreen = true;
 
     }
     //   if (minute == null) {
@@ -931,6 +939,7 @@ function runningCalculatorController($scope, $state, TrainingService) {
           break;
       }
     }
+    $scope.mainGrade = grade;
     alert("הציון שלך הוא     " + grade);
 
   }
