@@ -964,12 +964,11 @@ blockquote {
 }
 
 .adjustDate--loseIcon {
+  margin-top: 11vh;
 }
 
 .adjustDate--buttons {
-  margin-top: 10vh;
-  width: 100%;
-  height: 15vh;
+  margin-top: 45vh;
   height: 20vh;
   width: 100%;
   background-color: #d87963;
