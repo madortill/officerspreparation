@@ -570,6 +570,7 @@ blockquote {
   text-align: center;
   box-shadow: 0 3px 9px -1px rgba(68, 68, 68, 0.36);
 }
+
 .billionaire--win-mainTitle {
   color: #b8cd7a;
   font-family: "Heebo", sans-serif;
@@ -1305,7 +1306,7 @@ input[type="color"] {
   width: 48%;
   background-color: #e7ebe7;
   text-align: center;
-  height: 8vh;
+  height: 6vh;
   font-size: 5vh;
 }
 
@@ -1329,7 +1330,12 @@ input[type="color"] {
 .runningCalc--backToCalc {
   display: block;
   margin: 0 auto;
+  border: none;
   margin-top: 8vh;
   font-family: "Heebo", sans-serif !important;
+  background: #e7ebe7;
+}
+
+.table--title {
   background: #e7ebe7;
 }

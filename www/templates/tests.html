@@ -8,7 +8,7 @@
       <div class="test--start-firstline"></div>
       <div class="test--start-textContainer">
         <h1 class="test--start-title">ברוך הבא למבחן בחינוך ומורשת!</h1>
-        <h2 class="test--start-text">יעמדו לרשותך 360 דק' </h2>
+        <h2 class="test--start-text">יעמדו לרשותך {{minute + 1}} דק' </h2>
         <h2 class="test--start-text">לענות על 25 שאלות</h2>
         <h2 class="test--start-text">בהצלחה!</h2>
       </div>
@@ -26,7 +26,7 @@
     <div class="test--finishScreen" ng-show="finishGame">
       <h1 class="test--finish-text" id="test--firstLine-finishText"> מספר התשובות הנכונות {{rightAnswer}}</h1>
       <h1 class="test--finish-text"> מספר הטעויות {{wrongAnswer}}</h1>
-      <h1 class="test--start" ng-click="backToHome" ui-sref="home">לדף הבית</h1>
+      <h1 class="test--start" ng-click="backToHome()">לדף הבית</h1>
 
     </div>
     <div class="book--menu">

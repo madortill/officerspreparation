@@ -940,7 +940,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
       }
     }
     $scope.mainGrade = grade;
-    alert("הציון שלך הוא     " + grade);
 
   }
 }
