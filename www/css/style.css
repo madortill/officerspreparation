@@ -915,10 +915,8 @@ blockquote {
   color: white;
 }
 
-.adjustDateFinish--finishSuccessPg {
-  background: #b8cc79;
-  width: 100%;
-  height: 100%;
+.adjustDateFinish--winPg {
+  background-color: #b8cd7a;
   overflow: hidden;
 }
 
@@ -942,6 +940,7 @@ blockquote {
   position: absolute;
   top: 0;
   z-index: 1;
+  text-align: center;
 }
 
 .adjustDateFinish--buttonPart {
@@ -979,13 +978,9 @@ blockquote {
   justify-content: space-evenly;
 }
 
-.adjustDate--FailDiv,
-.adjustDate--SuccessDiv {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
+.adjustDate--buttons-windiv {
+  margin-top: 3vh;
+  background-color: #b8cd7a;
 }
 
 /* about page

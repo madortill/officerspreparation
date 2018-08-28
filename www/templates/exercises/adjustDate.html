@@ -32,18 +32,22 @@
       </div>
     </div>
 
-    <div class="adjustDate--SuccessDiv" ng-show="win">
-      <div class="adjustDateFinish--finishSuccessPg">
-        <div class="adjustDateFinish--upperPart">
+    <!-- win -->
+    <div class="adjustDate--SuccessDiv adjustDateFinish--winPg" ng-show="win">
+      <div class="billionaire--win-mainTitleContainer">
+        <h2 class="billionaire--win-mainTitle">!כל הכבוד</h2>
+        <div class="billionaire--win-mainTitle-line"></div>
+      </div>
+      <!-- <div class="adjustDateFinish--upperPart">
           <h1 class="adjustDateFinishPg--wellDone-title">
             !כל הכבוד
           </h1>
-          <img src="img/successIcon.svg" class="successIcon" />
-        </div>
-        <div class="adjustDateFinish--buttonPart ">
-          <button class="adjustDateFinishPg--btns" ng-click="restartGame()">שחק שוב</button>
-          <button class="adjustDateFinishPg--btns" ng-click="backtoExercisePg()">חזרה</button>
-        </div>
+
+        </div> -->
+      <img src="img/exercise/billionaire--you won.svg" class="billionaire--win-pic adjustDate--loseIcon" />
+      <div class="adjustDate--buttons adjustDate--buttons-windiv">
+        <div class="billionaire--play-again" ng-click="restartGame()">שחק שוב</div>
+        <div class="billionaire--play-again" ng-click="backtoExercisePg()">חזרה</div>
       </div>
     </div>
 
