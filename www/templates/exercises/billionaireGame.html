@@ -1,13 +1,18 @@
 <ion-view view-title="home page">
   <div class="background">
-
+    <!-- winFullGame ng-show="ture"-->
     <div class="billionaire--win-fullgame" ng-show="winFullGame">
-      <h1 class="billionaire--win-fullgame-text">!סיימת בהצלחה</h1>
-      <h1 class="billionaire--win-fullgame-text">:זכית ב</h1>
-      <h1 class="billionaire--win-fullgame-text">{{winMoney}}</h1>
-      <img src="img/billionaire--win-fullgame.svg" class="billionaire--win-pic">
-      <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
-      <div class="billionaire--play-again" ui-sref="home">חזרה</div>
+      <div class="billionaire--win-mainTitleContainer">
+        <h1 class="billionaire--win-mainTitle">!סיימת בהצלחה</h1>
+        <div class="billionaire--win-mainTitle-line"></div>
+
+      </div>
+      <h1 class="billionaire--win-fullgame-text">${{winMoney}} :זכית ב</h1>
+      <img src="img/exercise/billionaire--you won.svg" class="billionaire--win-pic">
+      <div class="billionaire--win-fullgame-buttons">
+        <div class="billionaire--play-again" ng-click="resetGame()">שחק שוב</div>
+        <div class="billionaire--play-again" ui-sref="home">חזרה</div>
+      </div>
     </div>
     <!-- finishGame -->
     <div class="billionaire--win-fullgame" ng-show="finishGame">
