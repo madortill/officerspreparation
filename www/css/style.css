@@ -35,7 +35,7 @@
   margin-top: 25vh;
 }
 
-.overflow-scroll > .scroll {
+.overflow-scroll>.scroll {
   background: #f9f5ef;
 }
 
@@ -284,6 +284,7 @@
   margin: 2vh 2vh 0vh 2vh;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
+  line-height: 3.5vh;
 }
 
 p {
@@ -293,6 +294,10 @@ p {
 blockquote {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
+}
+
+.quoteColor {
+  color: #2F4F4F;
 }
 
 .background {
@@ -308,6 +313,7 @@ blockquote {
   border: solid 1px;
   margin: 1em;
   padding: 0.5em;
+  font-family: "Heebo", sans-serif;
 }
 
 /* the menu style */
@@ -929,9 +935,11 @@ blockquote {
   height: 100%;
   overflow: hidden;
 }
+
 .adjustDate--lose-titleColor {
   color: #d87963;
 }
+
 .adjustDate--lose-lineColor {
   background: #d87963;
 }
@@ -964,8 +972,7 @@ blockquote {
   margin-top: 6vh;
 }
 
-.adjustDate--loseIcon {
-}
+/* .adjustDate--loseIcon {} */
 
 .adjustDate--buttons {
   margin-top: 10vh;
