@@ -115,7 +115,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       countDown = "0" + countDown;
     }
     if (countDown > -1) {
-      $timeout($scope.countDowner, 10); // loop it again
+      $timeout($scope.countDowner, 1000); // loop it again
     }
     if (countDown == 0) {
       $scope.minute--;
@@ -191,17 +191,17 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       $scope.unClickAnswer = [false, false, false, false];
       console.log($scope.unClickAnswer);
 
-      if ($scope.questionNumber == 25) {
-        $scope.finishGame = true;
-        if ($scope.rightAnswer > 19) {
-          $scope.pass = true;
-          console.log("rightt");
-        }
-        if ($scope.rightAnswer < 20) {
-          $scope.failed = true;
-          console.log("failed");
-        }
-      }
+      // if ($scope.questionNumber == 25) {
+      //   $scope.finishGame = true;
+      //   if ($scope.rightAnswer > 19) {
+      //     $scope.pass = true;
+      //     console.log("rightt");
+      //   }
+      //   if ($scope.rightAnswer < 20) {
+      //     $scope.failed = true;
+      //     console.log("failed");
+      //   }
+      // }
       testcontent();
       unPaintaAnswer();
     }, 3000);

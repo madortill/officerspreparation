@@ -96,11 +96,11 @@
               topicName: "3_6templeDestruction"
             },
             {
-              name: "המשך החיים ביבודה לאחר החורבן",
+              name: "המשך החיים ביהודה לאחר החורבן",
               topicName: "3_7judeaLifeAfterDestruction"
             },
             {
-              name: "המרכז היהודי בבל: אמוראים,סבוראים וגאונים",
+              name: "המרכז היהודי בבל: אמוראים, סבוראים וגאונים",
               topicName: "3_8jewishInBabylon"
             },
             {
@@ -128,7 +128,7 @@
               topicName: "3_14nationalIdea"
             },
             {
-              name: "פרסום האוטואמנציפיציה ותנועת ''חיבת ציון''",
+              name: "פרסום האוטואמנציפציה ותנועת ''חיבת ציון''",
               topicName: "3_15autoEmancipation"
             },
             {
