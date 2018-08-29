@@ -23,8 +23,26 @@
     </div>
 
 
-    <div class="test--finishScreen" ng-show="finishGame">
+    <div class="test--finishScreen" ng-show="timeoutScreen">
       <h1 class="test--finish-text" id="test--firstLine-finishText"> מספר התשובות הנכונות {{rightAnswer}}</h1>
+      <h1 class="test--finish-text" id="test--firstLine-finishText"> נגמר הזמןןןן</h1>
+
+      <h1 class="test--finish-text"> מספר הטעויות {{wrongAnswer}}</h1>
+      <h1 class="test--start" ng-click="backToHome()">לדף הבית</h1>
+
+    </div>
+
+
+
+
+    <div class="test--finishScreen" ng-show="pass">
+      <h1 class="test--finish-text" id="test--firstLine-finishText">הצלחת !!!</h1>
+      <h1 class="test--finish-text"> </h1>
+      <h1 class="test--start" ng-click="backToHome()">לדף הבית</h1>
+
+    </div>
+
+    <div class="test--finishScreen" ng-show="failed">
       <h1 class="test--finish-text"> מספר הטעויות {{wrongAnswer}}</h1>
       <h1 class="test--start" ng-click="backToHome()">לדף הבית</h1>
 
