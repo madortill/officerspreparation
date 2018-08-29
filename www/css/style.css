@@ -32,10 +32,10 @@
 }
 
 .top-content {
-  margin-top: 25vh;
+  margin-top: 24.5vh;
 }
 
-.overflow-scroll>.scroll {
+.overflow-scroll > .scroll {
   background: #f9f5ef;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .text-top {
-  margin-top: 30vh;
+  margin-top: 29vh;
 }
 
 /* the home page !! */
@@ -240,13 +240,13 @@
 }
 
 .book--chapter-list_item {
-  font-size: 3.5vh;
+  font-size: 3.2vh;
   padding: 3vh;
-  border-bottom: solid #e7ebe7 5.5px;
+  border-bottom: solid #e7ebe7 9px;
   font-family: "Heebo", sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   direction: rtl;
-  line-height: 8vh;
+  line-height: 4.5vh;
 }
 
 .book--topiccontent-title {
@@ -254,7 +254,7 @@
   font-weight: bold;
   text-align: right;
   direction: rtl;
-  font-size: 4vh;
+  font-size: 3.5vh;
   margin: 2vh 2vh 0vh 1vh;
   padding-top: 1vh;
 }
@@ -269,8 +269,9 @@
 
 .book--topiccontent-secondtitle {
   font-family: "Heebo", sans-serif;
+  font-weight: 450;
   margin: 3vh 2vh 0vh 1vh;
-  font-size: 1.4em;
+  font-size: 3vh;
   padding-left: 1em;
 }
 
@@ -280,8 +281,8 @@
 }
 
 .book--text-style {
-  font-size: 2.7vh;
-  margin: 2vh 2vh 0vh 2vh;
+  font-size: 3vh;
+  margin: 1.4vh 2vh 0vh 2vh;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   line-height: 3.5vh;
@@ -292,12 +293,18 @@ p {
 }
 
 blockquote {
+  color: #2f4f4f;
+  font-size: 2.5vh !important;
+  line-height: 1.5;
+  margin: 2vh;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
+  direction: rtl;
+  border-left: 0.5vh solid #2f4f4f;
 }
 
 .quoteColor {
-  color: #2F4F4F;
+  color: #2f4f4f;
 }
 
 .background {

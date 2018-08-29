@@ -1,11 +1,13 @@
-(function () {
-  angular.module("officerspreparation").factory("DataService", function () {
+(function() {
+  angular.module("officerspreparation").factory("DataService", function() {
     // Might use a resource here that returns a JSON array
     var book = {
-      topics: [{
+      topics: [
+        {
           index: 0,
           name: "ישראל : תעודת זהות",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: מדינת ישראל כמדינה יהודית ודמוקרטית",
               topicName: "1_1opening"
             },
@@ -26,7 +28,8 @@
         {
           index: 1,
           name: "הפסיפס הישראלי",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: תרבות ואמונה בישראל",
               topicName: "2_1CultureAndFaithInIsrael"
             },
@@ -71,7 +74,8 @@
         {
           index: 2,
           name: "תולדות עם ישראל",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: ''עם שאינו יודע את עברו...''",
               topicName: "3_1opening"
             },
@@ -152,7 +156,8 @@
         {
           index: 3,
           name: "בימי השואה",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: העם היהודי בגלות בין שגשוג לשקיעה",
               topicName: "4_1opening"
             },
@@ -189,7 +194,8 @@
         {
           index: 4,
           name: "בדרך למדינה",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: יישוב חדש ויישוב ישן",
               topicName: "5_1opening"
             },
@@ -206,7 +212,7 @@
               topicName: "5_4TheRevivalOfTheHebrewlanguage"
             },
             {
-              name: "מלחמת העולם הראשונה:המעבר משלטון עות'מאני לשלטון בריטי",
+              name: "מלחמת העולם הראשונה: המעבר משלטון עות'מאני לשלטון בריטי",
               topicName: "5_5WorldWarI"
             },
             {
@@ -234,7 +240,8 @@
         {
           index: 5,
           name: "סיפורה של מדינה",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה: מיישוב למדינה",
               topicName: "6_1settelmentToCountry"
             },
@@ -267,7 +274,8 @@
         {
           index: 6,
           name: "ביטחון ישראל",
-          subjects: [{
+          subjects: [
+            {
               name: "פתיחה",
               topicName: "7_1opening"
             },
@@ -294,11 +302,14 @@
     var billionaireGameLife = {
       life: [true, true, true]
     };
-    var billionaireGame = [{
+    var billionaireGame = [
+      {
         points: 100,
-        level: [{
+        level: [
+          {
             question: "בשנים האחרונות ראש השנה לאילנות הפך להיות מזוהה עם?",
-            answers: [{
+            answers: [
+              {
                 answer: "פעילויות הקשורות לאיכות הסביבה ושמירה על הקיימות",
                 type: true
               },
@@ -318,7 +329,8 @@
           },
           {
             question: "כמה זמן נערך מסע הנדודים של בני ישראל במדבר?",
-            answers: [{
+            answers: [
+              {
                 answer: "נערך 40 שנה",
                 type: true
               },
@@ -338,7 +350,8 @@
           },
           {
             question: "מהי כשרות?",
-            answers: [{
+            answers: [
+              {
                 answer: "חוקים המגדירים אילו סוגי מזון מותרים לאכילה ביהדות",
                 type: true
               },
@@ -358,7 +371,8 @@
           },
           {
             question: "מתי חל ראש השנה לאילנות?",
-            answers: [{
+            answers: [
+              {
                 answer: "ט''ו בשבט",
                 type: true
               },
@@ -380,9 +394,11 @@
       },
       {
         points: 200,
-        level: [{
+        level: [
+          {
             question: "מהן ראשי התיבות של סת''ם ?",
-            answers: [{
+            answers: [
+              {
                 answer: "ספר תורה, תפילין ומזוזה",
                 type: true
               },
@@ -402,27 +418,33 @@
           },
           {
             question: "מי הם חסידי אומות העולם ?",
-            answers: [{
-                answer: "גויים אשר נטלו חלק בהצלת יהודים תוך סיכון עצמי ללא תמורה",
+            answers: [
+              {
+                answer:
+                  "גויים אשר נטלו חלק בהצלת יהודים תוך סיכון עצמי ללא תמורה",
                 type: true
               },
               {
-                answer: "יהודים אשר נטלו חלק בהצלת היהודים תוך סיכון עצמי ללא תמורה",
+                answer:
+                  "יהודים אשר נטלו חלק בהצלת היהודים תוך סיכון עצמי ללא תמורה",
                 type: false
               },
               {
-                answer: "גרמנים אשר נטלו חלק בהצלת יהודים בגרמניה תמורת סכום כספי ורכוש",
+                answer:
+                  "גרמנים אשר נטלו חלק בהצלת יהודים בגרמניה תמורת סכום כספי ורכוש",
                 type: false
               },
               {
-                answer: "אוקראינים אשר נטלו חלק בהצלת יהודים תמורת סכום כספי ורכוש",
+                answer:
+                  "אוקראינים אשר נטלו חלק בהצלת יהודים תמורת סכום כספי ורכוש",
                 type: false
               }
             ]
           },
           {
             question: "מהו מצעד החיים ?",
-            answers: [{
+            answers: [
+              {
                 answer: "מצעד הנערך בין אושוויץ לבירקנאו בימנו",
                 type: true
               },
@@ -441,8 +463,10 @@
             ]
           },
           {
-            question: "איזה חוק קובע כי לכל יהודי הזכות לעלות ארצה ולקבל אזרחות ישראלית ללא תנאי ?",
-            answers: [{
+            question:
+              "איזה חוק קובע כי לכל יהודי הזכות לעלות ארצה ולקבל אזרחות ישראלית ללא תנאי ?",
+            answers: [
+              {
                 answer: "חוק השבות",
                 type: true
               },
@@ -464,9 +488,12 @@
       },
       {
         points: 300,
-        level: [{
-            question: ".התפילה __________ פותחת את יום כיהכיפור, _____ היא התפילה המסיימת אותו",
-            answers: [{
+        level: [
+          {
+            question:
+              ".התפילה __________ פותחת את יום כיהכיפור, _____ היא התפילה המסיימת אותו",
+            answers: [
+              {
                 answer: "כל נדרי, נעילה",
 
                 type: true
@@ -487,7 +514,8 @@
           },
           {
             question: "מתי חל יום העצמאות ?",
-            answers: [{
+            answers: [
+              {
                 answer: "ה' באייר",
                 type: true
               },
@@ -507,7 +535,8 @@
           },
           {
             question: "מי היה חיים נחמן ביאליק?",
-            answers: [{
+            answers: [
+              {
                 answer: "המשורר הלאומי",
                 type: true
               },
@@ -527,7 +556,8 @@
           },
           {
             question: "באיזו שנה החל גל העלייה השניה?",
-            answers: [{
+            answers: [
+              {
                 answer: "1904",
                 type: true
               },
@@ -549,9 +579,11 @@
       },
       {
         points: 500,
-        level: [{
+        level: [
+          {
             question: "מה מסמלות שניים עשר המשואות?",
-            answers: [{
+            answers: [
+              {
                 answer: "שבטי ישראל",
 
                 type: true
@@ -572,7 +604,8 @@
           },
           {
             question: "מתי חל ראש השנה לאילנות?",
-            answers: [{
+            answers: [
+              {
                 answer: "ט''ו בשבט",
                 type: true
               },
@@ -592,7 +625,8 @@
           },
           {
             question: "מי עומד בראש מדינת ישראל- על פי חוק?",
-            answers: [{
+            answers: [
+              {
                 answer: "נשיא המדינה",
                 type: true
               },
@@ -612,7 +646,8 @@
           },
           {
             question: "איזה מאורע נקבע כזכר למרד החשמונאים?",
-            answers: [{
+            answers: [
+              {
                 answer: "חנוכה",
                 type: true
               },
@@ -634,9 +669,11 @@
       },
       {
         points: 1000,
-        level: [{
+        level: [
+          {
             question: "למי קדוש קבר הנביא שועייב?",
-            answers: [{
+            answers: [
+              {
                 answer: "דרוזים",
                 type: true
               },
@@ -656,7 +693,8 @@
           },
           {
             question: "מי היה מלכה הראשון של ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "שאול",
                 type: true
               },
@@ -676,7 +714,8 @@
           },
           {
             question: "כיצד נקרא מחנה ההשמדה הראשון?",
-            answers: [{
+            answers: [
+              {
                 answer: "חלמנו",
                 type: true
               },
@@ -696,7 +735,8 @@
           },
           {
             question: "מהו יודנראט?",
-            answers: [{
+            answers: [
+              {
                 answer: "הגוף האמון על תיווך הציבור היהודי לשלטון הגרמני",
                 type: true
               },
@@ -718,9 +758,11 @@
       },
       {
         points: 2000,
-        level: [{
+        level: [
+          {
             question: "מי הקים את ההסתדרות הציונית העולמית?",
-            answers: [{
+            answers: [
+              {
                 answer: "תיאדור זאב הרצל",
 
                 type: true
@@ -741,7 +783,8 @@
           },
           {
             question: "מי רשאי לפנות לנציב קבילות החיילים?",
-            answers: [{
+            answers: [
+              {
                 answer: "כל חייל ומפקד בסדיר ובמילואים",
                 type: true
               },
@@ -761,7 +804,8 @@
           },
           {
             question: "על מה מושתת חזון הקמת מדינה יהודית בארץ ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "חזונם של נביאי ישראל",
                 type: true
               },
@@ -781,8 +825,10 @@
           },
           {
             question: "מהו חג הסיגד?",
-            answers: [{
-                answer: "צום, טיהרה והתחדשות. החג מכיל טקס שבמהלכו חודשה הברית בין העם לאל.",
+            answers: [
+              {
+                answer:
+                  "צום, טיהרה והתחדשות. החג מכיל טקס שבמהלכו חודשה הברית בין העם לאל.",
                 type: true
               },
               {
@@ -803,9 +849,11 @@
       },
       {
         points: 4000,
-        level: [{
+        level: [
+          {
             question: "כמה חברי כנסת מכהנים בכנסת ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "120",
                 type: true
               },
@@ -825,7 +873,8 @@
           },
           {
             question: "מה מסמל צום י' בטבת?",
-            answers: [{
+            answers: [
+              {
                 answer: "תחילת המצור על ירושלים וחורבנה",
                 type: true
               },
@@ -845,7 +894,8 @@
           },
           {
             question: "על פי המסורת מה לא קרה בט' באב?",
-            answers: [{
+            answers: [
+              {
                 answer: "נרצח גדליה בן אחיקם",
                 type: true
               },
@@ -865,7 +915,8 @@
           },
           {
             question: "מהי עלילת דמשק?",
-            answers: [{
+            answers: [
+              {
                 answer: "יהודים שהואשמו ברצח של נזיר נוצרי ומשרתו המוסלמי",
                 type: true
               },
@@ -887,9 +938,11 @@
       },
       {
         points: 8000,
-        level: [{
+        level: [
+          {
             question: "באיזו שנה נוסד בנק ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "1954",
 
                 type: true
@@ -910,7 +963,8 @@
           },
           {
             question: "מה קובע חוק השבות?",
-            answers: [{
+            answers: [
+              {
                 answer: "לכל יהודי זכות לעלות ארצה ולקבל אזרחות ישראלית",
                 type: true
               },
@@ -930,8 +984,10 @@
           },
           {
             question: "כיצד השפיעו ''ועד ארבע הארצות'' על יהודי פולין?",
-            answers: [{
-                answer: "נתן ליישוב היהודי בפולין אוטונומיה ויכולת קיומית עצמאית",
+            answers: [
+              {
+                answer:
+                  "נתן ליישוב היהודי בפולין אוטונומיה ויכולת קיומית עצמאית",
                 type: true
               },
               {
@@ -950,7 +1006,8 @@
           },
           {
             question: "''מהו ''מישילנגה?",
-            answers: [{
+            answers: [
+              {
                 answer: "צאצא לנישואי תערובת",
                 type: true
               },
@@ -972,9 +1029,11 @@
       },
       {
         points: 16000,
-        level: [{
+        level: [
+          {
             question: "מהם ''סופות בנגב'' בחר בתשובה נכונה",
-            answers: [{
+            answers: [
+              {
                 answer: "גל הפרעות בדרום רוסיה",
 
                 type: true
@@ -995,7 +1054,8 @@
           },
           {
             question: "מהו מטרת מסמך הסטטוס קוו?",
-            answers: [{
+            answers: [
+              {
                 answer: "דו קיום בין דתיים לחילוניים",
                 type: true
               },
@@ -1015,7 +1075,8 @@
           },
           {
             question: "כמה חוקי יסוד קיימים במדינת ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "11",
                 type: true
               },
@@ -1035,7 +1096,8 @@
           },
           {
             question: "מה היה מפעלו המרכזי של רבי יהודה הנשיא?",
-            answers: [{
+            answers: [
+              {
                 answer: "חתימת קובץ המשנה",
                 type: true
               },
@@ -1057,9 +1119,11 @@
       },
       {
         points: 32000,
-        level: [{
+        level: [
+          {
             question: "מהו ספרו המרכזי של הרמב''ם?",
-            answers: [{
+            answers: [
+              {
                 answer: "משנה תורה",
 
                 type: true
@@ -1080,7 +1144,8 @@
           },
           {
             question: "איזו תנועה או מפלגה הנהיג דויד וולפסון?",
-            answers: [{
+            answers: [
+              {
                 answer: "התנועה הציונית",
                 type: true
               },
@@ -1100,7 +1165,8 @@
           },
           {
             question: "מהו אורך כהונתו של הנשיא?",
-            answers: [{
+            answers: [
+              {
                 answer: "שבע שנים",
                 type: true
               },
@@ -1120,7 +1186,8 @@
           },
           {
             question: "מתי נבחר רשמית דגלה של מדינת ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "ב28 באוקטובר 1948",
                 type: true
               },
@@ -1142,9 +1209,11 @@
       },
       {
         points: 64000,
-        level: [{
+        level: [
+          {
             question: "מתי פורק הפלמ''ח לחלוטין?",
-            answers: [{
+            answers: [
+              {
                 answer: "ב5 בנומבר 1948",
 
                 type: true
@@ -1165,7 +1234,8 @@
           },
           {
             question: "מתי הוקמה המפקדה הארצית?",
-            answers: [{
+            answers: [
+              {
                 answer: "1930",
                 type: true
               },
@@ -1185,7 +1255,8 @@
           },
           {
             question: "מהי ממלכת הגדעונים?",
-            answers: [{
+            answers: [
+              {
                 answer: "כינוי לקהילה היהודית העצמאית באתיופיה",
                 type: true
               },
@@ -1205,7 +1276,8 @@
           },
           {
             question: "פרשת האונייה ''סנט לואיס'' היא",
-            answers: [{
+            answers: [
+              {
                 answer: "אוניית פליטים יהודית, שלמעט אירופה לא הסכימו לקבלה",
                 type: true
               },
@@ -1214,7 +1286,8 @@
                 type: false
               },
               {
-                answer: "אוניית מלחמה אמריקאית שהוטבעה ע''י גרמניה והייתה המניע לפרוץ המלחמה",
+                answer:
+                  "אוניית מלחמה אמריקאית שהוטבעה ע''י גרמניה והייתה המניע לפרוץ המלחמה",
                 type: false
               },
               {
@@ -1227,30 +1300,37 @@
       },
       {
         points: 125000,
-        level: [{
+        level: [
+          {
             question: "מי היא מיפ חיס?",
-            answers: [{
-                answer: "תושבת אמסטרדם אשר עבדה עם אוטו פרנק, אביה של אנה פרנק וסייעה להם להסתתר במחבואם",
+            answers: [
+              {
+                answer:
+                  "תושבת אמסטרדם אשר עבדה עם אוטו פרנק, אביה של אנה פרנק וסייעה להם להסתתר במחבואם",
 
                 type: true
               },
               {
-                answer: "יהודיה מהונגריה שניצלה את היותה בכירה ב''וועד להצלה'' והצילה רבבות יהודים בהברחתם לשוויץ",
+                answer:
+                  "יהודיה מהונגריה שניצלה את היותה בכירה ב''וועד להצלה'' והצילה רבבות יהודים בהברחתם לשוויץ",
                 type: false
               },
               {
-                answer: "אשת עסקים שפעלה בהונגריה תוך ניצול מעמדה הצילה יהודי הונגריה",
+                answer:
+                  "אשת עסקים שפעלה בהונגריה תוך ניצול מעמדה הצילה יהודי הונגריה",
                 type: false
               },
               {
-                answer: "גרמניה שהצילה את מעמדה החברתי להצלת אלפי יהודים באמצעות מפעל לייצור סירים ופגזים",
+                answer:
+                  "גרמניה שהצילה את מעמדה החברתי להצלת אלפי יהודים באמצעות מפעל לייצור סירים ופגזים",
                 type: false
               }
             ]
           },
           {
             question: "היכן הסתתר אדולף אייכמן לאחר מלחמת העולם השנייה?",
-            answers: [{
+            answers: [
+              {
                 answer: "ארגנטינה",
                 type: true
               },
@@ -1270,7 +1350,8 @@
           },
           {
             question: "באיזו שנה נכתב ההמנון?",
-            answers: [{
+            answers: [
+              {
                 answer: "1878",
                 type: true
               },
@@ -1289,8 +1370,10 @@
             ]
           },
           {
-            question: "(1923)כיצד ניסתה בתחילת דרכה המפלגה הנאצית לעלות לשלטון?",
-            answers: [{
+            question:
+              "(1923)כיצד ניסתה בתחילת דרכה המפלגה הנאצית לעלות לשלטון?",
+            answers: [
+              {
                 answer: "(ביצוע הפיכה שכשלה (פוטש",
                 type: true
               },
@@ -1312,9 +1395,11 @@
       },
       {
         points: 250000,
-        level: [{
+        level: [
+          {
             question: "מי היה אהרון לידסקינד?",
-            answers: [{
+            answers: [
+              {
                 answer: "לוחם מחתרת ופרטיזן יהודי, ממקימי המחתרת בקרקוב",
 
                 type: true
@@ -1335,12 +1420,14 @@
           },
           {
             question: "מיהו ראול ולנברג?",
-            answers: [{
+            answers: [
+              {
                 answer: "איש עסקים ודיפלומט שוודי שהציל רבבות מיהודי הונגריה",
                 type: true
               },
               {
-                answer: "קונסול פורטוגל שהבריח עשרות אלפי יהודים מצרפת לספרד ומשם לאמריקה",
+                answer:
+                  "קונסול פורטוגל שהבריח עשרות אלפי יהודים מצרפת לספרד ומשם לאמריקה",
                 type: false
               },
               {
@@ -1354,8 +1441,10 @@
             ]
           },
           {
-            question: "מה הוא ההבדל העיקרי בין היהודים ה''קראים'' ליהודים פשוטים?",
-            answers: [{
+            question:
+              "מה הוא ההבדל העיקרי בין היהודים ה''קראים'' ליהודים פשוטים?",
+            answers: [
+              {
                 answer: "הקראים אינם מקבלים את פרשנות חז''ל לתורה שבכתב",
                 type: true
               },
@@ -1375,7 +1464,8 @@
           },
           {
             question: "באיזו אמירה נחתם משפטו  של ישראל קסטנר?",
-            answers: [{
+            answers: [
+              {
                 answer: "מכר את נשמתו לשטן",
                 type: true
               },
@@ -1384,7 +1474,8 @@
                 type: false
               },
               {
-                answer: "אין אני עומד יחידי עמדי ניצבים כאן בשעה זו 6 מליון קטגורים",
+                answer:
+                  "אין אני עומד יחידי עמדי ניצבים כאן בשעה זו 6 מליון קטגורים",
                 type: false
               },
               {
@@ -1397,9 +1488,11 @@
       },
       {
         points: 500000,
-        level: [{
+        level: [
+          {
             question: "הכנסת אישרה את חוק ''יד ושם'' בשנת",
-            answers: [{
+            answers: [
+              {
                 answer: "1953",
 
                 type: true
@@ -1420,7 +1513,8 @@
           },
           {
             question: ":מהו מבצע ''ענבי זעם'' בחר את ההגדרה הנכונה",
-            answers: [{
+            answers: [
+              {
                 answer: "מבצע צבאי של צה''ל בדרום לבנון",
                 type: true
               },
@@ -1440,7 +1534,8 @@
           },
           {
             question: "מי היה תמרת עמנואל?",
-            answers: [{
+            answers: [
+              {
                 answer: "מנהיג ציבור יהודי באתיופיה, שימש כפרופסור וכרב",
                 type: true
               },
@@ -1460,7 +1555,8 @@
           },
           {
             question: "מי היו השופטים?",
-            answers: [{
+            answers: [
+              {
                 answer: "מנהיגים אזוריים של 12 השבטים, לאחר מות יהושע",
                 type: true
               },
@@ -1482,9 +1578,11 @@
       },
       {
         points: 1000000,
-        level: [{
+        level: [
+          {
             question: "כיצד נקרא התשלום החודשי הקבוע מגרמניה למדינת ישראל?",
-            answers: [{
+            answers: [
+              {
                 answer: "רנטות",
 
                 type: true
@@ -1505,7 +1603,8 @@
           },
           {
             question: ":ארגון ''השומר'' הוקם בשנת",
-            answers: [{
+            answers: [
+              {
                 answer: "1909",
                 type: true
               },
@@ -1525,7 +1624,8 @@
           },
           {
             question: "מתי נחתם ההסכם עם ירדן לאחר מלחמת העצמאות?",
-            answers: [{
+            answers: [
+              {
                 answer: "ב3 באפריל 1949",
                 type: true
               },
@@ -1545,7 +1645,8 @@
           },
           {
             question: "מי היה הרמטכ''ל במלחמת ששת הימים?",
-            answers: [{
+            answers: [
+              {
                 answer: "יצחק רבין",
                 type: true
               },
@@ -1567,9 +1668,11 @@
       }
     ];
 
-    var adjustDateGame = [{
+    var adjustDateGame = [
+      {
         event: "כתיבת ההמנון קרתה בשנת:",
-        dates: [{
+        dates: [
+          {
             date: "1897",
             type: false
           },
@@ -1589,7 +1692,8 @@
       },
       {
         event: " - הקונגרס הציוני הראשון",
-        dates: [{
+        dates: [
+          {
             date: "1897",
             type: true
           },
@@ -1609,7 +1713,8 @@
       },
       {
         event: "מתי נקבע סטטוס קוו-",
-        dates: [{
+        dates: [
+          {
             date: "1947",
             type: true
           },
@@ -1629,7 +1734,8 @@
       },
       {
         event: "התקווה נקבעה כהמנון רשמי",
-        dates: [{
+        dates: [
+          {
             date: "1933",
             type: true
           },
@@ -1649,7 +1755,8 @@
       },
       {
         event: "נחקק חוק השבות",
-        dates: [{
+        dates: [
+          {
             date: "1950",
             type: true
           },
@@ -1669,7 +1776,8 @@
       },
       {
         event: "פרשת הררי ",
-        dates: [{
+        dates: [
+          {
             date: "1970",
             type: true
           },
@@ -1689,7 +1797,8 @@
       },
       {
         event: "מרד המכבים",
-        dates: [{
+        dates: [
+          {
             date: "מאה ה-4",
             type: false
           },
@@ -1709,7 +1818,8 @@
       },
       {
         event: "הקמת הגדס''ר הבדואי",
-        dates: [{
+        dates: [
+          {
             date: "1986",
             type: true
           },
@@ -1729,7 +1839,8 @@
       },
       {
         event: "יום הזכרון לרחבעם זאבי",
-        dates: [{
+        dates: [
+          {
             date: "ל' בתשרי",
             type: true
           },
@@ -1749,7 +1860,8 @@
       },
       {
         event: "חג הסיגד",
-        dates: [{
+        dates: [
+          {
             date: "כ''ט בחשוון",
             type: true
           },
@@ -1769,7 +1881,8 @@
       },
       {
         event: "-יום הזיכרון הבינלאומי לשואה",
-        dates: [{
+        dates: [
+          {
             date: "ב27 בינואר",
             type: true
           },
@@ -1789,7 +1902,8 @@
       },
       {
         event: "יום ירושלים",
-        dates: [{
+        dates: [
+          {
             date: "כ''ח באייר",
             type: true
           },
@@ -1809,7 +1923,8 @@
       },
       {
         event: "ראש השנה",
-        dates: [{
+        dates: [
+          {
             date: "א' בתשרי",
             type: true
           },
@@ -1829,7 +1944,8 @@
       },
       {
         event: "יום כיפור",
-        dates: [{
+        dates: [
+          {
             date: "י' בתשרי",
             type: true
           },
@@ -1849,7 +1965,8 @@
       },
       {
         event: "שמיני עצרת ושמחת תורה",
-        dates: [{
+        dates: [
+          {
             date: "כ''ב בתשרי",
             type: true
           },
@@ -1869,7 +1986,8 @@
       },
       {
         event: "ל''ג בעומר",
-        dates: [{
+        dates: [
+          {
             date: "י''ח באייר",
             type: true
           },
@@ -1889,7 +2007,8 @@
       },
       {
         event: "שושן פורים",
-        dates: [{
+        dates: [
+          {
             date: "ט''ו באדר",
             type: true
           },
@@ -1909,7 +2028,8 @@
       },
       {
         event: "צום גדליה – רצח גדליה בן אחיקם",
-        dates: [{
+        dates: [
+          {
             date: "ג' בתשרי",
             type: true
           },
@@ -1929,7 +2049,8 @@
       },
       {
         event: "מצור נבוכדנצר על ירושלים",
-        dates: [{
+        dates: [
+          {
             date: "י' בטבת",
             type: true
           },
@@ -1949,7 +2070,8 @@
       },
       {
         event: "חג הנביא שועייב",
-        dates: [{
+        dates: [
+          {
             date: "24-27/4 ",
             type: true
           },
@@ -1969,7 +2091,8 @@
       },
       {
         event: "חג הנביא סבלאן ",
-        dates: [{
+        dates: [
+          {
             date: "ב-12 לחודש ה3",
             type: false
           },
@@ -1989,7 +2112,8 @@
       },
       {
         event: "הקרב על מצדה",
-        dates: [{
+        dates: [
+          {
             date: "ב73 לספירה",
             type: true
           },
@@ -2009,7 +2133,8 @@
       },
       {
         event: "פרוץ המרד הגדול",
-        dates: [{
+        dates: [
+          {
             date: "ב66-73 לספירה",
             type: true
           },
@@ -2029,7 +2154,8 @@
       },
       {
         event: "מרד בר-כוכבא",
-        dates: [{
+        dates: [
+          {
             date: "136-132",
             type: true
           },
@@ -2049,7 +2175,8 @@
       },
       {
         event: "הורדוס עולה לשלטון",
-        dates: [{
+        dates: [
+          {
             date: "ב40 לפנה''ס",
             type: true
           },
@@ -2069,7 +2196,8 @@
       },
       {
         event: "הצהרת כורש",
-        dates: [{
+        dates: [
+          {
             date: "ב597 לפנה''ס",
             type: true
           },
@@ -2089,7 +2217,8 @@
       },
       {
         event: "עליה ראשונה",
-        dates: [{
+        dates: [
+          {
             date: "1903-1882",
             type: true
           },
@@ -2109,7 +2238,8 @@
       },
       {
         event: "ועידת קטוביץ' התרחשה ב",
-        dates: [{
+        dates: [
+          {
             date: "1884",
             type: true
           },
@@ -2129,7 +2259,8 @@
       },
       {
         event: "משפט דרייפוס",
-        dates: [{
+        dates: [
+          {
             date: "1895",
             type: true
           },
@@ -2149,7 +2280,8 @@
       },
       {
         event: "הרצל נולד",
-        dates: [{
+        dates: [
+          {
             date: "1830",
             type: true
           },
@@ -2169,7 +2301,8 @@
       },
       {
         event: "הקונגרס הציוני הראשון",
-        dates: [{
+        dates: [
+          {
             date: "1897",
             type: true
           },
@@ -2189,7 +2322,8 @@
       },
       {
         event: "הרצל נפטר",
-        dates: [{
+        dates: [
+          {
             date: "1904",
             type: true
           },
@@ -2209,7 +2343,8 @@
       },
       {
         event: "בניית משכנות שאננים",
-        dates: [{
+        dates: [
+          {
             date: "1860",
             type: true
           },
@@ -2229,7 +2364,8 @@
       },
       {
         event: "הפרעות סופות בנגב",
-        dates: [{
+        dates: [
+          {
             date: "1881-1882",
             type: true
           },
@@ -2249,7 +2385,8 @@
       },
       {
         event: "העלייה השנייה",
-        dates: [{
+        dates: [
+          {
             date: "1904-1914",
             type: true
           },
@@ -2269,7 +2406,8 @@
       },
       {
         event: "נוסדה תל אביב",
-        dates: [{
+        dates: [
+          {
             date: "1909",
             type: true
           },
@@ -2289,7 +2427,8 @@
       },
       {
         event: "הצהרת בלפור",
-        dates: [{
+        dates: [
+          {
             date: "1917",
             type: true
           },
@@ -2309,7 +2448,8 @@
       },
       {
         event: "עלייה שלישית",
-        dates: [{
+        dates: [
+          {
             date: "1919-1923",
             type: true
           },
@@ -2329,7 +2469,8 @@
       },
       {
         event: "עלייה רביעית",
-        dates: [{
+        dates: [
+          {
             date: "1924-1929",
             type: true
           },
@@ -2349,7 +2490,8 @@
       },
       {
         event: "ליל הגשרים",
-        dates: [{
+        dates: [
+          {
             date: "ב17 ביוני 1946",
             type: true
           },
@@ -2369,7 +2511,8 @@
       },
       {
         event: "פיצוץ מלון המלך דוד ",
-        dates: [{
+        dates: [
+          {
             date: "ב22 ביולי 1946",
             type: true
           },
@@ -2389,7 +2532,8 @@
       },
       {
         event: "השבת השחורה",
-        dates: [{
+        dates: [
+          {
             date: "ב29 ביוני 1946",
             type: true
           },
@@ -2409,7 +2553,8 @@
       },
       {
         event: "עליית היטלר לשלטון",
-        dates: [{
+        dates: [
+          {
             date: "1933",
             type: true
           },
@@ -2429,7 +2574,8 @@
       },
       {
         event: "ליל הסכינים הארוכות",
-        dates: [{
+        dates: [
+          {
             date: "1934",
             type: true
           },
@@ -2449,7 +2595,8 @@
       },
       {
         event: "חוקי נירנברג",
-        dates: [{
+        dates: [
+          {
             date: "1935",
             type: true
           },
@@ -2469,7 +2616,8 @@
       },
       {
         event: "ליל הבדולח",
-        dates: [{
+        dates: [
+          {
             date: "1938",
             type: true
           },
@@ -2489,7 +2637,8 @@
       },
       {
         event: "פלישת גרמניה לפולין",
-        dates: [{
+        dates: [
+          {
             date: "ב1 בספטמבר 1939",
             type: true
           },
@@ -2509,7 +2658,8 @@
       },
       {
         event: "ועידת ואנזה ",
-        dates: [{
+        dates: [
+          {
             date: "ב20 בינואר 1942",
             type: true
           },
@@ -2529,7 +2679,8 @@
       },
       {
         event: "העלייה ההמונית",
-        dates: [{
+        dates: [
+          {
             date: "1948-1951",
             type: true
           },
@@ -2549,7 +2700,8 @@
       },
       {
         event: "מבצע יכין",
-        dates: [{
+        dates: [
+          {
             date: "1961-1964",
             type: true
           },
@@ -2569,7 +2721,8 @@
       },
       {
         event: "הטבח בכפר קאסם",
-        dates: [{
+        dates: [
+          {
             date: "1956",
             type: true
           },
@@ -2589,7 +2742,8 @@
       },
       {
         event: "מבצע שלמה",
-        dates: [{
+        dates: [
+          {
             date: "1991",
             type: true
           },
@@ -2609,7 +2763,8 @@
       },
       {
         event: "מבצע אנטבה",
-        dates: [{
+        dates: [
+          {
             date: "1976",
             type: true
           },
@@ -2629,7 +2784,8 @@
       },
       {
         event: "הסכם אוסלו",
-        dates: [{
+        dates: [
+          {
             date: "1993",
             type: true
           },
@@ -2649,7 +2805,8 @@
       },
       {
         event: "מלחמת העצמאות",
-        dates: [{
+        dates: [
+          {
             date: "1949-1947",
             type: true
           },
@@ -2669,7 +2826,8 @@
       },
       {
         event: "מלחמת יום הכיפורים",
-        dates: [{
+        dates: [
+          {
             date: "1973",
             type: true
           },
@@ -2689,7 +2847,8 @@
       },
       {
         event: "אינטיפאדה ראשונה",
-        dates: [{
+        dates: [
+          {
             date: "1987-1993",
             type: true
           },
@@ -2709,7 +2868,8 @@
       },
       {
         event: "חומת מגן (פיגוע מלון נתניה) ב",
-        dates: [{
+        dates: [
+          {
             date: "2002",
             type: true
           },
@@ -2729,7 +2889,8 @@
       },
       {
         event: "מלחמת לבנון השנייה",
-        dates: [{
+        dates: [
+          {
             date: "2006",
             type: true
           },
