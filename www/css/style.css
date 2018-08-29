@@ -790,8 +790,20 @@ blockquote {
   text-align: center;
 }
 
+.test--feedback-smile {
+  margin-top: 4vh;
+  height: 16vh;
+}
+
+.test--feedbackSuccses-smile {
+  margin-top: 10vh;
+  height: 16vh;
+  margin-bottom: 6vh;
+}
+
 #test--firstLine-finishText {
-  margin-top: 20vh;
+  margin-top: 3vh;
+  font-size: 4vh;
 }
 
 .test--finishScreen {
@@ -800,6 +812,35 @@ blockquote {
   position: absolute;
   z-index: 2;
   background: #eff2ed;
+}
+
+.test--backHomeButtton {
+  font-family: "Heebo", sans-serif;
+  font-size: 4vh;
+  font-weight: 300;
+  width: 100%;
+  height: 6.5vh;
+  background-color: #f9f5ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 9px -1px rgba(68, 68, 68, 0.45);
+}
+
+.test--buttonContainer {
+  width: 100%;
+  height: 10vh;
+  margin-top: 7vh;
+  background-color: #d87963;
+  border-top: #f9f5ef solid 1vh;
+  border-bottom: #f9f5ef solid 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#test--buttonContainer-succses {
+  background-color: #b8cd7a;
 }
 
 /* adjust date game */
@@ -1080,8 +1121,9 @@ blockquote {
 
 .SportP--frontPg-link {
   background-color: #f9f5ef !important;
-  line-height: 1.6;
-  font-size: 4vh;
+  line-height: 1;
+  font-size: 2.7vh;
+  width: 100%;
 }
 
 .SportP--frontPg-icons {
@@ -1130,7 +1172,7 @@ blockquote {
   height: 1.5vh;
   position: absolute;
   background: #e7ebe7;
-  z-index: 1;
+  z-index: 0;
   bottom: 0px;
 }
 
