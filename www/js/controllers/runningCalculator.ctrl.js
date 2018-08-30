@@ -18,55 +18,51 @@ function runningCalculatorController($scope, $state, TrainingService) {
   $scope.jobSelect = false;
   $scope.resultScreen = false;
   $scope.missingItems = false;
-  $scope.backToCalc = function () {
+  $scope.backToCalc = function() {
     $scope.missingItems = false;
     $scope.resultScreen = false;
-
-  }
-  $scope.goBack = function () {
+  };
+  $scope.goBack = function() {
     window.history.back();
-  }
+  };
 
-  $scope.genderSelect = function (gender) {
+  $scope.genderSelect = function(gender) {
     genderOfUser = gender;
     console.log(genderOfUser);
 
-    if (genderOfUser == 'male') {
+    if (genderOfUser == "male") {
       $scope.maleSelect = true;
       if ($scope.femaleSelect == true) {
         $scope.femaleSelect = false;
       }
-
     }
-    if (genderOfUser == 'female') {
+    if (genderOfUser == "female") {
       $scope.femaleSelect = true;
       if ($scope.maleSelect == true) {
         $scope.maleSelect = false;
       }
-
     }
-  }
-  $scope.course = function (name) {
+  };
+  $scope.course = function(name) {
     courseName = name;
     console.log(courseName);
 
-    if (courseName == 'job') {
+    if (courseName == "job") {
       $scope.jobSelect = true;
       if ($scope.fighterSelect == true) {
         $scope.fighterSelect = false;
       }
     }
 
-    if (courseName == 'fighter') {
+    if (courseName == "fighter") {
       $scope.fighterSelect = true;
       if ($scope.jobSelect == true) {
         $scope.jobSelect = false;
       }
     }
+  };
 
-  }
-
-  $scope.submitButton = function (minute, second) {
+  $scope.submitButton = function(minute, second) {
     console.log(minute + second);
     userSecond = second;
     userMinute = minute;
@@ -77,23 +73,41 @@ function runningCalculatorController($scope, $state, TrainingService) {
     // console.log(a);
     // function that check the inputs value
     // function inputCheck() {
-    if (second == null || minute == null || genderOfUser == null || courseName == null) {
+    if (
+      second == null ||
+      minute == null ||
+      genderOfUser == null ||
+      courseName == null ||
+      second > 60 ||
+      second < -1
+    ) {
       // alert("אנא מלא את כל השדות")
       $scope.missingItems = true;
 
-      console.log("the second is " + userSecond + " the minute is" + userMinute + " the gender is " + genderOfUser + " the course name is " + courseName);
-
-
-
-
+      console.log(
+        "the second is " +
+          userSecond +
+          " the minute is" +
+          userMinute +
+          " the gender is " +
+          genderOfUser +
+          " the course name is " +
+          courseName
+      );
     }
     if (second > 60 || second < 0) {
-      console.log("the second must to be between 0 to 60")
+      console.log("the second must to be between 0 to 60");
     }
-    if (second != null && minute != null && genderOfUser != null && courseName != null && second < 60 && second > -1) {
+    if (
+      second != null &&
+      minute != null &&
+      genderOfUser != null &&
+      courseName != null &&
+      second < 60 &&
+      second > -1
+    ) {
       userGrade();
       $scope.resultScreen = true;
-
     }
     //   if (minute == null) {
     //     alert("הכנס דקות")
@@ -102,8 +116,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
     // inputCheck();
   };
 
-
-
   function userGrade() {
     console.log(genderOfUser + courseName);
 
@@ -111,14 +123,13 @@ function runningCalculatorController($scope, $state, TrainingService) {
      * there is 4 positions to the grade male and fighter, female and fighter, men and job and female and job
      * ************************/
 
-    if (genderOfUser == 'male' && courseName == 'job') {
+    if (genderOfUser == "male" && courseName == "job") {
       console.log("male and jobbb");
       //   if(userMinute==12)
       if (userMinute < 12) {
         grade = 100;
       }
       switch (userMinute) {
-
         case 12:
           if (userSecond < 30) {
             console.log("100 grade");
@@ -148,8 +159,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
             console.log("94 grade");
             grade = 94;
           }
-
-
 
           break;
         case 13:
@@ -186,8 +195,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
           if (userSecond > 54 && userSecond < 60) {
             grade = 84;
           }
-
-
 
           break;
         case 14:
@@ -227,8 +234,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
           if (userSecond > 56 && userSecond < 60) {
             grade = 73;
           }
-
-
 
           break;
         case 15:
@@ -305,29 +310,26 @@ function runningCalculatorController($scope, $state, TrainingService) {
           }
 
           break;
-
       }
       if (userMinute > 16) {
         grade = 50;
-        console.log("the grade less than 50")
+        console.log("the grade less than 50");
       }
       console.log("the grade is " + grade);
-
     }
 
-    if (genderOfUser == 'female' && courseName == 'job') {
+    if (genderOfUser == "female" && courseName == "job") {
       console.log("female and jobbb");
       console.log("the minute" + userMinute + "the second" + userSecond);
       //   if(userMinute==12)
       if (userMinute > 20) {
         grade = 50;
-        console.log("the grade less than 50")
+        console.log("the grade less than 50");
       }
       if (userMinute < 14) {
         grade = 100;
       }
       switch (userMinute) {
-
         case 14:
           if (userSecond < 40) {
             grade = 100;
@@ -511,16 +513,12 @@ function runningCalculatorController($scope, $state, TrainingService) {
           break;
       }
 
-
-
       //   if (userMinute > 16) {
       //     grade = 50;
       //     console.log("the grade less than 50")
       //   }
-
     }
-    if (genderOfUser == 'male' && courseName == 'fighter') {
-
+    if (genderOfUser == "male" && courseName == "fighter") {
       if (userMinute > 15) {
         grade = 50;
         console.log("the grade less than 50");
@@ -529,7 +527,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
         grade = 100;
       }
       switch (userMinute) {
-
         case 10:
           if (userSecond < 13) {
             grade = 100;
@@ -626,7 +623,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
 
           break;
         case 13:
-
           if (userSecond > -1 && userSecond < 6) {
             grade = 73;
           }
@@ -660,7 +656,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
 
           break;
         case 14:
-
           if (userSecond > -1 && userSecond < 4) {
             grade = 64;
           }
@@ -694,7 +689,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
 
           break;
         case 15:
-
           if (userSecond > 20) {
             grade = 50;
           }
@@ -714,8 +708,7 @@ function runningCalculatorController($scope, $state, TrainingService) {
       }
     }
 
-    if (genderOfUser == 'female' && courseName == 'fighter') {
-
+    if (genderOfUser == "female" && courseName == "fighter") {
       if (userMinute > 20) {
         grade = 50;
         console.log("the grade less than 50");
@@ -724,7 +717,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
         grade = 100;
       }
       switch (userMinute) {
-
         case 12:
           if (userSecond < 39) {
             grade = 100;
@@ -739,7 +731,6 @@ function runningCalculatorController($scope, $state, TrainingService) {
             grade = 97;
           }
           break;
-
 
         case 13:
           if (userSecond > -1 && userSecond < 7) {
@@ -940,6 +931,5 @@ function runningCalculatorController($scope, $state, TrainingService) {
       }
     }
     $scope.mainGrade = grade;
-
   }
 }

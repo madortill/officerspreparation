@@ -1,8 +1,8 @@
 <ion-view view-title="home page">
-  <ion-content overflow-scroll="true" scrollbar-y="true" class="background">
+  <div class="background">
     <div class="sidemenu--opacity" ng-hide="menu" ng-click="closemenu()"></div>
     <div class="sidemenu" ng-hide="menu">
-      <img src="img/menu--close.svg" class="sidemenu--buttons-close" ng-click="closemenu()">
+      <img src="img/hamburger menu white.svg" class="sidemenu--buttons-close" ng-click="closemenu()">
       <div class="sidemenu--buttons sidemenu--move" ui-sref="home">דף הבית</div>
       <div class="sidemenu--buttons" ui-sref="book">ספרים</div>
       <div class="sidemenu--buttons" ui-sref="exercise">תרגול</div>
@@ -16,7 +16,7 @@
         <img src="img/backbutton.svg" class="book--menu-menubutton">
       </div> -->
       <div class="back-button--container" ng-click="openmenu()">
-        <img src="img/menu--open.svg" class="book--menu-menubutton">
+        <img src="img/hamburger menu.svg" class="book--menu-menubutton">
       </div>
       <h1 class="book--menu-title">תכנית כושר</h1>
       <img src="img/till-logo.svg" class="book--menu-logo">
@@ -27,7 +27,7 @@
     <div class="book--chapters-titlecontainer">
       <h1 class="book--chapters-title">תכנית כושר</h1>
     </div>
-    <div class="sportProgram--frontPg-menubuttonsContainer">
+    <div class="sportProgram--frontPg-menubuttonsContainer" overflow-scroll="true">
       <!-- <button class="sportProgram--button" ui-sref="runChooseDifficulty" ng-click="explenation()">ריצה</button>
       <button class="sportProgram--button" ui-sref="chooseDifficulty">אימון כוח</button>
       <button class="sportProgram--button" ui-sref="runningCalculator">מחשבון ריצה</button>
@@ -52,7 +52,7 @@
         </li>
       </ul>
     </div>
+    <!-- ion-content overflow-scroll="true" scrollbar-y="true" -->
 
-
-  </ion-content>
+  </div>
 </ion-view>
