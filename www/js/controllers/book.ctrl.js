@@ -22,6 +22,11 @@ function BookController($scope, $state, DataService) {
     console.log($scope.menu);
   };
 
+  $scope.goto = function (name) {
+    $scope.menu = true;
+    $state.go(name);
+  };
+
   $scope.closemenu = function () {
     $scope.menu = true;
     console.log($scope.menu);

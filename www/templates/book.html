@@ -2,12 +2,12 @@
   <div class="sidemenu--opacity" ng-hide="menu" ng-click="closemenu()"></div>
   <div class="sidemenu" ng-hide="menu">
     <img src="img/hamburger menu white.svg" class="sidemenu--buttons-close" ng-click="closemenu()">
-    <div class="sidemenu--buttons sidemenu--move" ui-sref="home">דף הבית</div>
+    <div class="sidemenu--buttons sidemenu--move" ng-click="goto('home')">דף הבית</div>
     <div class="sidemenu--buttons sidemenu--mark" ng-click="closemenu()">ספרים</div>
-    <div class="sidemenu--buttons" ui-sref="exercise">תרגול</div>
-    <div class="sidemenu--buttons" ui-sref="tests">מבחנים</div>
-    <div class="sidemenu--buttons" ui-sref="sportProgramFrontPg">כושר קרבי</div>
-    <div class="sidemenu--buttons" ui-sref="about">אודות</div>
+    <div class="sidemenu--buttons" ng-click="goto('exercise')">תרגול</div>
+    <div class="sidemenu--buttons" ng-click="goto('tests')">מבחנים</div>
+    <div class="sidemenu--buttons" ng-click="goto('sportProgramFrontPg')">כושר קרבי</div>
+    <div class="sidemenu--buttons" ng-click="goto('about')">אודות</div>
     <img src="img/till-logo(white).svg" class="sidemenu--logo">
   </div>
   <div class="background">

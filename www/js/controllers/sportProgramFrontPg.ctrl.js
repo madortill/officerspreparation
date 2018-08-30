@@ -12,7 +12,7 @@ sportProgramFrontPgController.$inject = [
 function sportProgramFrontPgController($scope, $state, $timeout, DataService) {
   $scope.menu = true;
 
-  $scope.goBack = function() {
+  $scope.goBack = function () {
     window.history.back();
   };
 
@@ -22,13 +22,18 @@ function sportProgramFrontPgController($scope, $state, $timeout, DataService) {
   //   );
   // };
 
-  $scope.openmenu = function() {
+  $scope.openmenu = function () {
     $scope.menu = false;
     console.log($scope.menu);
   };
 
-  $scope.closemenu = function() {
+  $scope.closemenu = function () {
     $scope.menu = true;
     console.log($scope.menu);
+  };
+
+  $scope.goto = function (name) {
+    $scope.menu = true;
+    $state.go(name);
   };
 }

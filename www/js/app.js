@@ -48,7 +48,7 @@ angular
       .state("exercise", {
         url: "/exercise",
         templateUrl: "templates/exercises/exercise.html",
-        controller: "BookController"
+        controller: "exerciseController"
       })
       //choose exercise page
       .state("billionaire", {
