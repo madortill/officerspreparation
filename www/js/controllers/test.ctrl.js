@@ -51,12 +51,12 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     $scope.minute = 29;
   }
   resetgame();
-  $scope.goBack = function() {
+  $scope.goBack = function () {
     window.history.back();
     resetgame();
   };
 
-  $scope.startTest = function() {
+  $scope.startTest = function () {
     $scope.startScreen = false;
     $scope.countDowner();
   };
@@ -106,7 +106,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
   countDown = 59;
   $scope.minute = 29;
-  $scope.countDowner = function() {
+  $scope.countDowner = function () {
     // function stopcountdown() {
     $scope.countDown_text = countDown;
     $scope.minute_text = $scope.minute; // update scope
@@ -148,7 +148,7 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     if ($scope.answers[index].type == false) {
       console.log($scope.unClickAnswer);
 
-      $timeout(function() {
+      $timeout(function () {
         console.log("false answer");
         $scope.inCorrectAnswer[index] = true;
         for (var i = 0; i < 4; i++) {
@@ -184,27 +184,39 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     }
 
     console.log($scope.unClickAnswer);
-    $timeout(function() {
-      $scope.questionNumber++;
-      $scope.hideNextQuestion = false;
+    if ($scope.answers[index].type == false) {
+      $timeout(function () {
+        $scope.questionNumber++;
+        $scope.hideNextQuestion = false;
+        $scope.unClickAnswer = [false, false, false, false];
+        console.log($scope.unClickAnswer);
 
-      $scope.unClickAnswer = [false, false, false, false];
-      console.log($scope.unClickAnswer);
+        // if ($scope.questionNumber == 25) {
+        //   $scope.finishGame = true;
+        //   if ($scope.rightAnswer > 19) {
+        //     $scope.pass = true;
+        //     console.log("rightt");
+        //   }
+        //   if ($scope.rightAnswer < 20) {
+        //     $scope.failed = true;
+        //     console.log("failed");
+        //   }
+        // }
+        testcontent();
+        unPaintaAnswer();
+      }, 3000);
+    }
+    if ($scope.answers[index].type == true) {
+      $timeout(function () {
+        $scope.questionNumber++;
+        $scope.hideNextQuestion = false;
+        $scope.unClickAnswer = [false, false, false, false];
+        console.log($scope.unClickAnswer);
 
-      // if ($scope.questionNumber == 25) {
-      //   $scope.finishGame = true;
-      //   if ($scope.rightAnswer > 19) {
-      //     $scope.pass = true;
-      //     console.log("rightt");
-      //   }
-      //   if ($scope.rightAnswer < 20) {
-      //     $scope.failed = true;
-      //     console.log("failed");
-      //   }
-      // }
-      testcontent();
-      unPaintaAnswer();
-    }, 3000);
+        testcontent();
+        unPaintaAnswer();
+      }, 1000);
+    }
   };
 
   //
