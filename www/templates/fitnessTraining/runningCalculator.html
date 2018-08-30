@@ -3,7 +3,7 @@
 
     <div class="running--caclAlertOpacity" ng-show="resultScreen"></div>
     <div class="running--caclAlert" ng-show="resultScreen">
-      <h1 class="running--caclAlert-text">הציון שלך בריצת 3 קילומטר (בראור) הוא {{mainGrade}}
+      <h1 class="running--caclAlert-text">הציון שלך בריצת 3 קילומטר (בראור) הוא: {{mainGrade}}
       </h1>
       <button class="runningCalc--backToCalc" ng-click="backToCalc()">חזור למחשבון</button>
     </div>
@@ -11,7 +11,7 @@
 
     <div class="running--caclAlertOpacity" ng-show="missingItems"></div>
     <div class="running--caclAlert" ng-show="missingItems">
-      <h1 class="running--caclAlert-text">חסרים נתונים, אנא מלא את כל התשובות
+      <h1 class="running--caclAlert-text">בדוק שכל השדות תקינים ומלאים
       </h1>
       <button class="runningCalc--backToCalc" ng-click="backToCalc()">חזור למחשבון</button>
     </div>
@@ -30,8 +30,8 @@
     <div class="sportProgram--menubuttonContainer">
       <button class="running--title" ui-sref="runChooseDifficulty" ng-click="explenation()">מדידת 3 קילומטר</button>
       <div class="runningCalc--inputs">
-        <input type="number" placeholder="מספר הדקות" dir="rtl" ng-model="minute" class="runningCalc--input">
-        <input type="number" placeholder="מספר השניות" dir="rtl" ng-model="second" class="runningCalc--input">
+        <input type="number" placeholder="דקות" dir="rtl" ng-model="minute" class="runningCalc--input">
+        <input type="number" placeholder="שניות" dir="rtl" ng-model="second" class="runningCalc--input">
 
       </div>
       <h1 class="running--title" id="running--genderTitle">לאיזה מסלול אני מתמיין?</h1>
@@ -45,7 +45,7 @@
 
       </div>
 
-      <button class="runningCalc--submit" ng-click="submitButton(minute,second)"></button>
+      <button class="runningCalc--submit" ng-click="submitButton(minute,second)">בדוק ציון</button>
 
 
     </div>
