@@ -35,7 +35,7 @@
   margin-top: 24.5vh;
 }
 
-.overflow-scroll > .scroll {
+.overflow-scroll>.scroll {
   background: #f9f5ef;
 }
 
@@ -1356,6 +1356,10 @@ input[type="color"] {
   top: 0;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.runningCalc--submit {
+  background: #2f4f4f;
 }
 
 .running--caclAlertOpacity {
