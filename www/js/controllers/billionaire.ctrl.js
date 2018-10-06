@@ -6,11 +6,11 @@ billionairecontroller.$inject = ["$scope", "$state", "$timeout", "DataService"];
 
 function billionairecontroller($scope, $state, $timeout, DataService) {
   var i = 0;
-  $scope.theAnswers = [true, true, true, true];
   var gameLevel = 0;
+  var lifeCount = 3; // count the life in the game  
+  $scope.theAnswers = [true, true, true, true];
   $scope.levelPoints = DataService.billionaireGame[gameLevel].points; //the points in the current level
   $scope.life = [true, true, true];
-  var lifeCount = 3; // count the life in the game
   $scope.firstHelpShow = true;
   $scope.secondHelpShow = true;
   $scope.firstHelpTouch = true;
@@ -33,20 +33,20 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   $scope.questions =
     DataService.billionaireGame[gameLevel].level[randomNumber()]; //the question
 
-  // function checktime() {
-  //   alert("oran the king");
-  // }
 
+/* Go to home */
   $scope.goHome = function() {
     $scope.resetGame();
     $state.go("home");
   };
+
+  // Go to the previous page
   $scope.goBack = function() {
     window.history.back();
   };
 
-  // the first help
-  // clear 50 percentage of the answer
+  // The first help
+  // Clear 50 precentage of the answer
   $scope.firstHelp = function() {
     var firstHelpHide = (firstHelpHide = [
       Math.floor(Math.random() * 4 + 0),
@@ -61,23 +61,27 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         Math.floor(Math.random() * 4 + 0),
         Math.floor(Math.random() * 4 + 0)
       ];
-      console.log(
-        "the first" + firstHelpHide[1] + "the second" + firstHelpHide[0]
-      );
+   
+
+
       firstHelpHide[1] = Math.floor(Math.random() * 4 + 0);
     }
 
     $scope.theAnswers[firstHelpHide[1]] = false;
     $scope.theAnswers[firstHelpHide[0]] = false;
     for (var i = 0; i < 2; i++) {
-      console.log(firstHelpHide[i]);
+
+
+
     }
     $scope.firstHelpShow = false;
     $scope.firstHelpTouch = false;
   };
 
+  
+  // The second help
+  // Clear 50 precentage of the answer
   $scope.secondHelp = function() {
-    // alert("second help clicked");
     var firstHelpHide = (firstHelpHide = [
       Math.floor(Math.random() * 4 + 0),
       Math.floor(Math.random() * 4 + 0)
@@ -91,9 +95,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
         Math.floor(Math.random() * 4 + 0),
         Math.floor(Math.random() * 4 + 0)
       ];
-      console.log(
-        "the first" + firstHelpHide[1] + "the second" + firstHelpHide[0]
-      );
+     
       firstHelpHide[1] = Math.floor(Math.random() * 4 + 0);
     }
 
@@ -120,52 +122,57 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
   }
 
   shuffle($scope.questions.answers);
-  // console.log($scope.questions.answers);
+
+/* When the user click one of the answers the function open*/
 
   $scope.userAnswer = index => {
     $scope.unClickAnswer = [true, true, true, true];
 
-    /*
-    after all tha game when the user win & finish the game he will see the win screen
-    */
-    if (gameLevel == 14) {
-      $scope.winFullGame = true; // show the screen if win full game
-    }
+  
 
     function paintAnswers() {
-      $timeout(function() {
         for (var i = 0; i < 4; i++) {
           if ($scope.questions.answers[i].type == true) {
             $scope.correctAnswer[i] = true;
-            // $timeout($scope.nextQuestion, 1000);
           }
         }
         if ($scope.questions.answers[index].type != false) {
           $timeout($scope.nextQuestion, 1000);
         }
 
-        // if (correctAnswerIndex != index) {
         if ($scope.questions.answers[index].type != true) {
           $scope.inCorrectAnswer[index] = true;
           $timeout($scope.nextQuestion, 3000);
         }
-        // }
-        // unPaintAnswers();
 
         if ($scope.questions.answers[index].type == false) {
           lifeCount--;
         }
-        $scope.life[lifeCount] = false;
-        if (lifeCount == 0) {
-          $scope.finishGame = true; // show the screen if win full game
+        
+
+        // When the game finish with 3 incorrect answers, life over
+       if (lifeCount == 0) {
+        $timeout(function() {
+
+
+         $scope.finishGame = true;
+               }, 3000);
+
         }
+        $scope.life[lifeCount] = false;
+      
         $scope.nextQuestion1 = false;
-      }, 10);
+      // }, 10);
     }
 
     paintAnswers();
 
-    console.log($scope.questions.answers[index].type);
+      /*
+    After all tha game when the user win & finish the game he will see the win screen
+    */
+   if (gameLevel == 14) {
+    $scope.winFullGame = true; // Show the screen if win full game
+  }
 
     function resetQuestionTemplate() {
       $scope.theAnswers = [true, true, true, true];
@@ -173,7 +180,7 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
 
     $scope.winMoney = DataService.billionaireGame[gameLevel].points;
   };
-
+// Remove the color from the answers 
   function unPaintAnswers() {
     $scope.correctAnswer = [false, false, false, false];
     $scope.inCorrectAnswer = [false, false, false, false];
@@ -185,9 +192,10 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.unClickAnswer = [false, false, false, false];
 
     unPaintAnswers();
+
+
     gameLevel++;
-    $scope.questions =
-      DataService.billionaireGame[gameLevel].level[randomNumber()];
+    $scope.questions = DataService.billionaireGame[gameLevel].level[randomNumber()];
     $scope.levelPoints = DataService.billionaireGame[gameLevel].points;
     if ($scope.firstHelpShow == true) {
       $scope.secondHelpTouch = true;
@@ -199,6 +207,11 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.theAnswers = [true, true, true, true];
     shuffle($scope.questions.answers);
   };
+
+
+
+  /*Reset all the game*/
+
   $scope.resetGame = function() {
     i = 0;
     $scope.theAnswers = [true, true, true, true];
@@ -215,7 +228,6 @@ function billionairecontroller($scope, $state, $timeout, DataService) {
     $scope.inCorrectAnswer = [false, false, false, false];
     $scope.correctAnswer = [false, false, false, false];
     $scope.unClickAnswer = [false, false, false, false];
-
     $scope.nextQuestion1 = true;
   };
 }

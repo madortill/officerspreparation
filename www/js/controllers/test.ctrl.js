@@ -16,6 +16,8 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   var randomNum;
   var rightAnswer = 0;
   var wrongAnswer = 0;
+  var countDown = 59;
+  $scope.minute = 29;
   $scope.inCorrectAnswer = [false, false, false, false];
   $scope.correctAnswer = [false, false, false, false];
   $scope.unClickAnswer = [false, false, false, false];
@@ -31,10 +33,11 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
   function resetgame() {
     $scope.questionNumber = 1; //count the question num
-    var questionIndex = []; //the array to to index
-    var randomNum;
-    var rightAnswer = 0;
-    var wrongAnswer = 0;
+    questionIndex = []; //the array to the index
+    randomNum;
+    rightAnswer = 0;
+    countDown = 59;
+    $scope.minute = 29;
     $scope.inCorrectAnswer = [false, false, false, false];
     $scope.correctAnswer = [false, false, false, false];
     $scope.unClickAnswer = [false, false, false, false];
@@ -47,41 +50,25 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     $scope.pass = false;
     $scope.failed = false;
     $scope.timeoutScreen = false;
-    var countDown = 59;
-    $scope.minute = 29;
+    
   }
-  resetgame();
   $scope.goBack = function () {
     window.history.back();
     resetgame();
   };
-
+  /*Start the test and start the countdowner*/ 
   $scope.startTest = function () {
     $scope.startScreen = false;
     $scope.countDowner();
   };
 
-  // $scope.nextQuestion = function () {
-  // $scope.questionNumber++;
-  // $scope.hideNextQuestion = false;
 
-  // $scope.unClickAnswer = [false, false, false, false];
-  // console.log($scope.unClickAnswer);
-
-  // if ($scope.questionNumber == 20) {
-  //   $scope.finishGame = true;
-
-  // }
-  // testcontent();
-  // unPaintaAnswer();
-
-  // }
 
   function unPaintaAnswer() {
     $scope.inCorrectAnswer = [false, false, false, false];
     $scope.correctAnswer = [false, false, false, false];
   }
-
+  /*Put random numbers that decide the questions to the test */
   function randomNumbers() {
     questionIndex[0] = Math.floor(Math.random() * 500 + 0);
     randomNum = Math.floor(Math.random() * 500 + 0);
@@ -104,10 +91,8 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
   randomNumbers();
   console.log(questionIndex);
 
-  countDown = 59;
-  $scope.minute = 29;
+  /* The countdown function*/ 
   $scope.countDowner = function () {
-    // function stopcountdown() {
     $scope.countDown_text = countDown;
     $scope.minute_text = $scope.minute; // update scope
     countDown--; // -1
@@ -115,27 +100,23 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
       countDown = "0" + countDown;
     }
     if (countDown > -1) {
-      $timeout($scope.countDowner, 1000); // loop it again
+      $timeout($scope.countDowner, 10); // loop it again
     }
     if (countDown == 0) {
       $scope.minute--;
       countDown = 60;
     }
     if ($scope.minute < 0) {
-      // alert("timeout");
       $scope.timeoutScreen = true;
 
       countDown = 60;
       $scope.minute = 2;
     }
   };
-  // }
 
   function testcontent() {
-    $scope.question =
-      TestService.test[questionIndex[$scope.questionNumber - 1]];
-    $scope.answers =
-      TestService.test[questionIndex[$scope.questionNumber - 1]].answers;
+    $scope.question = TestService.test[questionIndex[$scope.questionNumber - 1]];
+    $scope.answers = TestService.test[questionIndex[$scope.questionNumber - 1]].answers;
     shuffle($scope.answers);
   }
 
@@ -144,7 +125,6 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
   $scope.userAnswer = index => {
     $scope.questionCounter++;
-    // console.log($scope.answers[index].type);
     if ($scope.answers[index].type == false) {
       console.log($scope.unClickAnswer);
 
@@ -153,7 +133,6 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
         $scope.inCorrectAnswer[index] = true;
         for (var i = 0; i < 4; i++) {
           if ($scope.answers[i].type == true) {
-            // $scope.correctAnswer[index] = true;
             console.log(i);
             $scope.correctAnswer[i] = true;
           }
@@ -174,16 +153,21 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
 
     if ($scope.questionCounter == 25) {
       if ($scope.rightAnswer > 19) {
+        $timeout(function () {
+
         $scope.pass = true;
-        console.log("rightt");
+      }, 3000);
+
       }
       if ($scope.rightAnswer < 20) {
-        $scope.failed = true;
+        $timeout(function () {
+
+          $scope.failed = true;
+        }, 3000);
         console.log("failed");
       }
     }
 
-    console.log($scope.unClickAnswer);
     if ($scope.answers[index].type == false) {
       $timeout(function () {
         $scope.questionNumber++;
@@ -191,17 +175,6 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
         $scope.unClickAnswer = [false, false, false, false];
         console.log($scope.unClickAnswer);
 
-        // if ($scope.questionNumber == 25) {
-        //   $scope.finishGame = true;
-        //   if ($scope.rightAnswer > 19) {
-        //     $scope.pass = true;
-        //     console.log("rightt");
-        //   }
-        //   if ($scope.rightAnswer < 20) {
-        //     $scope.failed = true;
-        //     console.log("failed");
-        //   }
-        // }
         testcontent();
         unPaintaAnswer();
       }, 3000);
@@ -219,13 +192,13 @@ function testcontroller($scope, $state, $timeout, TestService, $interval) {
     }
   };
 
-  //
-  $scope.backToHome = () => {
+    $scope.backToHome = () => {
     resetgame();
+
     $scope.finishGame = true;
     $state.go("home");
   };
-
+// Array shuffle
   function shuffle(array) {
     var m = array.length,
       t,
