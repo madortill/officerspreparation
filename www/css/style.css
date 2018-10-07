@@ -35,7 +35,7 @@
   margin-top: 24.5vh;
 }
 
-.overflow-scroll>.scroll {
+.overflow-scroll > .scroll {
   background: #f9f5ef;
 }
 
@@ -938,7 +938,7 @@ blockquote {
   background-color: Transparent;
   border: 0;
   height: 5vh;
-  width: 5vh;
+  /* width: 5vh; */
 }
 
 .adjustDate--life {
